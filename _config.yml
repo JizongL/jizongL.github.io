@@ -14,6 +14,11 @@ baseurl:             ''
 paginate:            5
 rss:				 atom.xml
 
+analytics :
+  provider : google 
+  google : 
+      tracking_id : 'UA-66527403-1'
+
 # About/contact
 author:    
   name:              TmmGeek
@@ -24,3 +29,4 @@ author:
   gravatar_md5:		 0f8154e563aa3319f1ebc77be5fca304
 # Custom vars
 version:             1.0.0
+
