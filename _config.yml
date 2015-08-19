@@ -16,9 +16,10 @@ rss:				 atom.xml
 # About/contact
 author:    
   name:              TmmGeek
-  twitter:           https://twitter.com/JizongLiang
+  twitter:           jizongliang
   email:             davidliangtmm@gmail.com
-  linkedin: 		 https://www.linkedin.com/in/jizongliang
+  github:			 JizongL
+  linkedin: 		 jizongliang
   gravatar_md5:		 0f8154e563aa3319f1ebc77be5fca304
 # Custom vars
 version:             1.0.0
