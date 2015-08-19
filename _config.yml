@@ -1,15 +1,24 @@
-# Site settings
-title: David Liang's blog
-email: tmm@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: tmm
-github_username:  tmm
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Setup
+title:               TmmGeek
+tagline:             'A blog for bioinformatics programming and statistics'
+description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
+rss:				 atom.xml
+
+# About/contact
+author:    
+  name:              TmmGeek
+  twitter:           https://twitter.com/JizongLiang
+  email:             davidliangtmm@gmail.com
+  linkedin: 		 https://www.linkedin.com/in/jizongliang
+  gravatar_md5:		 0f8154e563aa3319f1ebc77be5fca304
+# Custom vars
+version:             1.0.0
