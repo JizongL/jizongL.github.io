@@ -7,7 +7,7 @@ comments: True
  Analytical graphics have always been one of Stata’s strengths, and reason enough for many users to choose Stata over other packages. Attractive and publishable basic graphs are easy to draw, using commands or choices from the menus under Graphics. Users who imagine more elaborate or creative graphs will find their efforts supported by an impressive array of tools and options, described in the Graphics Reference Manual, and illustrated by many examples in A Visual Guide to Stata Graphics (Mitchell 2012).
 <!--break-->
  The above statement was taken from[2012 Statistics with Stata 12-8](http://www.stata.com/bookstore/statistics-with-stata/)
- by Lawrence C. Hamilton and it shows how important it is to develop good statistical graphing skills as a statistican. In this tutorial series, I will share how to use some of the most useful graphing techinques with Stata and I hope it is helpful to you. Let's get started and go through some examples one by one. 
+ by Lawrence C. Hamilton and it shows how important it is to develop good statistical graphing skills as a statistican. In this tutorial series, I will share how to use some of the most useful graphing techinques with Stata and I hope it is helpful to you. Let's get started and go through some examples one by one and you can also download the [do file](https://dl.dropboxusercontent.com/u/49272502/stata%20blog/log/graphing.do)
 
 
 ## Import and explore the data set
