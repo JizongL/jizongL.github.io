@@ -18,23 +18,35 @@ A renal biopsy was performed and revealed diffuse [proliferative glomerulonephri
 
 
 What information provided above is of the greatest 	assistance in reaching a diagnosis of systemic lupus 	erythematosus in this patient?
-a: [American woman](http://www.lupusny.org/about-lupus/who-gets-lupus)
-b: [erythematous skin rash](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image1.jpeg) 
-􏰡c: [hematuria, proteinuria and erythrocyte and leukocyte casts](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.31.43.png) 7th criterion
-d: [pleural effusion](􏰞6th criterion- Serositis)
 
-** e: autoantibodies against [double-stranded DNA](p127)**
-f: antinuclear antibodies showed a [peripheral pattern](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image5.jpeg)
-g: [anticytoplasmic antibodies](http://www.cidjournal.com/article/0738-081X%2885%2990074-4/abstract). 
-h: [proliferative glomerulonephritis](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.29.18.png) *class V*
-i: [subendothelial distribution](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.29.18.png)
-j: [Electron microscopy](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.29.18.png) 
+* [American woman](http://www.lupusny.org/about-lupus/who-gets-lupus)
+
+* [erythematous skin rash](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image1.jpeg) 
+􏰡
+* [hematuria, proteinuria and erythrocyte and leukocyte casts](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.31.43.png) 7th criterion
+
+* [pleural effusion](􏰞6th criterion- Serositis)
+
+* autoantibodies against double-stranded DNA**
+
+* antinuclear antibodies showed a [peripheral pattern](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image5.jpeg)
+
+* [anticytoplasmic antibodies](http://www.cidjournal.com/article/0738-081X%2885%2990074-4/abstract). 
+
+* [proliferative glomerulonephritis](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.29.18.png) *class V*
+
+* [subendothelial distribution](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.29.18.png)
+
+* [Electron microscopy](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.29.18.png) 
 
 2.	Why did this patient present with chest pain?
+
 The patient may suffer [Libman-Sacks endocarditis](p 89 & p 130), possiblely related Thrombi, which can develop anywhere in the cardiovascular system due to [lupus anticoagulant](http://www.hopkinslupus.org/lupus-tests/antiphospholipid-antibodies/) which increases the ability of the blood to clot.
 
-* 3. What are the major immunologic features of systemic lupus erythematosus (SLE)?
-** from SLE ppt slide 15** 
+##### 3. What are the major immunologic features of systemic lupus erythematosus (SLE)?
+
+**from SLE ppt slide 15** 
+
 Positive LE cell preparation. 
 Anti-DNA. Antibody to native DNA, Anti-Sm. Presence of AB to Smith nuclear antigen. 
 False-positive serologic test for syphilis known to be positive for at least 6 months and confirmed by TPI or FTA test.
@@ -44,7 +56,7 @@ TLR signals
 Failure of B cell tolerance
 
 
-* 4. Is lupus more likely to occur in males or females and in Caucasians or African Americans?
+##### 4. Is lupus more likely to occur in males or females and in Caucasians or African Americans?
 
 More likely to occur in [females](http://www.lupusny.org/about-lupus/who-gets-lupus) and in African Americans. 
 
@@ -74,18 +86,30 @@ Because in lupus, the immune system attacks the body, including the joints. Rheu
 
 ##### 10.	What is the differential diagnosis of SLE?
 
-MNEMONIC  DOPAMIN RASH
+* MNEMONIC  DOPAMIN RASH
+
 * DISCOID RASH
+
 * ORAL ULCERS
+
 * PHOTOSENSITIVITY
+
 * ANA
+
 * MALAR RASH
+
 * IMMUNOLOGICAL PHENOMENON(Le Cell, Ds DNA, Sm, APL ab, false + RPR, )
+
 * NEUROLOGICAL(Seizures,Psychosis)
+
 * RENAL(Nephrotic,Nephritic)
+
 * ARTHRITIS	
+
 * SEROSITIS
+
 * HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)
+
 * [slide 16 from sle ppt](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.38.42.png)
 
 ##### 11. What are the complications and prognosis of SLE?
@@ -130,12 +154,19 @@ from the book[Systemic Lupus Erythematosus](https://books.google.com/books?id=qq
 ### Figure from powerpoint sides
 
 [1.	LUPUS BUTTERFLY RASH](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image1.jpeg)
+
 [2.	LUPUS SKIN BIOPSY](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image2.jpeg)
+
 [3.	LUPUS SKIN BIOPSY, THICKENED BASEMENT MEMBRANE](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image3.jpeg)
+
 [4.	LUPUS BAND TEST, ANTI IgG STAIN](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image4.jpeg)
+
 [5. PERIPHERAL RIM PATTERN](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image5.jpeg)
+
 [6.	DIFFUSE PROLIFERATIVE LUPUS NEPHRITIS](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image6.jpeg)
+
 [7.	L.E. CELL PREPARATION](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image7.jpeg)
+
 [8.	LIBMAN-SACKS ENDOCARDITIS](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Picture%20clipping.pictClipping)
 
 
@@ -190,17 +221,29 @@ The small bowel and colon are involved in most cases. Intestinal graft-versus-ho
 
 ### figures
 [1.	List of target tissues of acute G-V-H disease](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.44.57.png)
+
 [2.	Baby with maculopapular rash of  G-V-H 	disease](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image9.jpeg)
+
 [3. 	Adult with acute G-V-H skin reaction](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image10.jpeg)
+
 [4.	Micro--skin interface dermatitis with basal cell destruction](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image11.jpeg)
+
 [5.	Micro--skin interface dermatitis with basal cell destruction](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image12.jpeg)
+
 [6.	Micro--liver G-V-H with bile-duct injury and early cell infiltrate](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image13.jpeg)
+
 [7.	Micro-liver G-V-H, chronic with inflammation and fibrosis](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image14.jpeg)
+
 [8.	Micro--enteritis in G-V-H in lower 1/3 of crypt, early](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image15.jpeg)
+
 [9.	Micro--enterocyte necrosis and crypt destruction](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image16.jpeg)
+
 [10. Gross--intestinal G-V-H with bleeding and superinfection](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image17.jpeg)
+
 [11. Gross--intestinal G-V-H with intermittent involved areas](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image18.jpeg)
+
 [12. Gross--intestinal G-V-H with bleeding and 	superinfection](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image19.jpeg)
+
 [13. Gross--intestinal G-V-H with mucosal sloughing and scarring](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image20.jpeg)
 
 
@@ -273,11 +316,19 @@ Because these immunoglobulins can be detected in the serum, these disorders are 
 figures
 
 [1.	Plasma cell in smear](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image21.jpeg)
+
 [2.	Plasma cell (drawing)](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image22.jpeg)
+
 [3.	Plasma cell cluster in smear](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image23.jpeg)
+
 [4.	Gross of vertebral bodies eroded by plasmacytoma](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image24.jpeg)
+
 [5.	Gross of vertebral bodies eroded by plasmacytoma](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image25.jpeg)
+
 [6.	Gross of vertebral bodies eroded by plasmacytoma](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image26.jpeg)
+
 [7.	Gross of rib with protruding plasma cell proliferation](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image27.jpeg)
+
 [8.	Gross of osteolytic lesions of skull in plasma cell myeloma](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image28.jpeg)
+
 [9.	X-rays of osteolytic lesions of skull in plasma cell myeloma](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image29.jpeg)
