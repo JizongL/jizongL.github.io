@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: True
-title: Pathology cases
+title: Pathology cases study
 ---
 
 Clinical History: 
