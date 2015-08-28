@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Graphing with Stata Part I
+title: Pathology cases
 comments: True
 ---
 

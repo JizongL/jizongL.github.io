@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: Example content
+title: Pathology cases
 comments: True
 ---
 
