@@ -28,7 +28,7 @@ What information provided above is of the greatest 	assistance in reaching a dia
 􏰡
 * [hematuria, proteinuria and erythrocyte and leukocyte casts](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.31.43.png) 7th criterion
 
-* [pleural effusion](􏰞6th criterion- Serositis)
+* [pleural effusion](􏰞https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.31.43.png)
 
 * autoantibodies against double-stranded DNA**
 
