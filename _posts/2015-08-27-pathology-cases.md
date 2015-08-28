@@ -75,7 +75,6 @@ Because in lupus, the immune system attacks the body, including the joints. Rheu
 ##### 10.	What is the differential diagnosis of SLE?
 
 MNEMONIC  DOPAMIN RASH
-
 * DISCOID RASH
 * ORAL ULCERS
 * PHOTOSENSITIVITY
