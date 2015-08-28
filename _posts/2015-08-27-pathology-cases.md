@@ -5,6 +5,7 @@ comments: True
 ---
 
 Clinical History: 
+
 A 30-year-old [African American woman](http://www.lupusny.org/about-lupus/who-gets-lupus) presented to her family physician with nonradiating chest pain, shortness of breath, fever, weight-loss, malaise, lethargy and arthralgia.  She exhibited an [erythematous skin rash](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image1.jpeg) involving areas of the body exposed to sunlight. She noticed hair loss during the months prior to seeking medical attention.  She was admitted to the hospital for observation and tests. 
 
 <!--break-->
