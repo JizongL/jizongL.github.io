@@ -124,7 +124,7 @@ Infections followed by kidney failure are the chief causes of death in patients 
 
 ##### 12.	What is the five-year survival rate of patients with SLE?
 
-About 95% in the US, see the[table](https://dl.dropboxusercontent.com/u/49272502/temp%20images/Screenshot%202015-08-27%2014.20.33.png)
+About 95% in the US, see the [table](https://dl.dropboxusercontent.com/u/49272502/temp%20images/Screenshot%202015-08-27%2014.20.33.png)
 from the book[Systemic Lupus Erythematosus](https://books.google.com/books?id=qqq450swSv0C&pg=PA685&lpg=PA685&dq=five-year+survival+rate+of+sle&source=bl&ots=sJPHBW-jv0&sig=w3asQB_Jsjymaz1pxhh4GLGRLmk&hl=en&sa=X&ved=0CDcQ6AEwBGoVChMI-LDk_fDJxwIVgVk-Ch2FwQII#v=onepage&q&f=false) by Robert G. Lahita, George Tsokos
 
 
