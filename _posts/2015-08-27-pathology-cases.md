@@ -20,7 +20,7 @@ Clinical Course of Disease:
 A renal biopsy was performed and revealed diffuse [proliferative glomerulonephritis](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.29.18.png) characterized by extensive cellular proliferation in more than 50% of glomeruli.  Immune complexes were deposited mainly in a [subendothelial distribution](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.29.18.png).  Immunofluorescence microscopy revealed that the immune deposits stained positively for all three major immunoglobulin classes and complement indicating a polyclonal activation of the immune system.  [Electron microscopy](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.29.18.png) confirmed the subendothelial as well as intramembranous deposition of immune deposits. 
 
 
-What information provided above is of the greatest 	assistance in reaching a diagnosis of systemic lupus 	erythematosus in this patient?
+### 1. What information provided above is of the greatest 	assistance in reaching a diagnosis of systemic lupus erythematosus in this patient?
 
 * [American woman](http://www.lupusny.org/about-lupus/who-gets-lupus)
 
@@ -30,7 +30,7 @@ What information provided above is of the greatest 	assistance in reaching a dia
 
 * [pleural effusion](􏰞https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.31.43.png)
 
-* autoantibodies against double-stranded DNA**
+* autoantibodies against double-stranded DNA
 
 * antinuclear antibodies showed a [peripheral pattern](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image5.jpeg)
 
@@ -42,52 +42,54 @@ What information provided above is of the greatest 	assistance in reaching a dia
 
 * [Electron microscopy](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.29.18.png) 
 
-2.	Why did this patient present with chest pain?
+### 2.	Why did this patient present with chest pain?
 
 The patient may suffer [Libman-Sacks endocarditis](p 89 & p 130), possiblely related Thrombi, which can develop anywhere in the cardiovascular system due to [lupus anticoagulant](http://www.hopkinslupus.org/lupus-tests/antiphospholipid-antibodies/) which increases the ability of the blood to clot.
 
-##### 3. What are the major immunologic features of systemic lupus erythematosus (SLE)?
+### 3. What are the major immunologic features of systemic lupus erythematosus (SLE)?
 
 **from SLE ppt slide 15** 
 
 Positive LE cell preparation. 
 Anti-DNA. Antibody to native DNA, Anti-Sm. Presence of AB to Smith nuclear antigen. 
 False-positive serologic test for syphilis known to be positive for at least 6 months and confirmed by TPI or FTA test.
-** from book Immunologic Abnormalities on page 126**
+
+**from book Immunologic Abnormalities on page 126**
+
 Type 1 interferons
 TLR signals
 Failure of B cell tolerance
 
 
-##### 4. Is lupus more likely to occur in males or females and in Caucasians or African Americans?
+### 4. Is lupus more likely to occur in males or females and in Caucasians or African Americans?
 
 More likely to occur in [females](http://www.lupusny.org/about-lupus/who-gets-lupus) and in African Americans. 
 
 
-##### 5.What are lupus anti-coagulants and anti-phospholipid antibodies and what role do they play in the pathogenesis of SLE?
+### 5.What are lupus anti-coagulants and anti-phospholipid antibodies and what role do they play in the pathogenesis of SLE?
 
 Antiphospholipid antibodies are present in 40% to 50% of patients with lupus and react with a wide variety of proteins in complex with phospholipids. Some bind to cardiolipin antigen, used in serologic tests for syphilis, so patients with lupus may have a false-positive test result for syphilis. Antiphos- pholipid antibodies contribute to coagulation abnormalities (p127)
 
 Paradoxically, these antibodies interfere with clotting tests and are actually called “lupus anticoagulants.” Autoantibodies are also produced against clotting factors such as thrombin, and these too may contribute to clotting disorders. the term Lupus -anti-coagulants are actually a [misnomer](http://www.hopkinslupus.org/lupus-tests/antiphospholipid-antibodies/)
 
 
-##### 6. What does a biopsy of the erythematous skin rash involving areas of the body exposed to sunlight reveal?
+### 6. What does a biopsy of the erythematous skin rash involving areas of the body exposed to sunlight reveal?
 
-Histopathologic findings include **liquefactive degeneration** of the basal layer of the epidermis, **edema** at the dermoepidermal junction, and [mononuclear infiltrates](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image2.jpeg) around blood vessels and skin appendages. also see [figure](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image3.jpeg) Immunofluorescence microscopy reveals deposition of immunoglobulin and complement at the dermoepi- dermal junction (Fig. 4–19, B)
+Histopathologic findings include **liquefactive degeneration** of the basal layer of the epidermis, **edema** at the dermoepidermal junction, and [mononuclear infiltrates](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image2.jpeg) around blood vessels and skin appendages. also see [figure](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image3.jpeg) Immunofluorescence microscopy reveals deposition of immunoglobulin and complement at the [dermoepidermal junction](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2023.27.19.png)
 
-##### 7. What percentage of patients with SLE has renal involvement?  
+### 7. What percentage of patients with SLE has renal involvement?  
 
 Although the kidney appears normal by light microscopy in 25% to 30% of cases, almost all cases of SLE show some renal abnormality if examined by immuno- fluorescence and electron microscopy.(p128)
 
-##### 8.	Why did the patient develop exacerbations and remissions?
+### 8.	Why did the patient develop exacerbations and remissions?
 
 
-##### 9.	Why does a SLE patient have rheumatoid factors in the serum?
+### 9.	Why does a SLE patient have rheumatoid factors in the serum?
 
 Because in lupus, the immune system attacks the body, including the joints. Rheumatoid factor is an antibody that becomes connected to another type of antibody called immunoglobulin. Together, these form an immune complex that can become involved in inflammation. 
 [source](http://www.everydayhealth.com/rheumatoid-arthritis/testing-for-rheumatoid-factor.aspx)
 
-##### 10.	What is the differential diagnosis of SLE?
+### 10.	What is the differential diagnosis of SLE?
 
 * MNEMONIC  DOPAMIN RASH
 
@@ -115,7 +117,7 @@ Because in lupus, the immune system attacks the body, including the joints. Rheu
 
 * [slide 16 from sle ppt](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.38.42.png)
 
-##### 11. What are the complications and prognosis of SLE?
+### 11. What are the complications and prognosis of SLE?
 
 Prognosis
 
@@ -148,7 +150,7 @@ Infections followed by kidney failure are the chief causes of death in patients 
 
 [source](http://www.nytimes.com/health/guides/disease/systemic-lupus-erythematosus/prognosis.html)
 
-##### 12.	What is the five-year survival rate of patients with SLE?
+### 12.	What is the five-year survival rate of patients with SLE?
 
 About 95% in the US, see the [table](https://dl.dropboxusercontent.com/u/49272502/temp%20images/Screenshot%202015-08-27%2014.20.33.png)
 from the book[Systemic Lupus Erythematosus](https://books.google.com/books?id=qqq450swSv0C&pg=PA685&lpg=PA685&dq=five-year+survival+rate+of+sle&source=bl&ots=sJPHBW-jv0&sig=w3asQB_Jsjymaz1pxhh4GLGRLmk&hl=en&sa=X&ved=0CDcQ6AEwBGoVChMI-LDk_fDJxwIVgVk-Ch2FwQII#v=onepage&q&f=false) by Robert G. Lahita, George Tsokos
@@ -179,16 +181,16 @@ from the book[Systemic Lupus Erythematosus](https://books.google.com/books?id=qq
 
 A 45-year-old white male previously diagnosed with a T cell leukemia developed skin rash, severe diarrhea and jaundice after receiving repeated blood transfusions.  The skin exhibited a fine, diffuse, erythematous, macular rash that began on the palms, soles and head and spread to the entire trunk as well as to extremities.  The rash became desquamative and resembled an extensive second-degree burn.  There was watery diarrhea associated with malabsorption, cramps and gastrointestinal bleeding.  Blood chemistry analysis revealed [hyperbilirubinemia](p139) and an elevated serum alkaline phosphatase level.  There was only a mild elevation in the alanine aminotransferase (ALT) and aspartate aminotransferase levels (AST).
 
-1.	Are the clinical events described above attributable to the leukemia process or to some other factor?
+### 1.	Are the clinical events described above attributable to the leukemia process or to some other factor?
 To some other factor. 
 
-##### 2.	What is the most likely cause of the signs and symptoms described in this patient?  
+### 2.	What is the most likely cause of the signs and symptoms described in this patient?  
 graft-versus-host diseases
 
-##### 3. How could a leukemia patient in hospital develop signs and symptoms of graft-versus-host disease?
+### 3. How could a leukemia patient in hospital develop signs and symptoms of graft-versus-host disease?
 GVHD occurs when immunologically competent cells are introduced into an immunoincompetent host. GVHD refers to the immunologic insult and to the consequences to the organism. The patient must have had a Hematopoietic cell transplation, Solid organ transplants, or blood transfusions.
 
-##### 4. What is the mechanism of the skin rash?
+### 4. What is the mechanism of the skin rash?
 **from textbook**
 It resemble those of SS (p139), In the early stages, affected skin areas are somewhat edematous and have a doughy consistency. Capillaries and small arteries (as large as 500 μm in diameter) may show thickening of the basal lamina, endothelial cell damage, and partial occlusion. With progression, the edema- tous phase is replaced by progressive fibrosis of the dermis, which becomes tightly bound to the subcutaneous structures. There is marked increase of compact collagen in the dermis along with thinning of the epidermis, atrophy of the dermal appendages, and hyaline thickening of the walls of dermal arterioles and capillaries (P133)
 
@@ -198,16 +200,16 @@ or
 Skin — In most patients, the first (and most common) clinical manifestation of acute GVHD is a maculopapular rash, usually occurring at or near the time of the white blood cell engraftment (picture 1). The rash initially involves the nape of the neck, ears, shoulders, the palms of the hands (picture 2), and the soles of the feet. It can be described as a sunburn and may be pruritic or painful (picture 3). From these initial areas of presentation, the rash may spread to involve the whole integument, eventually becoming confluent. In severe GVHD, the maculopapular rash forms bullous lesions with toxic epidermal necrolysis mimicking Stevens-Johnson syndrome
 [source](http://www.uptodate.com/contents/clinical-manifestations-diagnosis-and-grading-of-acute-graft-versus-host-disease)
 
-##### 5. What is the cause of the hyperbilirubinemia
+### 5. What is the cause of the hyperbilirubinemia
 Destruction of small bile ducts gives rise to jaundice, thus resulted in hyperbilirubinemia
 
-##### 6. What subset of T lymphocytes is found in biopsies of skin, intestine and liver?
+### 6. What subset of T lymphocytes is found in biopsies of skin, intestine and liver?
 CD 4+ and CD 8+
 
-##### 7. How could graft-versus-host disease be prevented in patients receiving blood transfusions?
+### 7. How could graft-versus-host disease be prevented in patients receiving blood transfusions?
 GVHD is a potentially lethal complication that can be minimized but not eliminated by HLA matching. As another potential solution, donor T cells can be depleted before marrow transplant. 
 
-##### 8. When is graft-versus-host disease most often observed?
+### 8. When is graft-versus-host disease most often observed?
 
 * Degree of mismatch between HLA types
 * “minor” histocompatibility antigens   
@@ -265,31 +267,31 @@ Hematologic examination revealed a normochromic normocytic anemia with leukopeni
 A renal biopsy was performed and revealed large numbers of eosinophilic lamellated casts in the renal tubules.  The tubular cells were markedly atrophic and contained hyaline droplets and some crystalline material. The glomeruli appeared normal, yet they were surrounded by interstitial fibrosis as a result of tubular destruction.  The patient received supportive therapy including local radiation therapy to relieve pain.  He experienced repeated bouts of respiratory infection with Streptococcus pneumoniae.  After reaching a diagnosis, cytotoxic therapy was instituted, yet the patient died within 12 months of diagnosis.
 
 
-##### 1. What information provided above is of the greatest assistance in reaching a diagnosis of plasma cell 	(multiple) myeloma in this patient?
+### 1. What information provided above is of the greatest assistance in reaching a diagnosis of plasma cell 	(multiple) myeloma in this patient?
 
 
-##### 2. Why did this patient present with severe back pain?
+### 2. Why did this patient present with severe back pain?
 It is due to pathologic fractures. Pathologic fractures of vertebrae may lead to spinal cord impingement, an oncologic emergency.
 
-##### 3. What is the cause of the "punched out" osteolytic lesions?
+### 3. What is the cause of the "punched out" osteolytic lesions?
 
 Bone destruction by osteolytic lesions is caused by two separate events. Rapid growth of myeloma cells inhibits normal bone-forming cells, damaging bone. In addition, production of substances that activate the cells that resorb bone, called osteoclasts, is increased. 
 
 The lesions generally arise in the medullary cavity, erode cancellous bone, and progressively destroy the cortical bone.
 
 
-##### 4. What is the significance of the light chain proteinuria described in this patient.  
+### 4. What is the significance of the light chain proteinuria described in this patient.  
  Light chain deposition in the glomeruli or the interstitium, either as amyloid or linear deposits, also may contribute to renal dysfunction.
 
-##### 5. Since the patient was hypergammaglobulinemic, why did he suffer repeated bouts of pneumococcal infection?
+### 5. Since the patient was hypergammaglobulinemic, why did he suffer repeated bouts of pneumococcal infection?
 
 Patients with myeloma are immunosuppressed. Through uncertain mechanisms, myeloma cells interfere with the function of normal plasma cells, leading to defects in antibody production. Thus, although the plasma usually contains increased immunoglobulin owing to the pres- ence of an M protein, the levels of functional antibodies often are profoundly depressed, leaving patients at high risk for bacterial infections. (p438)
 
-##### 6. Which part of the skeletal system is most frequently affected in plasma cell myeloma?
+### 6. Which part of the skeletal system is most frequently affected in plasma cell myeloma?
 
 Multiple myeloma usually manifests with multifocal destructive skeletal lesions, which most commonly involve the vertebral column, ribs, skull, pelvis, femur, clavicle, and scapula. The lesions generally arise in the medullary cavity, erode cancellous bone, and progressively destroy the cortical bone.
 
-##### 7. What is the differential diagnosis of plasma cell 	myeloma?
+### 7. What is the differential diagnosis of plasma cell 	myeloma?
 
 The main differential is that of widespread bony metastases. Findings that favour the diagnosis of bony metastases over that of multiple myeloma include:
 
@@ -303,11 +305,11 @@ Other rare entities include:
 
 [source](http://radiopaedia.org/articles/multiple-myeloma-1)
 
-##### 8. Which immunoglobulins may be increased in plasma cell myeloma?
+### 8. Which immunoglobulins may be increased in plasma cell myeloma?
 
 he most frequent M protein produced by myeloma cells is IgG (60%), followed by IgA (20% to 25%); only rarely are IgM, IgD, or IgE M proteins observed.
 
-##### 9. Do all cases of plasma cell myeloma have the monoclonal serum paraprotein identifiable 	electrophoresis?
+### 9. Do all cases of plasma cell myeloma have the monoclonal serum paraprotein identifiable 	electrophoresis?
 
 Electrophoresis of the serum and urine is an important diagnostic tool. In 99% of cases, either a monoclonal com- plete immunoglobulin or a monoclonal free immunoglobu- lin light chain is present in the serum, the urine, or both
 
