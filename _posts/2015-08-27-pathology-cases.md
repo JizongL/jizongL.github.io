@@ -76,18 +76,18 @@ Because in lupus, the immune system attacks the body, including the joints. Rheu
 
 MNEMONIC  DOPAMIN RASH
 
-DISCOID RASH
-ORAL ULCERS
-PHOTOSENSITIVITY
-ANA
-MALAR RASH
-IMMUNOLOGICAL PHENOMENON(Le Cell, Ds DNA, Sm, APL ab, false + RPR, )
-NEUROLOGICAL(Seizures,Psychosis)
-RENAL(Nephrotic,Nephritic)
-ARTHRITIS	
-SEROSITIS
-HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)
-[slide 16 from sle ppt](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.38.42.png)
+* DISCOID RASH
+* ORAL ULCERS
+* PHOTOSENSITIVITY
+* ANA
+* MALAR RASH
+* IMMUNOLOGICAL PHENOMENON(Le Cell, Ds DNA, Sm, APL ab, false + RPR, )
+* NEUROLOGICAL(Seizures,Psychosis)
+* RENAL(Nephrotic,Nephritic)
+* ARTHRITIS	
+* SEROSITIS
+* HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)
+* [slide 16 from sle ppt](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/Screenshot%202015-08-27%2022.38.42.png)
 
 ##### 11. What are the complications and prognosis of SLE?
 
