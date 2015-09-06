@@ -16,13 +16,14 @@ Increased susceptibility to bruising
 
 * prolonged glucocorticoid administration
 
+<!--break-->
+
 * also leukopenia
 
 Asthma
 
 * results from bronchoconstriction mediated by leukotrienes 
 
-<!--break-->
 
 Fever 
 
