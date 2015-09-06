@@ -17,7 +17,9 @@ At autopsy, the heart of a 63 year-old man weighs only 250 grams and has small r
 * Hemosiderin 
 
 * Melanin 
+
 <!--break-->
+
 {% highlight liquid %}
 {% raw %}
 Lipofuscin is a “wear-and-tear” pigment that in- creases with aging, particularly in liver and myocardium. This granular golden brown pigment seen adjacent to the myocyte nucleus in the figure has minimal effect on cellu- lar function in most cases. Rarely, there is marked lipofus- cin deposition in a small heart, a so-called brown atrophy. Bilirubin, another breakdown product of hemoglobin, im- parts a yellow appearance (icterus) to tissues. Hemosiderin is the breakdown product of hemoglobin that contains the iron. Hearts with excessive iron deposition tend to be large. Glycogen is increased in some inherited enzyme disorders, and when the heart is involved, heart size increases. Melanin pigment is responsible for skin tone: the more melanin, the darker the skin.
