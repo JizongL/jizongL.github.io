@@ -17,13 +17,13 @@ myeloperoxidase
 
 * antimicrobial agent.
 
-
+<!--break-->
 
 lack of β2 integrin
 
 * Inadequate adhesion on cytokine-activated endothelium
 
-<!--break-->
+
 
 
 
