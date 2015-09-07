@@ -563,4 +563,219 @@ Eosinophils
 
 
 
+### Neoplastic diseases
+
+CA-125 
+
+* a tumor marker for ovarian cancer.
+
+MYC oncogene
+
+* activated in Burkitt lymphoma because of a t(8;14) translocation. 
+
+* binds DNA to cause transcriptional activation of growth-related genes (cyclin D1), resulting in activation of the cell cycle.
+
+EGF 
+
+* (such as HER2 in breast cancers) encodes the epithelial growth factor receptor located on the cell surface
+
+p53 and APC 
+
+* tumor suppressor genes that are inactivated in many cancers, including colon cancer
+
+RAS oncogene 
+
+* encodes a GTP-binding protein that is located under the cell membrane.
+
+N-MYC gene 
+
+* Double minutes and homogeneously staining regions seen on a karyotype represent gene amplifications. 
+
+K-RAS mutations
+
+* present in many cancers, but not typically childhood neoplasms.
+
+Lyn mutation 
+
+* seen in some immunodeficiency states.
+
+Epithelial dysplasias
+
+* can be precursors of carcinomas
+
+Ovarian neoplasms 
+
+* not related to cervical dysplasias or carcinomas
+
+cervical cancers 
+
+* not related to hereditary syndromes
+
+* cervical dysplasias are not hereditary
+
+mutant RB gene
+
+* lead to childhood retinoblastomas and osteosarcomas.
+
+EMA
+
+* many adenocarcinomas
+
+Carcinoembryonic antigen (CEA)
+
+* colon cancers
+
+Alphafetoprotein(AFP)
+
+* germ cell tumors
+
+* liver cancers
+
+CD 10 (CALLA)
+
+* acute lymphoblastic leukemia (ALL)
+
+PSA
+
+* prostate cancer
+
+Melanoma-associated antigen (MAGE)
+
+* Also normally present in the testis
+
+icterus
+
+* Jaundice 
+
+RAS oncogene 
+
+* Mutations of the RAS oncogene reduce GTPase activity, and RAS is trapped in an activated GTP-bound state. RAS then signals the 
+
+* not typically lymphoid malignancies.
+
+* nucleus through cytoplasmic kinases. 
+
+The APC gene
+
+* can cause activation of the WNT signaling pathway
+
+The RET proto-oncogene 
+
+* encodes a receptor tyrosine kinase involved in neuroendocrine cells of the thyroid, adrenal medulla, and parathyroids. 
+
+p16 (INK4a)
+
+* In melanomas, the product of the p16 gene is an inhibitor of cyclin-dependent kinases. Germline mutations in CDKN2A may also underlie 
+
+familial melanomas. With loss of control over cyclin-dependent kinases, the cell cycle cannot be regulated, favoring neoplastic 
+
+transformation.
+
+hMSH2 gene 
+
+* is present in most cases of hereditary nonpolyposis colon cancer and functions in DNA repair.
+
+* Microsatellite instability 
+
+NF1 gene 
+
+* acts as a tumor suppressor; this is a component of neurofibromatosis 
+
+* appear at a later age.
+
+TGF-β 
+
+* inhibits cell proliferation by activation of growth-inhibiting genes, such as the CDKIs.
+
+*  All pancreatic cancers and 83% of colon cancers have at least one mutational event in a TGF-β pathway. 
+
+PTEN 
+
+* inhibits tumor cell autophagy, giving cancer cells an edge in growth
+
+hypoxia-inducible factor 1-alpha (HIF-1-alpha)
+
+* Activation of this factor up-regulate VEGF for angiogensis. 
+
+Von Hippel–Lindau (VHL) gene (3p25)
+
+* acts as a tumor suppressor, and it normally produces a protein that binds to hypoxia-inducible factor 1-alpha so that it is cleared. 
+
+VHL mutation leads to loss of this binding protein and activation of angiogenesis factors.
+
+CXCR4 chemokines
+
+* Expressed by the carcinoma cells,in the case of breast cancer
+
+HSR
+
+* homogeneously staining regions 
+
+CD44
+
+* plays a role in cell adhesion and enables malignant cells to metastasize. 
+
+* Solid tumors can express CD44 to enhance their spread to lymph nodes and other metastatic sites.
+
+Vimentin 
+
+* a protein expressed in mesenchymal neoplasms, such as sarcomas
+
+* also up-regulated in EMT.
+
+Aspergillus flavus
+
+* found on moldy peanuts and other foods, produces the potent hepatic carcinogen aflatoxin B1.
+
+Human papillomavirus (HPV)
+
+* is a sexually transmitted disease that is associated with the development of genital squamous cell carcinomas.
+
+* produces E7 protein binds to RB protein to cause displacement of normally sequestered transcription factors, which nullifies tumor  
+
+suppressor activity of the RB protein
+
+* E6 protein binds to and inactivates the p53 gene product.
+
+HST1 
+
+* mutation is seen in some gastric cancers.
+
+MicroRNAs (miRNAs)
+
+* 5% of the human genome
+
+* miRNAs do not encode for proteins, but bind and inactivate or cleave mRNA, preventing translation of proteins by mRNA.
+
+Phorbol esters
+
+* examples of promoters of chemical carcinogenesis that cause tumor promotion by activating protein kinase C.
+
+Vinyl chloride 
+
+* rare cause of liver cancer. 
+
+Arsenic 
+
+* is a risk factor for skin cancer. 
+
+Asbestos 
+
+* exposure is linked to pleural malignant mesothelioma and to bronchogenic carcinomas in smokers.
+
+Benzene 
+
+* exposure is linked to leukemias
+
+Beryllium
+
+* exposure leads to interstitial lung disease and lung cancer
+
+Nickel 
+
+* exposure increases the risk of respiratory tract cancers.
+
+naphthalene 
+
+* a risk factor for cancers of the urinary tract.
 

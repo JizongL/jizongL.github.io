@@ -510,3 +510,229 @@ chronic rejection
 * Interstitial and glomerular fibrosis and blood vessel thickening (ireversible)
 
 
+### Neopastic diseases
+
+adenocarcinoma 
+
+* arise from a colonic adenoma, such malignant lesions tend to be larger and more irregular.
+
+* endocervix or endometrium
+
+choristoma 
+
+* a benign mass composed of tissues not found at the site of origin.
+
+hamartoma
+
+* a rare benign mass composed of tissues usually found at the site of origin.
+
+* the lung is common site
+
+* Bile duct hamartoma
+
+* Peutz-Jeghers (hamartomatous) polyp
+
+
+hyperplastic colonic lesion
+
+* tends to be small and flat.
+
+sarcoma 
+* a malignant neoplasm arising in mesenchymal tissues, not in epithelium
+
+Adenoma
+
+* small mass arise from epithelial surfaces.
+
+* glandular tissues
+
+An adnexal mass 
+
+* a lump in tissue of the adnexa of uterus 
+
+* can be benign or cancerous
+
+* can be categorized as simple or complex.
+
+teratoma 
+
+* a neoplasm derived from totipotential germ cells that differentiate into tissues that represent all three germ layers: ectoderm, 
+
+endoderm, and mesoderm.
+
+Fibroadenomas 
+
+* a benign glandular and stromal component; common in the breast.
+
+Gliomas 
+
+* found in the central nervous system.
+
+mesothelioma 
+
+* arises from the lining of thoracic and abdominal body cavities.
+
+rhabdomyosarcoma 
+
+* comprises cells that poorly resemble striated muscle; most arise in soft tissues.
+
+Urothelial carcinomas 
+
+* associated with smoking.
+
+papilloma 
+
+* is a benign, localized mass that has an exophytic growth pattern.
+
+hemangioma 
+
+* a common benign lesion of the skin.
+
+Leiomyomas
+
+* white, arise from smooth muscle and are most common in the uterus
+
+Lipomas 
+
+* yellow fatty tumors that can occur beneath the epidermis.
+
+Melanomas 
+
+* malignant, tend to increase in size quickly; 
+
+* darkly pigmented
+
+nevus
+
+* benign counterpart to the melanoma 
+
+* light to dark brown
+
+Well-differentiated neoplasms
+
+* tend to be less aggressive and slower growing and resemble the cell of origin.
+
+Carcinoma in situ 
+
+* is confined to the epithelium
+
+metaplasia
+
+* human papillomavirus (HPV) and other inflammatory conditions
+
+carcinoma
+
+* Lymphatic spread, especially to regional lymph nodes draining from the primary site
+
+breast abscess 
+
+* can spread to the lymph nodes, resulting nodal enlargement is associated with pain
+
+hemoptysis
+
+* coughing up of blood
+
+cerebral metastases 
+
+* arise from lung primary carcinomas half of the time.
+
+Angiosarcomas(liver)
+
+* linked to vinyl chloride exposure
+
+chronic myelogenous leukemia
+
+* t(9;22)translocation causes uncontrolled nonreceptor tyrosine kinase activity of the BCR-ABL fusion gene. 
+
+* imatinib that inhibit tyrosine kinases.
+
+colon cancers
+
+* Translocation of β-catenin to the nucleus, when there is mutational loss of APC genes.
+
+non-Hodgkin lymphomas
+
+* The BCL1 and BCL2 genes are mutated 
+
+T cell neoplasms
+
+* The IL2 mutation may be present 
+
+Melanoma
+
+* In melanomas, the implicated gene is called p16, or INK4a. The product of the p16 gene is an inhibitor of cyclin-dependent kinases. 
+
+Germline mutations in CDKN2A may also underlie familial melanomas. With loss of control over cyclin-dependent kinases, the cell cycle 
+
+cannot be regulated, favoring neoplastic transformation.
+
+neurofibromatosis type 1
+
+* The NF1 gene encodes for a GTPase-activating protein that facilitates the conversion of active (GTP-bound) RAS to inactive (GDP-bound) 
+RAS. Loss of NF1 prevents such conversion and traps RAS in the active signal-transmitting stage that drives cell proliferation
+
+pheochromocytoma
+
+* a small vascular tumor of the adrenal medulla, causing irregular secretion of epinephrine and norepinephrine, leading to attacks of 
+
+raised blood pressure, palpitations, and headache.
+
+Hemangioblastoma
+
+* are tumors of the central nervous system that originate from the vascular system usually during middle-age
+
+hepatosplenomegaly
+
+* Resulted in storage of insoluble intermediates in the mononuclear phagocyte system
+
+Neuroblastoma (small round blue cell)
+
+* HSRs and double minutes of N-myc
+
+* pediatric tumor
+
+AIDS from HIV 
+
+* B cell lymphomas of the brain are 1000-fold more common in HIV patients with infection than in the general population.
+
+amyloidosis
+
+* extracellular deposits of fibrillar proteins are responsible for tissue damage and functional compromise.
+
+hereditary nonpolyposis colon carcinoma (HNPCC) 
+
+* inheritance of one defective copy of mismatch repair genes. 
+
+* Several human mismatch repair genes are involved in the development of HNPCC. 
+
+* Mismatch repair defects have microsatellite instability. 
+
+* Microsatellites are tandem repeats found throughout the genome.
+
+xeroderma pigmentosum (XP)
+
+* extreme photosensitivity, high risk of skin cancers. 
+
+* DNA damage is initiated by exposure to ultraviolet light and nucleotide excision repair cannot occur normally in XP because 
+
+inheritance of one of several XP genes is abnormal. 
+
+* autosomal recessive, because new mutations are unlikely to occur.
+
+paraneoplastic syndrome 
+
+* results from ectopic secretion of a hormone by tumor (e.g., lung cancer cells producing corticotropin)
+
+Hepatocellular carcinomas
+
+* can arise in cirrhosis caused by chronic alcoholism
+
+Ataxia telangiectasia 
+
+* is an inherited syndrome that carries an increased risk of development of leukemias and lymphomas.
+
+* 
+
+*
+
+*
