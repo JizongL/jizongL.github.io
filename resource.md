@@ -6,8 +6,7 @@ title: Pathology subsection
 ## Welcome to the TMM Geek Pathology review section
 
 I created this blog section mainly because it helps me to study and review the tremendous volume of information from my General 
-Pathology course at UMMC. While it helps me a lot, I am not hesitate to share those resources with the others. Most of the items in 
-this section are adapted from various sources I found from the the internet as well as from the awosome 
+Pathology course at [UMMC](https://www.umc.edu). While it helps me a lot, I am happy to share those resources with the others. Most of the items in this section are adapted from various sources I found from the the internet as well as from the awosome 
 
 * [Robbins and Cotran Review of Pathology 3rd](http://www.amazon.com/Robbins-Cotran-Review-Pathology-ebook/dp/B004HD4UAM/ref=mt_kindle?_encoding=UTF8&me=) by KLATT & KUMAR 
 
