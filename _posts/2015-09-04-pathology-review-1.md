@@ -625,11 +625,13 @@ Carcinoembryonic antigen (CEA)
 
 * colon cancers
 
-Alphafetoprotein(AFP)
+Alpha fetoprotein(AFP)
 
 * germ cell tumors
 
 * liver cancers
+
+* A serum immunoglobulin level with protein electro- phoresis aids in the diagnosis of myeloma. 
 
 CD 10 (CALLA)
 
@@ -778,4 +780,8 @@ Nickel
 naphthalene 
 
 * a risk factor for cancers of the urinary tract.
+
+HBx
+
+* disrupts normal growth of infected hepatocytes.
 

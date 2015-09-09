@@ -101,7 +101,9 @@ Staphylococcus aureus
 
 * endocarditis
 
+endocarditis
 
+* Cardiac murmurs
 
 Streptococcus pyogenes(strep throat)
 
@@ -123,7 +125,9 @@ Acute hepatitis
 
 ### immune diseases
 
+advanced HIV infection.
 
+* the CD4+:CD8+ ratio is reversed so that it is typically less than 1 
 
 gout
 
@@ -139,7 +143,9 @@ Type I Hypersensisty
 
 * Mast cells degranulate with antigen attachment to IgE
 
+In tuberculosis
 
+* macrophages further transform into epithelioid cells that can contribute to granulomatous inflammation. 
 
 Type II Hypersensisty
 
@@ -160,7 +166,15 @@ Type IV Hypersensisty
 
 Goodpasture syndrome
 
-* an autoantibody is directed against type IV collagen in basement membranes of the glomeruli and in the lung. This is a form of type II hypersensitivity reaction.
+* an autoantibody is directed against type IV collagen in basement membranes of the glomeruli (causing glomerulonephritis) and in the 
+
+lung. This is a form of type 
+
+* microscopically shows glomerular dam- age and linear immunofluorescence with labeled complement C3 and anti-IgG antibody. 
+
+* Urinalysis shows high hematuria, proteinuria, and no glucose
+
+II hypersensitivity reaction.
 
 
 
@@ -214,7 +228,11 @@ Delayed-type hypersensitivity
 
 * more likely in parasitic infestations of muscles.
 
+* Macrophages play an important role, associated with cell-mediated immunity
 
+* tuberculin skin test works through this pathway
+
+* perivascular accumulation of T cells, particularly CD4+ cells. 
 
 parasitic infection
 
@@ -242,7 +260,7 @@ serum sickness
 
 Thrombocytopenia
 
-* thrombotic microangiopathy such as thrombotic throm- bocytopenic purpura
+* thrombotic microangiopathy such as thrombotic thrombocytopenic purpura
 
 
 
@@ -250,7 +268,11 @@ Hypocomplementemia
 
 * In the localized immune complex reaction (Arthus reaction), activation and depletion of complement C3.
 
+Arthus reaction
 
+* type III hypersensitivity reactions; they often exhibit vascu- litis
+
+* Systemic and localized immune complex diseases 
 
 Graft-versus-host disease 
 
@@ -264,7 +286,15 @@ rheumatic heart disease
 
 * a form of autoimmunity
 
+Molecular mimicry
 
+* occurs when a microbial antigen cross-reacts with a normal tissue 
+
+
+
+Prothrombin time (PT)
+
+* is a blood test that measures how long it takes blood to clot. 
 
 Breakdown of T cell anergy 
 
@@ -273,8 +303,9 @@ Breakdown of T cell anergy
 * brain and in pancreatic islet β cells
 
 
+ thromboplastin time (PTT) or activated partial thromboplastin time ( aPTT or APTT) 
 
-polyclonal lymphocyte activation
+ is a medical test that characterizes blood coagulation polyclonal lymphocyte activation
 
 * Microbial products such as endotoxin or bacterial superantigens 
 
@@ -356,6 +387,7 @@ CREST syndrome(limited scleroderma)
 
 * anticentromere antibody
 
+* anti–DNA topoisomerase I is found with diffuse scleroderma
 
 
 A drug-induced systemic lupus erythematosus (SLE)
@@ -480,9 +512,13 @@ reactive arthritis
 
 * positive serology for HLA-B27 
 
-* a history of either nongonoccocal urethritis with Chlamydia or gastrointestinal infection with Campylobacter, Salmonella, or Shigella organisms.
+* a history of either nongonoccocal urethritis with Chlamydia or gastrointestinal infection with Campylobacter, Salmonella, or Shigella 
 
+organisms.
 
+Antibody-dependent cell-mediated cytotoxicity
+
+* is initiated when IgG or IgE coats a target to attract cells that affect lysis
 
 Complement- mediated cell lysis
 
@@ -538,7 +574,10 @@ hyperplastic colonic lesion
 * tends to be small and flat.
 
 sarcoma 
+
 * a malignant neoplasm arising in mesenchymal tissues, not in epithelium
+
+* express TGFα and TGFα receptor
 
 Adenoma
 
@@ -709,6 +748,10 @@ hereditary nonpolyposis colon carcinoma (HNPCC)
 
 * Microsatellites are tandem repeats found throughout the genome.
 
+* mutations of mismatch repair “proof reader” or “spell checker” genes MSH2 (2p16), MLH1 (3p21), MSH6, PMS, PMS2 as well as other 
+
+similar genes.
+
 xeroderma pigmentosum (XP)
 
 * extreme photosensitivity, high risk of skin cancers. 
@@ -731,8 +774,63 @@ Ataxia telangiectasia
 
 * is an inherited syndrome that carries an increased risk of development of leukemias and lymphomas.
 
-* 
+human T cell lymphotropic virus type 1
 
-*
+* T cell leukemia. 
 
-*
+Epstein-Barr virus 
+
+* associated with various cancers, including Burkitt lymphoma and nasopharyngeal carcinoma
+
+H. pylori 
+
+promotes chronic gastritis with increased risk for gastric adenocarcinomas and B cell lymphomas.
+
+Cachexia 
+
+* common in advanced cancers, and weight loss without dieting in an adult is a “red flag” for malignancy
+
+* increases in circulating factors such as tumor necrosis factor (TNF) may play a role.
+
+Tympany
+
+* A low-pitched, resonant, drumlike note obtained by percussing the surface of a large air-containing space, such as the distended 
+
+abdomen or the thorax with or without pneumothorax.
+
+small cell carcinomas of the lung
+
+* inappropriate antidiuretic hormone (SIADH) secretion leads to hyponatremia as well as edema
+
+renal cell carcinoma
+
+* Erythropoietin production with polycythemia
+
+pulmonary squamous cell carcinomas
+
+* Hypercalcemia from a parathyroid hormone-related peptide (PTHrP)
+
+Glioblastomas (paracrine action)
+
+* secrete PDGF and express PDGF receptor
+
+Microsatellites
+
+* repeated sequences of DNA, 1-6 bp in length
+
+* unique to each individual, “DNA fingerprint”
+
+Microsatellite instability (MSI)
+
+* increased variation of microsatellites within an individual
+
+* an indicator of deficiency in DNA mismatch repair
+
+* confer an increased risk of neoplasia
+
+desmoplasia
+
+* the growth of fibrous or connective tissue. alled desmoplastic reaction –> secondary to an insult. 
+
+* Desmoplasia may occur around a neoplasm, causing dense fibrosis around the tumor
+

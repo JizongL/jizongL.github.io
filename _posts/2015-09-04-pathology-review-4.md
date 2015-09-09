@@ -43,8 +43,11 @@ The cells shown in the figure show marked pleomorphism and hyperchromatism (anap
 [Figure 9](/assets/pathology/test1/9.png)
 In the figure the disorderly, atypical epithelial cells involve the entire thickness of the epithelium. They extend through the underlying basement membrane and into the underlying stroma as rounded nests at the right, a process known as invasion. The ectocervix and the squamous metaplasia of endocervix give rise to dysplasia from which squamous cell carcinoma can arise. 
 
-[Figure 10](/assets/pathology/test1/9.png)
+[Figure 10](/assets/pathology/test1/10.png)
 The figure shows the appearance of multiple vari- ably sized tan metastatic lesions in the liver from hematogenous spread of carcinoma
 
-[Figure 11](/assets/pathology/test1/9.png)
+[Figure 11](/assets/pathology/test1/11.png) 
 Infiltrating ductal and intraductal carcinoma are present in the figure. Increased expression of ERBB2 (HER2) can be detected immunohistochemically and by fluorescence in situ hybridization (FISH) in the biopsy specimen. One third of breast cancers may show this change. Such amplifi- cation is associated with a poorer prognosis.
+
+[Figure 12](/assets/pathology/test1/12.png) 
+Thesmallcellshavescantcytoplasmbutmarkedhy- perchromatism, consistent with small cell anaplastic carcino- ma. This patient has Cushing syndrome resulting from ectopic corticotropin production by the tumor, a form of paraneoplas- tic syndrome common to small cell carcinomas of the lung. Such small cell carcinomas are of neuroendocrine derivation.
