@@ -95,6 +95,11 @@ Plasmodium falciparum
 
 * produces malaria, a parasitic infection without a significant degree of lung involvement.
 
+Mixed connective tissue disease
+
+* have some features of systemic lupus erythematosus (SLE), myo- sitis, rheumatoid arthritis, scleroderma, and Sjögren syn- drome.
+
+* 
 
 
 Staphylococcus aureus
@@ -104,6 +109,8 @@ Staphylococcus aureus
 endocarditis
 
 * Cardiac murmurs
+
+* nonbacterial thrombotic endocarditis
 
 Streptococcus pyogenes(strep throat)
 
@@ -118,9 +125,6 @@ Acute hepatitis
 * hepatocyte necrosis
 
 * elevations in AST and ALT
-
-
-
 
 
 ### immune diseases
@@ -162,6 +166,9 @@ Type IV Hypersensisty
 
 * Langhans giant cells are seen in granulomatous inflammation
 
+urticarial rash
+
+type I hypersensitivity 
 
 
 Goodpasture syndrome
@@ -174,9 +181,26 @@ lung. This is a form of type
 
 * Urinalysis shows high hematuria, proteinuria, and no glucose
 
+DiGeorge anomaly
+
+* deletion of chromosome 22q11 and it affects T cell differentiation and maturation
+
+* The size of the 22q11.2 deletion determines the severity of the disease
+
+* hypocalcemic tetany, as well as additional midline developmental abnormalities
+
 II hypersensitivity reaction.
 
 
+severe combined immunodeficiency (SCID)
+
+* deficient T cell and B cell arms of the immune system
+
+* Absence of adenosine deaminase
+
+X-linked SCID
+
+* due to mutations in the common γ chain that is a part of many cytokine receptors, such as interleukin (IL)-2, IL-4, IL-7, and IL- 15. 
 
 A major transfusion reaction 
 
@@ -186,13 +210,19 @@ A major transfusion reaction
 
 * C5-9 membrane attack complex
 
+hyper-IgM syndrome
 
+* lack of isotype switching from IgM to other immunoglobulins
+
+* Mutation in the CD40 ligand
 
 Antigen-antibody complex formation
 
 * is typical of a type III hypersensitivity reaction.
 
+common variable immunodeficiency
 
+* Impaired B cell maturation to plasma cells
 
 Mast cells degranulate 
 
@@ -242,13 +272,17 @@ parasitic infection
 
 Macrophages, natural killer cells, neutrophils recognize the Fc receptor, then destroy the antibody-coated target cells.
 
+C3 deficiency
 
+* accompanied by recurrent infections with pyogenic bacteria.
 
 hemolysis
 
 * Complement-mediated lysis, typical of immune destruction of RBCs
 
+IgA deficiency 
 
+* leads to mild recurrent gastrointestinal and respiratory tract infections and predisposes to anaphylactic transfusion reaction.
 
 serum sickness 
 
@@ -256,13 +290,17 @@ serum sickness
 
 * produced widespread antigen-antibody complex deposition, particularly in the kidneys.
 
+urticaria
 
+* A skin rash triggered by a reaction to food, medicine, or other irritants.
 
 Thrombocytopenia
 
 * thrombotic microangiopathy such as thrombotic thrombocytopenic purpura
 
+Hereditary angioedema
 
+* autosomal-reces- sive disorder of the complement pathway in which there is a deficiency of antigenic or functional C1 inhibitor, resulting in recurrent episodes of edema.
 
 Hypocomplementemia
 
@@ -289,6 +327,12 @@ rheumatic heart disease
 Molecular mimicry
 
 * occurs when a microbial antigen cross-reacts with a normal tissue 
+
+* may follow an infec- tion and lead to polyclonal B cell activation
+
+ophthalmia
+
+* Ophthalmia (also called ophthalmitis) is inflammation of the eye.
 
 
 
@@ -423,7 +467,6 @@ discoid lupus erythematosus
 * absence of serious renal disease. 
 
 
-
 sympathetic ophthalmia
 
 * Release of sequestered antigens 
@@ -456,7 +499,9 @@ Diffuse systemic sclerosis
 
 * These are damaged by a hyperplastic arteriolosclerosis, complicated by very high blood pressure and renal failure. 
 
+esophageal squamous carcinoma 
 
+* include smoking and alcohol abuse.
 
 Ankylosing spondylitis 
 
@@ -464,7 +509,13 @@ Ankylosing spondylitis
 
 * it is characterized by low back pain from sacroiliitis and positive serology for HLA-B27.
 
+sacroiliitis
 
+* sacroiliitis is an inflammation of the sacroiliac joint
+
+HLA-B27
+
+* present in ankylosing spondylitis
 
 rheumatoid arthritis
 
@@ -472,7 +523,7 @@ rheumatoid arthritis
 
 * rheumatoid factor and antibodies to cyclic citrullinated peptide (anti-CCP)
 
-
+* The antibody to cyclic citrullinated peptide is present
 
 Bony ankylosis 
 
@@ -500,11 +551,13 @@ fascicular myocyte necrosis
 
 
 
- Dermatomyositis 
+Dermatomyositis 
 
- * causes muscle pain, and the rash is typically a subtle heliotrope rash with a violaceous appearance to the eyelids
+* a form of inflammatory myopa- thy in which capillaries are the primary target for antibody and complement-mediated injury
+
+* causes muscle pain, and the rash is typically a subtle heliotrope rash with a violaceous appearance to the eyelids
  
-
+* The violaceous, or heliotrope, rash is a characteristic feature 
 
 reactive arthritis 
 
@@ -524,7 +577,9 @@ Complement- mediated cell lysis
 
 * when antidonor antibodies are preformed in the host and lead to hyperacute rejection.
 
+peripheral muscle fascicular myocyte necrosis
 
+* The perivascular and perimysial inflammatory infiltrates result.
 
 acute rejection
 
@@ -534,7 +589,9 @@ acute rejection
 
 * infiltration with CD3+ T cells that include the CD4+ and CD8+ subsets.(acute cellular rejection)
 
+Her graft-versus-host disease (GVHD) 
 
+* engrafted marrow is not completely matched for major histocompatibility loci and thus contains immunocompetent donor cells that can proliferate, recognize host cells as foreign, and attack host tissues. 
 
 hyperacute rejection
 
@@ -545,6 +602,13 @@ chronic rejection
 
 * Interstitial and glomerular fibrosis and blood vessel thickening (ireversible)
 
+X-linked agammaglobulinemia of Bruton 
+
+* a condition in which B cell maturation stops after the rearrangement of heavy-chain genes, and light chains are not produced.
+
+*  IgA deficiency is marked by a more benign course
+
+* Mutations in the BTK gene
 
 ### Neopastic diseases
 
@@ -766,6 +830,8 @@ paraneoplastic syndrome
 
 * results from ectopic secretion of a hormone by tumor (e.g., lung cancer cells producing corticotropin)
 
+* symptoms that can not be explained by tumor spread.
+
 Hepatocellular carcinomas
 
 * can arise in cirrhosis caused by chronic alcoholism
@@ -833,4 +899,30 @@ desmoplasia
 * the growth of fibrous or connective tissue. alled desmoplastic reaction –> secondary to an insult. 
 
 * Desmoplasia may occur around a neoplasm, causing dense fibrosis around the tumor
+
+EBV
+
+* nasopharyngeal cancer
+
+HPV
+
+* cervical cancer
+
+inappropriate antidiuretic hormone (SIADH) secretion
+
+* A syndrome from small cell carcinomas, and leads to hyponatremia as well as edema.
+
+cor pulmonale
+
+* abnormal enlargement of the right side of the heart as a result of disease of the lungs or the pulmonary blood vessels.
+
+Wiskott-Aldrich syndrome
+
+* associated with eczema and thrombocytopenia.
+
+SLAM-associated protein (SAP)
+
+* that binds to a family of cell surface molecules involved in the activation of NK cells and T and B lymphocytes, and result in 
+
+increased susceptibility to viral infections, particularly Epstein-Barr virus (EBV).
 

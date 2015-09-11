@@ -40,3 +40,21 @@ author of this section does not assume any legal responsibility if those materia
 [collection of phenotypical features and diseases](http://jizongl.github.io/pathology/2015/09/04/pathology-review-2/)
 
 [collection of various factors, molecule, proteins and genes](http://jizongl.github.io/pathology/2015/09/04/pathology-review-1/)
+
+### Past Pathology exams collection
+
+#### Exam 1
+
+* [2003-2004_Pathology_Exam1](/assets/pathology/test1/pastexams/exam1/2003-2004_Pathology_Exam1.pdf)
+
+* [2003-2004_Pathology_Exam1_Challenges](/assets/pathology/test1/pastexams/exam1/2003-2004_Pathology_Exam1_Challenges.pdf)
+
+* [2002-2003_Pathology_Exam1](/assets/pathology/test1/pastexams/exam1/2002-2003_Pathology_Exam1.pdf)
+
+* [2001-2002_Pathology_Exam1](/assets/pathology/test1/pastexams/exam1/2001-2002_Pathology_Exam1.pdf)
+
+* [2000-2001_Pathology_Exam1](/assets/pathology/test1/pastexams/exam1/2000-2001_Pathology_Exam1.pdf)
+
+* [1998-1999_Pathology_Exam1](/assets/pathology/test1/pastexams/exam1/1998-1999_Pathology_Exam1.pdf)
+
+
