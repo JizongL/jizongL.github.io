@@ -15,6 +15,8 @@ Glucocorticoids
 
 * inhibit wound healing by impairing collagen synthesis.
 
+* can be used to treat acute cellular rejection
+
 Penicillin 
 
 * an antibiotic that can induce a type I hypersensitivity reaction in sensitized persons.
