@@ -491,7 +491,37 @@ Aspirate of synovial joint in rheumatoid arthritis showing inflammatory cells an
 <a/>
 * Histopathology of rheumatoid nodule showing central fibrinoid necrosis surrounded by macrophages rimmed by granulation tissue and lymphocytes 
 
+<a target="_blank" href="/assets/pathology/test1/3rdLecture-AutoImmuneDisease/image75.jpeg">
+<img src="/assets/pathology/test1/3rdLecture-AutoImmuneDisease/image75.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+* **Pannus** formation with inflammatory destruction of articular cartilage followed by erosion of bone in rheumatoid arthritis 
+
+[video explanation for RA](https://www.youtube.com/watch?v=ZcTi28aBY1s)
+
+##### Amyloidosis  
+
+<a target="_blank" href="/assets/pathology/test1/3rdLecture-AutoImmuneDisease/image76.jpeg">
+<img src="/assets/pathology/test1/3rdLecture-AutoImmuneDisease/image76.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+<a target="_blank" href="/assets/pathology/test1/3rdLecture-AutoImmuneDisease/image77.jpeg">
+<img src="/assets/pathology/test1/3rdLecture-AutoImmuneDisease/image77.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+<a target="_blank" href="/assets/pathology/test1/3rdLecture-AutoImmuneDisease/image82.jpeg">
+<img src="/assets/pathology/test1/3rdLecture-AutoImmuneDisease/image82.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Congo red stain of amyloid in vascular wall. (left)
+
+* Silver birefringence of same stain viewed by polarizing light microscopy. (right)
+
+### Primary Immunodeficiences
+
+
+
 ### Neoplasia
+
 
 <a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image32.jpeg">
 <img src="/assets/pathology/test1/neoplasiafigures/image16.jpeg" alt="Klematis" width="200" height="180"><a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image32.jpeg">
