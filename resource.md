@@ -58,3 +58,6 @@ author of this section does not assume any legal responsibility if those materia
 * [1998-1999_Pathology_Exam1](/assets/pathology/test1/pastexams/exam1/1998-1999_Pathology_Exam1.pdf)
 
 
+### Interactive Figures review from lectures
+
+[Inflammation and Repair & Immunopathology](https://dl.dropboxusercontent.com/u/49272502/pathology%20quiz%20slide%202015%20fall/figureslidesquiz-inflammation%26immonopath/test/index.html)

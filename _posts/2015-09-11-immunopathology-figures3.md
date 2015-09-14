@@ -8,12 +8,15 @@ tags: [pathology, diseases,review]
   
 ### Injury study
 
-<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image11.jpeg"><a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image32.jpeg">
+<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image11.jpeg">
 <img src="/assets/pathology/test1/InjuryStudyFigure/image11.jpeg" alt="Klematis" width="200" height="180">
 <a/>
-[refine appearance of apototic cells](http://www.pathpedia.com/education/eatlas/histopathology/liver_and_bile_ducts/chronic_hepatitis_c.aspx)
 
-<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image19.jpeg"><a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image32.jpeg">
+* apotosis
+
+[refine appearance of apototic cells-see slide 10](http://www.pathpedia.com/education/eatlas/histopathology/liver_and_bile_ducts/chronic_hepatitis_c.aspx)
+
+<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image19.jpeg">
 <img src="/assets/pathology/test1/InjuryStudyFigure/image19.jpeg" alt="Klematis" width="200" height="180">
 <a/>
 
@@ -23,30 +26,224 @@ tags: [pathology, diseases,review]
 
 <!--break-->
 
-<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image23.jpeg"><a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image32.jpeg">
+<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image23.jpeg">
 <img src="/assets/pathology/test1/InjuryStudyFigure/image23.jpeg" alt="Klematis" width="200" height="180">
 <a/>
 
 [dystrophic calcification with labeled explanation](http://library.med.utah.edu/WebPath/CINJHTML/CINJ047.html)
 
-<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image25.jpeg"><a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image32.jpeg">
+<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image25.jpeg">
 <img src="/assets/pathology/test1/InjuryStudyFigure/image25.jpeg" alt="Klematis" width="200" height="180">
 <a/>
+
+*Granulomatous Inflammation, Lung.
 
 [labeled explanation](https://edc2.healthtap.com/ht-staging/user_answer/avatars/913735/large/open-uri20130308-28336-dwqobc.jpeg?1386611344)
 
 
-<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image28.png"><a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image32.jpeg">
+<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image28.png"><
 <img src="/assets/pathology/test1/InjuryStudyFigure/image28.png" alt="Klematis" width="200" height="180">
 <a/>
 
 [necrosis of the pancreas explanation](http://library.med.utah.edu/WebPath/CINJHTML/CINJ026.html)
 
-<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image29.jpeg"><a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image32.jpeg">
+<a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image29.jpeg">
 <img src="/assets/pathology/test1/InjuryStudyFigure/image29.jpeg" alt="Klematis" width="200" height="180">
 <a/>
 
 [Pneumonia](http://www.pathologyatlas.ro/pathology_atlas_imagini/lobar_pneumonia_leukocytic_alveolitis.jpg)
+
+### Inflammation and Repair
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image5.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image5.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Hypertrophic Cardiac Myocytes
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image9.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image9.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Hyperplasia of prostate glands
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image12.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image12.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image20.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image20.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+Proximal renal tubules normal (L), hydropic change (R)
+
+* Karyolysis—fading of chromatin
+
+* Pyknosis—nuclear shrinkage, basophilia
+
+* Karyorrhexis—nuclear fragmentation
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image25.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image25.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Coagulative necrosis, kidney
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image31.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image31.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Fat Necrosis
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image35.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image35.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Polyarteritis Nodosa (fibrinoid necrosis)
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image43.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image43.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Apoptotic cells show nuclear chromatin condensation with cellular shrinkage and formation of apoptotic bodies composed of membrane bound 
+
+vesicles of cytosol and organelles.
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image44.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image44.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Mechanisms of Apoptosis Death Receptor (Intrinsic) & (Extrinsic) Pathway 
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image45.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image45.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+### Intracellular Accumulations
+
+* Four pathways:
+
+* Inadequate removal of normal substances
+
+* Accumulation of abnormal endogenous substances
+
+* Failure to degrade a metabolite
+
+* Deposition /accumulation of exogenous substances
+
+
+* Accumulation of  cholesterol within the gallbladder
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image46.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image46.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Cholesterol within an atheromatous plaque in a coronary artery
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image47.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image47.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Accumulation of  protein within liver cells (hepatocytes) The eosinophilic cytoplasmic inclusions seen above (in the middle) are Mallory-Denk bodies composed of intermediate filaments (cytokeratins) often seen in alcoholic liver diseas
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image66.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image66.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Serous Inflammation in a Skin Blister
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image67.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image67.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Fibrinous Pericarditis
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image68.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image68.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Fibrinous Pericarditis
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image70.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image70.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Bronchopneumonia
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image71.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image71.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Abscess 
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image77.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image77.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* complement pathways
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/1.png">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image1.png" alt="Klematis" width="200" height="180">
+<a/>
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/2.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/2.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image78.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image78.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Chronic gastritis The lamina propria is infiltrated by plasma cells
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image80.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image80.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Granulomatous Inflammation with Caseous Necrosis
+A granuloma with central necrosis, surrounded by “epithelioid histiocytes,” giant cells, and a collar of lymphocytes
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image80.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image80.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Aspiration Pneumonia
+* Aspiration pneumonia with abundant neutrophils and a foreign body giant cell reaction to a piece of aspirated plant material from gastric contents
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image80.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image80.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Caseating Granuloma
+
+* **Notice** the prominent epithelioid histiocytes surrounding the necrosis
+
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image80.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image80.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Non-Caseating Granulomas Sarcoidosis involving the lung
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image87.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image87.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* A: Granulation tissue: Blood vessels (angiogenesis), tissue edema with loose extracellular matrix containing occasional inflammatory cells, mainly macrophages
+
+* B: Mature scar with dense collagen staining blue with a trichrome stain
+
+Glucocorticoids: 
+
+* May result in weakness of scar--inhibition of TGF-β
+
+* Anti-inflammatory properties may be desirable in some cases
+
+<a target="_blank" href="/assets/pathology/test1/InflammationRepairLecture/image91.jpeg">
+<img src="/assets/pathology/test1/InflammationRepairLecture/image91.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+Keloid showing “keloidal collagen” (arrows
 
 ### Immunopathology study
 
@@ -250,13 +447,6 @@ Kidney glomerulus in Hypercute Rejection – **Note Fibrin Plugs**
 
 * [Acute Rejection video explanation](https://www.youtube.com/watch?v=e181JDaw8LM)
 
-<a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/lectures/23.jpg">
-<img src="/assets/pathology/test1/Immunopathologyfigures/media/lectures/23.jpg" alt="Klematis" width="200" height="180">
-<a/>
-
-* Acute Rejection Kidney -  Note: Lymphocytic Infiltration in Interstitium Attacking Tubule Basement Membrane 
-
-
 <a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/lectures/24.jpg">
 <img src="/assets/pathology/test1/Immunopathologyfigures/media/lectures/24.jpg" alt="Klematis" width="200" height="180">
 <a/>
@@ -296,7 +486,7 @@ Kidney glomerulus in Hypercute Rejection – **Note Fibrin Plugs**
 
 
 <a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/lectures/32.jpg">
-<img src="/assets/pathology/test1/Immunopathologyfigures/media/lectures/23.jpg" alt="Klematis" width="200" height="180">
+<img src="/assets/pathology/test1/Immunopathologyfigures/media/lectures/32.jpg" alt="Klematis" width="200" height="180">
 <a/>
 
 * Positive C4d Staining of Peritubular Capillaries demonstrating Humoral Ab 
@@ -313,15 +503,37 @@ Kidney glomerulus in Hypercute Rejection – **Note Fibrin Plugs**
 
 * Vascular Rejection of Renal Artery – Note: Marked Proliferation of Endothelial Cells with Partial Occlusion of Lumen
 
-##### Chronic rejection
+####Chronic rejection
 
-<a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/lectures/23.jpg">
-<img src="/assets/pathology/test1/Immunopathologyfigures/media/lectures/23.jpg" alt="Klematis" width="200" height="180">
+<a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/lectures/47.jpg">
+<img src="/assets/pathology/test1/Immunopathologyfigures/media/lectures/47.jpg" alt="Klematis" width="200" height="180">
 <a/>
+
+<a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/lectures/48.jpg">
+<img src="/assets/pathology/test1/Immunopathologyfigures/media/lectures/48.jpg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Arteriosclerotic-type Lesion of Artery in Chronic Rejection 
+
+<a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/lectures/49.jpg">
+<img src="/assets/pathology/test1/Immunopathologyfigures/media/lectures/49.jpg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Arteriosclerotic Type of Chronic Rejection with Intimal Proliferation
+
+<a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/lectures/50.jpg">
+<img src="/assets/pathology/test1/Immunopathologyfigures/media/lectures/50.jpg" alt="Klematis" width="200" height="180">
+<a/>
+
+
+<a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/lectures/51.jpg">
+<img src="/assets/pathology/test1/Immunopathologyfigures/media/lectures/51.jpg" alt="Klematis" width="200" height="180">
+<a/>
+
 
 [Check video explanation](https://www.youtube.com/watch?v=qYQ6ynfY1_E)
 
-##### Graft-vs-Host Disease
+####Graft-vs-Host Disease
 
 <a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/lectures/40.jpg">
 <img src="/assets/pathology/test1/Immunopathologyfigures/media/lectures/40.jpg" alt="Klematis" width="200" height="180">
@@ -518,10 +730,173 @@ Aspirate of synovial joint in rheumatoid arthritis showing inflammatory cells an
 
 ### Primary Immunodeficiences
 
+<a target="_blank" href="/assets/pathology/test1/PrimaryImmunodeficiences/image4.jpeg">
+<img src="/assets/pathology/test1/PrimaryImmunodeficiences/image4.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Interference at 12 weeks gestation leads to immunodeficiency with hypoparathyroidism
+
+
+#### DiGeorge Syndrome
+
+<a target="_blank" href="/assets/pathology/test1/PrimaryImmunodeficiences/image5.jpeg">
+<img src="/assets/pathology/test1/PrimaryImmunodeficiences/image5.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* DiGeorge syndrome thymus showing **small Hassal’s corpuscles** 
+
+<a target="_blank" href="/assets/pathology/test1/PrimaryImmunodeficiences/image6.jpeg">
+<img src="/assets/pathology/test1/PrimaryImmunodeficiences/image6.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Lymph node in DiGeorge syndrome showing depleted T cell-dependent areas, whereas B cell areas are intact
+
+
+
+#### X-linked Infantile Hypogammaglobulinemia
+
+<a target="_blank" href="/assets/pathology/test1/PrimaryImmunodeficiences/image9.jpeg">
+<img src="/assets/pathology/test1/PrimaryImmunodeficiences/image9.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+Barium Swallow Radiograph; Boy with malabsorption syndrome. **Giardia lamblia** frequent cause
+
+<a target="_blank" href="/assets/pathology/test1/PrimaryImmunodeficiences/image15.jpeg">
+<img src="/assets/pathology/test1/PrimaryImmunodeficiences/image15.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Lymph node biopsy after Ag stimulation showing corticomedullary differentiation but absence of B cell dependent areas (lack of follicles). T cell areas are intact.
+
+<a target="_blank" href="/assets/pathology/test1/PrimaryImmunodeficiences/image16.jpeg">
+<img src="/assets/pathology/test1/PrimaryImmunodeficiences/image16.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Thymus in Bruton’s showing normal architecture with Hassal’s corpuscles
+
+
+<a target="_blank" href="/assets/pathology/test1/PrimaryImmunodeficiences/image21.jpeg">
+<img src="/assets/pathology/test1/PrimaryImmunodeficiences/image21.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* SCID / Open lung biopsy showing Pneumosystis jiroveci microorganisms
+
+
+<a target="_blank" href="/assets/pathology/test1/PrimaryImmunodeficiences/image22.jpeg">
+<img src="/assets/pathology/test1/PrimaryImmunodeficiences/image22.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+* SCID / Silver stain of Pneumocystis jiroveci
+
+<a target="_blank" href="/assets/pathology/test1/PrimaryImmunodeficiences/image23.jpeg">
+<img src="/assets/pathology/test1/PrimaryImmunodeficiences/image23.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* The thymus in severe combined immunodeficiency (SCID) showing only reticulum cells and fatty tissue. Prior to this, the thymus was markedly hypoplastic with no corticomedullary differentiation and no Hassal’s corpuscles.
+
+**chronic granulomatous disease**
+
+* decreased oxidative burst. 
+
+**Phagocytic disorders**
+
+* Chronic granulomatous disease
+
+* Myeloperoxidase deficiency
+
+* Job syndrome
+
+* Chédiak-Higashi syndrome
+
+* Disorders associated with chemotactic dysfunction
+
+<a target="_blank" href="/assets/pathology/test1/PrimaryImmunodeficiences/image34.jpeg">
+<img src="/assets/pathology/test1/PrimaryImmunodeficiences/image34.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+Patient with hereditary angioedema due to C1 esterase inhibitor deficiency
+
+<a target="_blank" href="/assets/pathology/test1/HIVlecture/image32.jpeg">
+<img src="/assets/pathology/test1/HIVlecture/image32.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Pneumocystis jirovec in bronchial washings of AIDS patient
+
+<a target="_blank" href="/assets/pathology/test1/HIVlecture/image33.jpeg">
+<img src="/assets/pathology/test1/HIVlecture/image33.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Pneumocystis jiroveci in transbronchial biopsy of lung in AIDS patient
+
+<a target="_blank" href="/assets/pathology/test1/HIVlecture/image35.jpeg">
+<img src="/assets/pathology/test1/HIVlecture/image35.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Mycobacterium avium intercellulare infection of lung in AIDS
+
+<a target="_blank" href="/assets/pathology/test1/HIVlecture/image36.jpeg">
+<img src="/assets/pathology/test1/HIVlecture/image36.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* High power mag. Mycobacterium avium intercellulare in lung in AIDS
+
+<a target="_blank" href="/assets/pathology/test1/HIVlecture/image37.jpeg">
+<img src="/assets/pathology/test1/HIVlecture/image37.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Cryptosporidium, a protozoan parasite that causes severe diarrhea in AIDS patients (red stained in fecal contents)
+
+<a target="_blank" href="/assets/pathology/test1/HIVlecture/image38.jpeg">
+<img src="/assets/pathology/test1/HIVlecture/image38.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* CMV inclusion bodies in rectal mucosa in AIDS patient
+
+
+<a target="_blank" href="/assets/pathology/test1/HIVlecture/image39.jpeg">
+<img src="/assets/pathology/test1/HIVlecture/image39.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* CMV inclusion bodies in rectal mucosa in AIDS patient
+
+
+<a target="_blank" href="/assets/pathology/test1/HIVlecture/image40.jpeg">
+<img src="/assets/pathology/test1/HIVlecture/image40.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Giardia lamblia (a protozoan) in the gut of AIDS patient
+
+<a target="_blank" href="/assets/pathology/test1/HIVlecture/image43.jpeg">
+<img src="/assets/pathology/test1/HIVlecture/image43.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+* Kaposi sarcoma histopathology in HIV infection
+
+[video explanation for Kaposi Sarcoma](https://www.youtube.com/watch?v=ZXk5k6k5-Ks)
+
+[Immune reconstitution inflammatory syndrome (IRIS)/ Immune restoration disease (IRD)](/assets/pathology/test1/HIVlecture/image64.jpeg)
+
+[HAART](http://www.who.int/topics/antiretroviral_therapy/en/)
+
+### flow cytometry
+
+cd45 leukocyte common antigen
+
+CD34 stem cell
+
+CD 33 myeloid cell marker
+ 
+CD 13 myeloid cell marker
+
+
+### HIV
+
+<a target="_blank" href="/assets/pathology/test1/HIVlecture/image19.jpeg">
+<img src="/assets/pathology/test1/HIVlecture/image19.jpeg" alt="Klematis" width="200" height="180">
+<a/>
+
+
 
 
 ### Neoplasia
-
 
 <a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image32.jpeg">
 <img src="/assets/pathology/test1/neoplasiafigures/image16.jpeg" alt="Klematis" width="200" height="180"><a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image32.jpeg">
