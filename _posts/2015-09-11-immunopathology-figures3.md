@@ -14,6 +14,18 @@ tags: [pathology, diseases,review]
 
 * apotosis
 
+<a target="_blank" href="/assets/pathology/test1/image13.png">
+<img src="/assets/pathology/test1/image13.png" alt="Klematis" width="200" height="180">
+<a/>
+
+* The figure shows deep eosinophilic staining, loss of myocardial fiber nuclei, and loss of cell structure consis- tent with an early ischemic injury, resulting in coagulative necrosis.
+
+<a target="_blank" href="/assets/pathology/test1/image14.png">
+<img src="/assets/pathology/test1/image14.png" alt="Klematis" width="200" height="180">
+<a/>
+
+* An ischemic injury to most internal organs produces a pattern of cell death called coagulative necrosis. Note the faint outlines of renal tubules and glomerulus in the figure, but no cellular nuclei
+
 [refine appearance of apototic cells-see slide 10](http://www.pathpedia.com/education/eatlas/histopathology/liver_and_bile_ducts/chronic_hepatitis_c.aspx)
 
 <a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image19.jpeg">
