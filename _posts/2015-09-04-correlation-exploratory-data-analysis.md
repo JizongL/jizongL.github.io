@@ -3,12 +3,14 @@ layout: post
 comments: True
 title: Exploratory Data Analysis through correlation in R
 category: Statistics
-tags: [correlation, EDA]
+tags:[correlation, EDA]
 ---
 
-House keeping
+This post introduce the procedure of performing basic correlation and exploratory data analysis. I will go through the steps on how to do some basic data cleaning, such as removing NA values and factors elements. How to conduct correlation analysis and form a correlation matrix. Finally, we will test if the correlation matrix is accurate by doing a pair of random selected identifier. You will also learn how to do basic subsetting of data and locating values from specific rows or columns. 
 
 <!--break-->
+
+House keeping
 
 {% highlight r %}
 fileUrl <- "https://raw.githubusercontent.com/JizongL/jizongL.github.io/master/assets/blog/Rblog/correlation/09192015correlation/gapminder.csv"
