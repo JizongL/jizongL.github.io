@@ -6,9 +6,6 @@ category: Data Science
 tags: [correlation, data, assignment]
 ---
 
-* This line is a placeholder to generate the table of contents
-{:toc}
-
 ### Brief summary and introduction
 
 My name is [Jizong Liang](https://www.linkedin.com/in/jizongliang) and you can call me [TmmGeek](http://jizongl.github.io/), I am a PhD student in Pathology at the cancer research Institute at [University of Mississippi Medical Center](https://www.umc.edu/), In addition, I am also a computer geek and extremely interested in statistical analysis and Data Science. As a result, anything related to diseases and data analysis would be my areas of interests. 
@@ -18,6 +15,9 @@ Recently, I have done indepth study in HIV and AIDS and have developed a thoroug
 Nevertheless, diseases, especially HIV and AIDS, could also be studied at different angles other than just biomedical research, such as their effects and ramifications woven into all levels of social strata, their influences on human behaviors in different cultures, economic status, how they may influence life expectancy in different countries, how different cultural practices would either promote or discourage them. All these different domains mentioned above along with numerous others, as I am strongly convinced, would provide unexpected additional evidence for scientists, medical professionals, social workers and many other related personnels to work together in order to understand disease epidemiology better and develop more effective personalized treatment plans. 
 
 Here I want to say thank you to [Coursera](https://www.coursera.org/) which provides this amazing course [Data Management and Visualization](https://www.coursera.org/learn/data-visualization) by [Wesleyan University](http://www.wesleyan.edu/). I am motivated by the structure of this course which gives me freedom and a mature guideline to venture into the unknowns of Data Science. The following contents are my effort to complete [the step by step guidelines](https://www.coursera.org/learn/data-visualization/peer/ntBWz/getting-your-research-project-started) to get my project started. 
+
+* This line is a placeholder to generate the table of contents
+{:toc}
 
 ### 1: Choose a data set that you would like to work with.
 After looking through all the datasets available, I have chosen the [Gapminder](https://d396qusza40orc.cloudfront.net/phoenixassets/data-management-visualization/GapMinder%20Codebook%20.pdf) dataset because it is closely related to my areas of interests. The dataset is availble [here](https://raw.githubusercontent.com/JizongL/jizongL.github.io/master/assets/blog/Rblog/correlation/09192015correlation/gapminder.csv). 
