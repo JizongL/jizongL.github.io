@@ -26,6 +26,7 @@ To understand the computational formula for Total sum of squares, see [Derivatio
 [Complete Randomized Block Design](https://www.youtube.com/watch?v=R5KfO5HpzLE)
 
 One way ANOVA
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UrRYITjDOww" frameborder="0" allowfullscreen></iframe>
 
 
@@ -49,6 +50,7 @@ Markdown | Less | Pretty
 --- | --- | --- | --- | --- | ---
 Regression | SSR | 1 | SSR | $$ F = \frac{Sd(Y)}{Sd(X)}\ $$ | qt(0.95,1,n-2)
 
+F = \frac{Sd(Y)}{Sd(X)}\
 
 ### table
 

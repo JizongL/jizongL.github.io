@@ -21,6 +21,8 @@ analytics :
   google : 
       tracking_id : 'UA-66527403-1'
 
+markdown: redcarpet
+
 # About/contact
 author:    
   name:              TmmGeek
