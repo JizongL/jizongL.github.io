@@ -8,7 +8,7 @@ title: About
   During my free time, I like to play the piano and enjoy cooking with my wife.
 </p>
 
-This site is built upon the amazing Jekyll themes made by [@mdo](https://twitter.com/mdo), it for the purpose of sharing my experiences with Bioinformatics and programming. My current tools of trade include
+This is my personal website built upon the amazing Jekyll themes made by [@mdo](https://twitter.com/mdo), it documents my journey of Bioinformatics and programming, web development, Statistical & Machine Learning, as well as some other aiddtional contents in Pathology. My current tools of trade include
 
 * [R](https://www.r-project.org)
 * [Python](https://www.python.org)
