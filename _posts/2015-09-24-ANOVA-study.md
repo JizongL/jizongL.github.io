@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: True
-title: Anova indepth study
-category: Pathology
-tags: [pathology, diseases,review]
+title: ANOVA indepth study and resource
+category: Statistics
+tags: [ANOVA, statistics, variance]
 ---
 
 ## R resources
@@ -14,6 +14,8 @@ tags: [pathology, diseases,review]
 ## basic and advance math behind ANOVA
 
 1: The basic math behind [ANOVA](https://stat.ethz.ch/education/semesters/as2010/anova/ANOVA_how_to_do.pdf) 
+
+<!--break-->
 
 ## Video resources
 
@@ -37,24 +39,13 @@ Two way ANOVA
 
 
 
-### table  
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-### table 
+### ANOVA table 
 
 | Source | SS | df | MS | F | F table (5%) 
---- | --- | --- | --- | --- | ---
+:---: | :---: | :---: | :---: | :---: | :---:
 Regression | SSR | 1 | SSR | $$ F = \frac{Sd(Y)}{Sd(X)}\ $$ | qt(0.95,1,n-2)
+Error | SSE | n-2 | $$ s^2 \ = \frac{SSE}{n-2}\$$ |   |
+Total | SST | n-1 |  |  |  |
 
-F = \frac{Sd(Y)}{Sd(X)}\
 
-### table
-
-Markdown | Less | Pretty
---- | --- | ---
-*still* | renders | **nicely**
-1 | 2 |3
