@@ -87,6 +87,110 @@ Mantle Cell l􏰎ym􏰁phom􏰁a
 
 * distinguished from CLL/SLL by the absence of proliferation centers and the presence of cyclin D1 protein.
 
+
+Diffuse 􏰂large B􏰀 Cell 􏰂lymphoma
+
+* most common type of lymphoma in adults, 50% of NHLs. 
+
+* About one third of tumors have rearrangements of the BCL6 gene,located on 3q27, and an even higher fraction of tumors have activating point mutations in the BCL6 promotor. resulted in increased levels of BCL6 protein. transcriptional regulator of gene expression in germinal center B cells. 
+
+* Another 30% of tumors have a (14,18) translocation involving the BCL2 gene that results in overexpression of BCL2 protein. loss-of-function mutations in genes encoding histone acetyl transferases.
+
+
+Burkitt lymphoma 
+
+* highly associated with translocations involving the MYC gene on chromosome 8. Most translocations fuse MYC with the IgH gene on chromo- some 14, but variant translocations involving the κ and λ light chain loci on chromosomes 2 and 22, respectively, are also observed.
+
+* “starry sky” pattern.
+
+Muliple Myeloma and Related Plasma Cell Tumors
+
+* The plasma cell neoplasms can be divided into six major variants: (1) multiple myeloma, (2) solitary plasmacytoma, (3) lymphoplasmacytic lymphoma, (4) heavy-chain disease, (5) primary amyloidosis, and (6) MGUS. The focus here is on the most important of these disorders, multiple myeloma and lymphoplasmacytic lymphoma, with a brief discussion of the other disorders.
+
+Multiple Myeloma
+
+* It principally involves the bone marrow and usually is associated with lytic lesions throughout the skeletal system.
+
+* M protein produced by myeloma cells is IgG (60%), followed by IgA (20% to 25%); only rarely are IgM, IgD, or IgE M proteins observed. In the remaining 15% to 20% of cases, the plasma cells produce only κ or λ light chains.
+
+* dysregulation of D cyclins is common in multiple myeloma.
+
+* cytokine interleukin 6 (IL-6) support proliferation of myeloma
+
+* Patients with myeloma are immunosuppressed.
+
+* myeloma cells interfere with the function of normal plasma cells, leading to defects in antibody production.
+
+* Renal dysfunction is a common, serious problem in myeloma. Proteinaceous casts, formed in the distal convoluted tubules and the collecting ducts. 
+The casts consist mostly of Bence Jones proteins along with variable amounts of complete immunoglobulins, Tamm-Horsfall protein, and albumin
+
+* hypercalcemia
+
+Solitary Plasmacytoma
+
+* involving the skeleton or the soft tissues
+
+* occur in the same locations as does multiple myeloma and usually progress to full-blown multiple myeloma over a period of 5 to 10 years
+
+* IL-LB and IL-6 stimulate RANK-ligand.
+
+Monoclonal gammopathy of undetermined significance (MGUS) 
+
+* the term applied to an asymptomatic monoclonal gammopathy of undetermined significance(MGUS).
+
+* a precursor lesion with a tendency to evolve to multiple myeloma.
+
+Lymphoplasmacytic Lymphoma
+
+* Waldenström macroglobulinemia
+
+Heavy-Chain Disease
+
+* IgA heavy-chain disease
+
+* a variant of extranodal marginal zone lymphoma
+
+Primary Amyloidosis
+
+Lymphoplasmacytic lymphoma 
+
+* Waldenström macroglobulinemia, the size of macroglobulins cause the blood to become viscous.
+
+* Visual impairment
+
+* Cryoglobulinemia
+
+### Hodgkin lymphoma 
+
+Basic facts
+
+
+
+* “classic” RS cells are common in the **mixed-cellularity subtype**, uncommon in the **nodular sclerosis subtype**, and rare in the lymphocyte- predominance subtype; in these latter two subtypes, other characteristic RS cell variants predominate.
+
+[Nodular sclerosis Hodgkin lymphoma](https://classconnection.s3.amazonaws.com/261/flashcards/663261/png/nodular_sclerosing_hodgkins_lymphoma1319950956443.png)
+
+* striking propensity to involve the lower cervical, supraclavicular, and mediastinal lymph nodes
+
+* [the lacunar cell](http://library.med.utah.edu/WebPath/HEMEHTML/HEME110.html) which a single multilobate nucleus, multiple small nucleoli and abundant, pale-staining cytoplasm leaving the nucleus lying in an empty space (a lacune)
+
+* also see **Fig. 11–21** from text book. 
+
+[Mixed-cellularity Hodgkin lymphoma](http://www.webpathology.com/slides-13/slides/LymphNode_HodgkinsLymphoma_MixedCellularity2.jpg)
+
+* male predominance
+
+* Classic RS cells, within a heterogeneous inflammatory infiltrate 
+
+* small lymphocytes, eosinophils, plasma cells, and macrophages
+
+[Lymphocyte-Predominance Hodgkin lymphoma](https://upload.wikimedia.org/wikipedia/commons/5/55/Nodular_lymphocyte_predominant_Hodgkin_lymphoma_-_very_high_mag.jpg)
+
+*  presence of lymphohistiocytic (L&H) variant RS cells that have a delicate multilobed, puffy nucleus resembling popped corn (“popcorn cell”)
+
+* typical RS cells are rare
+
+
 ## immunotyping
 
 ALL
@@ -109,7 +213,20 @@ Mantle cell lymphoma
 
 * The tumor cells usually coexpress surface IgM and IgD, pan-B cell antigens (CD19 and CD20), and CD5.
 
+Diffuse 􏰂large B􏰀 Cell 􏰂lymphoma
 
+* These mature B cell tumors express pan-B cell antigens, such as CD19 and CD20. Many also express surface IgM and/or IgG. Other antigens (e.g., CD10, BCL2) are variably expressed.
+
+Burkitt lymphoma 
+
+* These B cell tumors express surface IgM, the pan-B cell markers CD19 and CD20, and the germinal center B cell markers CD10 and BCL6.
+
+Hodgkin lymphoma 
+
+* Typical RS cells and variants have a characteristic immunophenotype, as they express CD15 and CD30 and fail to express CD45(common leukocyte antigen)
+The immunophenotype of lacunar variants is identical to that of other RS cells found in classical subtypes.
+
+* L&H variants express B cell markers (e.g., CD20) and usually fail to express CD15 and CD30.
 
 ## Prognosis
 
@@ -139,6 +256,12 @@ Follicular lymphoma
 
 * therapy with cytotoxic drugs and rituximab (anti-CD20 antibody) is reserved for those with bulky, symptomatic disease.
 
+Diffuse Large B Cell Lymphoma
+
+* Kaposi sarcoma herpesvirus (KSHV), also called human herpesvirus type 8 (HHV-8), is associated with rare primary effusion lym- phomas,
+
+* Mediastinal large B cell lymphoma occurs most often in young women and shows a predilec- tion for spread to abdominal viscera and the central nervous system.
+
 ## cluster of differentiation
 
 CD19 (B cell) 
@@ -146,6 +269,15 @@ CD3 (T cell).
 pan-B cell markers CD19, CD20, and CD23
 CLL/SLL and mantle cell lymphoma express CD5.
 BCL6, a transcription factor required for the generation of germinal center B cells.
+Typical RS cells express CD15 and CD30 and fail to express CD45 (common leukocyte antigen), B cell antigens, and T cell antigens
+
+
+Hodgkin lymphoma | Non-Hodgkin lymphoma
+ :---: | :---: 
+More often localized to a single More frequent involvement of axial group of nodes cervical, multiple peripheral nodes mediastinal, para-aortic | More frequent involvement of multiple peripheral nodes 
+orderly spread by contiguity Noncontiguous spread | Noncontiguous spread 
+Mesenteric nodes and Waldeyer Mesenteric nodes and Waldeyer ring rarely involved ring commonly involved | Mesenteric nodes and Waldeyer ring commonly involved 
+Extranodal involvement uncommon | Extranodal involvement common 
 
 ## screenshot list
 
@@ -158,3 +290,17 @@ Figure 11–15 Small lymphocytic lymphoma/chronic lymphocytic leukemia—lymph n
 Figure 11–16 Follicular lymphoma—lymph node. A, Nodular aggregates of lymphoma cells are present throughout. B, At high magnification, small lymphoid cells with condensed chromatin and irregular or cleaved nuclear outlines (centrocytes) are mixed with a population of larger cells with nucleoli (centroblasts).  2
 
 
+Figure 11–17 Diffuse large B cell lymphoma—lymph node. The tumor cells have large nuclei with open chromatin and prominent nucleoli.   1
+
+
+Figure 11–18 Burkitt lymphoma—lymph node. The tumor cells and their nuclei are fairly uniform, giving a monotonous appearance. Note the high level of mitotic activity (arrowheads) and prominent nucleoli. The “starry sky” pattern produced by interspersed, lightly staining, normal macrophages is better appreciated at a lower magnification.
+
+
+Figure 11–19 Multiple myeloma. A, Radiograph of the skull, lateral view. The sharply punched-out bone defects are most obvious in the calvaria. B, Bone marrow aspirate. Normal marrow cells are largely replaced by plasma cells, including atypical forms with multiple nuclei, prominent nucleoli, and cytoplasmic droplets containing immunoglobulin.		2
+
+
+Figure 11–20 Hodgkin lymphoma—lymph node. A binucleate Reed- Sternberg cell with large, inclusion-like nucleoli and abundant cytoplasm is surrounded by lymphocytes, macrophages, and an eosinophil. 1 
+
+Figure 11–21 Hodgkin lymphoma, nodular sclerosis type—lymph node. A distinctive “lacunar cell” with a multilobed nucleus containing many small nucleoli is seen lying within a clear space created by retraction of its cytoplasm. It is surrounded by lymphocytes.
+
+Figure 11–22 Hodgkin lymphoma, nodular sclerosis type—lymph node. A low-power view shows well-defined bands of pink, acellular collagen that have subdivided the tumor cells into nodules. 1 
