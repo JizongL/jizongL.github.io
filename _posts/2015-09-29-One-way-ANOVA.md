@@ -12,6 +12,8 @@ Dataset is from Discovering Statistics 2e by Andy Field
 
 Create the data set
 
+<!--break-->
+
 <pre>
 	<code>
 clear
