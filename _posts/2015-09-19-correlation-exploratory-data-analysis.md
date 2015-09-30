@@ -6,7 +6,7 @@ category: Statistics
 tags: [correlation, EDA]
 ---
 
-This post introduce the procedure of performing basic correlation and exploratory data analysis. I will go through the steps on how to do some basic data cleaning, such as removing NA values and factors elements. How to conduct correlation analysis and form a correlation matrix. Finally, we will test if the correlation matrix is accurate by doing a pair of random selected identifier. You will also learn how to do basic subsetting of data and locating values from specific rows or columns. 
+This post introduces the procedure of performing basic correlation and exploratory data analysis. I will go through the steps on how to do some basic data cleaning, such as removing NA values and factors elements. How to conduct correlation analysis and form a correlation matrix. Finally, we will test if the correlation matrix is accurate by doing a pair of random selected identifier. You will also learn how to do basic subsetting of data and locating values from specific rows or columns. 
 
 <!--break-->
 House keeping

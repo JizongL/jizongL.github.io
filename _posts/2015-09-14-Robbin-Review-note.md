@@ -422,3 +422,48 @@ granulocyte-macrophage colony-stimulating factor, which are required for the gro
 
 * Calcitonin forms the precursor for amyloid deposited in thyroid medullary carcinomas. 
 
+* TGF-B also in the development of fibrosis in lung, liver, and kidneys that follows chronic inflammation.
+
+* TGF-β is an anti-inflammatory cytokine that serves to limit and terminate inflammatory responses. It does so by inhibiting lymphocyte proliferation and the activity of other leukocytes.
+
+* Medical Definition of HETEROPHAGY. : digestion in a fused vacuole and lysosome of material taken into a cell by phagocytosis or pinocytosis
+
+* Microsatellite instability occurs with mutation in genes, such as hMSH2, that repair DNA damage. 
+
+* E This patient has clinical features of neurofibromatosis type 1. The NF1 gene encodes for a GTPase-activating protein that facilitates the conversion of active (GTP-bound) RAS to inactive (GDP-bound) RAS. Loss of NF1 prevents such con- version and traps RAS in the active signal-transmitting stage that drives cell proliferation.
+
+* The p53 and c-MYC genes favor this metabolic change, whereas PTEN inhibits tumor cell autophagy, giving cancer cells an edge in growth.
+
+* t(14,18) BCL2, t(8,14) Burkitt Lymphoma, Myc.  t(9,22) Philidelphia 
+
+* CD44 plays a role in cell adhesion and enables malignant cells to metastasize.
+
+* A paraneoplastic syndrome results from ectopic secretion of a hormone by tumor (e.g., lung cancer cells producing corticotropin). Tumor heterogeneity does not refer to two separate kinds of neoplasms; it refers to heterogeneity with a given tumor or metastasis.
+
+* A The oncogenic potential of human papillomavirus (HPV), a sexually transmissible agent, is related to products of two early viral genes—E6 and E7. E7 protein binds to RB protein to cause displacement of normally sequestered transcription factors, which nullifies tumor suppressor activity of the RB protein. E6 protein binds to and inactivates the p53 gene product.
+
+* In- fection with Epstein-Barr virus is associated with various cancers, including Burkitt lymphoma and nasopharyngeal carcinoma
+
+* intravenous immunoglobulin (IVIG) is a blood product administered intravenously
+
+* SOLU-MEDROL Sterile Powder is an anti-inflammatory glucocorticoid, which contains methylprednisolone sodium succinate as the active ingredient.
+
+* Reiter syndrome is characterized by conjunctivitis, arthritis, and nongonococcal urethritis, with a positive serology for HLA-B27.
+
+*  In rheumatoid arthritis, there is often progressive joint deformity; the serologic tests likely to be positive include rheumatoid factor and antibodies to cyclic citrullinated peptide (anti-CCP). 
+
+* Aortic dissection is more likely in Reiter syndrome.
+
+* Ankylosing spondylitis is marked by kyphosis.
+
+* Dementia can be seen in patients with AIDS.
+
+* B cells have surface immunoglobulin, are CD19 positive, and participate in humoral immunity
+
+* CD4+ cells are T lymphocytes that are “helper” cells; they have T cell receptors and are CD3 positive.
+
+* Stem cells are CD34 positive and can give rise to the whole range of cells in the immune system and blood-forming cells.
+
+* This patient has clinical features of neurofibromatosis type 1. The NF1 gene encodes a GTPase-activating protein that facilitates the conversion of active (GTP-bound) RAS to inactive (GDP-bound) RAS.
+
+

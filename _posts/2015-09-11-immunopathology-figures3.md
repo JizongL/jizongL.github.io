@@ -14,6 +14,10 @@ tags: [pathology, diseases,review]
 
 * apotosis
 
+[refine appearance of apototic cells-see slide 10](http://www.pathpedia.com/education/eatlas/histopathology/liver_and_bile_ducts/chronic_hepatitis_c.aspx)
+
+<!--break-->
+
 <a target="_blank" href="/assets/pathology/test1/image13.png">
 <img src="/assets/pathology/test1/image13.png" alt="Klematis" width="200" height="180">
 <a/>
@@ -26,7 +30,18 @@ tags: [pathology, diseases,review]
 
 * An ischemic injury to most internal organs produces a pattern of cell death called coagulative necrosis. Note the faint outlines of renal tubules and glomerulus in the figure, but no cellular nuclei
 
-[refine appearance of apototic cells-see slide 10](http://www.pathpedia.com/education/eatlas/histopathology/liver_and_bile_ducts/chronic_hepatitis_c.aspx)
+<a target="_blank" href="/assets/pathology/test1/image15.png">
+<img src="/assets/pathology/test1/image15.png" alt="Klematis" width="200" height="180">
+<a/>
+
+* There is an apoptotic cell (arrow) that is shrunken and has been converted into a dense eosinophilic mass. There is a surrounding inflammatory reaction with cytotoxic lymphocytes. This pattern is typical of apoptosis. Caspase activation is a universal feature of apoptosis, regardless of the initiating cause. Apoptosis induced in recipient cells from donor lymphocytes occurs with graft-versus-host disease.
+
+
+<a target="_blank" href="/assets/pathology/test1/image16.png">
+<img src="/assets/pathology/test1/image16.png" alt="Klematis" width="200" height="180">
+<a/>
+
+* The valve is stenotic because of nodular deposits of calcium. The process is “dystrophic” because calcium deposition occurs in damaged tissues. The damage in this patient is a result of excessive wear and tear with aging. 
 
 <a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image19.jpeg">
 <img src="/assets/pathology/test1/InjuryStudyFigure/image19.jpeg" alt="Klematis" width="200" height="180">
@@ -36,7 +51,7 @@ tags: [pathology, diseases,review]
 
 [Cholesterolosis of the gallbladder](http://www.pathologyatlas.ro/pathology_atlas_imagini/cholesterolosis_02.jpg)
 
-<!--break-->
+
 
 <a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image23.jpeg">
 <img src="/assets/pathology/test1/InjuryStudyFigure/image23.jpeg" alt="Klematis" width="200" height="180">
@@ -51,6 +66,10 @@ tags: [pathology, diseases,review]
 *Granulomatous Inflammation, Lung.
 
 [labeled explanation](https://edc2.healthtap.com/ht-staging/user_answer/avatars/913735/large/open-uri20130308-28336-dwqobc.jpeg?1386611344)
+
+<a target="_blank" href="/assets/pathology/test1/image17.png">
+<img src="/assets/pathology/test1/image17.png" alt="Klematis" width="200" height="180">
+<a/>
 
 
 <a target="_blank" href="/assets/pathology/test1/InjuryStudyFigure/image28.png"><

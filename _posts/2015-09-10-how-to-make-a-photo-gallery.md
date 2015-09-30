@@ -10,48 +10,7 @@ This will work on platforms like Wordpress or Jekyll that let you minipulate "co
 
 <!--break-->
 
-Here is an example of what you will build
-
-<style>
-div.img {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #cccccc;
-    height: auto;
-    width: auto;
-    float: right;
-    text-align: center;
-}
-
-div.img img {
-    display: inline;
-    margin: 5px;
-    border: 1px solid #cccccc;
-}
-
-div.img a:hover img {
-    border:1px solid #cccccc;
-}
-
-div.desc {
-    text-align: center;
-    font-weight: normal;
-    font-size: 12px;
-    width: 200px;
-    margin: 5px;
-}
-</style>
-
-<body>
-
-<div class="img">
-  <a target="_blank" href="/assets/blog/gallery\ building/1.jpg">
-    <img src="/assets/blog/gallery\ building/1.jpg" alt="Klematis" width="200" height="180">
-  </a>
-  <div class="desc">lovely cat </div>
-</div>
-
-<p style="clear: both;">
+Here is an example which I built for my pathology review.
 
 Before we start, we need to get some photos. To make thing easy for you, I have already prepare some lovely 
 
