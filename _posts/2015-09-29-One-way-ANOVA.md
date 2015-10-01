@@ -13,7 +13,7 @@ Dataset is from Discovering Statistics 2e by Andy Field
 Create the data set
 
 <!--break-->
-
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 clear
@@ -36,9 +36,9 @@ input person str10	dose libido
 end
 
 
-	</code>
+</code>
 </pre>
-
+</div>		
 drop original variable and rename the new variable to original variable
 
 <pre>
@@ -53,6 +53,7 @@ drop original variable and rename the new variable to original variable
 
 The code blow shows that the factor (dose) with three levels
 
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 tab dose 
@@ -71,12 +72,13 @@ end of do-file
 
 	</code>
 </pre>	
-
+</div>		
 
 ### Exploratory data analysis 
 
 The code blow shows that the grand mean = 3.467 , Variance = 3.124 , SD = 1.767
 
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 
@@ -101,9 +103,11 @@ summarize libido,d  // grand mean = 3.467 , Variance = 3.124 , SD = 1.767
 
 	</code>
 </pre>
+</div>		
 
 Use tabstat command to explore the statistics in a more organized table
 
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 tabstat libido, statistics( mean sd semean var ) by(dose)
@@ -125,6 +129,7 @@ end of do-file
 
 	</code>	
 </pre>	
+</div>		
 
 To plot a box plot
 
@@ -138,6 +143,7 @@ graph box libido, over(dose)
 
 Before we can perform ANOVA, we need to make sure that the variables have equal variance, we can perform a test to check the [groupwise heteroskedasticity](http://www.stata-journal.com/sjpdf.html?articlenum=st0117) of variance as followed. To learn more about the robvar function, you can click [here](http://www.stata.com/manuals13/rsdtest.pdf). 
 
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code> 
 
@@ -164,11 +170,13 @@ end of do-file
 
 	</code>	
 </pre>
+</div>		
 
 From the above result, p-value for W0 is greater than 0.05 alpha level, so it is not significantly different and we can assume variance is equal across all variables.
 
 Now we can move on to perform ANOVA One Way
 
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 oneway libido dose
@@ -191,10 +199,14 @@ end of do-file
 
 	</code>		
 </pre>	
+</div>		
 
 From the result above, we see that there was a significant effect of Viagra on the levels of libido, (F2,12) = 5.12, $$ p < 0.05 $$ However, ANOVA alone does not tell us which pair of variables 
 
 
+
+
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 
@@ -237,4 +249,4 @@ end of do-file
 
 	</code>
 </pre>	
-		
+</div>		

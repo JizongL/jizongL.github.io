@@ -26,6 +26,7 @@ Solution: Step 1) Explore Data
 
 Exploratory data analysis
 
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 <code>
 . codebook
@@ -81,9 +82,10 @@ end of do-file
 . 
 </code>
 </pre>
-
+</div>
 Check dataset structure
 
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
  <code>
 . describe
@@ -109,9 +111,10 @@ end of do-file
 . 
  </code>
 </pre>
-
+</div>
 Data is sorted by “cond” so each litter are clumped by type of condition, it doesn’t matter the in which way its sorted, sometimes it good to sort in different ways to understand data structure.
 
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 . by cond, sort : summarize scores, format
@@ -158,11 +161,11 @@ Summary for variables: scores
 
 	</code>
 </pre>
-
+</div>
 ####Step 2
 
 Since “cond” is a string variable, there is a need to convert it to numeric
-
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 . gen _cond=.
@@ -191,8 +194,9 @@ end of do-file
 
 	</code>
 </pre>
-
+</div>
 Double check the newly generated _cond variable aligns with the original cond
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 
@@ -216,9 +220,9 @@ end of do-file
 . 
 	</code>
 </pre>
-
+</div>
 drop the original cond variable and rename the _cond variable to cond
-
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 
@@ -232,9 +236,9 @@ end of do-file
 
 	</code>
 </pre>
-
+</div>
 Summary
-
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 . by cond, sort : summarize scores, format //summary
@@ -266,8 +270,9 @@ end of do-file
 
 	</code>
 </pre>
-
+</div>
 estimate means by condition and by litter
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 . tabstat scores, stat( mean sd semean) by(cond) //means by condition
@@ -369,11 +374,11 @@ end of do-file
 	
 </code>
 </pre>
-
+</div>
 ####Step 3
 
 Plot a box Plot
-
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 /*Box Plot */
@@ -383,12 +388,13 @@ graph box scores ///
 	title(Distrubution of Aggression Scores by Living Condition Type, size(medlarge))
 	</code>
 </pre>
-
+</div>
 ![ddd](https://dl.dropboxusercontent.com/u/49272502/stata%20blog/ID740%20course%20material%20blog/module%203/graph/danielCh8Ex24Boxplot.png)
 
 ####Step 4
 
 Before moving on to ANOVA: Check the assumption of model additivity
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 findit nonadd // install this package
@@ -403,10 +409,11 @@ F (1,17) = .04801813   Pr > F: .82915782
 end of do-file
 	</code>
 </pre>
-
+</div>
 ####Step 5
 
 Perform One Way ANOVA
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 /* ANOVA model */
@@ -433,11 +440,11 @@ end of do-file
 
 	</code>
 </pre>
-
+</div>
 ####Step 6
 
 Perform PostHoc test
-
+<div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 <pre>
 	<code>
 pwcompare cond, mcompare(tukey) effects
@@ -469,3 +476,4 @@ end of do-file
 . 
 	</code>
 </pre>
+</div>
