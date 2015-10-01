@@ -552,6 +552,7 @@ end of do-file
 </div>	
 
 **mean attractive score among gender levels**
+
 <div style="width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;">
 	<pre>
 		<code>	
