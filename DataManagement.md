@@ -12,3 +12,6 @@ This page is built for the course [Data Management and Visualization](https://ww
 
 * 1:[Assignment 1 Getting Your Research Project Started](http://jizongl.github.io/data%20science/2015/09/19/Data-Management-Assignment1/)
 
+* 2:[Assignment 2 Running your first program](http://jizongl.github.io/data%20science/2015/09/27/pythonhomework/)
+
+* 3: [Assignment 3 Data Management](http://jizongl.github.io/data%20science/2015/10/04/Data-Management-Assignment3/)
