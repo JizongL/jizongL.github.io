@@ -96,12 +96,15 @@ Diffuse 􏰂large B􏰀 Cell 􏰂lymphoma
 
 * Another 30% of tumors have a (14,18) translocation involving the BCL2 gene that results in overexpression of BCL2 protein. loss-of-function mutations in genes encoding histone acetyl transferases.
 
+* Aneuploidy and high S phase 
 
 Burkitt lymphoma 
 
 * highly associated with translocations involving the MYC gene on chromosome 8. Most translocations fuse MYC with the IgH gene on chromo- some 14, but variant translocations involving the κ and λ light chain loci on chromosomes 2 and 22, respectively, are also observed.
 
 * “starry sky” pattern.
+
+* usually is present in the jaw or abdomen
 
 Muliple Myeloma and Related Plasma Cell Tumors
 
@@ -190,8 +193,44 @@ Basic facts
 
 * typical RS cells are rare
 
+[Extranodal Marginal Zone Lymphoma](http://www.webpathology.com/slides-13/slides/Stomach_Lymphoma_MALToma1.jpg)
+
+* tend to develop in the setting of autoimmune disorders(sjogren and Hashimoto thyroiditis) or chronic infection like H. pylori gastritis. 
+
+(11,18) translocation involving the MALT1 and IAP2 genes. it is predictive of the failure of gastric tumors to respond to antibiotic treatment. 
+
+[Hairy Cell Leukemia](http://www.pathpedia.com/education/eatlas/histopathology/blood_cells/hairy_cell_leukemia_classic/hairy-cell-leukemia-%5B5-bl089-1%5D.jpeg?Width=600&Height=450&Format=4)
+
+* activating mutations in the serine/threo- nine kinase BRAF
+
+* mainly in older males, infiltration of bone marrow and splenomegaly, Pancytopenia.
+
+* rara lymph node involvement. 
+
+* pancytopenia and infections cause the major clinical problems.
+
+* sensistive to chemotherapeutic agents, particularly purine nucleosides
+
+[Mycosis Fungoides and Sézary Syndrome](http://media.tumblr.com/tumblr_mc01t2BA101r9he9m.jpg) (also cutaneous T cell lymphoma)
+
+* Sézary syndrome is a clinical variant characterized by (1) a generalized exfoliative erythroderma (2) tumor cells( Sezary cells) in peripheral blood. 
+
+* circulating tumor cells present in 25 % of cases of plaque or tumor-phase mycosis fungoides. 
+
+* with mycosis fungoides, survival for many years, tumor-phase disease, visceral disease, or sezary syndrome, survival for 1 to 3 years. 
+
+[Adult T Cell Leukemia/Lymphoma](http://pathy.med.nagoya-u.ac.jp/atlas/img/t2/img0024.jpg)
+
+* Neoplasm of CD4+ T cells, caused by a retrovirus, human T cell leukemia virus type 1 (HTLV-1).
+
+* some patients develop a chronic course resembling that of mycosis fungoides.
+
+* short survival time (8 months)
+
+[Peripheral T Cell Lymphomas]()
 
 ## immunotyping
+
 
 ALL
 
@@ -227,6 +266,15 @@ Hodgkin lymphoma
 The immunophenotype of lacunar variants is identical to that of other RS cells found in classical subtypes.
 
 * L&H variants express B cell markers (e.g., CD20) and usually fail to express CD15 and CD30.
+
+
+Hairy Cell leukemia
+
+* The tumor cells express pan-B cell markers (CD19 and CD20), surface immunoglobulin, and CD11c and CD103; the latter two antigens are not present on most other B cell tumors, making them diagnostically useful.
+
+Adult T Cell Leukemia/Lymphoma
+
+* In addition to CD4, the leukemic cells express high levels of CD25, the IL-2 receptor α chain.
 
 ## Prognosis
 
@@ -270,7 +318,8 @@ pan-B cell markers CD19, CD20, and CD23
 CLL/SLL and mantle cell lymphoma express CD5.
 BCL6, a transcription factor required for the generation of germinal center B cells.
 Typical RS cells express CD15 and CD30 and fail to express CD45 (common leukocyte antigen), B cell antigens, and T cell antigens
-
+CD68 is a macrophage (histiocyte) marker
+T-cell markers CD2 and CD7.
 
 Hodgkin lymphoma | Non-Hodgkin lymphoma
  :---: | :---: 
@@ -280,6 +329,8 @@ Mesenteric nodes and Waldeyer Mesenteric nodes and Waldeyer ring rarely involved
 Extranodal involvement uncommon | Extranodal involvement common 
 
 ## screenshot list
+
+### Robbins Basic Pathology
 
 Figure 11–14 Morphologic comparison of lymphoblasts and myeloblasts. A, Lymphoblastic leukemia/lymphoma. Lymphoblasts have condensed nuclear chromatin, small nucleoli, and scant agranular cytoplasm. B, Acute myeloid leukemia. Myeloblasts have delicate nuclear chromatin, prominent nucleoli, and fine azurophilic cytoplasmic granules. 433
 
@@ -304,3 +355,9 @@ Figure 11–20 Hodgkin lymphoma—lymph node. A binucleate Reed- Sternberg cell 
 Figure 11–21 Hodgkin lymphoma, nodular sclerosis type—lymph node. A distinctive “lacunar cell” with a multilobed nucleus containing many small nucleoli is seen lying within a clear space created by retraction of its cytoplasm. It is surrounded by lymphocytes.
 
 Figure 11–22 Hodgkin lymphoma, nodular sclerosis type—lymph node. A low-power view shows well-defined bands of pink, acellular collagen that have subdivided the tumor cells into nodules. 1 
+
+
+### Basis of Disease
+
+Figure 13-2  Reactive changes in neutrophils. Neutrophils containing coarse  purple  cytoplasmic  granules  (toxic  granulations)  and  blue  cytoplasmic  patches of dilated endoplasmic reticulum (Döhle bodies, arrow) are observed  in this peripheral blood smear prepared from a patient with bacterial sepsis. 
+
