@@ -152,20 +152,54 @@ No abnormalities are found on physical exam except for **petechiae**, a few **br
 
 ### 11. What does the CBC reveal? 
 
+* low htc (anemia), low WBC(pan-cytopenias),low platelets indicates haematopoiesis 
+
+
+* high MCV >100fL (macrocytosis), the multivitamin given previously was for B12 deficiency. 
+
+* Abnormal RBC maturation (eg, myelodysplastic syndrome, acute leukemia, LGL leukemia)
+
+
+
 
 ### 12. Examine the peripheral smear.  Describe your findings, particularly the nuclear features of the neutrophils.  What is this phenomenon called and when may it be seen? 
 
+neutrophils appear bilobed, indicative of Pelger-Huet anomaly. It may be seen in Myelodysplastic Syndromes
+
+![Peripheral blood film](/assets/pathology/smallGroup/WBC/6.jpeg)
+
 ### 13. What is your differential diagnosis?
+
+old age, fatigue, anemia , pallor and pale mucous membranes, 
+
+bruise and petechiae assoicated with low platelets count (thrombocytopenia.)
+
+Pelger-Huet anomaly
+
+low htc, low WBC(pan-cytopenias),low platelets indicates haematopoiesis 
+
+**note** patient previous was given iron treatment, and he did not response to it. 
+
 
 ### 14. What is the next diagnostic test which should be performed and why?
 
+[Bone marrow tests](http://www.cancer.org/cancer/myelodysplasticsyndrome/detailedguide/myelodysplastic-syndromes-diagnosis)
 
-![Peripheral blood film](/assets/pathology/smallGroup/WBC/6.jpeg)
+These tests are used first for diagnosis and classification and may be repeated later to tell if the MDS is responding to therapy or is transforming into an acute leukemia.
+
 
 
 ### 15. Examine the bone marrow aspirate and biopsy (slides 2-5).  Describe your findings.  What are typical marrow findings in myelodysplastic syndromes? 
 
+1 Bone marrow biopsy showed 100% cellularity with erythroid predominance and granulocytic and megakaryocytic dyspoiesis
 
+
+2 dysplastic red cell precursors manifested by abnormal nuclear contours, nuclear budding, and other abnormalities of nuclei
+
+
+3 Significant erythroid predominance with dyserythropoiesis and with Auer rod. (confirmed it is AML)  
+
+4 Hypercellular bone marrow with dysmegakaryopoiesis.
 
 
 #### bone marrow aspirate and biopsy (slides 2-5) for case 2
@@ -182,11 +216,17 @@ No abnormalities are found on physical exam except for **petechiae**, a few **br
   </a>
   <div class="desc">Marked dyserythropoiesis in marrow</div>
 </div>
+
+Prominent erythroid dysplasia and rare dysplastic granulocytic precursors
+
 <div class="img">
   <a target="_blank" href="/assets/pathology/smallGroup/WBC/9.jpeg">
     <img src="/assets/pathology/smallGroup/WBC/9.jpeg" alt="slide4" width="180" height="150">
   </a>
    <div class="desc">Cluster of myeloblasts—one has an Auer rod</div>
+
+
+
 </div>
 <div class="img">
   <a target="_blank" href="/assets/pathology/smallGroup/WBC/10.jpeg">
@@ -194,11 +234,31 @@ No abnormalities are found on physical exam except for **petechiae**, a few **br
   </a>
     <div class="desc">Marrow depicting abnormal localization of immature precursors</div>
 </div>
-
+Lymphoid aggregate in a background of hypercellular bone marrow.
 
 
 
 ### 16. Describe low and high-grade myelodysplastic syndromes in terms of marrow cellularity.
 
+progress slowly and may cause mild to moderate anemia (a low number of red cells), or decrements to other types of cells.
 
+* higher blast counts and more severe cytopenias, as well as the presence of multiple clonal chromosomal abnormalities.
+
+**additional information** (see [source here](http://www.hopkinsmedicine.org/kimmel_cancer_center/types_cancer/myelodysplastic_syndrome.html))
+
+*immature cells called blast cells make up more than 5 percent of the cells in the marrow.*
+
+*When MDS patients develop more than 20 percent blast cells, they are reclassified as having acute myelogenous leukemia (AML)*
+
+
+### 17. What is aleukemic leukemia?  
+
+blasts are entirely absent from the blood (aleukemic leukemia).
+
+### 18. What findings might you expect on a karyotyping study of the marrow in MDS?  What is the most common cytogenetic abnormality in acute myeloid leukemia?
+
+
+* Monosomies 5 and 7
+* Deletions of 5q, 7q, and 20q
+* Trisomy 8
 
