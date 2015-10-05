@@ -12,7 +12,9 @@ tags: [exam II, pathology, block 2]
 ## Case 1
 
 ### 1. What is your differential diagnosis after physical examination?
+
 <!--break-->
+
 ### 2. What are some causes of bone marrow failure? 
 
 ### CBC Results:
