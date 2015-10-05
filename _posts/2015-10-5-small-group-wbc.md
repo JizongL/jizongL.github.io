@@ -262,3 +262,29 @@ blasts are entirely absent from the blood (aleukemic leukemia).
 * Deletions of 5q, 7q, and 20q
 * Trisomy 8
 
+### 19. What is the prognosis for MDS?  Describe treatments for myelodysplastic syndrome.  What are causes of death in myelodysplastic syndrome?
+
+#### prognosis
+
+The median survival in primary MDS varies from 9 to 29 months, but some individuals in good prognostic groups may live for 5 years or more.
+
+Overall, progression to AML occurs in 10% to 40% of individuals and is usually accompanied by the appearance of additional cytogenetic abnormalities.
+
+#### cause of death
+
+Patients often succumb to the complications of thrombocytopenia (bleeding) and neutropenia (infection). The outlook is even grimmer in t-MDS, which has a median survival of only 4 to 8 months. 
+
+In t-MDS, cytopenias tend to be more severe and progression to AML is often rapid.
+
+#### treatment 
+
+* In younger patients
+
+allogeneic hematopoietic stem cell transplantation offers hope for reconstitution of normal hematopoiesis and possible cure. 
+* Older patients 
+
+Supportively with antibiotics and blood product transfusions. 
+
+**Thalidomide-like drugs** and DNA methylation inhibitors improve the effectiveness of hematopoiesis and the peripheral blood counts in a subset of patients. 
+
+The presence of isolated 5q- is correlated with a hematologic response to thalidomide-like drugs, but as yet response to DNA methylation inhibitors is unpredictable.
