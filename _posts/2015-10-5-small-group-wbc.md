@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: True
-title: WBC
+title: WBC small group
 category: Pathology
-tags: [exam II, pathology, block 2]
+tags: [exam II, pathology, block 2, small group, WBC]
 ---
 
 This post is written for the small group presentation on WBC, which is from the pathology course I take at UMMC
