@@ -6,14 +6,16 @@ category: Pathology
 tags: [exam II, pathology, block 2]
 ---
 
+This post is written for the small group presentation on WBC, which is from the pathology course I take at UMMC
+
+<!--break-->
+
 * This line is a placeholder to generate the table of contents
 {:toc}
 
 ## Case 1
 
 ### 1. What is your differential diagnosis after physical examination?
-
-<!--break-->
 
 ### 2. What are some causes of bone marrow failure? 
 
