@@ -127,7 +127,7 @@ The lab calls you with the CBC results as the patient is being taken to Radiolog
 
 The patient is a 77 year-old man with **extreme fatigue and malaise**.  He saw a doctor at a walk-in clinic seven months ago for similar complaints.  He shows you the prescription given to him then, which he has faithfully taken.  It is a **multivitamin with iron**.  He is on no other medications.  He is thin, but not cachectic and he appears tired. 
 
-No abnormalities are found on physical exam except for **petechiae**, a few **bruises** on his lower legs, **pallor and pale mucous membranes**.  The digital rectal exam shows no enlargement of the prostate gland and the stool guaiac test is negative | for occult blood.  You send a blood sample in a purple top (EDTA) tube for a CBC with reticulocyte count. 
+No abnormalities are found on physical exam except for **petechiae**, a few **bruises** on his lower legs, **pallor and pale mucous membranes**.  The digital rectal exam shows no enlargement of the prostate gland and the stool guaiac test is negative for occult blood.  You send a blood sample in a purple top (EDTA) tube for a CBC with reticulocyte count. 
 
 
 ### CBC Results:
