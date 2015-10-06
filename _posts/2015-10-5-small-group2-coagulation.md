@@ -8,7 +8,9 @@ tags: [exam II, pathology, block 2, small group 3, WBC]
 
 
 This post is written for the small group presentation on WBC, which is from the pathology course I take at UMMC
+
 <!--break-->
+
 * This line is a placeholder to generate the table of contents
 {:toc}
 
