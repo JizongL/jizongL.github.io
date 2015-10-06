@@ -14,7 +14,7 @@ This post is written for the small group presentation on WBC, which is from the 
 * This line is a placeholder to generate the table of contents
 {:toc}
 
-## Coagulation Case 1
+## Case 1
 
 ### background info
 
@@ -90,8 +90,8 @@ Mixing Study with PT:
 
 ### 7. How would you correct this coagulation problem?
 
-￼
-## Coagulation Case 2
+
+## Case 2
 
 ### background information 
 
