@@ -76,6 +76,15 @@ The lab calls you with the CBC results as the patient is being taken to Radiolog
 
 ### 7. Explain the flow cytometry results.  How do immunophenotyping studies (flow cytometry) help determine the diagnosis?  Refer to the chart of lymphocyte maturation (next slide) for a reference.
 
+CD45  leukocyte common antigen (LCA)
+CD34  CD117 - blast/stem cell marker
+HLA-DR  (early myeloid and B-cells)
+TdT (lymphoid)
+CD 10,19,20 are positive, indicates lymphoid (B-lineage) 
+CD2,3,5 are negatives, rule out peripheral T-cell lymphomas -lymphoid (T-lineage) 
+
+kappa and lambda are negative - rule out Plasma Cell Neoplasms and Related Disorders
+
 |:---:|:---:|:---:|:---:|
 | CD45	| positive |	Surface kappa|	negative |
 | CD34	|	negative |	Surface lambda |	negative |
@@ -115,11 +124,21 @@ The lab calls you with the CBC results as the patient is being taken to Radiolog
 
 ### 9.  What is the prognosis for this patient based on WBC, age, and gender?  Describe favorable and unfavorable cytogenetic findings for patients with ALL.
 
+B-ALL
+Children: 95% remission; 80% appear to be cured.
+Adults: 60-85% remission. Genetics not as well characterized as in children (25% have Ph1 chromosome.
+B-LBL
+High remission rate. Median survival 5 years
+
 
 ### 10. The patient is treated with chemotherapy including vincristine, prednisone, and L-asparaginase with intrathecal methotrexate (MTX).  Why is intrathecal treatment indicated?
 
 * a. What is the mechanism of the chemotherapeutic agents in general?  
+
+
 * b. With what enzyme does methotrexate (MTX) interfere?
+dihydrofolate reductase
+
 * c. What is complete remission (CR)?
 
 
@@ -158,12 +177,9 @@ No abnormalities are found on physical exam except for **petechiae**, a few **br
 
 * low htc (anemia), low WBC(pan-cytopenias),low platelets indicates haematopoiesis 
 
-
 * high MCV >100fL (macrocytosis), the multivitamin given previously was for B12 deficiency. 
 
 * Abnormal RBC maturation (eg, myelodysplastic syndrome, acute leukemia, LGL leukemia)
-
-
 
 
 ### 12. Examine the peripheral smear.  Describe your findings, particularly the nuclear features of the neutrophils.  What is this phenomenon called and when may it be seen? 
@@ -284,7 +300,8 @@ In t-MDS, cytopenias tend to be more severe and progression to AML is often rapi
 
 * In younger patients
 
-allogeneic hematopoietic stem cell transplantation offers hope for reconstitution of normal hematopoiesis and possible cure. 
+allogeneic hematopoietic stem cell transplantation offers hope for reconstitution of normal hematopoiesis and possible cure.
+
 * Older patients 
 
 Supportively with antibiotics and blood product transfusions. 
