@@ -10,6 +10,8 @@ This post is written for the small group presentation on WBC, which is from the 
 
 <!--break-->
 
+<p id = "beginning"></p>
+
 * This line is a placeholder to generate the table of contents
 {:toc}
 
@@ -126,21 +128,32 @@ kappa and lambda are negative - rule out Plasma Cell Neoplasms and Related Disor
 
 B-ALL
 Children: 95% remission; 80% appear to be cured.
+
+11 q23
+
 Adults: 60-85% remission. Genetics not as well characterized as in children (25% have Ph1 chromosome.
 B-LBL
 High remission rate. Median survival 5 years
 
+<a href = "#beginning">back to the top</a>
 
 ### 10. The patient is treated with chemotherapy including vincristine, prednisone, and L-asparaginase with intrathecal methotrexate (MTX).  Why is intrathecal treatment indicated?
 
+a lot of chemo drugs don't pass the brain blood barrior. so it needs Intrathecal therapy 
+
 * a. What is the mechanism of the chemotherapeutic agents in general?  
 
+targeting rapidly deviding cells
 
 * b. With what enzyme does methotrexate (MTX) interfere?
+
 dihydrofolate reductase
 
 * c. What is complete remission (CR)?
 
+dispearance of signs of cancer cells
+
+the blast number should be at 5% or less
 
 
 
@@ -157,7 +170,7 @@ No abnormalities are found on physical exam except for **petechiae**, a few **br
 
 |patient| Reference Interval|
 |:---:| :---:|
-| WBC=1,180/mm3|(4000-11,000/mm3) |
+| WBC=1,180/mm<sup>3</sup>|(4000-11,000/mm<sup>3</sup>) |
 | HGB=10 g/dL|(14-18 g/dL)|
 |HCT=30%|(42-49%)|
 |MCV=103 fL	|(80-99 fL)|
@@ -181,10 +194,15 @@ No abnormalities are found on physical exam except for **petechiae**, a few **br
 
 * Abnormal RBC maturation (eg, myelodysplastic syndrome, acute leukemia, LGL leukemia)
 
+* low reticulocyte (either it is not produced, the **bone marrow** is not functioning)
+
+* WEB differential does not mention any blast. 
 
 ### 12. Examine the peripheral smear.  Describe your findings, particularly the nuclear features of the neutrophils.  What is this phenomenon called and when may it be seen? 
 
 neutrophils appear bilobed, indicative of Pelger-Huet anomaly. It may be seen in Myelodysplastic Syndromes
+
+note: when seeing hypersegmented nutrophils, think of B12 deficiency
 
 ![Peripheral blood film](/assets/pathology/smallGroup/WBC/6.jpeg)
 
@@ -200,10 +218,21 @@ low htc, low WBC(pan-cytopenias),low platelets indicates haematopoiesis
 
 **note** patient previous was given iron treatment, and he did not response to it. 
 
+also consider drug toxicity 
 
 ### 14. What is the next diagnostic test which should be performed and why?
 
 [Bone marrow tests](http://www.cancer.org/cancer/myelodysplasticsyndrome/detailedguide/myelodysplastic-syndromes-diagnosis)
+
+trilineage of the cells
+
+aspirate provides morphological features and architecture of the cells. 
+
+adjust cellularity 
+
+send to cytogenetic for abnormality 
+
+and float cytometry 
 
 These tests are used first for diagnosis and classification and may be repeated later to tell if the MDS is responding to therapy or is transforming into an acute leukemia.
 
@@ -211,13 +240,15 @@ These tests are used first for diagnosis and classification and may be repeated 
 
 ### 15. Examine the bone marrow aspirate and biopsy (slides 2-5).  Describe your findings.  What are typical marrow findings in myelodysplastic syndromes? 
 
-1 Bone marrow biopsy showed 100% cellularity with erythroid predominance and granulocytic and megakaryocytic dyspoiesis
-
+1 Bone marrow biopsy showed 100% cellularity (hypercellularity) with erythroid predominance and granulocytic and megakaryocytic dyspoiesis
 
 2 dysplastic red cell precursors manifested by abnormal nuclear contours, nuclear budding, and other abnormalities of nuclei
 
+dysmegakaryopoiesis, erythoroid precursor. 
 
-3 Significant erythroid predominance with dyserythropoiesis and with Auer rod. (confirmed it is AML)  
+3 Significant erythroid predominance with dyserythropoiesis and with **Auer rod**. (confirmed it is AML)  
+
+large N/C ratio. has large cytoplasm. 
 
 4 Hypercellular bone marrow with dysmegakaryopoiesis.
 
@@ -260,27 +291,47 @@ Lymphoid aggregate in a background of hypercellular bone marrow.
 
 ### 16. Describe low and high-grade myelodysplastic syndromes in terms of marrow cellularity.
 
-progress slowly and may cause mild to moderate anemia (a low number of red cells), or decrements to other types of cells.
+* progress slowly and may cause mild to moderate anemia (a low number of red cells), or decrements to other types of cells.
 
 * higher blast counts and more severe cytopenias, as well as the presence of multiple clonal chromosomal abnormalities.
 
-**additional information** (see [source here](http://www.hopkinsmedicine.org/kimmel_cancer_center/types_cancer/myelodysplastic_syndrome.html))
+*additional information* (see [source here](http://www.hopkinsmedicine.org/kimmel_cancer_center/types_cancer/myelodysplastic_syndrome.html))
+
+grade 1
+
+5%  to 9% 
+
+grade 2
+10% to 19%
+
+if auer rod is present, it is considered grade 2
 
 *immature cells called blast cells make up more than 5 percent of the cells in the marrow.*
 
-*When MDS patients develop more than 20 percent blast cells, they are reclassified as having acute myelogenous leukemia (AML)*
+* When MDS patients develop more than 20 percent blast cells, they are reclassified as having acute myelogenous leukemia (AML)*
 
 
 ### 17. What is aleukemic leukemia?  
 
 blasts are entirely absent from the blood (aleukemic leukemia).
 
+can happen in any of the 4 major leukemias. 
+
+
+
 ### 18. What findings might you expect on a karyotyping study of the marrow in MDS?  What is the most common cytogenetic abnormality in acute myeloid leukemia?
 
 
+
 * Monosomies 5 and 7
+
 * Deletions of 5q, 7q, and 20q
+
 * Trisomy 8
+
+* deletion 5q isolation, has better pronosis. 
+
+* 7 q is worse
 
 ### 19. What is the prognosis for MDS?  Describe treatments for myelodysplastic syndrome.  What are causes of death in myelodysplastic syndrome?
 
@@ -292,7 +343,7 @@ Overall, progression to AML occurs in 10% to 40% of individuals and is usually a
 
 #### cause of death
 
-Patients often succumb to the complications of thrombocytopenia (bleeding) and neutropenia (infection). The outlook is even grimmer in t-MDS, which has a median survival of only 4 to 8 months. 
+Patients often succumb to the complications of thrombocytopenia (bleeding) and neutropenia (infection). The outlook is even grimmer in t-MDS, which has a median survival of only 4 to 8 months. **bleeding is the major cause**
 
 In t-MDS, cytopenias tend to be more severe and progression to AML is often rapid.
 
@@ -306,6 +357,6 @@ allogeneic hematopoietic stem cell transplantation offers hope for reconstitutio
 
 Supportively with antibiotics and blood product transfusions. 
 
-**Thalidomide-like drugs** and DNA methylation inhibitors improve the effectiveness of hematopoiesis and the peripheral blood counts in a subset of patients. 
+**Thalidomide-like drugs** and DNA methylation inhibitors improve the effectiveness of hematopoiesis and the peripheral blood counts in a subset of patients. (no longer use)
 
 The presence of isolated 5q- is correlated with a hematologic response to thalidomide-like drugs, but as yet response to DNA methylation inhibitors is unpredictable.
