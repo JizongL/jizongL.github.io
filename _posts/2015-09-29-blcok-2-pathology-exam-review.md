@@ -320,6 +320,36 @@ BCL6, a transcription factor required for the generation of germinal center B ce
 Typical RS cells express CD15 and CD30 and fail to express CD45 (common leukocyte antigen), B cell antigens, and T cell antigens
 CD68 is a macrophage (histiocyte) marker
 T-cell markers CD2 and CD7.
+CLL/SLL has a distinctive immuno- phenotype. The tumor cells express the pan B-cell markers CD19 and CD20, as well as CD23 and CD5, the latter a marker that is found on a small subset of normal B cells.
+Plasma cell tumors are positive for CD138, an adhesion molecule also known as syndecan-1, and often express CD56,
+CD45 - leukocyte common antigen (LCA)
+CD15 - expressed on granulocytes
+Myeloperoxidase (MPO) – myeloid cells
+CD34, CD117 - blast/stem cell marker
+Hemoglobin - erythroid precursors
+CD61, Factor VIII related antigen - megakaryocytic precursors
+
+Flow Cytometry
+for AML
+Myeloid markers:
+Myeloperoxidase
+CD13
+CD33
+CD117
+Blast/stem cell marker:
+CD34, CD117
+Monocytic marker:
+CD4, CD14, CD64
+Megakaryocytic markers:
+CD41
+CD61
+Erythroid markers:
+CD71 (transferrin receptor)
+glycophorin
+Miscellaneous:
+HLA-DR (early myeloid and B-cells)
+
+
 
 Hodgkin lymphoma | Non-Hodgkin lymphoma
  :---: | :---: 
@@ -360,4 +390,7 @@ Figure 11–22 Hodgkin lymphoma, nodular sclerosis type—lymph node. A low-powe
 ### Basis of Disease
 
 Figure 13-2  Reactive changes in neutrophils. Neutrophils containing coarse  purple  cytoplasmic  granules  (toxic  granulations)  and  blue  cytoplasmic  patches of dilated endoplasmic reticulum (Döhle bodies, arrow) are observed  in this peripheral blood smear prepared from a patient with bacterial sepsis. 
+
+
+
 

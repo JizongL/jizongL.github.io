@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Pathology reiew part II diseases and symtoms &middot; TmmGeek
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="/public/css/custom.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  
+
+  <div class="sidebar-item">
+    <p>This blog is created for sharing my love and 
+      experiences with Bioinformatics, programming and
+      statistics, thank you for visiting!</p>
+  </div>
+   <div class="sidebar-logo" align="center" >
+      <img src="http://www.gravatar.com/avatar/0f8154e563aa3319f1ebc77be5fca304?s=140" />
+  </div>
+  <div id="contact-list" style="text-align:center">
+      
+        <a href="https://github.com/JizongL">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-github-alt fa-stack-1x"></i>
+          </span>
+        </a>
+      
+
+      
+        <a href="https://www.linkedin.com/in/jizongliang">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x"></i>
+          </span>
+        </a>
+      
+
+      
+        <a href="mailto: davidliangtmm@gmail.com">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x"></i>
+          </span>
+        </a>
+      
+
+      
+        <a href="https://twitter.com/JizongLiang">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-twitter-square fa-stack-1x"></i>
+          </span>
+        </a>
+      
+
+  </div>
+
+   
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+  
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/DataManagement/">Data Management and Visualization</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/ProbabilityAndStastics/">Probability and Statistics</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/TextMining/">Texting Mining Resource</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/archive/">Archive</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/mycredential/">CV</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/onlineTools/">online tools and resources</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/resource/">Pathology subsection</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/tags/">Tags</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">TmmGeek</a>
+            <small>A blog for bioinformatics programming and statistics</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Pathology reiew part II diseases and symtoms</h1>
+  <span class="post-date">04 Sep 2015</span>
+  <h3 id="inflammation-and-repair">Inflammation and repair</h3>
+
+<p>Ankle swelling</p>
+
+<ul>
+  <li>is most likely to result from peripheral edema secondary to congestive heart failure</li>
+</ul>
+
+<p>Increased susceptibility to bruising</p>
+
+<ul>
+  <li>prolonged glucocorticoid administration</li>
+</ul>
+
+<!--break-->
+
+<ul>
+  <li>also leukopenia</li>
+</ul>
+
+<p>Asthma</p>
+
+<ul>
+  <li>results from bronchoconstriction mediated by leukotrienes</li>
+</ul>
+
+<p>Fever</p>
+
+<ul>
+  <li>prostaglandin release</li>
+</ul>
+
+<p>chronic inflammation</p>
+
+<ul>
+  <li>
+    <p>mononuclear cell infiltration</p>
+  </li>
+  <li>
+    <p>fibrosis and angiogenesis</p>
+  </li>
+  <li>
+    <p>repair</p>
+  </li>
+</ul>
+
+<p>Serous inflammation</p>
+
+<ul>
+  <li>exudation of fluid into the subcorneal or subepidermal space and the fluid is relatively protein-poor.</li>
+</ul>
+
+<p>fibrin accumulation</p>
+
+<ul>
+  <li>protein-rich exudate</li>
+</ul>
+
+<p>Granulomatous inflammation</p>
+
+<ul>
+  <li>collections of transformed macrophages called epithelioid cells</li>
+</ul>
+
+<p>Purulent inflammation</p>
+
+<ul>
+  <li>Acute inflammatory cells, mainly neutrophils, exuded into a body cavity or space form a purulent (suppurative) exudate, typically associated with liquefactive necrosis</li>
+</ul>
+
+<p>Ulceration</p>
+
+<ul>
+  <li>Loss of the epithelium</li>
+</ul>
+
+<p>Candida</p>
+
+<ul>
+  <li>a commensal organism in the oropharyngeal region and rarely causes pneumonia in healthy <strong>(non-immunosuppressed)</strong> individuals.</li>
+</ul>
+
+<p>Cytomegalovirus</p>
+
+<ul>
+  <li>produce a mononuclear interstitial inflammatory cell response</li>
+</ul>
+
+<p>Enterobacter aerogenes</p>
+
+<ul>
+  <li>produce acute inflammation.</li>
+</ul>
+
+<p>Plasmodium falciparum</p>
+
+<ul>
+  <li>produces malaria, a parasitic infection without a significant degree of lung involvement.</li>
+</ul>
+
+<p>Mixed connective tissue disease</p>
+
+<ul>
+  <li>
+    <p>have some features of systemic lupus erythematosus (SLE), myo- sitis, rheumatoid arthritis, scleroderma, and Sjögren syn- drome.</p>
+  </li>
+  <li></li>
+</ul>
+
+<p>Staphylococcus aureus</p>
+
+<ul>
+  <li>endocarditis</li>
+</ul>
+
+<p>endocarditis</p>
+
+<ul>
+  <li>
+    <p>Cardiac murmurs</p>
+  </li>
+  <li>
+    <p>nonbacterial thrombotic endocarditis</p>
+  </li>
+</ul>
+
+<p>Streptococcus pyogenes(strep throat)</p>
+
+<ul>
+  <li>
+    <p>acute inflammation</p>
+  </li>
+  <li>
+    <p>fever caused by bacterial organisms through release of pyrogen.</p>
+  </li>
+</ul>
+
+<p>Acute hepatitis</p>
+
+<ul>
+  <li>
+    <p>hepatocyte necrosis</p>
+  </li>
+  <li>
+    <p>elevations in AST and ALT</p>
+  </li>
+</ul>
+
+<h3 id="immune-diseases">immune diseases</h3>
+
+<p>advanced HIV infection.</p>
+
+<ul>
+  <li>the CD4+:CD8+ ratio is reversed so that it is typically less than 1</li>
+</ul>
+
+<p>gout</p>
+
+<ul>
+  <li>urate crystals deposition</li>
+</ul>
+
+<p>Type I Hypersensisty</p>
+
+<ul>
+  <li>
+    <p>with antigen triggering mast cell–bound IgE with release of preformed mediators such as histamine.</p>
+  </li>
+  <li>
+    <p>Leukotriene C4</p>
+  </li>
+  <li>
+    <p>Mast cells degranulate with antigen attachment to IgE</p>
+  </li>
+</ul>
+
+<p>In tuberculosis</p>
+
+<ul>
+  <li>macrophages further transform into epithelioid cells that can contribute to granulomatous inflammation.</li>
+</ul>
+
+<p>Type II Hypersensisty</p>
+
+<p>Type III Hypersensisty</p>
+
+<ul>
+  <li>Arthus reaction</li>
+</ul>
+
+<p>Type IV Hypersensisty</p>
+
+<ul>
+  <li>Langhans giant cells are seen in granulomatous inflammation</li>
+</ul>
+
+<p>urticarial rash</p>
+
+<p>type I hypersensitivity</p>
+
+<p>Goodpasture syndrome</p>
+
+<ul>
+  <li>an autoantibody is directed against type IV collagen in basement membranes of the glomeruli (causing glomerulonephritis) and in the</li>
+</ul>
+
+<p>lung. This is a form of type</p>
+
+<ul>
+  <li>
+    <p>microscopically shows glomerular dam- age and linear immunofluorescence with labeled complement C3 and anti-IgG antibody.</p>
+  </li>
+  <li>
+    <p>Urinalysis shows high hematuria, proteinuria, and no glucose</p>
+  </li>
+</ul>
+
+<p>DiGeorge anomaly</p>
+
+<ul>
+  <li>
+    <p>deletion of chromosome 22q11 and it affects T cell differentiation and maturation</p>
+  </li>
+  <li>
+    <p>The size of the 22q11.2 deletion determines the severity of the disease</p>
+  </li>
+  <li>
+    <p>hypocalcemic tetany, as well as additional midline developmental abnormalities</p>
+  </li>
+</ul>
+
+<p>II hypersensitivity reaction.</p>
+
+<p>lesions of lupus nephritis</p>
+
+<ul>
+  <li>wire loop glomerular capillary lesions of lupus nephritis.</li>
+</ul>
+
+<p>severe combined immunodeficiency (SCID)</p>
+
+<ul>
+  <li>
+    <p>deficient T cell and B cell arms of the immune system</p>
+  </li>
+  <li>
+    <p>Absence of adenosine deaminase</p>
+  </li>
+</ul>
+
+<p>X-linked SCID</p>
+
+<ul>
+  <li>due to mutations in the common γ chain that is a part of many cytokine receptors, such as interleukin (IL)-2, IL-4, IL-7, and IL- 15.</li>
+</ul>
+
+<p>A major transfusion reaction</p>
+
+<ul>
+  <li>
+    <p>results from a type II hypersensitivity reaction.</p>
+  </li>
+  <li>
+    <p>The patient’s serum contains naturally occurring antibodies to the incompatible donor RBCs.</p>
+  </li>
+  <li>
+    <p>C5-9 membrane attack complex</p>
+  </li>
+</ul>
+
+<p>hyper-IgM syndrome</p>
+
+<ul>
+  <li>
+    <p>lack of isotype switching from IgM to other immunoglobulins</p>
+  </li>
+  <li>
+    <p>Mutation in the CD40 ligand</p>
+  </li>
+</ul>
+
+<p>Antigen-antibody complex formation</p>
+
+<ul>
+  <li>is typical of a type III hypersensitivity reaction.</li>
+</ul>
+
+<p>common variable immunodeficiency</p>
+
+<ul>
+  <li>Impaired B cell maturation to plasma cells</li>
+</ul>
+
+<p>Mast cells degranulate</p>
+
+<ul>
+  <li>with antigen attachment to IgE in type I hypersensitivity reactions.</li>
+</ul>
+
+<p>Hashimoto Thyroiditis</p>
+
+<ul>
+  <li>caused by a breakdown in self- tolerance (Chapter 4) to thyroid autoantigens</li>
+</ul>
+
+<p>Myasthenia gravis</p>
+
+<ul>
+  <li>
+    <p>a form of type II hypersensitivity reaction in which antibody is directed against cell surface receptors.</p>
+  </li>
+  <li>
+    <p>Thymic hyperplasia or thymoma is likely to be present.</p>
+  </li>
+  <li>
+    <p>Antibodies to acetylcholine receptors impair skeletal muscle motor end plates function</p>
+  </li>
+</ul>
+
+<p>dermatomyositis</p>
+
+<ul>
+  <li>Immune complex–mediated injury</li>
+</ul>
+
+<p>Ewing sarcoma</p>
+
+<ul>
+  <li>t(11;22)(q24;12) translocation in that results in fusion of the EWS transcription factor with Fli-1</li>
+</ul>
+
+<p>polymyositis</p>
+
+<ul>
+  <li>
+    <p>Muscle lysis by CD8+ T cells</p>
+  </li>
+  <li>
+    <p>criteria for SLE</p>
+  </li>
+</ul>
+
+<p>Delayed-type hypersensitivity</p>
+
+<ul>
+  <li>
+    <p>more likely in parasitic infestations of muscles.</p>
+  </li>
+  <li>
+    <p>Macrophages play an important role, associated with cell-mediated immunity</p>
+  </li>
+  <li>
+    <p>tuberculin skin test works through this pathway</p>
+  </li>
+  <li>
+    <p>perivascular accumulation of T cells, particularly CD4+ cells.</p>
+  </li>
+</ul>
+
+<p>parasitic infection</p>
+
+<ul>
+  <li>
+    <p>IgG and IgE antibodies bearing Fc receptors coat the parasite.</p>
+  </li>
+  <li>
+    <p>Antibody-mediated cellular cytotoxicity (ADCC) receptor–mediated inflammation and phagocytosis, characteristic for ADCC.</p>
+  </li>
+</ul>
+
+<p>Macrophages, natural killer cells, neutrophils recognize the Fc receptor, then destroy the antibody-coated target cells.</p>
+
+<p>C3 deficiency</p>
+
+<ul>
+  <li>accompanied by recurrent infections with pyogenic bacteria.</li>
+</ul>
+
+<p>hemolysis</p>
+
+<ul>
+  <li>Complement-mediated lysis, typical of immune destruction of RBCs</li>
+</ul>
+
+<p>IgA deficiency</p>
+
+<ul>
+  <li>leads to mild recurrent gastrointestinal and respiratory tract infections and predisposes to anaphylactic transfusion reaction.</li>
+</ul>
+
+<p>serum sickness</p>
+
+<ul>
+  <li>
+    <p>in response to the injected foreign protein</p>
+  </li>
+  <li>
+    <p>produced widespread antigen-antibody complex deposition, particularly in the kidneys.</p>
+  </li>
+</ul>
+
+<p>urticaria</p>
+
+<ul>
+  <li>A skin rash triggered by a reaction to food, medicine, or other irritants.</li>
+</ul>
+
+<p>Thrombocytopenia</p>
+
+<ul>
+  <li>thrombotic microangiopathy such as thrombotic thrombocytopenic purpura</li>
+</ul>
+
+<p>Hereditary angioedema</p>
+
+<ul>
+  <li>autosomal-reces- sive disorder of the complement pathway in which there is a deficiency of antigenic or functional C1 inhibitor, resulting in recurrent episodes of edema.</li>
+</ul>
+
+<p>Hypocomplementemia</p>
+
+<ul>
+  <li>In the localized immune complex reaction (Arthus reaction), activation and depletion of complement C3.</li>
+</ul>
+
+<p>Arthus reaction</p>
+
+<ul>
+  <li>
+    <p>type III hypersensitivity reactions; they often exhibit vascu- litis</p>
+  </li>
+  <li>
+    <p>Systemic and localized immune complex diseases</p>
+  </li>
+</ul>
+
+<p>Graft-versus-host disease</p>
+
+<ul>
+  <li>characterized by epidermal apoptosis and rash in persons receiving an allogeneic hematopoietic stem cell transplant.</li>
+</ul>
+
+<p>rheumatic heart disease</p>
+
+<ul>
+  <li>
+    <p>Streptococcal M proteins cross-react with cardiac glycoproteins, resulting in rheumatic heart disease</p>
+  </li>
+  <li>
+    <p>a form of autoimmunity</p>
+  </li>
+</ul>
+
+<p>Molecular mimicry</p>
+
+<ul>
+  <li>
+    <p>occurs when a microbial antigen cross-reacts with a normal tissue</p>
+  </li>
+  <li>
+    <p>may follow an infec- tion and lead to polyclonal B cell activation</p>
+  </li>
+</ul>
+
+<p>ophthalmia</p>
+
+<ul>
+  <li>Ophthalmia (also called ophthalmitis) is inflammation of the eye.</li>
+</ul>
+
+<p>Prothrombin time (PT)</p>
+
+<ul>
+  <li>is a blood test that measures how long it takes blood to clot.</li>
+</ul>
+
+<p>Breakdown of T cell anergy</p>
+
+<ul>
+  <li>
+    <p>localized tissue damage and inflammation -&gt; up-regulation of co-stimulatory molecules on the target tissues.</p>
+  </li>
+  <li>
+    <p>brain and in pancreatic islet β cells</p>
+  </li>
+</ul>
+
+<p>thromboplastin time (PTT) or activated partial thromboplastin time ( aPTT or APTT)</p>
+
+<p>is a medical test that characterizes blood coagulation polyclonal lymphocyte activation</p>
+
+<ul>
+  <li>Microbial products such as endotoxin or bacterial superantigens</li>
+</ul>
+
+<p>Release of sequestered antigens</p>
+
+<ul>
+  <li>can cause autoimmunity</li>
+</ul>
+
+<p>coagulopathy</p>
+
+<ul>
+  <li>Antiphospholipid antibodies</li>
+</ul>
+
+<p>rheumatic fever</p>
+
+<ul>
+  <li>a microbial antigen cross-reacts with a normal tissue</li>
+</ul>
+
+<p>toxic shock syndrome</p>
+
+<ul>
+  <li>Widespread and non- specific activation of T cells by superantigens</li>
+</ul>
+
+<p>glomerulonephritis</p>
+
+<ul>
+  <li>proteinuria with hematuria, renal failure.(SLE)</li>
+</ul>
+
+<p>scleroderma</p>
+
+<ul>
+  <li>
+    <p>Raynaud phenomenon</p>
+  </li>
+  <li>
+    <p>Esophageal dysmotility</p>
+  </li>
+</ul>
+
+<p>Bronchoconstriction</p>
+
+<ul>
+  <li>bronchial asthma, allergies as type I hypersensitivity reaction</li>
+</ul>
+
+<p>Cerebral lymphomas</p>
+
+<ul>
+  <li>may occur in immunodeficient patients, patients with AIDS.</li>
+</ul>
+
+<p>Keratoconjunctivitis</p>
+
+<ul>
+  <li>Sjögren syndrome -&gt; decreased tear production (lacrimal gland inflammation.)</li>
+</ul>
+
+<p>Sacroiliitis</p>
+
+<ul>
+  <li>feature of many of the spondyloarthropathies, such as ankylosing spondylitis.</li>
+</ul>
+
+<p>Sclerodactyly</p>
+
+<ul>
+  <li>in scleroderma</li>
+</ul>
+
+<p>CREST syndrome(limited scleroderma)</p>
+
+<ul>
+  <li>
+    <p>calcinosis, Raynaud phenomenon, esophageal dysmotility, sclerodactyly, and telangiectasia.</p>
+  </li>
+  <li>
+    <p>when it involves only a few areas of the skin (e.g., just the hands), it is more likely to indicate limited scleroderma</p>
+  </li>
+  <li>
+    <p>anticentromere antibody</p>
+  </li>
+  <li>
+    <p>anti–DNA topoisomerase I is found with diffuse scleroderma</p>
+  </li>
+</ul>
+
+<p>A drug-induced systemic lupus erythematosus (SLE)</p>
+
+<ul>
+  <li>
+    <p>Caused by drugs such as isoniazid, pro- cainamide, and hydralazine</p>
+  </li>
+  <li>
+    <p>ANA are often positive</p>
+  </li>
+  <li>
+    <p>But anti–double-stranded DNA are negative</p>
+  </li>
+</ul>
+
+<p>Antibody-dependent cell-mediated cytotoxicity</p>
+
+<ul>
+  <li>is initiated when IgG or IgE coats a target to attract cells that affect lysis</li>
+</ul>
+
+<p>discoid lupus erythematosus</p>
+
+<ul>
+  <li>
+    <p>skin lesions similar to those of systemic lupus erythematosus (SLE), but with systemic involvement much less likely to occur.</p>
+  </li>
+  <li>
+    <p>Self nucleic acids mimic their microbial counterparts, and in conjunction with TLRs, they incite type I interferon production to activate dendritic cells and B cells.</p>
+  </li>
+  <li>
+    <p>They also promote a TH1 response, which contributes to autoimmunity.</p>
+  </li>
+  <li>
+    <p>immune complex deposition only in sun-exposed areas of the skin,</p>
+  </li>
+  <li>
+    <p>a positive ANA test result in a few cases,</p>
+  </li>
+  <li>
+    <p>absence of anti-Smith or anti–double-stranded DNA antibodies</p>
+  </li>
+  <li>
+    <p>absence of serious renal disease.</p>
+  </li>
+</ul>
+
+<p>sympathetic ophthalmia</p>
+
+<ul>
+  <li>Release of sequestered antigens</li>
+</ul>
+
+<p>Non-Hodgkin lymphoma</p>
+
+<ul>
+  <li>maybe triggered by Sjögren syndrome</li>
+</ul>
+
+<p>Libman-Sacks endocarditis</p>
+
+<ul>
+  <li>SLE</li>
+</ul>
+
+<p>Nongonococcal urethritis</p>
+
+<ul>
+  <li>seen in reactive arthritis, along with conjunctivitis and arthritis.</li>
+</ul>
+
+<p>Diffuse systemic sclerosis</p>
+
+<ul>
+  <li>
+    <p>initially skin involvement</p>
+  </li>
+  <li>
+    <p>rapidly progresses to visceral organ involvement, including the small arteries of the kidney.</p>
+  </li>
+  <li>
+    <p>These are damaged by a hyperplastic arteriolosclerosis, complicated by very high blood pressure and renal failure.</p>
+  </li>
+</ul>
+
+<p>esophageal squamous carcinoma</p>
+
+<ul>
+  <li>include smoking and alcohol abuse.</li>
+</ul>
+
+<p>Ankylosing spondylitis</p>
+
+<ul>
+  <li>
+    <p>is one of the spondyloarthropathies</p>
+  </li>
+  <li>
+    <p>it is characterized by low back pain from sacroiliitis and positive serology for HLA-B27.</p>
+  </li>
+</ul>
+
+<p>sacroiliitis</p>
+
+<ul>
+  <li>sacroiliitis is an inflammation of the sacroiliac joint</li>
+</ul>
+
+<p>HLA-B27</p>
+
+<ul>
+  <li>present in ankylosing spondylitis</li>
+</ul>
+
+<p>rheumatoid arthritis</p>
+
+<ul>
+  <li>
+    <p>progressive joint deformity</p>
+  </li>
+  <li>
+    <p>rheumatoid factor and antibodies to cyclic citrullinated peptide (anti-CCP)</p>
+  </li>
+  <li>
+    <p>The antibody to cyclic citrullinated peptide is present</p>
+  </li>
+</ul>
+
+<p>Bony ankylosis</p>
+
+<ul>
+  <li>a feature of progressive or recurrent joint inflammation with rheumatoid arthritis.</li>
+</ul>
+
+<p>Pericarditis</p>
+
+<ul>
+  <li>a feature of systemic lupus erythematosus or diffuse systemic sclerosis.</li>
+</ul>
+
+<p>Sjogren syndrome</p>
+
+<ul>
+  <li>
+    <p>Xerophthalmia (usually with accompanying xerostomia)</p>
+  </li>
+  <li>
+    <p>keratoconjunctivitis predominates, and antibodies to SS-A and SS-B are often present.</p>
+  </li>
+</ul>
+
+<p>fascicular myocyte necrosis</p>
+
+<ul>
+  <li>The perivascular and perimysial inflammatory infiltrates result in peripheral muscle</li>
+</ul>
+
+<p>Dermatomyositis</p>
+
+<ul>
+  <li>
+    <p>a form of inflammatory myopathy in which capillaries are the primary target for antibody and complement-mediated injury</p>
+  </li>
+  <li>
+    <p>causes muscle pain, and the rash is typically a subtle heliotrope rash with a violaceous appearance to the eyelids</p>
+  </li>
+  <li>
+    <p>The violaceous, or heliotrope, rash is a characteristic feature</p>
+  </li>
+</ul>
+
+<p>reactive arthritis</p>
+
+<ul>
+  <li>
+    <p>(with conjunctivitis, arthritis, and nongonococcal urethritis)</p>
+  </li>
+  <li>
+    <p>positive serology for HLA-B27</p>
+  </li>
+  <li>
+    <p>a history of either nongonoccocal urethritis with Chlamydia or gastrointestinal infection with Campylobacter, Salmonella, or Shigella</p>
+  </li>
+</ul>
+
+<p>organisms.</p>
+
+<p>Antibody-dependent cell-mediated cytotoxicity</p>
+
+<ul>
+  <li>is initiated when IgG or IgE coats a target to attract cells that affect lysis</li>
+</ul>
+
+<p>Complement- mediated cell lysis</p>
+
+<ul>
+  <li>when antidonor antibodies are preformed in the host and lead to hyperacute rejection.</li>
+</ul>
+
+<p>peripheral muscle fascicular myocyte necrosis</p>
+
+<ul>
+  <li>The perivascular and perimysial inflammatory infiltrates result.</li>
+</ul>
+
+<p>acute rejection</p>
+
+<ul>
+  <li>
+    <p>occurs weeks, months, or even years after transplantation.</p>
+  </li>
+  <li>
+    <p>Endothelitis with intimal injury</p>
+  </li>
+  <li>
+    <p>infiltration with CD3+ T cells that include the CD4+ and CD8+ subsets.(acute cellular rejection)</p>
+  </li>
+</ul>
+
+<p>Her graft-versus-host disease (GVHD)</p>
+
+<ul>
+  <li>engrafted marrow is not completely matched for major histocompatibility loci and thus contains immunocompetent donor cells that can proliferate, recognize host cells as foreign, and attack host tissues.</li>
+</ul>
+
+<p>hyperacute rejection</p>
+
+<ul>
+  <li>Fibrinoid necrosis and thrombosis, occurs within minutes placement of the transplant into the recipient</li>
+</ul>
+
+<p>Veno-Occlusive Disease of Central Vein in Liver</p>
+
+<ul>
+  <li>GVH Disease</li>
+</ul>
+
+<p>chronic rejection</p>
+
+<ul>
+  <li>Interstitial and glomerular fibrosis and blood vessel thickening (ireversible)</li>
+</ul>
+
+<p>X-linked agammaglobulinemia of Bruton</p>
+
+<ul>
+  <li>
+    <p>a condition in which B cell maturation stops after the rearrangement of heavy-chain genes, and light chains are not produced.</p>
+  </li>
+  <li>
+    <p>IgA deficiency is marked by a more benign course</p>
+  </li>
+  <li>
+    <p>Mutations in the BTK gene</p>
+  </li>
+</ul>
+
+<h3 id="neopastic-diseases">Neopastic diseases</h3>
+
+<p>adenocarcinoma</p>
+
+<ul>
+  <li>
+    <p>arise from a colonic adenoma, such malignant lesions tend to be larger and more irregular.</p>
+  </li>
+  <li>
+    <p>endocervix or endometrium</p>
+  </li>
+</ul>
+
+<p>choristoma</p>
+
+<ul>
+  <li>a benign mass composed of tissues not found at the site of origin.</li>
+</ul>
+
+<p>hamartoma</p>
+
+<ul>
+  <li>
+    <p>a rare benign mass composed of tissues usually found at the site of origin.</p>
+  </li>
+  <li>
+    <p>the lung is common site</p>
+  </li>
+  <li>
+    <p>Bile duct hamartoma</p>
+  </li>
+  <li>
+    <p>Peutz-Jeghers (hamartomatous) polyp</p>
+  </li>
+</ul>
+
+<p>hyperplastic colonic lesion</p>
+
+<ul>
+  <li>tends to be small and flat.</li>
+</ul>
+
+<p>sarcoma</p>
+
+<ul>
+  <li>
+    <p>a malignant neoplasm arising in mesenchymal tissues, not in epithelium</p>
+  </li>
+  <li>
+    <p>express TGFα and TGFα receptor</p>
+  </li>
+</ul>
+
+<p>Adenoma</p>
+
+<ul>
+  <li>
+    <p>small mass arise from epithelial surfaces.</p>
+  </li>
+  <li>
+    <p>glandular tissues</p>
+  </li>
+</ul>
+
+<p>An adnexal mass</p>
+
+<ul>
+  <li>
+    <p>a lump in tissue of the adnexa of uterus</p>
+  </li>
+  <li>
+    <p>can be benign or cancerous</p>
+  </li>
+  <li>
+    <p>can be categorized as simple or complex.</p>
+  </li>
+</ul>
+
+<p>teratoma</p>
+
+<ul>
+  <li>a neoplasm derived from totipotential germ cells that differentiate into tissues that represent all three germ layers: ectoderm,</li>
+</ul>
+
+<p>endoderm, and mesoderm.</p>
+
+<p>Fibroadenomas</p>
+
+<ul>
+  <li>a benign glandular and stromal component; common in the breast.</li>
+</ul>
+
+<p>Gliomas</p>
+
+<ul>
+  <li>found in the central nervous system.</li>
+</ul>
+
+<p>mesothelioma</p>
+
+<ul>
+  <li>arises from the lining of thoracic and abdominal body cavities.</li>
+</ul>
+
+<p>rhabdomyosarcoma</p>
+
+<ul>
+  <li>comprises cells that poorly resemble striated muscle; most arise in soft tissues.</li>
+</ul>
+
+<p>Urothelial carcinomas</p>
+
+<ul>
+  <li>associated with smoking.</li>
+</ul>
+
+<p>papilloma</p>
+
+<ul>
+  <li>is a benign, localized mass that has an exophytic growth pattern.</li>
+</ul>
+
+<p>hemangioma</p>
+
+<ul>
+  <li>a common benign lesion of the skin.</li>
+</ul>
+
+<p>Leiomyomas</p>
+
+<ul>
+  <li>white, arise from smooth muscle and are most common in the uterus</li>
+</ul>
+
+<p>Lipomas</p>
+
+<ul>
+  <li>yellow fatty tumors that can occur beneath the epidermis.</li>
+</ul>
+
+<p>Melanomas</p>
+
+<ul>
+  <li>
+    <p>malignant, tend to increase in size quickly;</p>
+  </li>
+  <li>
+    <p>darkly pigmented</p>
+  </li>
+</ul>
+
+<p>nevus</p>
+
+<ul>
+  <li>
+    <p>benign counterpart to the melanoma</p>
+  </li>
+  <li>
+    <p>light to dark brown</p>
+  </li>
+</ul>
+
+<p>Well-differentiated neoplasms</p>
+
+<ul>
+  <li>tend to be less aggressive and slower growing and resemble the cell of origin.</li>
+</ul>
+
+<p>Carcinoma in situ</p>
+
+<ul>
+  <li>is confined to the epithelium</li>
+</ul>
+
+<p>metaplasia</p>
+
+<ul>
+  <li>human papillomavirus (HPV) and other inflammatory conditions</li>
+</ul>
+
+<p>carcinoma</p>
+
+<ul>
+  <li>Lymphatic spread, especially to regional lymph nodes draining from the primary site</li>
+</ul>
+
+<p>breast abscess</p>
+
+<ul>
+  <li>can spread to the lymph nodes, resulting nodal enlargement is associated with pain</li>
+</ul>
+
+<p>hemoptysis</p>
+
+<ul>
+  <li>coughing up of blood</li>
+</ul>
+
+<p>cerebral metastases</p>
+
+<ul>
+  <li>arise from lung primary carcinomas half of the time.</li>
+</ul>
+
+<p>Angiosarcomas(liver)</p>
+
+<ul>
+  <li>linked to vinyl chloride exposure</li>
+</ul>
+
+<p>chronic myelogenous leukemia</p>
+
+<ul>
+  <li>
+    <p>t(9;22)translocation causes uncontrolled nonreceptor tyrosine kinase activity of the BCR-ABL fusion gene.</p>
+  </li>
+  <li>
+    <p>imatinib that inhibit tyrosine kinases.</p>
+  </li>
+</ul>
+
+<p>colon cancers</p>
+
+<ul>
+  <li>Translocation of β-catenin to the nucleus, when there is mutational loss of APC genes.</li>
+</ul>
+
+<p>non-Hodgkin lymphomas</p>
+
+<ul>
+  <li>The BCL1 and BCL2 genes are mutated</li>
+</ul>
+
+<p>T cell neoplasms</p>
+
+<ul>
+  <li>The IL2 mutation may be present</li>
+</ul>
+
+<p>Melanoma</p>
+
+<ul>
+  <li>In melanomas, the implicated gene is called p16, or INK4a. The product of the p16 gene is an inhibitor of cyclin-dependent kinases.</li>
+</ul>
+
+<p>Germline mutations in CDKN2A may also underlie familial melanomas. With loss of control over cyclin-dependent kinases, the cell cycle</p>
+
+<p>cannot be regulated, favoring neoplastic transformation.</p>
+
+<p>neurofibromatosis type 1</p>
+
+<ul>
+  <li>The NF1 gene encodes for a GTPase-activating protein that facilitates the conversion of active (GTP-bound) RAS to inactive (GDP-bound) 
+RAS. Loss of NF1 prevents such conversion and traps RAS in the active signal-transmitting stage that drives cell proliferation</li>
+</ul>
+
+<p>pheochromocytoma</p>
+
+<ul>
+  <li>a small vascular tumor of the adrenal medulla, causing irregular secretion of epinephrine and norepinephrine, leading to attacks of</li>
+</ul>
+
+<p>raised blood pressure, palpitations, and headache.</p>
+
+<p>Hemangioblastoma</p>
+
+<ul>
+  <li>are tumors of the central nervous system that originate from the vascular system usually during middle-age</li>
+</ul>
+
+<p>hepatosplenomegaly</p>
+
+<ul>
+  <li>Resulted in storage of insoluble intermediates in the mononuclear phagocyte system</li>
+</ul>
+
+<p>Neuroblastoma (small round blue cell)</p>
+
+<ul>
+  <li>
+    <p>HSRs and double minutes of N-myc</p>
+  </li>
+  <li>
+    <p>pediatric tumor</p>
+  </li>
+</ul>
+
+<p>AIDS from HIV</p>
+
+<ul>
+  <li>B cell lymphomas of the brain are 1000-fold more common in HIV patients with infection than in the general population.</li>
+</ul>
+
+<p>amyloidosis</p>
+
+<ul>
+  <li>extracellular deposits of fibrillar proteins are responsible for tissue damage and functional compromise.</li>
+</ul>
+
+<p>hereditary nonpolyposis colon carcinoma (HNPCC)</p>
+
+<ul>
+  <li>
+    <p>inheritance of one defective copy of mismatch repair genes.</p>
+  </li>
+  <li>
+    <p>Several human mismatch repair genes are involved in the development of HNPCC.</p>
+  </li>
+  <li>
+    <p>Mismatch repair defects have microsatellite instability.</p>
+  </li>
+  <li>
+    <p>Microsatellites are tandem repeats found throughout the genome.</p>
+  </li>
+  <li>
+    <p>mutations of mismatch repair “proof reader” or “spell checker” genes MSH2 (2p16), MLH1 (3p21), MSH6, PMS, PMS2 as well as other</p>
+  </li>
+</ul>
+
+<p>similar genes.</p>
+
+<p>xeroderma pigmentosum (XP)</p>
+
+<ul>
+  <li>
+    <p>extreme photosensitivity, high risk of skin cancers.</p>
+  </li>
+  <li>
+    <p>DNA damage is initiated by exposure to ultraviolet light and nucleotide excision repair cannot occur normally in XP because</p>
+  </li>
+</ul>
+
+<p>inheritance of one of several XP genes is abnormal.</p>
+
+<ul>
+  <li>autosomal recessive, because new mutations are unlikely to occur.</li>
+</ul>
+
+<p>paraneoplastic syndrome</p>
+
+<ul>
+  <li>
+    <p>results from ectopic secretion of a hormone by tumor (e.g., lung cancer cells producing corticotropin)</p>
+  </li>
+  <li>
+    <p>symptoms that can not be explained by tumor spread.</p>
+  </li>
+</ul>
+
+<p>Hepatocellular carcinomas</p>
+
+<ul>
+  <li>can arise in cirrhosis caused by chronic alcoholism</li>
+</ul>
+
+<p>Ataxia telangiectasia</p>
+
+<ul>
+  <li>is an inherited syndrome that carries an increased risk of development of leukemias and lymphomas.</li>
+</ul>
+
+<p>human T cell lymphotropic virus type 1</p>
+
+<ul>
+  <li>T cell leukemia.</li>
+</ul>
+
+<p>Epstein-Barr virus</p>
+
+<ul>
+  <li>associated with various cancers, including Burkitt lymphoma and nasopharyngeal carcinoma</li>
+</ul>
+
+<p>H. pylori</p>
+
+<p>promotes chronic gastritis with increased risk for gastric adenocarcinomas and B cell lymphomas.</p>
+
+<p>Cachexia</p>
+
+<ul>
+  <li>
+    <p>common in advanced cancers, and weight loss without dieting in an adult is a “red flag” for malignancy</p>
+  </li>
+  <li>
+    <p>increases in circulating factors such as tumor necrosis factor (TNF) may play a role.</p>
+  </li>
+</ul>
+
+<p>Tympany</p>
+
+<ul>
+  <li>A low-pitched, resonant, drumlike note obtained by percussing the surface of a large air-containing space, such as the distended</li>
+</ul>
+
+<p>abdomen or the thorax with or without pneumothorax.</p>
+
+<p>small cell carcinomas of the lung</p>
+
+<ul>
+  <li>inappropriate antidiuretic hormone (SIADH) secretion leads to hyponatremia as well as edema</li>
+</ul>
+
+<p>renal cell carcinoma</p>
+
+<ul>
+  <li>Erythropoietin production with polycythemia</li>
+</ul>
+
+<p>pulmonary squamous cell carcinomas</p>
+
+<ul>
+  <li>Hypercalcemia from a parathyroid hormone-related peptide (PTHrP)</li>
+</ul>
+
+<p>Glioblastomas (paracrine action)</p>
+
+<ul>
+  <li>secrete PDGF and express PDGF receptor</li>
+</ul>
+
+<p>Microsatellites</p>
+
+<ul>
+  <li>
+    <p>repeated sequences of DNA, 1-6 bp in length</p>
+  </li>
+  <li>
+    <p>unique to each individual, “DNA fingerprint”</p>
+  </li>
+</ul>
+
+<p>Microsatellite instability (MSI)</p>
+
+<ul>
+  <li>
+    <p>increased variation of microsatellites within an individual</p>
+  </li>
+  <li>
+    <p>an indicator of deficiency in DNA mismatch repair</p>
+  </li>
+  <li>
+    <p>confer an increased risk of neoplasia</p>
+  </li>
+</ul>
+
+<p>desmoplasia</p>
+
+<ul>
+  <li>
+    <p>the growth of fibrous or connective tissue. alled desmoplastic reaction –&gt; secondary to an insult.</p>
+  </li>
+  <li>
+    <p>Desmoplasia may occur around a neoplasm, causing dense fibrosis around the tumor</p>
+  </li>
+</ul>
+
+<p>EBV</p>
+
+<ul>
+  <li>nasopharyngeal cancer</li>
+</ul>
+
+<p>HPV</p>
+
+<ul>
+  <li>cervical cancer</li>
+</ul>
+
+<p>inappropriate antidiuretic hormone (SIADH) secretion</p>
+
+<ul>
+  <li>A syndrome from small cell carcinomas, and leads to hyponatremia as well as edema.</li>
+</ul>
+
+<p>cor pulmonale</p>
+
+<ul>
+  <li>abnormal enlargement of the right side of the heart as a result of disease of the lungs or the pulmonary blood vessels.</li>
+</ul>
+
+<p>Wiskott-Aldrich syndrome</p>
+
+<ul>
+  <li>associated with eczema and thrombocytopenia.</li>
+</ul>
+
+<p>SLAM-associated protein (SAP)</p>
+
+<ul>
+  <li>that binds to a family of cell surface molecules involved in the activation of NK cells and T and B lymphocytes, and result in</li>
+</ul>
+
+<p>increased susceptibility to viral infections, particularly Epstein-Barr virus (EBV).</p>
+
+<p>rheumatoid arthritis</p>
+
+<ul>
+  <li>
+    <p>in some patients methotrexate treatment promotes nodule formation</p>
+  </li>
+  <li>
+    <p>DMARDs - fundamental treatment for inflammatory arthritis</p>
+  </li>
+  <li>
+    <p>In any given patient, any of the DMARDs can be efficacious and well tolerated, but no one DMARD is efficacious and safe in every patient</p>
+  </li>
+</ul>
+
+<p>MNEMONIC  DOPAMIN RASH</p>
+
+<p>DISCOID RASH
+ORAL ULCERS
+PHOTOSENSITIVITY
+ANA
+MALAR RASH
+IMMUNOLOGICAL PHENOMENON(Le Cell, Ds DNA, Sm, APL ab, false + RPR, )
+NEUROLOGICAL(Seizures,Psychosis)
+RENAL(Nephrotic,Nephritic)
+ARTHRITIS	
+SEROSITIS
+HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)</p>
+
+</div>
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/pathology/2015/10/30/laboratory-medicine-text-chapter11/">
+            Bleeding and Thrombotic Disorders
+            <small>30 Oct 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/statistics/2015/10/30/correlation-study/">
+            correlation study
+            <small>30 Oct 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/python/2015/10/30/Ipython-Jupyter-study/">
+            Ipython and Jupyter study
+            <small>30 Oct 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+        
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'geektmm';
+    var disqus_identifier = "/pathology/2015/09/04/pathology-review-2/";
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66527403-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

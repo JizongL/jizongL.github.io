@@ -1,0 +1,50 @@
+House keeping
+```{r, cache = TRUE, echo = TRUE, message = TRUE, warning = TRUE, tidy = TRUE}
+
+fileUrl <- "https://raw.githubusercontent.com/JizongL/jizongL.github.io/master/assets/blog/Rblog/correlation/09192015correlation/gapminder.csv"
+
+download.file(fileUrl,destfile="./gapminder.csv",method="curl")
+```
+
+
+```{r, cache = TRUE, echo = TRUE, message = TRUE, warning = TRUE, tidy = TRUE}
+data=read.csv("./gapminder.csv")
+data1 <- na.omit(data)
+names(data1)
+```
+
+## setting a correlation matrix,remove the country because it is a factor
+
+
+```{r, cache = TRUE, echo = TRUE, message = TRUE, warning = FALSE, tidy = TRUE}
+library(reshape)
+library(dplyr)
+data2 <- data1[,-1]
+names(data2)
+d_cor <- as.matrix(cor(data2))
+d_cor_melt <- arrange(melt(d_cor), -abs(value))
+d_cor_melt
+```
+
+
+## looking for a specific values from columns and build index
+```{r, echo=TRUE, eval=TRUE}
+index=which(grepl("polityscore", d_cor_melt$X1))
+index2= which(grepl("urbanrate",d_cor_melt$X2))
+index
+index2
+```
+## find common elements by intersect()
+```{r}
+targetrow <- intersect(index,index2)
+targetrow
+```
+## locate the target
+```{r}
+d_cor_melt[targetrow,]
+```
+
+To get those corrleations which are above 0.5 and less than 1. 
+```{r}
+(d_cor_melt[d_cor_melt$value>=0.5 & d_cor_melt$value<1,])
+```

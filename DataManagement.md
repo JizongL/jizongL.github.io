@@ -17,3 +17,9 @@ This page is built for the course [Data Management and Visualization](https://ww
 * 3: [Assignment 3 Data Management](http://jizongl.github.io/data%20science/2015/10/04/Data-Management-Assignment3/)
 
 * 4: [Assignment 4 Creating graphs for your data](http://jizongl.github.io/data%20science/2015/10/11/assignment4-creating-graph/)
+
+
+## Resource
+
+[graphing methods guidline chart](https://d396qusza40orc.cloudfront.net/phoenixassets/data-management-visualization/Graphing_Flowchart_for_Printing.png)
+

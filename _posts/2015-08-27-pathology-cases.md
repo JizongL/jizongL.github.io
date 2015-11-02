@@ -2,6 +2,8 @@
 layout: post
 comments: True
 title: Pathology cases study
+category: Pathology
+tags: [pathology, diseases]
 ---
 
 
@@ -44,22 +46,34 @@ A renal biopsy was performed and revealed diffuse [proliferative glomerulonephri
 
 ### 2.	Why did this patient present with chest pain?
 
+**class answer** 
+
+* perual efusion. 
+
+
 The patient may suffer [Libman-Sacks endocarditis](p 89 & p 130), possiblely related Thrombi, which can develop anywhere in the cardiovascular system due to [lupus anticoagulant](http://www.hopkinslupus.org/lupus-tests/antiphospholipid-antibodies/) which increases the ability of the blood to clot.
 
 ### 3. What are the major immunologic features of systemic lupus erythematosus (SLE)?
 
-**from SLE ppt slide 15** 
+**class answer**
 
-Positive LE cell preparation. 
-Anti-DNA. Antibody to native DNA, Anti-Sm. Presence of AB to Smith nuclear antigen. 
-False-positive serologic test for syphilis known to be positive for at least 6 months and confirmed by TPI or FTA test.
+* Anti-DNA. Antibody to native DNA, Anti-Sm. Presence of AB to **Smith** nuclear antigen. 
 
-**from book Immunologic Abnormalities on page 126**
+* depostion of immune complex
 
-Type 1 interferons
-TLR signals
-Failure of B cell tolerance
+* epidermal and dermal junction 
 
+* [3.	LUPUS SKIN BIOPSY, THICKENED BASEMENT MEMBRANE](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image3.jpeg)
+
+* [4.	LUPUS BAND TEST, ANTI IgG STAIN](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image4.jpeg)
+
+* [5. PERIPHERAL RIM PATTERN](https://dl.dropboxusercontent.com/u/49272502/temp%20images/small%20group%201/image5.jpeg)
+
+* LE test is no longer performed. 
+
+* The patient may suffer Libman-Sacks endocarditis (p 89 & p 130) Note that this is not infected, it is just fribid, so it is 
+
+not sigificant. 
 
 ### 4. Is lupus more likely to occur in males or females and in Caucasians or African Americans?
 
@@ -70,6 +84,8 @@ More likely to occur in [females](http://www.lupusny.org/about-lupus/who-gets-lu
 
 Antiphospholipid antibodies are present in 40% to 50% of patients with lupus and react with a wide variety of proteins in complex with phospholipids. Some bind to cardiolipin antigen, used in serologic tests for syphilis, so patients with lupus may have a false-positive test result for syphilis. Antiphos- pholipid antibodies contribute to coagulation abnormalities (p127)
 
+patients prolong pt are at risk of bleeding. not have a risk of bleeding, but have a risk of thomboli. 
+
 Paradoxically, these antibodies interfere with clotting tests and are actually called “lupus anticoagulants.” Autoantibodies are also produced against clotting factors such as thrombin, and these too may contribute to clotting disorders. the term Lupus -anti-coagulants are actually a [misnomer](http://www.hopkinslupus.org/lupus-tests/antiphospholipid-antibodies/)
 
 
@@ -79,12 +95,26 @@ Histopathologic findings include **liquefactive degeneration** of the basal laye
 
 ### 7. What percentage of patients with SLE has renal involvement?  
 
+**class answer**
+
+75 %
+
+**from book ** 
+
 Although the kidney appears normal by light microscopy in 25% to 30% of cases, almost all cases of SLE show some renal abnormality if examined by immuno- fluorescence and electron microscopy.(p128)
 
 ### 8.	Why did the patient develop exacerbations and remissions?
 
 
 ### 9.	Why does a SLE patient have rheumatoid factors in the serum?
+
+class answers
+
+a lot of autoimmune diseases have rheumatoid factors. 
+
+polyarthritis does not destroy the joints. 
+
+supplementary 
 
 Because in lupus, the immune system attacks the body, including the joints. Rheumatoid factor is an antibody that becomes connected to another type of antibody called immunoglobulin. Together, these form an immune complex that can become involved in inflammation. 
 [source](http://www.everydayhealth.com/rheumatoid-arthritis/testing-for-rheumatoid-factor.aspx)

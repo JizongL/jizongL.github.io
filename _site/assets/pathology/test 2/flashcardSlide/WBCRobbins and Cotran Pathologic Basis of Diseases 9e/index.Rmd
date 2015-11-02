@@ -1,0 +1,450 @@
+--- &radio
+
+![ddd](./assets/img/P592O4810.jp2)
+
+*** .hint
+
+*** .explanation
+
+Reactive changes in neutrophils. Neutrophils containing coarse  purple  cytoplasmic  granules  (toxic  granulations)  and  blue  cytoplasmic  patches of dilated endoplasmic reticulum (Döhle bodies, arrow) are observed  in this peripheral blood smear prepared from a patient with bacterial sepsis. 
+
+--- &radio
+
+![ddd](./assets/img/P593O4820.jp2)
+
+*** .hint
+
+Follicular  hyperplasia and tingible  bodies
+
+*** .explanation
+
+B  High-power  view  of  the  dark  zone  shows  several  mitotic  figures  and  numerous  macrophages  containing  phagocytosed  apoptotic  cells  (tingible  bodies). 
+
+--- &radio
+
+![ddd](./assets/img/P593O4821.jp2)
+
+*** .hint
+
+Follicular  hyperplasia
+
+*** .explanation
+
+Figure 13-3  Follicular  hyperplasia.  A,  Low-power  view  showing  a  reactive  follicle and surrounding mantle zone. The dark-staining mantle zone is more  prominent  adjacent  to  the  germinal-center  light  zone  in  the  left  half  of  the  follicle.  The  right  half  of  the follicle  consists  of  the  dark  zone. 
+
+--- &radio
+
+![ddd](./assets/img/P600O4866.jp2)
+
+*** .hint
+
+*** .explanation
+
+B,  Note  that  the  lymphoblasts  represented  by  the  red  dots  express  terminal  deoxynucleotidyl-transferase  (TdT)  and  the  B-cell  marker  CD22.
+
+--- &radio
+
+![ddd](./assets/img/P600O4867.jp2)
+
+*** .hint
+
+Acute lymphoblastic leukemia/lymphoma
+
+*** .explanation
+
+Acute lymphoblastic leukemia/lymphoma. Lymphoblasts with  condensed nuclear chromatin, small nucleoli, and scant agranular cytoplasm. 
+
+--- &radio
+
+![ddd](./assets/img/P601O4874.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P601O4875.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P602O4884.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P602O4885.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P603O4892.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P603O4893.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P603O4894.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P604O4906.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P604O4907.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P605O4918.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P606O4928.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P606O4929.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P608O4946.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P608O4947.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P608O4948.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P608O4949.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P610O4967.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P611O4979.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P611O4980.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P612O4987.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P612O4988.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P613O4997.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P613O4998.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P613O4999.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P616O5023.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P616O5024.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P616O5025.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P616O5026.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P617O5033.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P617O5034.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P618O5039.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P621O5098.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P621O5099.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P621O5100.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P621O5101.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P623O5116.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P623O5117.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P623O5118.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P623O5119.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P625O5137.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P625O5138.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P627O5156.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P628O5162.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P629O5170.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P630O5175.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P630O5176.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P633O5209.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P634O5217.jp2)
+
+*** .hint
+
+*** .explanation
+
+--- &radio
+
+![ddd](./assets/img/P634O5218.jp2)
+
+*** .hint
+
+*** .explanation
+
+
+

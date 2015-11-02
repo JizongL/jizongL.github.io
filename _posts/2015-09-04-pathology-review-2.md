@@ -191,6 +191,9 @@ DiGeorge anomaly
 
 II hypersensitivity reaction.
 
+lesions of lupus nephritis
+
+* wire loop glomerular capillary lesions of lupus nephritis.
 
 severe combined immunodeficiency (SCID)
 
@@ -228,7 +231,9 @@ Mast cells degranulate
 
 * with antigen attachment to IgE in type I hypersensitivity reactions.
 
+Hashimoto Thyroiditis
 
+* caused by a breakdown in self- tolerance (Chapter 4) to thyroid autoantigens
 
 Myasthenia gravis
 
@@ -244,7 +249,9 @@ dermatomyositis
 
 * Immune complex–mediated injury
 
+Ewing sarcoma
 
+* t(11;22)(q24;12) translocation in that results in fusion of the EWS transcription factor with Fli-1
 
 polymyositis
 
@@ -553,7 +560,7 @@ fascicular myocyte necrosis
 
 Dermatomyositis 
 
-* a form of inflammatory myopa- thy in which capillaries are the primary target for antibody and complement-mediated injury
+* a form of inflammatory myopathy in which capillaries are the primary target for antibody and complement-mediated injury
 
 * causes muscle pain, and the rash is typically a subtle heliotrope rash with a violaceous appearance to the eyelids
  
@@ -596,6 +603,11 @@ Her graft-versus-host disease (GVHD)
 hyperacute rejection
 
 * Fibrinoid necrosis and thrombosis, occurs within minutes placement of the transplant into the recipient
+
+
+Veno-Occlusive Disease of Central Vein in Liver 
+
+* GVH Disease
 
 
 chronic rejection
@@ -926,3 +938,24 @@ SLAM-associated protein (SAP)
 
 increased susceptibility to viral infections, particularly Epstein-Barr virus (EBV).
 
+rheumatoid arthritis  
+
+* in some patients methotrexate treatment promotes nodule formation
+
+* DMARDs - fundamental treatment for inflammatory arthritis
+
+* In any given patient, any of the DMARDs can be efficacious and well tolerated, but no one DMARD is efficacious and safe in every patient
+
+MNEMONIC  DOPAMIN RASH
+
+DISCOID RASH
+ORAL ULCERS
+PHOTOSENSITIVITY
+ANA
+MALAR RASH
+IMMUNOLOGICAL PHENOMENON(Le Cell, Ds DNA, Sm, APL ab, false + RPR, )
+NEUROLOGICAL(Seizures,Psychosis)
+RENAL(Nephrotic,Nephritic)
+ARTHRITIS	
+SEROSITIS
+HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)

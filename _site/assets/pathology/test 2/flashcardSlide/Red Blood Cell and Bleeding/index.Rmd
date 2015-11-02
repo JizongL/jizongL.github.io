@@ -1,0 +1,197 @@
+--- &radio
+
+![ddd](./assets/img/P640O5243.jp2)
+
+*** .hint
+
+maturing  erythroid  progenitors 
+
+*** .explanation
+
+Marrow smear from a patient with hemolytic anemia. The marrow  reveals  increased  numbers  of  maturing  erythroid  progenitors  (normoblasts). (Courtesy  Dr.  Steven  Kroft,  Department  of  Pathology,  University  of  Texas  Southwestern Medical School, Dallas, Texas.)
+
+--- &radio
+
+![ddd](./assets/img/P641O5258.jp2)
+
+*** .hint
+
+note: Howell-Jolly  bodies, anisocytosis  
+
+*** .explanation
+
+Figure 14-4 Hereditary  spherocytosis  (peripheral  smear).  Note  the  anisocytosis  and  several  dark-appearing  spherocytes  with  no  central  pallor.  Howell-Jolly  bodies  (small  dark  nuclear  remnants)  are  also  present  in  red  cells  of  this  asplenic  patient. (Courtesy  Dr.  Robert  W.  McKenna,  Department of Pathology, University of Texas Southwestern Medical School,  Dallas, Texas.)
+
+--- &radio
+
+![ddd](./assets/img/P643O5270.jp2)
+
+*** .hint
+
+Red  cells  with  precipitates of denatured globin (Heinz bodies) revealed by supravital staining
+
+*** .explanation
+
+Figure 14-6  Glucose-6-phosphate  dehydrogenase  deficiency:  effects  of  oxidant  drug  exposure  (peripheral  blood  smear).  Inset,  Red  cells  with  precipitates of denatured globin (Heinz bodies) revealed by supravital staining.  As  the  splenic  macrophages  pluck  out  these  inclusions,  “bite  cells”  like  the  one  in  this  smear  are  produced.  (Courtesy  Dr.  Robert  W.  McKenna,  Department of Pathology, University of Texas Southwestern Medical School,  Dallas, Texas.)
+
+
+--- &radio
+
+![ddd](./assets/img/P643O5271.jp2)
+
+*** .hint
+
+Glucose-6-phosphate  dehydrogenase  deficiency
+
+*** .explanation
+
+Figure 14-6  Glucose-6-phosphate  dehydrogenase  deficiency:  effects  of  oxidant  drug  exposure  (peripheral  blood  smear). As  the  splenic  macrophages  pluck  out  these  inclusions,  “bite  cells”  like  the  one  in  this  smear  are  produced.  (Courtesy  Dr.  Robert  W.  McKenna,  Department of Pathology, University of Texas Southwestern Medical School,  Dallas, Texas.)
+
+
+--- &radio
+
+![ddd](./assets/img/P645O5291.jp2)
+
+*** .hint
+
+“Autoinfarcted” splenic remnant
+
+*** .explanation
+
+Figure 14-10  “Autoinfarcted” splenic remnant in sickle cell disease. (Courtesy  Drs. Dennis Burns and Darren Wirthwein, Department of Pathology, University  of Texas Southwestern Medical School, Dallas, Texas.)
+
+--- &radio
+
+![ddd](./assets/img/P645O5292.jp2)
+
+*** .hint
+
+sickled  red  cells
+
+*** .explanation
+
+Under high power,  splenic  sinusoids  are  dilated  and  filled  with  sickled  red  cells.  (Courtesy  Dr.  Darren Wirthwein, Department of Pathology, University of Texas Southwestern  Medical School, Dallas, Texas.)
+
+--- &radio
+
+![ddd](./assets/img/P645O5293.jp2)
+
+*** .hint
+
+sickled  cell  in  the  center
+
+*** .explanation
+
+ Higher  magnification  shows  an  irreversibly  sickled  cell  in  the  center.  (Courtesy  Dr.  Robert  W.  McKenna,  Department  of  Pathology,  University  of  Texas  Southwestern  Medical School, Dallas, Texas.)
+
+--- &radio
+
+![ddd](./assets/img/P645O5294.jp2)
+
+*** .hint
+
+Spleen in sickle cell disease
+
+*** .explanation
+
+Figure 14-9  A, Spleen in sickle cell disease (low power). Red pulp cords and  sinusoids are markedly congested; between the congested areas, pale areas  of fibrosis resulting from ischemic damage are evident.
+
+--- &radio
+
+![ddd](./assets/img/P645O5295.jp2)
+
+*** .hint
+
+anisocytosis,  and  poikilocytosis
+
+*** .explanation
+
+Figure 14-8  Sickle cell disease (peripheral blood smear). A, Low magnification  shows  sickle  cells,  anisocytosis,  and  poikilocytosis.
+
+--- &radio
+
+![ddd](./assets/img/P649O5325.jp2)
+
+*** .hint
+
+Thalassemia
+
+*** .explanation
+
+Figure 14-13  Thalassemia. X-ray film of the skull showing new bone formation  on the outer table, producing perpendicular radiations resembling a crewcut.  (Courtesy Dr. Jack Reynolds, Department of Radiology, University of Texas  Southwestern Medical School, Dallas, Texas.)
+
+--- &radio
+
+![ddd](./assets/img/P652O5339.jp2)
+
+*** .hint
+
+Microangiopathic hemolytic anemia and hemolytic-uremic  syndrome
+
+*** .explanation
+
+Figure 14-15  Microangiopathic hemolytic anemia. A peripheral blood smear  from  a  person  with  hemolytic-uremic  syndrome  shows  several  fragmented  red  cells.  (Courtesy  Dr.  Robert  W.  McKenna,  Department  of  Pathology,  University of Texas Southwestern Medical School, Dallas, Texas.)
+
+
+--- &radio
+
+![ddd](./assets/img/P654O5355.jp2)
+
+*** .hint
+
+A  to  C,  Megaloblasts in various stages of differentiation. Note that the orthochromatic  megaloblast
+
+*** .explanation
+
+Figure 14-17  Megaloblastic  anemia  (bone  marrow  aspirate).  A  to  C,  Megaloblasts in various stages of differentiation. Note that the orthochromatic  megaloblast (B) is hemoglobinized (as revealed by cytoplasmic color), but in  contrast to normal orthochromatic normoblasts, the nucleus is not pyknotic.  The  early  erythroid  precursors  (A  and  C)  and  the  granulocytic  precursors  are also large and have abnormally immature chromatin. (Courtesy Dr. Jose  Hernandez,  Department  of  Pathology,  University  of  Texas  Southwestern  Medical School, Dallas, Texas.)
+
+--- &radio
+
+![ddd](./assets/img/P654O5356.jp2)
+
+*** .hint
+
+Megaloblastic  anemia (hypersegmented  neutrophil)
+
+*** .explanation
+
+Figure 14-16  Megaloblastic  anemia.  A  peripheral  blood  smear  shows  a  hypersegmented  neutrophil  with  a  six-lobed  nucleus.  (Courtesy  Dr.  Robert  W.  McKenna,  Department  of  Pathology,  University  of  Texas  Southwestern  Medical School, Dallas, Texas.)
+
+
+--- &radio
+
+![ddd](./assets/img/P660O5408.jp2)
+
+*** .hint
+
+Hypochromic microcytic anemia of iron deficiency 
+
+*** .explanation
+
+Figure 14-23 Hypochromic microcytic anemia of iron deficiency (peripheral  blood smear). Note the small red cells containing a narrow rim of peripheral  hemoglobin.  Scattered  fully  hemoglobinized  cells,  present  due  to  recent  blood  transfusion,  stand  in  contrast.  (Courtesy  Dr.  Robert  W.  McKenna,  Department of Pathology, University of Texas Southwestern Medical School,  Dallas, Texas.)
+
+--- &radio
+
+![ddd](./assets/img/P662O5420.jp2)
+
+*** .hint
+
+Aplastic  anemia  (bone  marrow  biopsy). 
+
+*** .explanation
+
+B,  Aplastic  anemia  (bone  marrow  biopsy). High  power.  (Courtesy  Dr. Steven Kroft, Department of Pathology, University of Texas Southwestern Medical School, Dallas, Texas.)
+
+--- &radio
+
+![ddd](./assets/img/P662O5421.jp2)
+
+*** .hint
+
+ Aplastic  anemia  (bone  marrow  biopsy).
+
+*** .explanation
+
+ Aplastic  anemia  (bone  marrow  biopsy).  Markedly  hypocellular  marrow  contains  mainly  fat  cells.  A,  Low  power.
+
+

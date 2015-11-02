@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Pathology reiew part I factors, cyctokines, cells &middot; TmmGeek
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="/public/css/custom.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  
+
+  <div class="sidebar-item">
+    <p>This blog is created for sharing my love and 
+      experiences with Bioinformatics, programming and
+      statistics, thank you for visiting!</p>
+  </div>
+   <div class="sidebar-logo" align="center" >
+      <img src="http://www.gravatar.com/avatar/0f8154e563aa3319f1ebc77be5fca304?s=140" />
+  </div>
+  <div id="contact-list" style="text-align:center">
+      
+        <a href="https://github.com/JizongL">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-github-alt fa-stack-1x"></i>
+          </span>
+        </a>
+      
+
+      
+        <a href="https://www.linkedin.com/in/jizongliang">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x"></i>
+          </span>
+        </a>
+      
+
+      
+        <a href="mailto: davidliangtmm@gmail.com">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x"></i>
+          </span>
+        </a>
+      
+
+      
+        <a href="https://twitter.com/JizongLiang">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-twitter-square fa-stack-1x"></i>
+          </span>
+        </a>
+      
+
+  </div>
+
+   
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+  
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/DataManagement/">Data Management and Visualization</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/ProbabilityAndStastics/">Probability and Statistics</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/TextMining/">Texting Mining Resource</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/archive/">Archive</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/mycredential/">CV</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/onlineTools/">online tools and resources</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/resource/">Pathology subsection</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/tags/">Tags</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">TmmGeek</a>
+            <small>A blog for bioinformatics programming and statistics</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Pathology reiew part I factors, cyctokines, cells</h1>
+  <span class="post-date">04 Sep 2015</span>
+  <h3 id="inflammation-and-repair">Inflammation and Repair</h3>
+
+<p>myeloperoxidase</p>
+
+<ul>
+  <li>
+    <p>present in neutrophils</p>
+  </li>
+  <li>
+    <p>converts H2O2 into HOCl–</p>
+  </li>
+  <li>
+    <p>antimicrobial agent.</p>
+  </li>
+</ul>
+
+<!--break-->
+
+<p>lack of β2 integrin</p>
+
+<ul>
+  <li>Inadequate adhesion on cytokine-activated endothelium</li>
+</ul>
+
+<p>Natural killer cells</p>
+
+<ul>
+  <li>Has Fc receptors, lyse IgG-coated target cells</li>
+</ul>
+
+<p>Monocytes</p>
+
+<ul>
+  <li>transform to macrophages, contain(iNOS), which generates NO, NO has antimicrobial activity.</li>
+</ul>
+
+<p>Activated macrophages produces</p>
+
+<ul>
+  <li>
+    <p>Interleukin-1 (IL-1)</p>
+  </li>
+  <li>
+    <p>(TNF)</p>
+  </li>
+</ul>
+
+<p>neutrophils</p>
+
+<ul>
+  <li>NAPDH oxidase</li>
+</ul>
+
+<p>prostaglandin</p>
+
+<ul>
+  <li>promote vasodilation</li>
+</ul>
+
+<p>interferon-γ</p>
+
+<ul>
+  <li>
+    <p>transform Macrophage to epithelioid cells</p>
+  </li>
+  <li>
+    <p>stimulate monocyte</p>
+  </li>
+</ul>
+
+<p>Leukotriene B4</p>
+
+<ul>
+  <li>
+    <p>potent neutrophil chemotactic factor</p>
+  </li>
+  <li>
+    <p>generated by the lipoxygenase pathway of arachidonic acid metabolism</p>
+  </li>
+</ul>
+
+<p>Nitric oxide</p>
+
+<ul>
+  <li>mediates vasodilation, inhibits platelet</li>
+</ul>
+
+<p>thromboxane A2</p>
+
+<ul>
+  <li>vasoconstrictive properties</li>
+</ul>
+
+<p>Plasmin</p>
+
+<ul>
+  <li>
+    <p>from plasminogen</p>
+  </li>
+  <li>
+    <p>helps lyse clots</p>
+  </li>
+</ul>
+
+<p>Protein C</p>
+
+<ul>
+  <li>antagonizes coagulation factor V, in turn stop prothrombin to thrombin</li>
+</ul>
+
+<p>Kallikrein</p>
+
+<ul>
+  <li>
+    <p>generated by activation of Hageman factor (XII)</p>
+  </li>
+  <li>
+    <p>generation of bradykinin and plasmin and C5a</p>
+  </li>
+</ul>
+
+<p>Thrombin</p>
+
+<ul>
+  <li>coagulation cascade.</li>
+</ul>
+
+<p>Fibrin</p>
+
+<ul>
+  <li>
+    <p>end product of coagulation pathways</p>
+  </li>
+  <li>
+    <p>forms a meshwork entrapping platelets and creating a plug.</p>
+  </li>
+</ul>
+
+<p>Tumor necrosis factor (TNF)</p>
+
+<ul>
+  <li>Produced by activated macrophages, mediates fever, metabolic wasting, and hypotension.</li>
+</ul>
+
+<p>Bradykinin</p>
+
+<ul>
+  <li>
+    <p>from the kinin system on surface contact of Hageman factor with collagen and basement membrane from vascular injury, vascular permeability, smooth muscle contraction, and pain.</p>
+  </li>
+  <li>
+    <p>Complement C5a</p>
+  </li>
+</ul>
+
+<p>is chemotactic factor for neutrophils.</p>
+
+<p>complement C3b</p>
+
+<ul>
+  <li>an opsonin may promote phagocytosis</li>
+</ul>
+
+<p>complement C5-9</p>
+
+<ul>
+  <li>membrane attack complex</li>
+</ul>
+
+<p>complement C1q</p>
+
+<ul>
+  <li>generated in the initial stage of complement activation, eventually result in cell lysis.</li>
+</ul>
+
+<p>Interleukin-1 (IL-1)</p>
+
+<ul>
+  <li>
+    <p>produced by activated macrophages</p>
+  </li>
+  <li>
+    <p>leukocyte release from bone marrow</p>
+  </li>
+</ul>
+
+<p>Tumor Necrosis factor (TNF)</p>
+
+<ul>
+  <li>
+    <p>produced by activated macrophages</p>
+  </li>
+  <li>
+    <p>leukocyte release from bone marrow</p>
+  </li>
+  <li>
+    <p>upregulate fibrinogen and SAA</p>
+  </li>
+</ul>
+
+<p>Phospholipase C</p>
+
+<ul>
+  <li>
+    <p>from platelet activation</p>
+  </li>
+  <li>
+    <p>release of arachidonic acid</p>
+  </li>
+</ul>
+
+<p>Histamine</p>
+
+<ul>
+  <li>vasodilator</li>
+</ul>
+
+<p>Commplement activation</p>
+
+<ul>
+  <li>
+    <p>polysaccharides (alternative pathway)</p>
+  </li>
+  <li>
+    <p>mannose (lectin pathway)</p>
+  </li>
+  <li>
+    <p>antibody attached to surface antigens (classic pathway)</p>
+  </li>
+</ul>
+
+<p>Fibroblasts</p>
+
+<ul>
+  <li>chronic inflammatory responses</li>
+</ul>
+
+<p>Mononuclear infiltrates</p>
+
+<ul>
+  <li>typical of chronic inflammation</li>
+</ul>
+
+<p>Epithelioid cells</p>
+
+<ul>
+  <li>granulomatous inflammation</li>
+</ul>
+
+<p>pyrogens</p>
+
+<ul>
+  <li>
+    <p>TNF</p>
+  </li>
+  <li>
+    <p>IL 1</p>
+  </li>
+</ul>
+
+<p>Hageman factor</p>
+
+<ul>
+  <li>initiates the coagulation cascade.</li>
+</ul>
+
+<p>Immunoglobulin E</p>
+
+<ul>
+  <li>in response to inflammatory responses with allergens and with invasive parasites.</li>
+</ul>
+
+<p>Interleukin-12 (IL-12)</p>
+
+<ul>
+  <li>released by macrophages stimulates T-cell responses</li>
+</ul>
+
+<p>SAA</p>
+
+<ul>
+  <li>serum amyloid A</li>
+</ul>
+
+<p>CRP</p>
+
+<ul>
+  <li>C-reactive protein</li>
+</ul>
+
+<p>Interleukin-2 (IL-2)</p>
+
+<ul>
+  <li>mediates lymphocyte activation.</li>
+</ul>
+
+<p>IL-5</p>
+
+<ul>
+  <li>activates eosinophils (part of a TH2 response.)</li>
+</ul>
+
+<p>IL-6</p>
+
+<ul>
+  <li>interleukin-6</li>
+</ul>
+
+<p>IL-10</p>
+
+<ul>
+  <li>immunosuppressive cytokine -&gt; diminishes lymphocyte activation</li>
+</ul>
+
+<p>IL-17</p>
+
+<ul>
+  <li>
+    <p>delayed- type hypersensitivity reactions.</p>
+  </li>
+  <li>
+    <p>recruiting neutrophils to fight bacterial and fungal infections (aspergillosis and candidiasis)</p>
+  </li>
+</ul>
+
+<p>IL-12</p>
+
+<ul>
+  <li>stimulate NK cells to secrete interferon-γ</li>
+</ul>
+
+<p>ALT</p>
+
+<ul>
+  <li>Serum Glutamic-Pyruvic Transaminase</li>
+</ul>
+
+<p>AST</p>
+
+<ul>
+  <li>Serum Glutamic-Oxaloacetic Transaminase</li>
+</ul>
+
+<p>fibronectin</p>
+
+<ul>
+  <li>maintain a cellular scaffolding for growth and repair, and do not contract.</li>
+</ul>
+
+<p>metalloproteinases</p>
+
+<ul>
+  <li>degradation of collagen and connective tissue remodeling in wound repair</li>
+</ul>
+
+<p>Myofibroblast contraction</p>
+
+<ul>
+  <li>Wound contraction</li>
+</ul>
+
+<p>Integrins</p>
+
+<ul>
+  <li>interact with the extracellular matrix proteins (e.g. fibronectin)</li>
+</ul>
+
+<p>Platelet-drived growth factor (PDGF)</p>
+
+<ul>
+  <li>mediates migration and proliferation of fibroblasts and smooth muscle cells and migration of monocytes.</li>
+</ul>
+
+<p>Serine proteinases</p>
+
+<ul>
+  <li>are important in wound remodeling.</li>
+</ul>
+
+<p>creatine kinase</p>
+
+<ul>
+  <li>elevated level indicates that myocardial necrosis has occurred.</li>
+</ul>
+
+<h3 id="immune-system-diseases">Immune System Diseases</h3>
+
+<p>HBsAg</p>
+
+<ul>
+  <li>Surface antigen of the hepatitis B virus (HBV). It indicates current hepatitis B infection.</li>
+</ul>
+
+<p>D8+ T cells</p>
+
+<ul>
+  <li>binds to the complex of viral peptide and MHC class I mol- ecules displayed on the surface of the infected cell</li>
+</ul>
+
+<p>Natural killer (NK)</p>
+
+<ul>
+  <li>recognize MHC class I molecules with self-peptides and self-recognition inhibits NK cell killing.</li>
+</ul>
+
+<p>NOD-like receptors (NLRs)</p>
+
+<ul>
+  <li>The nucleotide-binding oligomerization domain receptors</li>
+</ul>
+
+<p>The NLR-inflammasome</p>
+
+<ul>
+  <li>
+    <p>this pathway plays a role in the innate immune system recognition of urate crystals and promoting the inflammation associated with gout.</p>
+  </li>
+  <li>
+    <p>These receptors may also contribute to inflammation of atherosclerosis.</p>
+  </li>
+</ul>
+
+<p>C-type lectin receptors (CLRs)</p>
+
+<ul>
+  <li>expressed on the plasma membrane of macrophages and dendritic cells detect fungal glycans and elicit inflammatory reactions to fungi.</li>
+</ul>
+
+<p>Mannose receptors</p>
+
+<ul>
+  <li>On phagocytes recognize microbial sugars with terminal mannose residues and induce microbial phagocytosis</li>
+</ul>
+
+<p>RIG-like receptors (RLRs)</p>
+
+<ul>
+  <li>are located in the cytosol of most cell types and detect nucleic acids of viruses that replicate in the cytoplasm of infected cells to stimulate production of antiviral cytokines.</li>
+</ul>
+
+<p>Toll-like receptors (TLRs)</p>
+
+<ul>
+  <li>in the plasma membrane and endosomal vesicles activate transcription factors that stimulate synthesis and secretion of cytokines and expression of adhesion molecules to recruit and activate leukocytes.</li>
+</ul>
+
+<p>Neutrophils</p>
+
+<ul>
+  <li>provide a nonspecific immune response, primarily to bacterial infections and not to intracellular viral infections.</li>
+</ul>
+
+<p>CD16</p>
+
+<ul>
+  <li>Natural killer(NK)cells haveCD16,and Fc receptor</li>
+</ul>
+
+<p>CD19</p>
+
+<ul>
+  <li>B cells have surface immunoglobulin, are CD19 positive, and participate in humoral immunity</li>
+</ul>
+
+<p>CD3</p>
+
+<ul>
+  <li>T lymphocytes, both CD4+ and CD8+.</li>
+</ul>
+
+<p>CD4</p>
+
+<ul>
+  <li>(TH2) essential to the induction of type I hypersensitivity with cytokines secretion e.g. interleukin (IL)-3, IL-4, IL-5 and macrophage colony-stimulating factor</li>
+</ul>
+
+<p>macrophage colony-stimulating factor</p>
+
+<ul>
+  <li>the growth, recruitment, and activation of mast cells and eosinophils.</li>
+</ul>
+
+<p>Dendritic cells</p>
+
+<ul>
+  <li>trap antigen and aid in antigen presentation.</li>
+</ul>
+
+<p>follicular dendritic cells (FDCs)</p>
+
+<ul>
+  <li>The FDCs may become infected but not killed by HIV.</li>
+</ul>
+
+<p>Blood monocytes</p>
+
+<ul>
+  <li>expressing MHC classII antigenscan migrate into tissues and become longer-lived macrophages.</li>
+</ul>
+
+<p>Anticardiolipin</p>
+
+<ul>
+  <li>
+    <p>along with anti–β2-glycoprotein “lupus anticoagulant,”</p>
+  </li>
+  <li>
+    <p>found with antiphospholipid syndrome, which may appear in systemic lupus erythematosus (SLE).</p>
+  </li>
+</ul>
+
+<p>Anti–double-stranded DNA antibodies</p>
+
+<ul>
+  <li>have specificity for SLE</li>
+</ul>
+
+<p>antihistone antibodies</p>
+
+<ul>
+  <li>are characteristic of drug-induced SLE.</li>
+</ul>
+
+<p>Anti–SS-A antibody</p>
+
+<ul>
+  <li>is seen in Sjögren syndrome.</li>
+</ul>
+
+<p>The anti–U1-ribonucleoprotein antibody</p>
+
+<ul>
+  <li>is seen in mixed connective tissue disease (MCTD).</li>
+</ul>
+
+<p>Smith</p>
+
+<ul>
+  <li>Anti-Smith, specific for SLE</li>
+</ul>
+
+<p>Anti–Jo-1 antibody</p>
+
+<ul>
+  <li>specificity for polymyositis/dermatomyositis.</li>
+</ul>
+
+<p>Anti–U1-ribonucleotide protein</p>
+
+<ul>
+  <li>specificity for mixed connective tissue disease.</li>
+</ul>
+
+<p>Anticentromeric antibody</p>
+
+<ul>
+  <li>limited scleroderma (CREST syndrome).</li>
+</ul>
+
+<p>Anti–SS-A antibody</p>
+
+<ul>
+  <li>characteristic of Sjögren syndrome.</li>
+</ul>
+
+<p>TH17</p>
+
+<ul>
+  <li>may be present in chronic inflammatory conditions such as inflammatory bowel diseases with macrophage and neutrophilic infiltrates.</li>
+</ul>
+
+<p>SS-B</p>
+
+<ul>
+  <li>characteristic of Sjögren syndrome.</li>
+</ul>
+
+<p>Anticentromere antibody</p>
+
+<ul>
+  <li>is seen most often in limited systemic sclerosis,</li>
+</ul>
+
+<p>anti–DNA topoisomerase</p>
+
+<ul>
+  <li>appears with diffuse systemic sclerosis</li>
+</ul>
+
+<p>Amyloid</p>
+
+<ul>
+  <li>derived from serum amyloid-associated protein can occur in chronic infections and inflammation.</li>
+</ul>
+
+<p>Eosinophils</p>
+
+<ul>
+  <li>accumulate in acute interstitial nephritis owing to drug reactions.</li>
+</ul>
+
+<h3 id="neoplastic-diseases">Neoplastic diseases</h3>
+
+<p>CA-125</p>
+
+<ul>
+  <li>a tumor marker for ovarian cancer.</li>
+</ul>
+
+<p>MYC oncogene</p>
+
+<ul>
+  <li>
+    <p>activated in Burkitt lymphoma because of a t(8;14) translocation.</p>
+  </li>
+  <li>
+    <p>binds DNA to cause transcriptional activation of growth-related genes (cyclin D1), resulting in activation of the cell cycle.</p>
+  </li>
+</ul>
+
+<p>EGF</p>
+
+<ul>
+  <li>(such as HER2 in breast cancers) encodes the epithelial growth factor receptor located on the cell surface</li>
+</ul>
+
+<p>p53 and APC</p>
+
+<ul>
+  <li>tumor suppressor genes that are inactivated in many cancers, including colon cancer</li>
+</ul>
+
+<p>RAS oncogene</p>
+
+<ul>
+  <li>encodes a GTP-binding protein that is located under the cell membrane.</li>
+</ul>
+
+<p>N-MYC gene</p>
+
+<ul>
+  <li>Double minutes and homogeneously staining regions seen on a karyotype represent gene amplifications.</li>
+</ul>
+
+<p>K-RAS mutations</p>
+
+<ul>
+  <li>present in many cancers, but not typically childhood neoplasms.</li>
+</ul>
+
+<p>Lyn mutation</p>
+
+<ul>
+  <li>seen in some immunodeficiency states.</li>
+</ul>
+
+<p>Epithelial dysplasias</p>
+
+<ul>
+  <li>can be precursors of carcinomas</li>
+</ul>
+
+<p>Ovarian neoplasms</p>
+
+<ul>
+  <li>not related to cervical dysplasias or carcinomas</li>
+</ul>
+
+<p>cervical cancers</p>
+
+<ul>
+  <li>
+    <p>not related to hereditary syndromes</p>
+  </li>
+  <li>
+    <p>cervical dysplasias are not hereditary</p>
+  </li>
+</ul>
+
+<p>mutant RB gene</p>
+
+<ul>
+  <li>lead to childhood retinoblastomas and osteosarcomas.</li>
+</ul>
+
+<p>EMA</p>
+
+<ul>
+  <li>many adenocarcinomas</li>
+</ul>
+
+<p>Carcinoembryonic antigen (CEA)</p>
+
+<ul>
+  <li>colon cancers</li>
+</ul>
+
+<p>Alpha fetoprotein(AFP)</p>
+
+<ul>
+  <li>
+    <p>germ cell tumors</p>
+  </li>
+  <li>
+    <p>liver cancers</p>
+  </li>
+  <li>
+    <p>A serum immunoglobulin level with protein electro- phoresis aids in the diagnosis of myeloma.</p>
+  </li>
+</ul>
+
+<p>CD 10 (CALLA)</p>
+
+<ul>
+  <li>acute lymphoblastic leukemia (ALL)</li>
+</ul>
+
+<p>PSA</p>
+
+<ul>
+  <li>prostate cancer</li>
+</ul>
+
+<p>Melanoma-associated antigen (MAGE)</p>
+
+<ul>
+  <li>Also normally present in the testis</li>
+</ul>
+
+<p>icterus</p>
+
+<ul>
+  <li>Jaundice</li>
+</ul>
+
+<p>RAS oncogene</p>
+
+<ul>
+  <li>
+    <p>Mutations of the RAS oncogene reduce GTPase activity, and RAS is trapped in an activated GTP-bound state. RAS then signals the</p>
+  </li>
+  <li>
+    <p>not typically lymphoid malignancies.</p>
+  </li>
+  <li>
+    <p>nucleus through cytoplasmic kinases.</p>
+  </li>
+</ul>
+
+<p>The APC gene</p>
+
+<ul>
+  <li>can cause activation of the WNT signaling pathway</li>
+</ul>
+
+<p>The RET proto-oncogene</p>
+
+<ul>
+  <li>encodes a receptor tyrosine kinase involved in neuroendocrine cells of the thyroid, adrenal medulla, and parathyroids.</li>
+</ul>
+
+<p>p16 (INK4a)</p>
+
+<ul>
+  <li>In melanomas, the product of the p16 gene is an inhibitor of cyclin-dependent kinases. Germline mutations in CDKN2A may also underlie</li>
+</ul>
+
+<p>familial melanomas. With loss of control over cyclin-dependent kinases, the cell cycle cannot be regulated, favoring neoplastic</p>
+
+<p>transformation.</p>
+
+<p>hMSH2 gene</p>
+
+<ul>
+  <li>
+    <p>is present in most cases of hereditary nonpolyposis colon cancer and functions in DNA repair.</p>
+  </li>
+  <li>
+    <p>Microsatellite instability</p>
+  </li>
+</ul>
+
+<p>NF1 gene</p>
+
+<ul>
+  <li>
+    <p>acts as a tumor suppressor; this is a component of neurofibromatosis</p>
+  </li>
+  <li>
+    <p>appear at a later age.</p>
+  </li>
+</ul>
+
+<p>TGF-β</p>
+
+<ul>
+  <li>
+    <p>inhibits cell proliferation by activation of growth-inhibiting genes, such as the CDKIs.</p>
+  </li>
+  <li>
+    <p>All pancreatic cancers and 83% of colon cancers have at least one mutational event in a TGF-β pathway.</p>
+  </li>
+</ul>
+
+<p>PTEN</p>
+
+<ul>
+  <li>inhibits tumor cell autophagy, giving cancer cells an edge in growth</li>
+</ul>
+
+<p>hypoxia-inducible factor 1-alpha (HIF-1-alpha)</p>
+
+<ul>
+  <li>Activation of this factor up-regulate VEGF for angiogensis.</li>
+</ul>
+
+<p>Von Hippel–Lindau (VHL) gene (3p25)</p>
+
+<ul>
+  <li>acts as a tumor suppressor, and it normally produces a protein that binds to hypoxia-inducible factor 1-alpha so that it is cleared.</li>
+</ul>
+
+<p>VHL mutation leads to loss of this binding protein and activation of angiogenesis factors.</p>
+
+<p>CXCR4 chemokines</p>
+
+<ul>
+  <li>Expressed by the carcinoma cells,in the case of breast cancer</li>
+</ul>
+
+<p>HSR</p>
+
+<ul>
+  <li>homogeneously staining regions</li>
+</ul>
+
+<p>CD44</p>
+
+<ul>
+  <li>
+    <p>plays a role in cell adhesion and enables malignant cells to metastasize.</p>
+  </li>
+  <li>
+    <p>Solid tumors can express CD44 to enhance their spread to lymph nodes and other metastatic sites.</p>
+  </li>
+</ul>
+
+<p>Vimentin</p>
+
+<ul>
+  <li>
+    <p>a protein expressed in mesenchymal neoplasms, such as sarcomas</p>
+  </li>
+  <li>
+    <p>also up-regulated in EMT.</p>
+  </li>
+</ul>
+
+<p>Aspergillus flavus</p>
+
+<ul>
+  <li>found on moldy peanuts and other foods, produces the potent hepatic carcinogen aflatoxin B1.</li>
+</ul>
+
+<p>Human papillomavirus (HPV)</p>
+
+<ul>
+  <li>
+    <p>is a sexually transmitted disease that is associated with the development of genital squamous cell carcinomas.</p>
+  </li>
+  <li>
+    <p>produces E7 protein binds to RB protein to cause displacement of normally sequestered transcription factors, which nullifies tumor</p>
+  </li>
+</ul>
+
+<p>suppressor activity of the RB protein</p>
+
+<ul>
+  <li>E6 protein binds to and inactivates the p53 gene product.</li>
+</ul>
+
+<p>HST1</p>
+
+<ul>
+  <li>mutation is seen in some gastric cancers.</li>
+</ul>
+
+<p>MicroRNAs (miRNAs)</p>
+
+<ul>
+  <li>
+    <p>5% of the human genome</p>
+  </li>
+  <li>
+    <p>miRNAs do not encode for proteins, but bind and inactivate or cleave mRNA, preventing translation of proteins by mRNA.</p>
+  </li>
+</ul>
+
+<p>Phorbol esters</p>
+
+<ul>
+  <li>examples of promoters of chemical carcinogenesis that cause tumor promotion by activating protein kinase C.</li>
+</ul>
+
+<p>Vinyl chloride</p>
+
+<ul>
+  <li>rare cause of liver cancer.</li>
+</ul>
+
+<p>Arsenic</p>
+
+<ul>
+  <li>is a risk factor for skin cancer.</li>
+</ul>
+
+<p>Asbestos</p>
+
+<ul>
+  <li>exposure is linked to pleural malignant mesothelioma and to bronchogenic carcinomas in smokers.</li>
+</ul>
+
+<p>Benzene</p>
+
+<ul>
+  <li>exposure is linked to leukemias</li>
+</ul>
+
+<p>Beryllium</p>
+
+<ul>
+  <li>exposure leads to interstitial lung disease and lung cancer</li>
+</ul>
+
+<p>Nickel</p>
+
+<ul>
+  <li>exposure increases the risk of respiratory tract cancers.</li>
+</ul>
+
+<p>naphthalene</p>
+
+<ul>
+  <li>a risk factor for cancers of the urinary tract.</li>
+</ul>
+
+<p>HBx</p>
+
+<ul>
+  <li>disrupts normal growth of infected hepatocytes.</li>
+</ul>
+
+
+</div>
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/pathology/2015/10/30/laboratory-medicine-text-chapter11/">
+            Bleeding and Thrombotic Disorders
+            <small>30 Oct 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/statistics/2015/10/30/correlation-study/">
+            correlation study
+            <small>30 Oct 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/python/2015/10/30/Ipython-Jupyter-study/">
+            Ipython and Jupyter study
+            <small>30 Oct 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+        
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'geektmm';
+    var disqus_identifier = "/pathology/2015/09/04/pathology-review-1/";
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66527403-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

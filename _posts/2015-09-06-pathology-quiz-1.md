@@ -205,7 +205,7 @@ On a routine visit to the physician, an otherwise healthy 51 year-old man has a 
 
 * Hyperplasia 
 
-* Hypertrophy 
+* **Hypertrophy**
 
 * Metaplasia 
 

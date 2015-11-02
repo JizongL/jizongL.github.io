@@ -212,16 +212,28 @@ from the book[Systemic Lupus Erythematosus](https://books.google.com/books?id=qq
 
 A 45-year-old white male previously diagnosed with a T cell leukemia developed skin rash, severe diarrhea and jaundice after receiving repeated blood transfusions.  The skin exhibited a fine, diffuse, erythematous, macular rash that began on the palms, soles and head and spread to the entire trunk as well as to extremities.  The rash became desquamative and resembled an extensive second-degree burn.  There was watery diarrhea associated with malabsorption, cramps and gastrointestinal bleeding.  Blood chemistry analysis revealed [hyperbilirubinemia](p139) and an elevated serum alkaline phosphatase level.  There was only a mild elevation in the alanine aminotransferase (ALT) and aspartate aminotransferase levels (AST).
 
+
+those sites have vast proliferative of immune cells, espeically the basal layers of the skin. 
+
+eradated the blood, so the lymphocyte will be deactivated.
+
+alkaline phosphatase level will rise if the kidney ducts are damaged.  
+
+
+
 ### 1.	Are the clinical events described above attributable to the leukemia process or to some other factor?
 To some other factor. 
 
 ### 2.	What is the most likely cause of the signs and symptoms described in this patient?  
+
 graft-versus-host diseases
 
 ### 3. How could a leukemia patient in hospital develop signs and symptoms of graft-versus-host disease?
+
 GVHD occurs when immunologically competent cells are introduced into an immunoincompetent host. GVHD refers to the immunologic insult and to the consequences to the organism. The patient must have had a Hematopoietic cell transplation, Solid organ transplants, or blood transfusions.
 
 ### 4. What is the mechanism of the skin rash?
+
 **from textbook**
 It resemble those of SS (p139), In the early stages, affected skin areas are somewhat edematous and have a doughy consistency. Capillaries and small arteries (as large as 500 μm in diameter) may show thickening of the basal lamina, endothelial cell damage, and partial occlusion. With progression, the edema- tous phase is replaced by progressive fibrosis of the dermis, which becomes tightly bound to the subcutaneous structures. There is marked increase of compact collagen in the dermis along with thinning of the epidermis, atrophy of the dermal appendages, and hyaline thickening of the walls of dermal arterioles and capillaries (P133)
 
@@ -232,12 +244,15 @@ Skin — In most patients, the first (and most common) clinical manifestation of
 [source](http://www.uptodate.com/contents/clinical-manifestations-diagnosis-and-grading-of-acute-graft-versus-host-disease)
 
 ### 5. What is the cause of the hyperbilirubinemia
+
 Destruction of small bile ducts gives rise to jaundice, thus resulted in hyperbilirubinemia
 
 ### 6. What subset of T lymphocytes is found in biopsies of skin, intestine and liver?
+
 CD 4+ and CD 8+
 
 ### 7. How could graft-versus-host disease be prevented in patients receiving blood transfusions?
+
 GVHD is a potentially lethal complication that can be minimized but not eliminated by HLA matching. As another potential solution, donor T cells can be depleted before marrow transplant. 
 
 ### 8. When is graft-versus-host disease most often observed?
@@ -298,8 +313,11 @@ Hematologic examination revealed a normochromic normocytic anemia with leukopeni
 A renal biopsy was performed and revealed large numbers of eosinophilic lamellated casts in the renal tubules.  The tubular cells were markedly atrophic and contained hyaline droplets and some crystalline material. The glomeruli appeared normal, yet they were surrounded by interstitial fibrosis as a result of tubular destruction.  The patient received supportive therapy including local radiation therapy to relieve pain.  He experienced repeated bouts of respiratory infection with Streptococcus pneumoniae.  After reaching a diagnosis, cytotoxic therapy was instituted, yet the patient died within 12 months of diagnosis.
 
 
-### 1. What information provided above is of the greatest assistance in reaching a diagnosis of plasma cell 	(multiple) myeloma in this patient?
+cd 138 is specific for plasma cells
+cd 19 is B cell marker
+kappa or lambda restricted 
 
+### 1. What information provided above is of the greatest assistance in reaching a diagnosis of plasma cell 	(multiple) myeloma in this patient?
 
 ### 2. Why did this patient present with severe back pain?
 It is due to pathologic fractures. Pathologic fractures of vertebrae may lead to spinal cord impingement, an oncologic emergency.
@@ -323,7 +341,7 @@ Patients with myeloma are immunosuppressed. Through uncertain mechanisms, myelom
 Multiple myeloma usually manifests with multifocal destructive skeletal lesions, which most commonly involve the vertebral column, ribs, skull, pelvis, femur, clavicle, and scapula. The lesions generally arise in the medullary cavity, erode cancellous bone, and progressively destroy the cortical bone.
 
 ### 7. What is the differential diagnosis of plasma cell 	myeloma?
-
+we
 The main differential is that of widespread bony metastases. Findings that favour the diagnosis of bony metastases over that of multiple myeloma include:
 
 * more commonly affect the vertebral pedicles rather than vertebral bodies
