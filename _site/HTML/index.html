@@ -11,7 +11,7 @@
 
   <title>
     
-      Include Mathematical notation in your Jekyll blog &middot; TmmGeek
+      HTML zone &middot; TmmGeek
     
   </title>
 
@@ -114,7 +114,7 @@
     
       
         
-          <a class="sidebar-nav-item" href="/HTML/">HTML zone</a>
+          <a class="sidebar-nav-item active" href="/HTML/">HTML zone</a>
         
       
     
@@ -275,77 +275,22 @@
       </div>
 
       <div class="container content">
-        <div class="post">
-  <h1 class="post-title">Include Mathematical notation in your Jekyll blog</h1>
-  <span class="post-date">26 Sep 2015</span>
-  <p>In order to use Mathjax with Jekyll markdown, you need to make change to the followings in your <strong>_layouts</strong> folder</p>
+        <div class="page">
+  <h1 class="page-title">HTML zone</h1>
+  <p><a href="http://w3c.github.io/developers/tools/">Web Quality Tools</a></p>
 
-<ul>
-  <li>
-    <p>page.html</p>
-  </li>
-  <li>
-    <p>post.html</p>
-  </li>
-  <li>
-    <p>config.yml</p>
-  </li>
-</ul>
+<h3 id="validation">validation</h3>
 
-<!--break-->
-
-<p>first add the following into both your <em>page.html</em> and <em>post.html</em> files, this is to load the MathJax javascript for your blog posts and pages. 
-see <a href="https://docs.mathjax.org/en/latest/configuration.html">MathJax</a> Document for further details.</p>
-
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">&lt;script type=&quot;text/javascript&quot;
-    src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
-&lt;/script&gt;</code></pre></div>
-
-<p>then add the following into your config.yml file. This is to make redcarpet behave like GitHub Flavored Markdown. <strong>note</strong>, simply adding redcarpet is not enough, you must include the extensions as follow. See <a href="http://sholsinger.com/2014/03/jekyll-github-flavored-markdown">this link</a> for further details.</p>
-
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid"># Make redcarpet behave like GitHub Flavored Markdown 
-redcarpet: 
-extensions: [&quot;no_intra_emphasis&quot;, &quot;fenced_code_blocks&quot;, &quot;autolink&quot;, &quot;strikethrough&quot;, &quot;superscript&quot;, &quot;with_toc_data&quot;]</code></pre></div>
-
-<p>When this is done, you can begin writing your blog with mathematical notations. I personally find this <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">link from Mathematics meta</a> very helpful, it list many useful notation scripts for reference.</p>
-
-<p>good luck.</p>
-
+<hr />
+<p>layout: post
+comments: True
+title: Assignment 4 Creating graphs for your data
+category: Data Science
+tags: [correlation, data, assignment]
+—</p>
 
 </div>
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/pathology/2015/10/30/laboratory-medicine-text-chapter11/">
-            Bleeding and Thrombotic Disorders
-            <small>30 Oct 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/statistics/2015/10/30/correlation-study/">
-            correlation study
-            <small>30 Oct 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/python/2015/10/30/Ipython-Jupyter-study/">
-            Ipython and Jupyter study
-            <small>30 Oct 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
-</div>
+
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
@@ -354,7 +299,7 @@ extensions: [&quot;no_intra_emphasis&quot;, &quot;fenced_code_blocks&quot;, &quo
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'geektmm';
-    var disqus_identifier = "/jekyll/2015/09/26/include-math-symbol-in-jekyllblog/";
+    var disqus_identifier = "/HTML/";
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
