@@ -24,3 +24,8 @@ Literatures and citation
 Citation machine [Mick Schroeder](https://mickschroeder.com/citation/?q=26369354+)
 
 [PubCrawler](http://pubcrawler.gen.tcd.ie)
+
+
+Biomedical Data Science
+
+[PH525x](http://genomicsclass.github.io/book/)
