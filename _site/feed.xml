@@ -5,15 +5,15 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Nov 2015 00:20:20 -0600</pubDate>
-    <lastBuildDate>Sun, 22 Nov 2015 00:20:20 -0600</lastBuildDate>
+    <pubDate>Sun, 22 Nov 2015 00:22:25 -0600</pubDate>
+    <lastBuildDate>Sun, 22 Nov 2015 00:22:25 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Proof in vector space</title>
-        <description>&lt;p&gt;Prove that a vector space has only one zero vector. (Exercise 4.2, 19.)&lt;/p&gt;
-
-&lt;p&gt;Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
+        <description>&lt;p&gt;Prove that a vector space has only one zero vector. (Exercise 4.2, 19.) 
+&lt;!--break--&gt;
+Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
 Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
 z2 ⊕z1 =z1 ⊕z2 =z2&lt;/p&gt;
 
@@ -41,6 +41,10 @@ u⊕w=0
 (property 4, since v is an additive inverse) (property 3)
 ￼￼0⊕w = v w= v
 Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
+
+&lt;h2 id=&quot;orthogonal-complements&quot;&gt;Orthogonal complements&lt;/h2&gt;
+
+&lt;p&gt;N(A) is the orthogonal complement&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Nov 2015 00:00:00 -0600</pubDate>
         <link>http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra/</link>
@@ -148,7 +152,7 @@ Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
         <description>&lt;h2 id=&quot;wbc-and-lymphoid&quot;&gt;WBC and Lymphoid&lt;/h2&gt;
 
 &lt;h3 id=&quot;keywords&quot;&gt;keywords&lt;/h3&gt;
-
+&lt;!--break--&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Emperipolesis#/media/File:Emperipolesis_-_very_high_mag.jpg&quot;&gt;emperipolesis&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;an intact cell within the cytoplasm of another cell&lt;/p&gt;
@@ -856,7 +860,7 @@ tags: [pathology, diseases, textbook, Lab Med]
 &lt;p&gt;TABLE 2.-Causes of Pleural Effusions&lt;/p&gt;
 
 &lt;h3 id=&quot;transudates&quot;&gt;Transudates&lt;/h3&gt;
-
+&lt;!--break--&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Congestive heart failure&lt;/p&gt;

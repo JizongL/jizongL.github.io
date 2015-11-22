@@ -10,7 +10,7 @@ tags: [pathology, diseases, textbook, Lab Med]
 
 
 ### keywords
-
+<!--break-->
 [emperipolesis](https://en.wikipedia.org/wiki/Emperipolesis#/media/File:Emperipolesis_-_very_high_mag.jpg)
 
 an intact cell within the cytoplasm of another cell

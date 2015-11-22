@@ -4,7 +4,7 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2015-11-22T00:20:20-06:00</updated>
+ <updated>2015-11-22T00:22:25-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
@@ -17,9 +17,9 @@
    <link href="http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra/"/>
    <updated>2015-11-18T00:00:00-06:00</updated>
    <id>http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra</id>
-   <content type="html">&lt;p&gt;Prove that a vector space has only one zero vector. (Exercise 4.2, 19.)&lt;/p&gt;
-
-&lt;p&gt;Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
+   <content type="html">&lt;p&gt;Prove that a vector space has only one zero vector. (Exercise 4.2, 19.) 
+&lt;!--break--&gt;
+Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
 Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
 z2 ⊕z1 =z1 ⊕z2 =z2&lt;/p&gt;
 
@@ -47,6 +47,10 @@ u⊕w=0
 (property 4, since v is an additive inverse) (property 3)
 ￼￼0⊕w = v w= v
 Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
+
+&lt;h2 id=&quot;orthogonal-complements&quot;&gt;Orthogonal complements&lt;/h2&gt;
+
+&lt;p&gt;N(A) is the orthogonal complement&lt;/p&gt;
 </content>
  </entry>
  
@@ -106,7 +110,7 @@ Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
    <content type="html">&lt;h2 id=&quot;wbc-and-lymphoid&quot;&gt;WBC and Lymphoid&lt;/h2&gt;
 
 &lt;h3 id=&quot;keywords&quot;&gt;keywords&lt;/h3&gt;
-
+&lt;!--break--&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Emperipolesis#/media/File:Emperipolesis_-_very_high_mag.jpg&quot;&gt;emperipolesis&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;an intact cell within the cytoplasm of another cell&lt;/p&gt;
@@ -802,7 +806,7 @@ tags: [pathology, diseases, textbook, Lab Med]
 &lt;p&gt;TABLE 2.-Causes of Pleural Effusions&lt;/p&gt;
 
 &lt;h3 id=&quot;transudates&quot;&gt;Transudates&lt;/h3&gt;
-
+&lt;!--break--&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Congestive heart failure&lt;/p&gt;
@@ -2143,6 +2147,8 @@ Did the summary describe the frequency distributions in terms of the values the 
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;!--break--&gt;
 
 &lt;h3 id=&quot;multiple-myeloma&quot;&gt;Multiple Myeloma&lt;/h3&gt;
 

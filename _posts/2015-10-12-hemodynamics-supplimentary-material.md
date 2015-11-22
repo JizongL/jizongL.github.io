@@ -12,7 +12,7 @@ tags: [pathology, diseases, textbook, Lab Med]
 TABLE 2.-Causes of Pleural Effusions
 
 ### Transudates 
-
+<!--break-->
 * Congestive heart failure
 
 * Cirrhosis with ascites

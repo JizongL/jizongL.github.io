@@ -7,7 +7,7 @@ tags: [linear algebra, proof, vector space]
 ---
 
 Prove that a vector space has only one zero vector. (Exercise 4.2, 19.) 
-
+<!--break-->
 Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
 Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
 z2 ⊕z1 =z1 ⊕z2 =z2
@@ -34,3 +34,8 @@ u⊕w=0
 (property 4, since v is an additive inverse) (property 3)
 ￼￼0⊕w = v w= v
 Thus, w = v, so that the additive inverse of u is unique.
+
+
+## Orthogonal complements
+
+N(A) is the orthogonal complement 
