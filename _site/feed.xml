@@ -5,9 +5,99 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Nov 2015 21:40:17 -0600</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2015 21:40:17 -0600</lastBuildDate>
+    <pubDate>Sat, 21 Nov 2015 00:09:16 -0600</pubDate>
+    <lastBuildDate>Sat, 21 Nov 2015 00:09:16 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Proof in vector space</title>
+        <description>&lt;p&gt;Prove that a vector space has only one zero vector. (Exercise 4.2, 19.)&lt;/p&gt;
+
+&lt;p&gt;Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
+Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
+z2 ⊕z1 =z1 ⊕z2 =z2&lt;/p&gt;
+
+&lt;p&gt;Comment: That is, just plug in z1 where you see 0, and z2 where you see u. Similarly, since
+z2 is a zero vector, and z1 is another vector, we have:
+z1 ⊕z2 =z2 ⊕z1 =z1&lt;/p&gt;
+
+&lt;p&gt;By the two equations above, we have
+z1 ⊕ z2 = z1 = z2
+Thus z1 = z2. That is, any two zero vectors must be equal, so that the zero vector is unique.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Prove that a vector u in a vector space has only one negative, -u. (Exercise 4.2, 20.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Solution: Suppose that v and w are two additive inverses of u. Since w is an additive inverse&lt;/p&gt;
+
+&lt;p&gt;Add v to both sides.&lt;/p&gt;
+
+&lt;p&gt;v⊕u⊕w = v⊕0 v⊕u⊕w = v
+􏰂 􏰁􏰀 􏰃
+0
+u⊕w=0
+(property 3 in vector space defn)
+(property 4, since v is an additive inverse) (property 3)
+￼￼0⊕w = v w= v
+Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Nov 2015 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra/</guid>
+        
+        <category>linear algebra</category>
+        
+        <category>proof</category>
+        
+        <category>vector space</category>
+        
+        
+        <category>linear algebra</category>
+        
+      </item>
+    
+      <item>
+        <title>Statistics for Genomic Data Science</title>
+        <description>&lt;p&gt;Statistics for Genomic Data Science&lt;/p&gt;
+
+&lt;p&gt;week 1&lt;/p&gt;
+
+&lt;p&gt;week 2&lt;/p&gt;
+
+&lt;p&gt;Asian Institute in Statistical Genetics and Genomics
+&lt;a href=&quot;http://www.biostat.jhsph.edu/~iruczins/teaching/kogo/&quot;&gt;Statistical Genomics&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;linear-models-with-categorical-covariateshttpsdocsgooglecompresentationd1pqjeviktzvmmsmsrdn30urxhgmptq-b0ucgoh7qeekoeditslideidgc6c125a130233&quot;&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1pqjeVIkTZVMmsmSrDn30UrxhgMPTQ-b0uCgoh7QEeko/edit#slide=id.gc6c125a13_0_233&quot;&gt;Linear models with Categorical Covariates&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Thomas Lumley &amp;amp; Ken Rice
+&lt;a href=&quot;http://faculty.washington.edu/kenrice/teaching.html&quot;&gt;Ken Rice&lt;/a&gt;
+&lt;a href=&quot;http://faculty.washington.edu/kenrice/sisg/sisg-lie11-04.pdf&quot;&gt;slides&lt;/a&gt; in pdf format
+&lt;a href=&quot;http://faculty.washington.edu/kenrice/sisg/session4lie11.R&quot;&gt;R code&lt;/a&gt; of the slides&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.statsci.org/smyth/pubs/limma-biocbook-reprint.pdf&quot;&gt;Limma: Linear Models for Microarray Data&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 14 Nov 2015 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/</guid>
+        
+        <category>Coursera</category>
+        
+        <category>statistics</category>
+        
+        <category>Johns Hopkin</category>
+        
+        <category>Jeff Leek</category>
+        
+        <category>Genomic</category>
+        
+        <category>Data Science</category>
+        
+        
+        <category>genomic data science</category>
+        
+      </item>
     
       <item>
         <title>Bleeding and Thrombotic Disorders</title>
@@ -2849,328 +2939,6 @@ High remission rate. Median survival 5 years&lt;/p&gt;
         <category>small group</category>
         
         <category>WBC</category>
-        
-        
-        <category>pathology</category>
-        
-      </item>
-    
-      <item>
-        <title>Assignment 3 Data Management and EDA</title>
-        <description>&lt;h2 id=&quot;instructions&quot;&gt;Instructions&lt;/h2&gt;
-
-&lt;p&gt;This week, you will be making and implementing decisions about data management for the variables that you have chosen to examine based on the steps reviewed in the videos and supplemental materials. This assignment is important because it offers you the opportunity to practice making sound data management decisions and think about how these decisions will impact your research.&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;You can download my python code file &lt;a href=&quot;/assets/couseraAssignment/DataManagement/week3/week3assignment.py&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And you can download the gapminder dataset &lt;a href=&quot;/assets/couseraAssignment/DataManagement/week3/gapminder.csv&quot;&gt;csv file here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And you can review my Assignment for the codebook &lt;a href=&quot;http://jizongl.github.io/data%20science/2015/09/19/Data-Management-Assignment1/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#instructions&quot; id=&quot;markdown-toc-instructions&quot;&gt;Instructions&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#import-the-entire-dataset-to-memory&quot; id=&quot;markdown-toc-import-the-entire-dataset-to-memory&quot;&gt;import the entire dataset to memory&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#some-house-keeping-to-the-dataset&quot; id=&quot;markdown-toc-some-house-keeping-to-the-dataset&quot;&gt;some house keeping to the dataset&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#i-am-interested-to-divided-urbanrate-into-4-percentiles-so-i-coded-with-both-methods-introduced-from-the-video-as-follow&quot; id=&quot;markdown-toc-i-am-interested-to-divided-urbanrate-into-4-percentiles-so-i-coded-with-both-methods-introduced-from-the-video-as-follow&quot;&gt;I am interested to divided urbanrate into 4 percentiles, so I coded with both methods introduced from the video as follow&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#result&quot; id=&quot;markdown-toc-result&quot;&gt;result&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#use-crosstab-function-to-make-cross-counts-for-both-newly-created-variables-urbanratenew--urbanratenew2-and-the-original-variable-urbanrate&quot; id=&quot;markdown-toc-use-crosstab-function-to-make-cross-counts-for-both-newly-created-variables-urbanratenew--urbanratenew2-and-the-original-variable-urbanrate&quot;&gt;Use &lt;strong&gt;crosstab()&lt;/strong&gt; function to make cross counts for both newly created variables (urbanrateNew &amp;amp; urbanrateNew2) and the original variable urbanrate.&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#result-of-crosstable-count-for-both-methods&quot; id=&quot;markdown-toc-result-of-crosstable-count-for-both-methods&quot;&gt;result of crosstable count for both methods&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#review-criteria&quot; id=&quot;markdown-toc-review-criteria&quot;&gt;Review Criteria&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;import-the-entire-dataset-to-memory&quot;&gt;import the entire dataset to memory&lt;/h3&gt;
-&lt;pre&gt;
-pre&lt;code&gt;
-import pandas
-import numpy
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;h3 id=&quot;some-house-keeping-to-the-dataset&quot;&gt;some house keeping to the dataset&lt;/h3&gt;
-
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
-&lt;pre&gt;
-&lt;code&gt;	
-print(&quot;Import the entire dataset to memory&quot;)
-data = pandas.read_csv(&quot;gapminder.csv&quot;, low_memory = False)
-
-print(&quot;upper case all DataFrame column names&quot;)
-data.columns = map(str.lower, data.columns)
-
-print(&quot;avoid run time error message&quot;)
-pandas.set_option(&#39;display.float_format&#39;, lambda x:&#39;%f&#39;%x)
-
-print(&quot;convert strings to numerics&quot;)
-data[&#39;alcconsumption&#39;] = data[&#39;alcconsumption&#39;].convert_objects(convert_numeric=True)
-data[&#39;alcconsumption&#39;] = data[&#39;alcconsumption&#39;].convert_objects(convert_numeric=True)
-data[&#39;relectricperperson&#39;] = data[&#39;relectricperperson&#39;].convert_objects(convert_numeric=True)
-data[&#39;urbanrate&#39;] = data[&#39;urbanrate&#39;].convert_objects(convert_numeric=True)
-data[&#39;internetuserate&#39;] = data[&#39;internetuserate&#39;].convert_objects(convert_numeric=True)
-data[&#39;hivrate&#39;] = data[&#39;hivrate&#39;].convert_objects(convert_numeric=True)
-
-print(&quot;Set mission data to NAN&quot;)
-data[&#39;alcconsumption&#39;] = data[&#39;alcconsumption&#39;].replace(0, numpy.nan)
-data[&quot;lifeexpectancy&quot;] = data[&quot;lifeexpectancy&quot;].replace(0, numpy.nan)
-data[&quot;relectricperperson&quot;] = data[&quot;relectricperperson&quot;].replace(0, numpy.nan)
-data[&#39;urbanrate&#39;] = data[&#39;urbanrate&#39;].replace(0, numpy.nan)
-data[&quot;internetuserate&quot;] = data[&quot;internetuserate&quot;].replace(0, numpy.nan)
-data[&#39;hivrate&#39;] = data[&#39;hivrate&#39;].replace(0, numpy.nan)
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
-&lt;pre&gt;
-&lt;code&gt;	
-print(&#39;create sub2 dataset to include only variables of interest.&#39;)
-sub2 = data[[&#39;alcconsumption&#39;,&#39;lifeexpectancy&#39;,&#39;relectricperperson&#39;,&#39;urbanrate&#39;, &#39;internetuserate&#39;,&#39;hivrate&#39;]]
-
-print(&#39;preview dataset&#39;)
-print(sub2.head(n=10))
-
-   alcconsumption lifeexpectancy  relectricperperson  urbanrate  \
-0        0.030000         48.673                 nan  24.040000   
-1        7.290000         76.918          636.341383  46.720000   
-2        0.690000         73.131          590.509814  65.220000   
-3       10.170000                                nan  88.920000   
-4        5.570000         51.093          172.999227  56.700000   
-5        8.170000                                nan  30.460000   
-6        9.350000         75.901          768.428300  92.000000   
-7       13.660000         74.241          603.763058  63.860000   
-8             nan         75.246                 nan  46.780000   
-9       10.210000         81.907         2825.391095  88.740000   
-
-   internetuserate  hivrate  
-0         3.654122      nan  
-1        44.989947      nan  
-2        12.500073 0.100000  
-3        81.000000      nan  
-4         9.999954 2.000000  
-5        80.645455      nan  
-6        36.000335 0.500000  
-7        44.001025 0.100000  
-8        41.800889      nan  
-9        75.895654 0.100000  
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;i-am-interested-to-divided-urbanrate-into-4-percentiles-so-i-coded-with-both-methods-introduced-from-the-video-as-follow&quot;&gt;I am interested to divided urbanrate into 4 percentiles, so I coded with both methods introduced from the video as follow&lt;/h3&gt;
-
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
-&lt;pre&gt;
-&lt;code&gt;	
-print(&#39;create new variable urbanrateNew2 to cut urbanrate into 4 percentile&#39;)
-sub2[&#39;urbanrateNew&#39;]= pandas.qcut(sub2.urbanrate, 4, labels = [&quot;1=25%tile&quot;,&quot;2=50%tile&quot;, &quot;3=75%tile&quot;, &quot;4=100%tile&quot;])
-print(&#39;create new variable urbanrateNew2 to cut urbanrate into 4 categories&#39;)
-sub2[&quot;urbanrateNew2&quot;] = pandas.cut(sub2.urbanrate,[10,40,70,100])
-
-print(&#39;frequency count for method 1&#39;)
-c1 = sub2[&quot;urbanrateNew&quot;].value_counts(sort=False,dropna=True)
-print(c1)
-print(&quot;percentage count for method 1&quot;)
-p1 = sub2[&quot;urbanrateNew&quot;].value_counts(sort=False, normalize=True)
-print(p1)
-
-print(&#39;frequency count for method 2&#39;)
-c2 = sub2[&quot;urbanrateNew2&quot;].value_counts(sort=False,dropna=True)
-print(c2)
-print(&quot;percentage count for method 2&quot;)
-p2 = sub2[&quot;urbanrateNew2&quot;].value_counts(sort=False, normalize=True)
-print(p2)
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;result&quot;&gt;result&lt;/h3&gt;
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
-&lt;pre&gt;
-&lt;code&gt;	
-frequency count for method 2
-1=25%tile     51
-2=50%tile     51
-3=75%tile     50
-4=100%tile    51
-dtype: int64
-percentage count for method 1
-1=25%tile    0.239437
-2=50%tile    0.239437
-3=75%tile    0.234742
-4=100%tile   0.239437
-dtype: float64
-frequency count for method 2
-(10, 40]     59
-(40, 70]     80
-(70, 100]    64
-dtype: int64
-percentage count for method 2
-(10, 40]    0.276995
-(40, 70]    0.375587
-(70, 100]   0.300469
-dtype: float64
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;use-crosstab-function-to-make-cross-counts-for-both-newly-created-variables-urbanratenew--urbanratenew2-and-the-original-variable-urbanrate&quot;&gt;Use &lt;strong&gt;crosstab()&lt;/strong&gt; function to make cross counts for both newly created variables (urbanrateNew &amp;amp; urbanrateNew2) and the original variable urbanrate.&lt;/h3&gt;
-
-&lt;pre&gt;
-&lt;code&gt;	
-print(&#39;crosstable function for count of oberservation within each category&#39;)
-print(pandas.crosstab(sub2[&quot;urbanrateNew&quot;], sub2[&quot;urbanrate&quot;]))
-print(pandas.crosstab(sub2[&quot;urbanrateNew2&quot;], sub2[&quot;urbanrate&quot;]))
-
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;h3 id=&quot;result-of-crosstable-count-for-both-methods&quot;&gt;result of crosstable count for both methods&lt;/h3&gt;
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
-&lt;pre&gt;
-&lt;code&gt;	
-crosstable function for count of oberservation within each category
-urbanrate     10.400000   12.540000   12.980000   13.220000   14.320000   \
-urbanrateNew                                                               
-1=25%tile              1           1           1           1           1   
-2=50%tile              0           0           0           0           0   
-3=75%tile              0           0           0           0           0   
-4=100%tile             0           0           0           0           0   
-
-urbanrate     15.100000   16.540000   17.000000   17.240000   17.960000   \
-urbanrateNew                                                               
-1=25%tile              1           1           1           1           1   
-2=50%tile              0           0           0           0           0   
-3=75%tile              0           0           0           0           0   
-4=100%tile             0           0           0           0           0   
-
-urbanrate        ...      92.680000   93.160000   93.320000   94.220000   \
-urbanrateNew     ...                                                       
-1=25%tile        ...               0           0           0           0   
-2=50%tile        ...               0           0           0           0   
-3=75%tile        ...               0           0           0           0   
-4=100%tile       ...               1           1           1           1   
-
-urbanrate     94.260000   95.640000   97.360000   98.320000   98.360000   \
-urbanrateNew                                                               
-1=25%tile              0           0           0           0           0   
-2=50%tile              0           0           0           0           0   
-3=75%tile              0           0           0           0           0   
-4=100%tile             1           1           1           1           1   
-
-urbanrate     100.000000  
-urbanrateNew              
-1=25%tile              0  
-2=50%tile              0  
-3=75%tile              0  
-4=100%tile             6  
-
-[4 rows x 194 columns]
-urbanrate      10.400000   12.540000   12.980000   13.220000   14.320000   \
-urbanrateNew2                                                               
-(10, 40]                1           1           1           1           1   
-(40, 70]                0           0           0           0           0   
-(70, 100]               0           0           0           0           0   
-
-urbanrate      15.100000   16.540000   17.000000   17.240000   17.960000   \
-urbanrateNew2                                                               
-(10, 40]                1           1           1           1           1   
-(40, 70]                0           0           0           0           0   
-(70, 100]               0           0           0           0           0   
-
-urbanrate         ...      92.680000   93.160000   93.320000   94.220000   \
-urbanrateNew2     ...                                                       
-(10, 40]          ...               0           0           0           0   
-(40, 70]          ...               0           0           0           0   
-(70, 100]         ...               1           1           1           1   
-
-urbanrate      94.260000   95.640000   97.360000   98.320000   98.360000   \
-urbanrateNew2                                                               
-(10, 40]                0           0           0           0           0   
-(40, 70]                0           0           0           0           0   
-(70, 100]               1           1           1           1           1   
-
-urbanrate      100.000000  
-urbanrateNew2              
-(10, 40]                0  
-(40, 70]                0  
-(70, 100]               6  
-
-[3 rows x 194 columns]
-
-Process finished with exit code 0
-
-
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;review-criteria&quot;&gt;Review Criteria&lt;/h3&gt;
-
-&lt;p&gt;Your assessment will be based on the evidence you provide that you have completed all of the steps. When relevant, gradients in the scoring will be available to reward clarity (for example, you will get one point for submitting output that is not understandable, but two points if it is understandable). In all cases, consider that the peer assessing your work is likely not an expert in the field you are analyzing. You will be assessed equally on your description of your frequency distributions.&lt;/p&gt;
-
-&lt;p&gt;Specific rubric items, and their point values, are as follows:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Was the program output interpretable (i.e. organized and labeled)? (1 point)
-Does the program output display three data managed variables as frequency tables? (1 point)
-Did the summary describe the frequency distributions in terms of the values the variables take, how often they take them, the presence of missing data, etc.? (2 points)
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-        <pubDate>Sun, 04 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/data%20science/2015/10/04/Data-Management-Assignment3/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/data%20science/2015/10/04/Data-Management-Assignment3/</guid>
-        
-        <category>data management</category>
-        
-        <category>data</category>
-        
-        <category>assignment</category>
-        
-        <category>EDA</category>
-        
-        
-        <category>data science</category>
-        
-      </item>
-    
-      <item>
-        <title>keywords and figures</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#multiple-myeloma&quot; id=&quot;markdown-toc-multiple-myeloma&quot;&gt;Multiple Myeloma&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#monoclonal-gammopathy-of-undetermined-significance-mgus&quot; id=&quot;markdown-toc-monoclonal-gammopathy-of-undetermined-significance-mgus&quot;&gt;Monoclonal gammopathy of undetermined significance (MGUS)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;multiple-myeloma&quot;&gt;Multiple Myeloma&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;a plasma cell neoplasm commonly associated with lytic bone lesions, hypercalcemia, renal failure, and acquired immune abnormalities.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;It principally involves the bone marrow and usually is associated with lytic lesions throughout the skeletal system.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;M protein produced by myeloma cells is IgG (60%), followed by IgA (20% to 25%); only rarely are IgM, IgD, or IgE M proteins observed. In the remaining 15% to 20% of cases, the plasma cells produce only κ or λ light chains.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;monoclonal-gammopathy-of-undetermined-significance-mgus&quot;&gt;Monoclonal gammopathy of undetermined significance (MGUS)&lt;/h4&gt;
-
-&lt;p&gt;bone marrow
-lymph nodes
-hepatomegaly&lt;/p&gt;
-</description>
-        <pubDate>Fri, 02 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/pathology/2015/10/02/pathology-exam-2-keywords-review/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/pathology/2015/10/02/pathology-exam-2-keywords-review/</guid>
-        
-        <category>exam II</category>
-        
-        <category>pathology</category>
-        
-        <category>block 2</category>
         
         
         <category>pathology</category>

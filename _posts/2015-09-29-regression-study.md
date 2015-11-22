@@ -30,6 +30,54 @@ The slope is the same one you would get if you centered the data$$(X_i - \bar X,
 If you normalized the data, $${\frac{X_i - \bar X}{Sd(X)} , \frac{Y_i-\bar Y}{Sd(Y)}}$$, the slope is Cor(Y,X) because Sd(X) = Sd(Y) = 1. 
 
 
+
+## Regression through the origin
+
+$$
+        \begin{bmatrix}
+        x_{1} \\
+        \vdots \\
+        x_{n} \\
+        \end{bmatrix}
+$$
+$$
+        \begin{bmatrix}
+        y_{1} \\
+        \vdots \\
+        y_{n} \\
+        \end{bmatrix}
+$$
+$$x \in \mathbb R^2 $$
+$$y \in \mathbb R^2 $$
+
+Consider regression through the origin, let's minimize 
+
+$$||y-x\beta||^2 where \beta \in \mathbb R$$    
+
+which can be expressed as 
+
+$$(y-x\beta)^T(y-x\beta)$$
+
+$$y^Ty - 2y^Tx\beta+x^Tx\beta^2$$
+
+$$\frac{\partial}{\partial\beta} = -2y^T+2x^Tx\beta$$ 
+
+$$\hat\beta = \frac{y^Tx}{x^Tx} = \frac{<y,x>}{<x,x>}$$
+
+we can do a second derivative to test $$\beta$$
+
+$$\frac{\partial^2}{2\beta^2} = 2x^Tx>0$$
+
+The above formula could be further enhanced to be 
+
+$$\hat\beta = \frac{\sum\frac{y_{i}x_{i}}{n}}{\sum\frac{x_{i}x_{i}}{n}}$$
+
+Since we could center x and y, therefore $$\bar x=\bar y=0$$
+
+$$\hat\beta = \frac{\sum\frac{(y_{i}-\bar y)(x_{i}-\bar x)}{n}}{\sum\frac{(x_{i}-\bar x)^2}{n}}$$
+$$=\frac{\hat cov(y,x)}{\hat var (x)}$$
+$$=\hat cor (y,x)\frac{\hat sd (y)}{\hat sd(x)}$$
+
 R code examples
 
 

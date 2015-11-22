@@ -4,13 +4,77 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2015-11-03T21:40:17-06:00</updated>
+ <updated>2015-11-21T00:09:16-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
    <email>davidliangtmm@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Proof in vector space</title>
+   <link href="http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra/"/>
+   <updated>2015-11-18T00:00:00-06:00</updated>
+   <id>http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra</id>
+   <content type="html">&lt;p&gt;Prove that a vector space has only one zero vector. (Exercise 4.2, 19.)&lt;/p&gt;
+
+&lt;p&gt;Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
+Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
+z2 ⊕z1 =z1 ⊕z2 =z2&lt;/p&gt;
+
+&lt;p&gt;Comment: That is, just plug in z1 where you see 0, and z2 where you see u. Similarly, since
+z2 is a zero vector, and z1 is another vector, we have:
+z1 ⊕z2 =z2 ⊕z1 =z1&lt;/p&gt;
+
+&lt;p&gt;By the two equations above, we have
+z1 ⊕ z2 = z1 = z2
+Thus z1 = z2. That is, any two zero vectors must be equal, so that the zero vector is unique.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Prove that a vector u in a vector space has only one negative, -u. (Exercise 4.2, 20.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Solution: Suppose that v and w are two additive inverses of u. Since w is an additive inverse&lt;/p&gt;
+
+&lt;p&gt;Add v to both sides.&lt;/p&gt;
+
+&lt;p&gt;v⊕u⊕w = v⊕0 v⊕u⊕w = v
+􏰂 􏰁􏰀 􏰃
+0
+u⊕w=0
+(property 3 in vector space defn)
+(property 4, since v is an additive inverse) (property 3)
+￼￼0⊕w = v w= v
+Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Statistics for Genomic Data Science</title>
+   <link href="http://lanyon.getpoole.com/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/"/>
+   <updated>2015-11-14T00:00:00-06:00</updated>
+   <id>http://lanyon.getpoole.com/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH</id>
+   <content type="html">&lt;p&gt;Statistics for Genomic Data Science&lt;/p&gt;
+
+&lt;p&gt;week 1&lt;/p&gt;
+
+&lt;p&gt;week 2&lt;/p&gt;
+
+&lt;p&gt;Asian Institute in Statistical Genetics and Genomics
+&lt;a href=&quot;http://www.biostat.jhsph.edu/~iruczins/teaching/kogo/&quot;&gt;Statistical Genomics&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;linear-models-with-categorical-covariateshttpsdocsgooglecompresentationd1pqjeviktzvmmsmsrdn30urxhgmptq-b0ucgoh7qeekoeditslideidgc6c125a130233&quot;&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1pqjeVIkTZVMmsmSrDn30UrxhgMPTQ-b0uCgoh7QEeko/edit#slide=id.gc6c125a13_0_233&quot;&gt;Linear models with Categorical Covariates&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Thomas Lumley &amp;amp; Ken Rice
+&lt;a href=&quot;http://faculty.washington.edu/kenrice/teaching.html&quot;&gt;Ken Rice&lt;/a&gt;
+&lt;a href=&quot;http://faculty.washington.edu/kenrice/sisg/sisg-lie11-04.pdf&quot;&gt;slides&lt;/a&gt; in pdf format
+&lt;a href=&quot;http://faculty.washington.edu/kenrice/sisg/session4lie11.R&quot;&gt;R code&lt;/a&gt; of the slides&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.statsci.org/smyth/pubs/limma-biocbook-reprint.pdf&quot;&gt;Limma: Linear Models for Microarray Data&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Bleeding and Thrombotic Disorders</title>
@@ -3046,11 +3110,14 @@ Did the summary describe the frequency distributions in terms of the values the 
    <updated>2015-10-02T00:00:00-05:00</updated>
    <id>http://lanyon.getpoole.com/pathology/2015/10/02/pathology-exam-2-keywords-review</id>
    <content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#multiple-myeloma&quot; id=&quot;markdown-toc-multiple-myeloma&quot;&gt;Multiple Myeloma&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#monoclonal-gammopathy-of-undetermined-significance-mgus&quot; id=&quot;markdown-toc-monoclonal-gammopathy-of-undetermined-significance-mgus&quot;&gt;Monoclonal gammopathy of undetermined significance (MGUS)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#multiple-myeloma&quot; id=&quot;markdown-toc-multiple-myeloma&quot;&gt;Multiple Myeloma&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#pathogenesis&quot; id=&quot;markdown-toc-pathogenesis&quot;&gt;Pathogenesis&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#monoclonal-gammopathy-of-undetermined-significance-mgus&quot; id=&quot;markdown-toc-monoclonal-gammopathy-of-undetermined-significance-mgus&quot;&gt;Monoclonal gammopathy of undetermined significance (MGUS)&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;multiple-myeloma&quot;&gt;Multiple Myeloma&lt;/h4&gt;
+&lt;h3 id=&quot;multiple-myeloma&quot;&gt;Multiple Myeloma&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -3060,15 +3127,20 @@ Did the summary describe the frequency distributions in terms of the values the 
     &lt;p&gt;It principally involves the bone marrow and usually is associated with lytic lesions throughout the skeletal system.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;M protein produced by myeloma cells is IgG (60%), followed by IgA (20% to 25%); only rarely are IgM, IgD, or IgE M proteins observed. In the remaining 15% to 20% of cases, the plasma cells produce only κ or λ light chains.&lt;/p&gt;
+    &lt;p&gt;M protein produced is IgG (60%), followed by IgA (20% to 25%); rarely are IgM, IgD, or IgE M proteins observed. In the remaining 15% to 20% of cases, the plasma cells produce only κ or λ light chains.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;pathogenesis&quot;&gt;Pathogenesis&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;frequent rearrangements involving the IgH locus and various proto-oncogenes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*&lt;/p&gt;
+
 &lt;h4 id=&quot;monoclonal-gammopathy-of-undetermined-significance-mgus&quot;&gt;Monoclonal gammopathy of undetermined significance (MGUS)&lt;/h4&gt;
 
-&lt;p&gt;bone marrow
-lymph nodes
-hepatomegaly&lt;/p&gt;
 </content>
  </entry>
  
@@ -3094,6 +3166,50 @@ hepatomegaly&lt;/p&gt;
 &lt;p&gt;The slope is the same one you would get if you centered the data&lt;script type=&quot;math/tex&quot;&gt;(X_i - \bar X, Y_i - \bar Y)&lt;/script&gt;, and did regression through the origin.&lt;/p&gt;
 
 &lt;p&gt;If you normalized the data, &lt;script type=&quot;math/tex&quot;&gt;{\frac{X_i - \bar X}{Sd(X)} , \frac{Y_i-\bar Y}{Sd(Y)}}&lt;/script&gt;, the slope is Cor(Y,X) because Sd(X) = Sd(Y) = 1.&lt;/p&gt;
+
+&lt;h2 id=&quot;regression-through-the-origin&quot;&gt;Regression through the origin&lt;/h2&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}
+        x_{1} \\
+        \vdots \\
+        x_{n} \\
+        \end{bmatrix}&lt;/script&gt;
+&lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}
+        y_{1} \\
+        \vdots \\
+        y_{n} \\
+        \end{bmatrix}&lt;/script&gt;
+&lt;script type=&quot;math/tex&quot;&gt;x \in \mathbb R^2&lt;/script&gt;
+&lt;script type=&quot;math/tex&quot;&gt;y \in \mathbb R^2&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Consider regression through the origin, let’s minimize&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;||y-x\beta||^2 where \beta \in \mathbb R&lt;/script&gt;
+
+&lt;p&gt;which can be expressed as&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(y-x\beta)^T(y-x\beta)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;y^Ty - 2y^Tx\beta+x^Tx\beta^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\partial}{\partial\beta} = -2y^T+2x^Tx\beta&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\hat\beta = \frac{y^Tx}{x^Tx} = \frac{&lt;y,x&gt;}{&lt;x,x&gt;} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;we can do a second derivative to test &lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\partial^2}{2\beta^2} = 2x^Tx&gt;0&lt;/script&gt;
+
+&lt;p&gt;The above formula could be further enhanced to be&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat\beta = \frac{\sum\frac{y_{i}x_{i}}{n}}{\sum\frac{x_{i}x_{i}}{n}}&lt;/script&gt;
+
+&lt;p&gt;Since we could center x and y, therefore &lt;script type=&quot;math/tex&quot;&gt;\bar x=\bar y=0&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\hat\beta = \frac{\sum\frac{(y_{i}-\bar y)(x_{i}-\bar x)}{n}}{\sum\frac{(x_{i}-\bar x)^2}{n}}&lt;/script&gt;
+&lt;script type=&quot;math/tex&quot;&gt;=\frac{\hat cov(y,x)}{\hat var (x)}&lt;/script&gt;
+&lt;script type=&quot;math/tex&quot;&gt;=\hat cor (y,x)\frac{\hat sd (y)}{\hat sd(x)}&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;R code examples&lt;/p&gt;
 
@@ -9256,6 +9372,12 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;Il12&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;helps triggers granulomatous inflammation&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;neutrophils&lt;/p&gt;
 
 &lt;ul&gt;
@@ -9458,6 +9580,12 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
   &lt;li&gt;granulomatous inflammation&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;granulomatous inflammation&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a form of type IV hypersensitivity&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;pyrogens&lt;/p&gt;
 
 &lt;ul&gt;
@@ -9493,6 +9621,14 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
   &lt;li&gt;serum amyloid A&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;anti–streptolysin&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;is the antibody made against streptolysin O, an immunogenic, oxygen-labile hemolytic toxin produced by most strains of group A and&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;many strains of groups C and G streptococci.&lt;/p&gt;
+
 &lt;p&gt;CRP&lt;/p&gt;
 
 &lt;ul&gt;
@@ -9502,7 +9638,13 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
 &lt;p&gt;Interleukin-2 (IL-2)&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;mediates lymphocyte activation.&lt;/li&gt;
+  &lt;li&gt;act as autocrine growth factor promote lymphocyte proliferation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;IFN-γ&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a product of CD4+ T cells and NK cells&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;IL-5&lt;/p&gt;
@@ -9538,6 +9680,12 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;stimulate NK cells to secrete interferon-γ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Eosinophils&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;accumulate in acute interstitial nephritis owing to drug reactions.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ALT&lt;/p&gt;
@@ -9599,7 +9747,13 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
 &lt;p&gt;HBsAg&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Surface antigen of the hepatitis B virus (HBV). It indicates current hepatitis B infection.&lt;/li&gt;
+  &lt;li&gt;Surface antigen of the hepatitis B virus (HBV)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;HBcAb&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hepatitis B core Antibody (HBcAb)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;D8+ T cells&lt;/p&gt;
@@ -9623,12 +9777,13 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
 &lt;p&gt;The NLR-inflammasome&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;this pathway plays a role in the innate immune system recognition of urate crystals and promoting the inflammation associated with gout.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;These receptors may also contribute to inflammation of atherosclerosis.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;this pathway plays a role in the innate immune system recognition of urate crystals and promoting the inflammation associated with&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;gout.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;These receptors may also contribute to inflammation of atherosclerosis.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;C-type lectin receptors (CLRs)&lt;/p&gt;
@@ -9646,19 +9801,44 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
 &lt;p&gt;RIG-like receptors (RLRs)&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;are located in the cytosol of most cell types and detect nucleic acids of viruses that replicate in the cytoplasm of infected cells to stimulate production of antiviral cytokines.&lt;/li&gt;
+  &lt;li&gt;are located in the cytosol of most cell types and detect nucleic acids of viruses that replicate in the cytoplasm of infected cells&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;to stimulate production of antiviral cytokines.&lt;/p&gt;
+
+&lt;p&gt;β2-Microglobulin&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;is a component of MHC class I&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;it can be increased with HIV infection and can be a substrate for amyloid fibrils in patients receiving longterm hemodialysis.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Toll-like receptors (TLRs)&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;in the plasma membrane and endosomal vesicles activate transcription factors that stimulate synthesis and secretion of cytokines and expression of adhesion molecules to recruit and activate leukocytes.&lt;/li&gt;
+  &lt;li&gt;in the plasma membrane and endosomal vesicles activate transcription factors that stimulate synthesis and secretion of cytokines and&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;expression of adhesion molecules to recruit and activate leukocytes.&lt;/p&gt;
+
+&lt;p&gt;C1 inhibitor&lt;/p&gt;
+
+&lt;p&gt;block activation of C1.&lt;/p&gt;
 
 &lt;p&gt;Neutrophils&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;provide a nonspecific immune response, primarily to bacterial infections and not to intracellular viral infections.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;C2 (complement component)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lacking complement component have some increase in infections, but mainly develop a disease resembling systemic lupus erythematosus&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;CD16&lt;/p&gt;
@@ -9679,10 +9859,24 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
   &lt;li&gt;T lymphocytes, both CD4+ and CD8+.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;CD8+
+* kill melanoma cells&lt;/p&gt;
+
 &lt;p&gt;CD4&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;(TH2) essential to the induction of type I hypersensitivity with cytokines secretion e.g. interleukin (IL)-3, IL-4, IL-5 and macrophage colony-stimulating factor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;TLRs&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;they incite type I interferon production to activate dendritic cells and B cells.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;promote a TH1 response, which contributes to autoimmunity&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;macrophage colony-stimulating factor&lt;/p&gt;
@@ -9700,13 +9894,18 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
 &lt;p&gt;follicular dendritic cells (FDCs)&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;The FDCs may become infected but not killed by HIV.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The FDCs may become infected but not killed by HIV.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;elaborate type I interferons that up-regulate antiviral proteins in neighbor- ing cells&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Blood monocytes&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;expressing MHC classII antigenscan migrate into tissues and become longer-lived macrophages.&lt;/li&gt;
+  &lt;li&gt;expressing MHC class II antigenscan migrate into tissues and become longer-lived macrophages.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Anticardiolipin&lt;/p&gt;
@@ -9717,6 +9916,9 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;found with antiphospholipid syndrome, which may appear in systemic lupus erythematosus (SLE).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;patients who has serologic testing for syphilis will yield a false-positive result&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -9759,13 +9961,25 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
 &lt;p&gt;Anti–U1-ribonucleotide protein&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;specificity for mixed connective tissue disease.&lt;/li&gt;
+  &lt;li&gt;specificity for mixed connective tissue disease(MCTD).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Antibody-mediated cellular cytotoxicity (ADCC)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;there is Fc receptor–mediated inflammation and phagocytosis&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Anticentromeric antibody&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;limited scleroderma (CREST syndrome).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Histidyl-tRNA synthetase&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Inflammatory Myopathies&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Anti–SS-A antibody&lt;/p&gt;
@@ -9786,6 +10000,12 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
   &lt;li&gt;characteristic of Sjögren syndrome.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;MALT lymphoma&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The immune dysregulation that accompanies autoimmune diseases increas- es the risk for B cell lymphoid malignancies&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;Anticentromere antibody&lt;/p&gt;
 
 &lt;ul&gt;
@@ -9803,6 +10023,14 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;derived from serum amyloid-associated protein can occur in chronic infections and inflammation.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;cyclic citrullinated peptide (anti-CCP)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;autoantibodies (antibodies directed against an individual’s own proteins) that are directed against peptides and proteins that are&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;citrullinated. specific for rheumatoid arthritis&lt;/p&gt;
 
 &lt;p&gt;Eosinophils&lt;/p&gt;
 
@@ -9864,6 +10092,14 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;seen in some immunodeficiency states.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;SLAM-associated protein (SAP)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;binds to a family of cell surface molecules involved in the activation of NK cells and T and B lymphocytes, and result in increased&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;susceptibility to viral infections, particularly Epstein-Barr virus (EBV)&lt;/p&gt;
 
 &lt;p&gt;Epithelial dysplasias&lt;/p&gt;
 
@@ -10025,18 +10261,35 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
   &lt;li&gt;Activation of this factor up-regulate VEGF for angiogensis.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Von Hippel–Lindau (VHL) gene (3p25)&lt;/p&gt;
+&lt;p&gt;Von Hipple–Lindau (VHL) gene (3p25)&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;acts as a tumor suppressor, and it normally produces a protein that binds to hypoxia-inducible factor 1-alpha so that it is cleared.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;acts as a tumor suppressor, and it normally produces a protein that binds to hypoxia-inducible factor 1-alpha so that it is cleared.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;VHL mutation leads to loss of this binding protein and activation of angiogenesis factors.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;VHL mutation leads to loss of this binding protein and activation of angiogenesis factors.&lt;/p&gt;
+&lt;p&gt;TMPRSS-ETS fusion genes&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;found in prostate carcinomas place ETS family transcription factor genes under the control of the TMPRSS promoter, which is activated by&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;androgens.&lt;/p&gt;
 
 &lt;p&gt;CXCR4 chemokines&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Expressed by the carcinoma cells,in the case of breast cancer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;EML4-ALK fusion gene&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;which is present in roughly 4% of lung carcinomas&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;HSR&lt;/p&gt;
@@ -10159,6 +10412,84 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;disrupts normal growth of infected hepatocytes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;carcinoembryonic antigen level&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gastrointestinal tract adenocarcinomas, including those arising in the stomach, colon, and pancreas, as well as some lung carcinomas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CA-19-9&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a tumor marker for colonic and pancreatic carcinomas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;serum immunoglobulin level&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;protein electrophoresis aids in the diagnosis of myeloma.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;protooncogenes&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dominant&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;tumor suppressor genes&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;recessive, require only 1 allele to function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bax/Bak&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;triggered by P53 and cause mitochondria to have more membrane permeability. then cytochrome C which activates caspase 9.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Caspase 3&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;executioner caspase, bind to dead substrate and induce apotosis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;FasL/Fas(cd 95)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fas ligand/receptor belongs to TNF family. Its binding induces apotosis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Fas-Associated protein with Death Domain (FADD)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bridges Fas receptor to procaspases 8.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Diversification&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clonal expansion and tumor progression&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;squamous cell carcinoma&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;intercellular bridges and keratin production&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;PTEN&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PTEN acts as a tumor suppressor gene through the action of its phosphatase protein product. This phosphatase is involved in the regulation of the cell cycle, preventing cells from growing and dividing too rapidly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;c-MYC gene&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;found on chromosome 8, and the t(8;14) translocation seen in many Burkitt lymphomas leads to MYC overexpression.&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>

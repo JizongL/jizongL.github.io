@@ -108,6 +108,12 @@
     
       
         
+          <a class="sidebar-nav-item" href="/Coursera/">Coursera Courses Note</a>
+        
+      
+    
+      
+        
           <a class="sidebar-nav-item" href="/DataManagement/">Data Management and Visualization</a>
         
       
@@ -170,6 +176,12 @@
     
       
         
+          <a class="sidebar-nav-item" href="/mathematics/">Mathematics</a>
+        
+      
+    
+      
+        
           <a class="sidebar-nav-item" href="/mycredential/">CV</a>
         
       
@@ -214,7 +226,17 @@
     
       
         
+      
+    
+      
+        
           <a class="sidebar-nav-item" href="/resource/">Pathology subsection</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/stata/">Stata</a>
         
       
     
@@ -296,6 +318,50 @@
 
 <p>If you normalized the data, <script type="math/tex">{\frac{X_i - \bar X}{Sd(X)} , \frac{Y_i-\bar Y}{Sd(Y)}}</script>, the slope is Cor(Y,X) because Sd(X) = Sd(Y) = 1.</p>
 
+<h2 id="regression-through-the-origin">Regression through the origin</h2>
+
+<p><script type="math/tex">\begin{bmatrix}
+        x_{1} \\
+        \vdots \\
+        x_{n} \\
+        \end{bmatrix}</script>
+<script type="math/tex">\begin{bmatrix}
+        y_{1} \\
+        \vdots \\
+        y_{n} \\
+        \end{bmatrix}</script>
+<script type="math/tex">x \in \mathbb R^2</script>
+<script type="math/tex">y \in \mathbb R^2</script></p>
+
+<p>Consider regression through the origin, let’s minimize</p>
+
+<script type="math/tex; mode=display">||y-x\beta||^2 where \beta \in \mathbb R</script>
+
+<p>which can be expressed as</p>
+
+<script type="math/tex; mode=display">(y-x\beta)^T(y-x\beta)</script>
+
+<script type="math/tex; mode=display">y^Ty - 2y^Tx\beta+x^Tx\beta^2</script>
+
+<script type="math/tex; mode=display">\frac{\partial}{\partial\beta} = -2y^T+2x^Tx\beta</script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\hat\beta = \frac{y^Tx}{x^Tx} = \frac{<y,x>}{<x,x>} %]]></script>
+
+<p>we can do a second derivative to test <script type="math/tex">\beta</script></p>
+
+<script type="math/tex; mode=display">\frac{\partial^2}{2\beta^2} = 2x^Tx>0</script>
+
+<p>The above formula could be further enhanced to be</p>
+
+<script type="math/tex; mode=display">\hat\beta = \frac{\sum\frac{y_{i}x_{i}}{n}}{\sum\frac{x_{i}x_{i}}{n}}</script>
+
+<p>Since we could center x and y, therefore <script type="math/tex">\bar x=\bar y=0</script></p>
+
+<p><script type="math/tex">\hat\beta = \frac{\sum\frac{(y_{i}-\bar y)(x_{i}-\bar x)}{n}}{\sum\frac{(x_{i}-\bar x)^2}{n}}</script>
+<script type="math/tex">=\frac{\hat cov(y,x)}{\hat var (x)}</script>
+<script type="math/tex">=\hat cor (y,x)\frac{\hat sd (y)}{\hat sd(x)}</script></p>
+
 <p>R code examples</p>
 
 <pre>
@@ -350,26 +416,26 @@ sum(mean(d)*mean(e)-e*mean(d))
     
       <li>
         <h3>
+          <a href="/linear%20algebra/2015/11/18/proof-linear-algebra/">
+            Proof in vector space
+            <small>18 Nov 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/">
+            Statistics for Genomic Data Science
+            <small>14 Nov 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
           <a href="/pathology/2015/10/30/laboratory-medicine-text-chapter11/">
             Bleeding and Thrombotic Disorders
-            <small>30 Oct 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/statistics/2015/10/30/correlation-study/">
-            correlation study
-            <small>30 Oct 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/python/2015/10/30/Ipython-Jupyter-study/">
-            Ipython and Jupyter study
             <small>30 Oct 2015</small>
           </a>
         </h3>

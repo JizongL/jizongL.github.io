@@ -45,6 +45,10 @@ Activated macrophages produces
 
 * (TNF)
 
+Il12
+
+* helps triggers granulomatous inflammation
+
 
 
 neutrophils
@@ -219,7 +223,9 @@ Epithelioid cells
 
 * granulomatous inflammation
 
+granulomatous inflammation
 
+* a form of type IV hypersensitivity 
 
 pyrogens
 
@@ -251,7 +257,11 @@ SAA
 
 * serum amyloid A 
 
+anti–streptolysin
 
+* is the antibody made against streptolysin O, an immunogenic, oxygen-labile hemolytic toxin produced by most strains of group A and 
+
+many strains of groups C and G streptococci. 
 
 CRP
 
@@ -261,9 +271,11 @@ CRP
 
 Interleukin-2 (IL-2)
 
-* mediates lymphocyte activation.
+* act as autocrine growth factor promote lymphocyte proliferation.
 
+IFN-γ
 
+* a product of CD4+ T cells and NK cells
 
 IL-5
 
@@ -295,7 +307,9 @@ IL-12
 
 * stimulate NK cells to secrete interferon-γ 
 
+Eosinophils 
 
+* accumulate in acute interstitial nephritis owing to drug reactions.
 
 ALT
 
@@ -357,8 +371,11 @@ creatine kinase
 
 HBsAg
 
-* Surface antigen of the hepatitis B virus (HBV). It indicates current hepatitis B infection.
+* Surface antigen of the hepatitis B virus (HBV)
 
+HBcAb
+
+* Hepatitis B core Antibody (HBcAb)
 
 
 D8+ T cells 
@@ -381,7 +398,9 @@ NOD-like receptors (NLRs)
 
 The NLR-inflammasome 
 
-* this pathway plays a role in the innate immune system recognition of urate crystals and promoting the inflammation associated with gout. 
+* this pathway plays a role in the innate immune system recognition of urate crystals and promoting the inflammation associated with 
+
+gout. 
 
 * These receptors may also contribute to inflammation of atherosclerosis.
 
@@ -401,21 +420,35 @@ Mannose receptors
 
 RIG-like receptors (RLRs) 
 
-* are located in the cytosol of most cell types and detect nucleic acids of viruses that replicate in the cytoplasm of infected cells to stimulate production of antiviral cytokines. 
+* are located in the cytosol of most cell types and detect nucleic acids of viruses that replicate in the cytoplasm of infected cells 
 
+to stimulate production of antiviral cytokines. 
 
+β2-Microglobulin 
+
+* is a component of MHC class I
+
+* it can be increased with HIV infection and can be a substrate for amyloid fibrils in patients receiving longterm hemodialysis.
 
 Toll-like receptors (TLRs)
 
-* in the plasma membrane and endosomal vesicles activate transcription factors that stimulate synthesis and secretion of cytokines and expression of adhesion molecules to recruit and activate leukocytes.
+* in the plasma membrane and endosomal vesicles activate transcription factors that stimulate synthesis and secretion of cytokines and 
 
+expression of adhesion molecules to recruit and activate leukocytes.
+
+
+C1 inhibitor
+
+block activation of C1. 
 
 
 Neutrophils 
 
 * provide a nonspecific immune response, primarily to bacterial infections and not to intracellular viral infections.
 
+C2 (complement component)
 
+* Lacking complement component have some increase in infections, but mainly develop a disease resembling systemic lupus erythematosus
 
 CD16
 
@@ -433,13 +466,18 @@ CD3
 
 * T lymphocytes, both CD4+ and CD8+. 
 
-
+CD8+
+* kill melanoma cells
 
 CD4
 
 * (TH2) essential to the induction of type I hypersensitivity with cytokines secretion e.g. interleukin (IL)-3, IL-4, IL-5 and macrophage colony-stimulating factor
 
+TLRs
 
+* they incite type I interferon production to activate dendritic cells and B cells.
+
+* promote a TH1 response, which contributes to autoimmunity
 
 macrophage colony-stimulating factor
 
@@ -457,11 +495,11 @@ follicular dendritic cells (FDCs)
 
 * The FDCs may become infected but not killed by HIV. 
 
-
+* elaborate type I interferons that up-regulate antiviral proteins in neighbor- ing cells
 
 Blood monocytes
 
-* expressing MHC classII antigenscan migrate into tissues and become longer-lived macrophages.
+* expressing MHC class II antigenscan migrate into tissues and become longer-lived macrophages.
 
 
 
@@ -471,7 +509,7 @@ Anticardiolipin
 
 * found with antiphospholipid syndrome, which may appear in systemic lupus erythematosus (SLE).
 
-
+* patients who has serologic testing for syphilis will yield a false-positive result
 
 Anti–double-stranded DNA antibodies
 
@@ -496,54 +534,50 @@ The anti–U1-ribonucleoprotein antibody
 * is seen in mixed connective tissue disease (MCTD).
 
 
-
 Smith
 
 * Anti-Smith, specific for SLE
-
 
 
 Anti–Jo-1 antibody 
 
 * specificity for polymyositis/dermatomyositis.
 
-
-
 Anti–U1-ribonucleotide protein 
 
-* specificity for mixed connective tissue disease.
+* specificity for mixed connective tissue disease(MCTD).
 
+Antibody-mediated cellular cytotoxicity (ADCC)
 
+* there is Fc receptor–mediated inflammation and phagocytosis
 
 Anticentromeric antibody 
 
 * limited scleroderma (CREST syndrome).
 
+Histidyl-tRNA synthetase
 
+* Inflammatory Myopathies
 
 Anti–SS-A antibody 
 
 * characteristic of Sjögren syndrome.
 
-
-
 TH17
 
 * may be present in chronic inflammatory conditions such as inflammatory bowel diseases with macrophage and neutrophilic infiltrates.
-
-
 
 SS-B
 
 * characteristic of Sjögren syndrome.
 
+MALT lymphoma
 
+* The immune dysregulation that accompanies autoimmune diseases increas- es the risk for B cell lymphoid malignancies
 
 Anticentromere antibody
 
 * is seen most often in limited systemic sclerosis, 
-
-
 
 anti–DNA topoisomerase 
 
@@ -556,6 +590,11 @@ Amyloid
 * derived from serum amyloid-associated protein can occur in chronic infections and inflammation.
 
 
+cyclic citrullinated peptide (anti-CCP)
+
+* autoantibodies (antibodies directed against an individual’s own proteins) that are directed against peptides and proteins that are 
+
+citrullinated. specific for rheumatoid arthritis
 
 Eosinophils 
 
@@ -598,6 +637,12 @@ K-RAS mutations
 Lyn mutation 
 
 * seen in some immunodeficiency states.
+
+SLAM-associated protein (SAP)
+
+* binds to a family of cell surface molecules involved in the activation of NK cells and T and B lymphocytes, and result in increased 
+
+susceptibility to viral infections, particularly Epstein-Barr virus (EBV)
 
 Epithelial dysplasias
 
@@ -699,15 +744,26 @@ hypoxia-inducible factor 1-alpha (HIF-1-alpha)
 
 * Activation of this factor up-regulate VEGF for angiogensis. 
 
-Von Hippel–Lindau (VHL) gene (3p25)
+Von Hipple–Lindau (VHL) gene (3p25)
 
 * acts as a tumor suppressor, and it normally produces a protein that binds to hypoxia-inducible factor 1-alpha so that it is cleared. 
 
-VHL mutation leads to loss of this binding protein and activation of angiogenesis factors.
+* VHL mutation leads to loss of this binding protein and activation of angiogenesis factors.
+
+
+TMPRSS-ETS fusion genes
+
+* found in prostate carcinomas place ETS family transcription factor genes under the control of the TMPRSS promoter, which is activated by
+
+androgens.
 
 CXCR4 chemokines
 
 * Expressed by the carcinoma cells,in the case of breast cancer
+
+EML4-ALK fusion gene
+
+* which is present in roughly 4% of lung carcinomas
 
 HSR
 
@@ -784,4 +840,57 @@ naphthalene
 HBx
 
 * disrupts normal growth of infected hepatocytes.
+
+carcinoembryonic antigen level
+
+* Gastrointestinal tract adenocarcinomas, including those arising in the stomach, colon, and pancreas, as well as some lung carcinomas
+
+CA-19-9 
+
+* a tumor marker for colonic and pancreatic carcinomas
+
+serum immunoglobulin level 
+
+* protein electrophoresis aids in the diagnosis of myeloma.
+
+protooncogenes
+
+* dominant
+
+tumor suppressor genes
+
+* recessive, require only 1 allele to function. 
+
+Bax/Bak
+
+* triggered by P53 and cause mitochondria to have more membrane permeability. then cytochrome C which activates caspase 9. 
+
+Caspase 3
+
+* executioner caspase, bind to dead substrate and induce apotosis. 
+
+FasL/Fas(cd 95)
+
+* Fas ligand/receptor belongs to TNF family. Its binding induces apotosis.
+
+Fas-Associated protein with Death Domain (FADD)
+
+* bridges Fas receptor to procaspases 8. 
+
+Diversification
+
+* Clonal expansion and tumor progression
+
+squamous cell carcinoma
+
+* intercellular bridges and keratin production
+
+PTEN
+
+* PTEN acts as a tumor suppressor gene through the action of its phosphatase protein product. This phosphatase is involved in the regulation of the cell cycle, preventing cells from growing and dividing too rapidly
+
+
+c-MYC gene 
+
+* found on chromosome 8, and the t(8;14) translocation seen in many Burkitt lymphomas leads to MYC overexpression.
 
