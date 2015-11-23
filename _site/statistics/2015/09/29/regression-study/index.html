@@ -138,11 +138,11 @@
     
       
         
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
       
     
       
-        
-          <a class="sidebar-nav-item" href="/about/">About</a>
         
       
     
@@ -189,6 +189,10 @@
       
         
           <a class="sidebar-nav-item" href="/onlineTools/">online tools and resources</a>
+        
+      
+    
+      
         
       
     
@@ -314,6 +318,73 @@
 
 <p>If you normalized the data, <script type="math/tex">{\frac{X_i - \bar X}{Sd(X)} , \frac{Y_i-\bar Y}{Sd(Y)}}</script>, the slope is Cor(Y,X) because Sd(X) = Sd(Y) = 1.</p>
 
+<h2 id="derivation-of-linear-regression-equations">Derivation of linear regression equations</h2>
+
+<p>The following is adapted from <a href="http://seismo.berkeley.edu/~kirchner/eps_120/Toolkits/Toolkit_10.pdf">Data Analysis Toolkit #10: Simple linear regression</a>. However, there are some important supplementary information I want to include here.</p>
+<p align="right">(1)</p>
+<p><script type="math/tex">Q = \sum_{i = 1}^n (Y_i - \hat Y)^2 = \sum_{i = 1}^n (Y_i - a - bX_i)^2</script></p>
+
+<p>Then, Q will be minimized at the values of a and b for which ∂Q / ∂a = 0 and ∂Q / ∂b = 0</p>
+<p align="right">(2)</p>
+<p><script type="math/tex">\frac{\partial Q}{\partial a} = \sum_{i=1}^n -2(Y_i - a -bX_i) = 2(na + b\sum_{i}^n X_i - \sum_{i=1}^n Y_i) = 0</script></p>
+
+<p>divide through by 2 and solve for a</p>
+<p align="right">(3)</p>
+<p><script type="math/tex">a = \bar Y - b \bar X</script></p>
+
+<p>which says that the constant a (the y-intercept) is set such that the line must go through the mean of x and y. This makes sense, because this point is the “center” of the data cloud. The second condition for minimizing Q is,</p>
+<p align="right">(4)</p>
+<p><script type="math/tex">\frac{\partial Q}{\partial b} = \sum_{i=1}^n -2X_i(Y_i - a -bX_i) = \sum_{i=1}^n -2 (X_iY_i - aX_i - bX_i^2 = 0</script></p>
+
+<p>If we substitute the expression for a from (3) into (4), then we get</p>
+<p align="right">(5)</p>
+<p><script type="math/tex">\sum_{i=1}^n(X_iY_i - X_i\bar Y) + bX_i\bar X -bX_i^2)=0</script></p>
+
+<p>separate this into two sums</p>
+<p align="right">(6)</p>
+<p><script type="math/tex">\sum_{i=1}^n(X_iY_i-X_i\bar Y)-b \sum_{i=1}^n (X_i^2-X_i\bar X)</script></p>
+<p align="right">(7)</p>
+<p><script type="math/tex">b=\frac{\sum_{i=1}^n (X_iY_i-X_i\bar Y)}{\sum_{i=1}^n (X_i^2-X_i\bar X)} = \frac{\sum_{i=1}^n (X_iY_i)-n\bar X\bar Y}{\sum_{i=1}^n (X_i^2)- n\bar X^2}</script></p>
+
+<p>Because
+<script type="math/tex">\sum_{i=1}^n (\bar X^2-X_i\bar X) = 0  and  \sum_{i=1}^n (\bar X\bar Y -Y_i\bar X) = 0</script></p>
+
+<h2 id="include-r-code-to-illustrate-why-it-is-0">include R code to illustrate why it is 0.</h2>
+
+<p align="right">(1)</p>
+<p><script type="math/tex">Y_i = \alpha + |beta X_i + \epsilon_i</script></p>
+
+<p align="right">(1)</p>
+<p><script type="math/tex">E(Y_i) = \alpha + \beta E(X_i)</script></p>
+
+<p>subtract (2) from one (1)</p>
+
+<p align="right">(3)</p>
+<p><script type="math/tex">Y_i - E(Y_i) = \beta(X_i-E(X_i)+ \epsilon_i)</script></p>
+
+<p align="right">(4)</p>
+<p><script type="math/tex">E(Y_i) = \bar Y and E(X_i) = \bar X</script></p>
+
+<p align="right">(5)</p>
+<p><script type="math/tex">Y_i - \bar Y = \beta(X_i-\bar X)+ \epsilon_i)</script></p>
+
+<p>then <script type="math/tex">\beta</script> becomes</p>
+<p align="right">(6)</p>
+<p><script type="math/tex">\beta = \frac{\sum_{i}^n (X_i-\bar X)(Y_i-\bar Y)}{\sum_{i}^n (X_i- \bar X)^2}</script></p>
+
+<p>and we could divide both the numerator and denomator by n</p>
+
+<p align="right">(7)</p>
+<p><script type="math/tex">\beta = \frac{\frac{\sum_{i}^n (X_i-\bar X)(Y_i-\bar Y)}{n}}{\frac{\sum_{i}^n (X_i- \bar X)^2}{n}}</script></p>
+
+<p>deriving alpha</p>
+<p align="right">(8)</p>
+<p><script type="math/tex">E(Y_i) = \alpha + \hat\beta E(X_i)</script></p>
+
+<p>according to (4)</p>
+<p align="right">(9)</p>
+<p><script type="math/tex">\hat\alpha = \bar Y - \hat\beta E(X_i)</script></p>
+
 <h2 id="regression-through-the-origin">Regression through the origin</h2>
 
 <p><script type="math/tex">\begin{bmatrix}
@@ -412,6 +483,15 @@ sum(mean(d)*mean(e)-e*mean(d))
     
       <li>
         <h3>
+          <a href="/linear%20algebra/2015/11/22/linear-algebra_study_note/">
+            Linear Algebra study note
+            <small>22 Nov 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
           <a href="/linear%20algebra/2015/11/18/proof-linear-algebra/">
             Proof in vector space
             <small>18 Nov 2015</small>
@@ -424,15 +504,6 @@ sum(mean(d)*mean(e)-e*mean(d))
           <a href="/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/">
             Statistics for Genomic Data Science
             <small>14 Nov 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/statistics/2015/10/30/correlation-study/">
-            correlation study
-            <small>30 Oct 2015</small>
           </a>
         </h3>
       </li>

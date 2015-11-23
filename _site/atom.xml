@@ -4,13 +4,139 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2015-11-22T00:22:25-06:00</updated>
+ <updated>2015-11-23T14:08:17-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
    <email>davidliangtmm@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Linear Algebra study note</title>
+   <link href="http://lanyon.getpoole.com/linear%20algebra/2015/11/22/linear-algebra_study_note/"/>
+   <updated>2015-11-22T00:00:00-06:00</updated>
+   <id>http://lanyon.getpoole.com/linear%20algebra/2015/11/22/linear-algebra_study_note</id>
+   <content type="html">&lt;h2 id=&quot;parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/h2&gt;
+
+&lt;!--break--&gt;
+&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec V = \begin{bmatrix}
+		2\\
+        1\\
+\end{bmatrix}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then the span is 
+&lt;script type=&quot;math/tex&quot;&gt;\ \mathbf S = \{ c\vec V | c \in \mathbf R \}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec X = \begin{bmatrix}
+			2\\
+			4\\	
+			\end{bmatrix}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;To find a line passes through &lt;script type=&quot;math/tex&quot;&gt;\vec X&lt;/script&gt;  and parellel to &lt;script type=&quot;math/tex&quot;&gt;\vec V&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;we can use this formula&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L =\{\vec X + t\vec V| t\in \mathbf R\}&lt;/script&gt;
+
+&lt;p&gt;To find a line passes through both &lt;script type=&quot;math/tex&quot;&gt;\vec X and \vec V&lt;/script&gt;, use either&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L = \{\vec b + t(\vec b-\vec a| t \in \mathbf R)\}&lt;/script&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L = \{\vec a + t(\vec b-\vec a| t \in \mathbf R)\}&lt;/script&gt;
+
+&lt;p&gt;example&lt;/p&gt;
+
+&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec a = \begin{bmatrix}
+			2\\
+			1\\
+			\end{bmatrix}&lt;/script&gt;
+	  &lt;script type=&quot;math/tex&quot;&gt;\vec b = \begin{bmatrix}
+	  		0\\
+			3\\
+			\end{bmatrix}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then &lt;script type=&quot;math/tex&quot;&gt;L = \{\begin{bmatrix}
+			2\\
+			1\\
+			\end{bmatrix} + t(\begin{bmatrix}
+			0\\
+			3\\
+			\end{bmatrix}
+			-\begin{bmatrix}
+			2\\
+			1\\
+			\end{bmatrix}) | t\in \mathbf R\}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;To see full from this video&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;color: #111; font-family: helvetica;&quot; target=&quot;_blank&quot; href=&quot;https://www.khanacademy.org/video/linear-algebra-parametric-representations-of-lines?utm_campaign=embed&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;560&quot; height=&quot;355&quot; src=&quot;https://www.khanacademy.org/embed_video?v=hWhs2cIj7Cw&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;dimension-of-the-column-space-or-rank&quot;&gt;Dimension of the Column Space or Rank&lt;/h2&gt;
+
+&lt;p&gt;The following is adapted from &lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/null_column_space/v/dimension-of-the-column-space-or-rank&quot;&gt;Khanacademy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;color: #111; font-family: helvetica;&quot; target=&quot;_blank&quot; href=&quot;https://www.khanacademy.org/video/dimension-of-the-column-space-or-rank?utm_campaign=embed&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;560&quot; height=&quot;355&quot; src=&quot;https://www.khanacademy.org/embed_video?v=JUgrBkPteTg&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;!--break--&gt;
+&lt;p&gt;Rank is the dimension of the basis of a matrix.&lt;/p&gt;
+
+&lt;p&gt;In order to be a basis, it has to satisfy that&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;vectors span &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;all the column vectors of a basis are linear independent&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;for example&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(1)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\mathbf A = \begin{bmatrix}
+        1 &amp; 0 &amp; -1 &amp; 0 &amp; 4 \\
+        2 &amp; 1 &amp; 0 &amp; 0 &amp; 9 \\
+        -1 &amp; 2 &amp; 5 &amp; 1 &amp; -5 \\
+        1 &amp; -1 &amp; -3 &amp; -2 &amp; 9
+        \end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;the column space of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt; is&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(2)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;C(\mathbf A) = span\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\}&lt;/script&gt;
+
+&lt;p&gt;However, we don’t know if all the  column vectors in the span are linear independant&lt;/p&gt;
+
+&lt;p&gt;To find the basis, let’s convert to reduced echelon form &lt;script type=&quot;math/tex&quot;&gt;A_e&lt;/script&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(3)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\mathbf A_e = \begin{bmatrix}
+        1 &amp; 0 &amp; -1 &amp; 0 &amp; 4 \\
+        0 &amp; 1 &amp; 2 &amp; 0 &amp; 1 \\
+        0 &amp; 0 &amp; 0 &amp; 1 &amp; -3 \\
+        0 &amp; 0 &amp; 0 &amp; 0 &amp; 0
+        \end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec r_i&lt;/script&gt; denote the columns of A&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(4)&lt;/p&gt;
+
+&lt;p&gt;we see that &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_1,\vec r_3,\vec r_4\}&lt;/script&gt; are linear independent and for the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A_e&lt;/script&gt;, and the 1s in these column vectors are also called the &lt;a href=&quot;https://en.wikibooks.org/wiki/Linear_Algebra/Row_Reduction_and_Echelon_Forms#Pivot_Positions&quot;&gt;pivot entries&lt;/a&gt;. Moreover, &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_3,\vec r_5\}&lt;/script&gt; can be represented as linear combinations of &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_1,\vec r_3,\vec r_4\}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Therefore, we can conclude that  &lt;script type=&quot;math/tex&quot;&gt;\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\} in \mathbf A&lt;/script&gt; are also linear independent and they are the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;And the Rank of A is just the dimension of the basis, so &lt;script type=&quot;math/tex&quot;&gt;rank(\mathbf A) = 3&lt;/script&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Proof in vector space</title>
@@ -2199,6 +2325,73 @@ Did the summary describe the frequency distributions in terms of the values the 
 &lt;p&gt;The slope is the same one you would get if you centered the data&lt;script type=&quot;math/tex&quot;&gt;(X_i - \bar X, Y_i - \bar Y)&lt;/script&gt;, and did regression through the origin.&lt;/p&gt;
 
 &lt;p&gt;If you normalized the data, &lt;script type=&quot;math/tex&quot;&gt;{\frac{X_i - \bar X}{Sd(X)} , \frac{Y_i-\bar Y}{Sd(Y)}}&lt;/script&gt;, the slope is Cor(Y,X) because Sd(X) = Sd(Y) = 1.&lt;/p&gt;
+
+&lt;h2 id=&quot;derivation-of-linear-regression-equations&quot;&gt;Derivation of linear regression equations&lt;/h2&gt;
+
+&lt;p&gt;The following is adapted from &lt;a href=&quot;http://seismo.berkeley.edu/~kirchner/eps_120/Toolkits/Toolkit_10.pdf&quot;&gt;Data Analysis Toolkit #10: Simple linear regression&lt;/a&gt;. However, there are some important supplementary information I want to include here.&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(1)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Q = \sum_{i = 1}^n (Y_i - \hat Y)^2 = \sum_{i = 1}^n (Y_i - a - bX_i)^2&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, Q will be minimized at the values of a and b for which ∂Q / ∂a = 0 and ∂Q / ∂b = 0&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(2)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{\partial Q}{\partial a} = \sum_{i=1}^n -2(Y_i - a -bX_i) = 2(na + b\sum_{i}^n X_i - \sum_{i=1}^n Y_i) = 0&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;divide through by 2 and solve for a&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(3)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;a = \bar Y - b \bar X&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;which says that the constant a (the y-intercept) is set such that the line must go through the mean of x and y. This makes sense, because this point is the “center” of the data cloud. The second condition for minimizing Q is,&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(4)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{\partial Q}{\partial b} = \sum_{i=1}^n -2X_i(Y_i - a -bX_i) = \sum_{i=1}^n -2 (X_iY_i - aX_i - bX_i^2 = 0&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;If we substitute the expression for a from (3) into (4), then we get&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(5)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sum_{i=1}^n(X_iY_i - X_i\bar Y) + bX_i\bar X -bX_i^2)=0&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;separate this into two sums&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(6)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sum_{i=1}^n(X_iY_i-X_i\bar Y)-b \sum_{i=1}^n (X_i^2-X_i\bar X)&lt;/script&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(7)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;b=\frac{\sum_{i=1}^n (X_iY_i-X_i\bar Y)}{\sum_{i=1}^n (X_i^2-X_i\bar X)} = \frac{\sum_{i=1}^n (X_iY_i)-n\bar X\bar Y}{\sum_{i=1}^n (X_i^2)- n\bar X^2}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Because
+&lt;script type=&quot;math/tex&quot;&gt;\sum_{i=1}^n (\bar X^2-X_i\bar X) = 0  and  \sum_{i=1}^n (\bar X\bar Y -Y_i\bar X) = 0&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;include-r-code-to-illustrate-why-it-is-0&quot;&gt;include R code to illustrate why it is 0.&lt;/h2&gt;
+
+&lt;p align=&quot;right&quot;&gt;(1)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Y_i = \alpha + |beta X_i + \epsilon_i&lt;/script&gt;&lt;/p&gt;
+
+&lt;p align=&quot;right&quot;&gt;(1)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;E(Y_i) = \alpha + \beta E(X_i)&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;subtract (2) from one (1)&lt;/p&gt;
+
+&lt;p align=&quot;right&quot;&gt;(3)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Y_i - E(Y_i) = \beta(X_i-E(X_i)+ \epsilon_i)&lt;/script&gt;&lt;/p&gt;
+
+&lt;p align=&quot;right&quot;&gt;(4)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;E(Y_i) = \bar Y and E(X_i) = \bar X&lt;/script&gt;&lt;/p&gt;
+
+&lt;p align=&quot;right&quot;&gt;(5)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Y_i - \bar Y = \beta(X_i-\bar X)+ \epsilon_i)&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then &lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt; becomes&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(6)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\beta = \frac{\sum_{i}^n (X_i-\bar X)(Y_i-\bar Y)}{\sum_{i}^n (X_i- \bar X)^2}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;and we could divide both the numerator and denomator by n&lt;/p&gt;
+
+&lt;p align=&quot;right&quot;&gt;(7)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\beta = \frac{\frac{\sum_{i}^n (X_i-\bar X)(Y_i-\bar Y)}{n}}{\frac{\sum_{i}^n (X_i- \bar X)^2}{n}}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;deriving alpha&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(8)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;E(Y_i) = \alpha + \hat\beta E(X_i)&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;according to (4)&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(9)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\hat\alpha = \bar Y - \hat\beta E(X_i)&lt;/script&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;regression-through-the-origin&quot;&gt;Regression through the origin&lt;/h2&gt;
 

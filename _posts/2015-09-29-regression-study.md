@@ -29,6 +29,76 @@ The slope is the same one you would get if you centered the data$$(X_i - \bar X,
 
 If you normalized the data, $${\frac{X_i - \bar X}{Sd(X)} , \frac{Y_i-\bar Y}{Sd(Y)}}$$, the slope is Cor(Y,X) because Sd(X) = Sd(Y) = 1. 
 
+## Derivation of linear regression equations
+
+The following is adapted from [Data Analysis Toolkit #10: Simple linear regression](http://seismo.berkeley.edu/~kirchner/eps_120/Toolkits/Toolkit_10.pdf). However, there are some important supplementary information I want to include here. 
+<p align="right">(1)</p> 
+$$Q = \sum_{i = 1}^n (Y_i - \hat Y)^2 = \sum_{i = 1}^n (Y_i - a - bX_i)^2$$						
+
+Then, Q will be minimized at the values of a and b for which ∂Q / ∂a = 0 and ∂Q / ∂b = 0 
+<p align="right">(2)</p> 
+$$\frac{\partial Q}{\partial a} = \sum_{i=1}^n -2(Y_i - a -bX_i) = 2(na + b\sum_{i}^n X_i - \sum_{i=1}^n Y_i) = 0$$		
+
+divide through by 2 and solve for a
+<p align="right">(3)</p> 
+$$a = \bar Y - b \bar X$$																								
+
+which says that the constant a (the y-intercept) is set such that the line must go through the mean of x and y. This makes sense, because this point is the "center" of the data cloud. The second condition for minimizing Q is,
+<p align="right">(4)</p> 
+$$\frac{\partial Q}{\partial b} = \sum_{i=1}^n -2X_i(Y_i - a -bX_i) = \sum_{i=1}^n -2 (X_iY_i - aX_i - bX_i^2 = 0$$		
+
+If we substitute the expression for a from (3) into (4), then we get
+<p align="right">(5)</p> 
+$$\sum_{i=1}^n(X_iY_i - X_i\bar Y) + bX_i\bar X -bX_i^2)=0$$
+
+separate this into two sums
+<p align="right">(6)</p> 
+$$\sum_{i=1}^n(X_iY_i-X_i\bar Y)-b \sum_{i=1}^n (X_i^2-X_i\bar X)$$
+<p align="right">(7)</p> 
+$$b=\frac{\sum_{i=1}^n (X_iY_i-X_i\bar Y)}{\sum_{i=1}^n (X_i^2-X_i\bar X)} = \frac{\sum_{i=1}^n (X_iY_i)-n\bar X\bar Y}{\sum_{i=1}^n (X_i^2)- n\bar X^2} $$
+
+Because
+$$\sum_{i=1}^n (\bar X^2-X_i\bar X) = 0  and  \sum_{i=1}^n (\bar X\bar Y -Y_i\bar X) = 0$$
+
+## include R code to illustrate why it is 0. 
+
+
+
+
+<p align="right">(1)</p>
+$$Y_i = \alpha + |beta X_i + \epsilon_i$$ 
+
+<p align="right">(1)</p>
+$$E(Y_i) = \alpha + \beta E(X_i)$$
+
+subtract (2) from one (1)
+
+<p align="right">(3)</p>
+$$Y_i - E(Y_i) = \beta(X_i-E(X_i)+ \epsilon_i)$$
+
+<p align="right">(4)</p>
+$$E(Y_i) = \bar Y and E(X_i) = \bar X$$
+
+<p align="right">(5)</p>
+$$Y_i - \bar Y = \beta(X_i-\bar X)+ \epsilon_i)$$
+
+then $$\beta$$ becomes
+<p align="right">(6)</p>
+$$\beta = \frac{\sum_{i}^n (X_i-\bar X)(Y_i-\bar Y)}{\sum_{i}^n (X_i- \bar X)^2}$$
+
+and we could divide both the numerator and denomator by n
+
+<p align="right">(7)</p>
+$$\beta = \frac{\frac{\sum_{i}^n (X_i-\bar X)(Y_i-\bar Y)}{n}}{\frac{\sum_{i}^n (X_i- \bar X)^2}{n}}$$
+
+deriving alpha
+<p align="right">(8)</p>
+$$E(Y_i) = \alpha + \hat\beta E(X_i)$$
+
+according to (4)
+<p align="right">(9)</p>
+$$\hat\alpha = \bar Y - \hat\beta E(X_i)$$
+
 
 
 ## Regression through the origin

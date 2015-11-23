@@ -11,7 +11,7 @@
 
   <title>
     
-      Pathology subsection &middot; TmmGeek
+      Linear Algebra study note &middot; TmmGeek
     
   </title>
 
@@ -230,7 +230,7 @@
     
       
         
-          <a class="sidebar-nav-item active" href="/resource/">Pathology subsection</a>
+          <a class="sidebar-nav-item" href="/resource/">Pathology subsection</a>
         
       
     
@@ -297,73 +297,180 @@
       </div>
 
       <div class="container content">
-        <div class="page">
-  <h1 class="page-title">Pathology subsection</h1>
-  <!--## Welcome to the TMM Geek Pathology review section
+        <div class="post">
+  <h1 class="post-title">Linear Algebra study note</h1>
+  <span class="post-date">22 Nov 2015</span>
+  <h2 id="parametric-representation-of-lines">Parametric representation of lines</h2>
 
-I created this blog section mainly because it helps me to study and review the tremendous volume of information from my General 
-Pathology course at [UMMC](https://www.umc.edu). While it helps me a lot, I am happy to share those resources with the others. Most of the items in this section are adapted from various sources I found from the the internet as well as from the awosome 
+<!--break-->
+<p>let <script type="math/tex">\vec V = \begin{bmatrix}
+		2\\
+        1\\
+\end{bmatrix}</script></p>
 
-* [Robbins and Cotran Review of Pathology 3rd](http://www.amazon.com/Robbins-Cotran-Review-Pathology-ebook/dp/B004HD4UAM/ref=mt_kindle?_encoding=UTF8&me=) by KLATT & KUMAR 
+<p>then the span is 
+<script type="math/tex">\ \mathbf S = \{ c\vec V | c \in \mathbf R \}</script></p>
 
-* and [Robbins Basic Pathology, 9th edition-Vinay Kumar, Abul K. Ab](http://www.amazon.com/Robbins-Basic-Pathology-STUDENT-CONSULT/dp/1437717810) text. 
+<p>let <script type="math/tex">\vec X = \begin{bmatrix}
+			2\\
+			4\\	
+			\end{bmatrix}</script></p>
 
-Please keep these resources solely for academic purpose and I do not intent to distribute these material for any comercial use. The 
-author of this section does not assume any legal responsibility if those materials are misused. Thank you and enjoy 
+<p>To find a line passes through <script type="math/tex">\vec X</script>  and parellel to <script type="math/tex">\vec V</script></p>
 
+<p>we can use this formula</p>
 
-### Interactive quizzes with answer and explanation
+<script type="math/tex; mode=display">L =\{\vec X + t\vec V| t\in \mathbf R\}</script>
 
-* [acute and Chronic inflammation part I](https://dl.dropboxusercontent.com/u/49272502/test/index.html)
+<p>To find a line passes through both <script type="math/tex">\vec X and \vec V</script>, use either</p>
 
-* [Acute and Chronic inflammation part II](https://dl.dropboxusercontent.com/u/49272502/pathology%20quiz%20slide%202015%20fall/quiz%202/index.html)
+<script type="math/tex; mode=display">L = \{\vec b + t(\vec b-\vec a| t \in \mathbf R)\}</script>
 
-* [Neoplasia diseases](https://dl.dropboxusercontent.com/u/49272502/pathology%20quiz%20slide%202015%20fall/Neoplasia/index.html)-->
+<p>or</p>
 
-<!--### review quizze from UMMC canvas
+<script type="math/tex; mode=display">L = \{\vec a + t(\vec b-\vec a| t \in \mathbf R)\}</script>
 
-* [Inflammation and repair quiz 1 from canvas](http://jizongl.github.io/pathology/2015/09/06/pathology-quiz-1/)
+<p>example</p>
 
-* [Immunology Pathology quiz 2 from canvas](http://jizongl.github.io/pathology/2015/09/06/pathology-quiz-2/)
+<p>let <script type="math/tex">\vec a = \begin{bmatrix}
+			2\\
+			1\\
+			\end{bmatrix}</script>
+	  <script type="math/tex">\vec b = \begin{bmatrix}
+	  		0\\
+			3\\
+			\end{bmatrix}</script></p>
 
+<p>then <script type="math/tex">L = \{\begin{bmatrix}
+			2\\
+			1\\
+			\end{bmatrix} + t(\begin{bmatrix}
+			0\\
+			3\\
+			\end{bmatrix}
+			-\begin{bmatrix}
+			2\\
+			1\\
+			\end{bmatrix}) | t\in \mathbf R\}</script></p>
 
-### Figures and graphs
+<p>To see full from this video</p>
 
-[collection of figures from the Robin text](http://jizongl.github.io/pathology/2015/09/04/pathology-review-4/)
+<p><a style="color: #111; font-family: helvetica;" target="_blank" href="https://www.khanacademy.org/video/linear-algebra-parametric-representations-of-lines?utm_campaign=embed"></a></p>
+<iframe frameborder="0" scrolling="no" width="560" height="355" src="https://www.khanacademy.org/embed_video?v=hWhs2cIj7Cw" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe>
 
-### Study note and key points
+<h2 id="dimension-of-the-column-space-or-rank">Dimension of the Column Space or Rank</h2>
 
-[collection of phenotypical features and diseases](http://jizongl.github.io/pathology/2015/09/04/pathology-review-2/)
+<p>The following is adapted from <a href="https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/null_column_space/v/dimension-of-the-column-space-or-rank">Khanacademy</a></p>
 
-[collection of various factors, molecule, proteins and genes](http://jizongl.github.io/pathology/2015/09/04/pathology-review-1/)-->
+<p><a style="color: #111; font-family: helvetica;" target="_blank" href="https://www.khanacademy.org/video/dimension-of-the-column-space-or-rank?utm_campaign=embed"></a></p>
 
-<!--### Past Pathology exams collection
+<iframe frameborder="0" scrolling="no" width="560" height="355" src="https://www.khanacademy.org/embed_video?v=JUgrBkPteTg" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe>
 
-#### Exam 1
+<!--break-->
+<p>Rank is the dimension of the basis of a matrix.</p>
 
-* [2003-2004_Pathology_Exam1](/assets/pathology/test1/pastexams/exam1/2003-2004_Pathology_Exam1.pdf)
+<p>In order to be a basis, it has to satisfy that</p>
 
-* [2003-2004_Pathology_Exam1_Challenges](/assets/pathology/test1/pastexams/exam1/2003-2004_Pathology_Exam1_Challenges.pdf)
+<ul>
+  <li>
+    <p>vectors span <script type="math/tex">\mathbf A</script></p>
+  </li>
+  <li>
+    <p>all the column vectors of a basis are linear independent</p>
+  </li>
+</ul>
 
-* [2002-2003_Pathology_Exam1](/assets/pathology/test1/pastexams/exam1/2002-2003_Pathology_Exam1.pdf)
+<p>for example</p>
+<p align="right">(1)</p>
 
-* [2001-2002_Pathology_Exam1](/assets/pathology/test1/pastexams/exam1/2001-2002_Pathology_Exam1.pdf)
+<script type="math/tex; mode=display">% <![CDATA[
+\mathbf A = \begin{bmatrix}
+        1 & 0 & -1 & 0 & 4 \\
+        2 & 1 & 0 & 0 & 9 \\
+        -1 & 2 & 5 & 1 & -5 \\
+        1 & -1 & -3 & -2 & 9
+        \end{bmatrix} %]]></script>
 
-* [2000-2001_Pathology_Exam1](/assets/pathology/test1/pastexams/exam1/2000-2001_Pathology_Exam1.pdf)
+<p>the column space of <script type="math/tex">\mathbf A</script> is</p>
+<p align="right">(2)</p>
 
-* [1998-1999_Pathology_Exam1](/assets/pathology/test1/pastexams/exam1/1998-1999_Pathology_Exam1.pdf)
+<script type="math/tex; mode=display">C(\mathbf A) = span\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\}</script>
 
+<p>However, we don’t know if all the  column vectors in the span are linear independant</p>
 
-### Interactive Figures review from lectures
+<p>To find the basis, let’s convert to reduced echelon form <script type="math/tex">A_e</script></p>
+<p align="right">(3)</p>
 
-[Inflammation and Repair & Immunopathology](https://dl.dropboxusercontent.com/u/49272502/pathology%20quiz%20slide%202015%20fall/figureslidesquiz-inflammation%26immonopath/test/index.html)-->
+<script type="math/tex; mode=display">% <![CDATA[
+\mathbf A_e = \begin{bmatrix}
+        1 & 0 & -1 & 0 & 4 \\
+        0 & 1 & 2 & 0 & 1 \\
+        0 & 0 & 0 & 1 & -3 \\
+        0 & 0 & 0 & 0 & 0
+        \end{bmatrix} %]]></script>
+
+<p>let <script type="math/tex">\vec r_i</script> denote the columns of A</p>
+<p align="right">(4)</p>
+
+<p>we see that <script type="math/tex">\{\vec r_1,\vec r_3,\vec r_4\}</script> are linear independent and for the basis of <script type="math/tex">\mathbf A_e</script>, and the 1s in these column vectors are also called the <a href="https://en.wikibooks.org/wiki/Linear_Algebra/Row_Reduction_and_Echelon_Forms#Pivot_Positions">pivot entries</a>. Moreover, <script type="math/tex">\{\vec r_3,\vec r_5\}</script> can be represented as linear combinations of <script type="math/tex">\{\vec r_1,\vec r_3,\vec r_4\}</script></p>
+
+<p>Therefore, we can conclude that  <script type="math/tex">\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\} in \mathbf A</script> are also linear independent and they are the basis of <script type="math/tex">\mathbf A</script></p>
+
+<p>And the Rank of A is just the dimension of the basis, so <script type="math/tex">rank(\mathbf A) = 3</script></p>
+
 
 </div>
-
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/linear%20algebra/2015/11/18/proof-linear-algebra/">
+            Proof in vector space
+            <small>18 Nov 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/">
+            Statistics for Genomic Data Science
+            <small>14 Nov 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/statistics/2015/10/30/correlation-study/">
+            correlation study
+            <small>30 Oct 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
         
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'geektmm';
+    var disqus_identifier = "/linear%20algebra/2015/11/22/linear-algebra_study_note/";
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
