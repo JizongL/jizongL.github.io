@@ -103,8 +103,8 @@ $$
 $$
 
 the column space of $$\mathbf A$$ is 
-<p align = "right">(2)</p>
 
+<p align = "right">(2)</p>
 $$ C(\mathbf A) = span\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\} $$ 
 
 However, we don't know if all the  column vectors in the span are linear independant 

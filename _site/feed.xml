@@ -5,8 +5,8 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Nov 2015 14:08:17 -0600</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2015 14:08:17 -0600</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2015 14:11:43 -0600</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2015 14:11:43 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -103,9 +103,9 @@
         \end{bmatrix} %]]&gt;&lt;/script&gt;
 
 &lt;p&gt;the column space of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt; is&lt;/p&gt;
-&lt;p align=&quot;right&quot;&gt;(2)&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;C(\mathbf A) = span\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\}&lt;/script&gt;
+&lt;p align=&quot;right&quot;&gt;(2)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;C(\mathbf A) = span\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\}&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;However, we don’t know if all the  column vectors in the span are linear independant&lt;/p&gt;
 

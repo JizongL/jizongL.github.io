@@ -4,7 +4,7 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2015-11-23T14:08:17-06:00</updated>
+ <updated>2015-11-23T14:11:43-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
@@ -109,9 +109,9 @@
         \end{bmatrix} %]]&gt;&lt;/script&gt;
 
 &lt;p&gt;the column space of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt; is&lt;/p&gt;
-&lt;p align=&quot;right&quot;&gt;(2)&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;C(\mathbf A) = span\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\}&lt;/script&gt;
+&lt;p align=&quot;right&quot;&gt;(2)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;C(\mathbf A) = span\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\}&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;However, we don’t know if all the  column vectors in the span are linear independant&lt;/p&gt;
 
