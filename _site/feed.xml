@@ -5,15 +5,18 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Nov 2015 10:08:03 -0600</pubDate>
-    <lastBuildDate>Wed, 25 Nov 2015 10:08:03 -0600</lastBuildDate>
+    <pubDate>Wed, 25 Nov 2015 10:42:45 -0600</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2015 10:42:45 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Linear Algebra study note</title>
         <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#the-concept-of-linear-independance&quot; id=&quot;markdown-toc-the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#test-of-linear-dependance&quot; id=&quot;markdown-toc-test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#test-of-linear-dependance&quot; id=&quot;markdown-toc-test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#example&quot; id=&quot;markdown-toc-example&quot;&gt;Example&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#parametric-representation-of-lines&quot; id=&quot;markdown-toc-parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#dimension-of-the-column-space-or-rank&quot; id=&quot;markdown-toc-dimension-of-the-column-space-or-rank&quot;&gt;Dimension of the Column Space or Rank&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -23,7 +26,8 @@
 &lt;p&gt;linear dependance 
 $$&lt;/p&gt;
 
-&lt;p&gt;$$&lt;/p&gt;
+&lt;p&gt;$$
+&lt;!--break--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/h2&gt;
 
@@ -31,9 +35,39 @@ $$&lt;/p&gt;
 
 &lt;p&gt;For some &lt;script type=&quot;math/tex&quot;&gt;c_i&lt;/script&gt;, not all are 0. (at least 1 is non-zero)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#section&quot;&gt;proof&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence&quot;&gt;see proof&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#beginning&quot;&gt;proof&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;example&quot;&gt;Example&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left( \mathbf A =
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+,
+\mathbf B =
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+\right)&lt;/script&gt;
+
+&lt;p&gt;to test if A and B are independent&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c_1
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
++ c_2
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+= 0&lt;/script&gt;
+
+&lt;p&gt;To satisify the conditon above, if either &lt;script type=&quot;math/tex&quot;&gt;c_1&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;c_2&lt;/script&gt; are non-zero, then A and B are dependent 
+If both &lt;script type=&quot;math/tex&quot;&gt;c_1,c_2&lt;/script&gt; are 0, then A and B are independent&lt;/p&gt;
 
 &lt;h2 id=&quot;parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/h2&gt;
 
@@ -168,7 +202,14 @@ $$&lt;/p&gt;
     
       <item>
         <title>Proof in vector space</title>
-        <description>&lt;p&gt;Prove that a vector space has only one zero vector. (Exercise 4.2, 19.) 
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#prove-that-a-vector-space-has-only-one-zero-vector&quot; id=&quot;markdown-toc-prove-that-a-vector-space-has-only-one-zero-vector&quot;&gt;Prove that a vector space has only one zero vector.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#proof-of-linear-dependence&quot; id=&quot;markdown-toc-proof-of-linear-dependence&quot;&gt;proof of linear dependence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;prove-that-a-vector-space-has-only-one-zero-vector&quot;&gt;Prove that a vector space has only one zero vector.&lt;/h2&gt;
+
+&lt;p&gt;(Exercise 4.2, 19.) 
 &lt;!--break--&gt;
 Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
 Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
@@ -199,78 +240,19 @@ u⊕w=0
 ￼￼0⊕w = v w= v
 Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
 
-&lt;h2 id=&quot;orthogonal-complements&quot;&gt;Orthogonal complements&lt;/h2&gt;
+&lt;p id=&quot;linear_dependence&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;N(A) is the orthogonal complement&lt;/p&gt;
+&lt;h2 id=&quot;proof-of-linear-dependence&quot;&gt;proof of linear dependence&lt;/h2&gt;
 
-&lt;p&gt;Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
-Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
-z2 ⊕z1 =z1 ⊕z2 =z2&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v_1 = c_2\vec v_2 + c_3\vec c_3 + \cdots c_n\vec v_n&lt;/script&gt;
 
-&lt;p&gt;Comment: That is, just plug in z1 where you see 0, and z2 where you see u. Similarly, since
-z2 is a zero vector, and z1 is another vector, we have:
-z1 ⊕z2 =z2 ⊕z1 =z1&lt;/p&gt;
+&lt;p&gt;Then at least one of the constant is non-zero&lt;/p&gt;
 
-&lt;p&gt;By the two equations above, we have
-z1 ⊕ z2 = z1 = z2
-Thus z1 = z2. That is, any two zero vectors must be equal, so that the zero vector is unique.&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;0 = -1\vec v_1 + c_2\vec c_2 + a_3\vec c_3 + \cdots c_n\vec v_n&lt;/script&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Prove that a vector u in a vector space has only one negative, -u. (Exercise 4.2, 20.)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;assume c1 is non-zero&lt;/p&gt;
 
-&lt;p&gt;Solution: Suppose that v and w are two additive inverses of u. Since w is an additive inverse&lt;/p&gt;
-
-&lt;p&gt;Add v to both sides.&lt;/p&gt;
-
-&lt;p&gt;v⊕u⊕w = v⊕0 v⊕u⊕w = v
-􏰂 􏰁􏰀 􏰃
-0
-u⊕w=0
-(property 3 in vector space defn)
-(property 4, since v is an additive inverse) (property 3)
-￼￼0⊕w = v w= v
-Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
-
-&lt;p id=&quot;section&quot;&gt;&lt;/p&gt;
-&lt;p&gt;## Orthogonal complements&lt;/p&gt;
-
-&lt;p&gt;N(A) is the orthogonal complement&lt;/p&gt;
-
-&lt;p&gt;Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
-Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
-z2 ⊕z1 =z1 ⊕z2 =z2&lt;/p&gt;
-
-&lt;p&gt;Comment: That is, just plug in z1 where you see 0, and z2 where you see u. Similarly, since
-z2 is a zero vector, and z1 is another vector, we have:
-z1 ⊕z2 =z2 ⊕z1 =z1&lt;/p&gt;
-
-&lt;p&gt;By the two equations above, we have
-z1 ⊕ z2 = z1 = z2
-Thus z1 = z2. That is, any two zero vectors must be equal, so that the zero vector is unique.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Prove that a vector u in a vector space has only one negative, -u. (Exercise 4.2, 20.)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Solution: Suppose that v and w are two additive inverses of u. Since w is an additive inverse&lt;/p&gt;
-
-&lt;p&gt;Add v to both sides.&lt;/p&gt;
-
-&lt;p id=&quot;section&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;v⊕u⊕w = v⊕0 v⊕u⊕w = v
-􏰂 􏰁􏰀 􏰃
-0
-u⊕w=0
-(property 3 in vector space defn)
-(property 4, since v is an additive inverse) (property 3)
-￼￼0⊕w = v w= v
-Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
-
-&lt;h2 id=&quot;orthogonal-complements-1&quot;&gt;Orthogonal complements&lt;/h2&gt;
-
-&lt;p&gt;N(A) is the orthogonal complement&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v_1 + \frac{c_2}{c1}\vec v_2 + \cdots + \frac{c_n}{c_1}\vec v_n = 0&lt;/script&gt;
 </description>
         <pubDate>Wed, 18 Nov 2015 00:00:00 -0600</pubDate>
         <link>http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra/</link>

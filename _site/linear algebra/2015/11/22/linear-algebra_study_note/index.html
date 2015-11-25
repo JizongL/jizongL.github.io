@@ -302,7 +302,10 @@
   <span class="post-date">22 Nov 2015</span>
   <ul id="markdown-toc">
   <li><a href="#the-concept-of-linear-independance" id="markdown-toc-the-concept-of-linear-independance">The concept of Linear independance</a></li>
-  <li><a href="#test-of-linear-dependance" id="markdown-toc-test-of-linear-dependance">Test of linear dependance</a></li>
+  <li><a href="#test-of-linear-dependance" id="markdown-toc-test-of-linear-dependance">Test of linear dependance</a>    <ul>
+      <li><a href="#example" id="markdown-toc-example">Example</a></li>
+    </ul>
+  </li>
   <li><a href="#parametric-representation-of-lines" id="markdown-toc-parametric-representation-of-lines">Parametric representation of lines</a></li>
   <li><a href="#dimension-of-the-column-space-or-rank" id="markdown-toc-dimension-of-the-column-space-or-rank">Dimension of the Column Space or Rank</a></li>
 </ul>
@@ -312,7 +315,8 @@
 <p>linear dependance 
 $$</p>
 
-<p>$$</p>
+<p>$$
+<!--break--></p>
 
 <h2 id="test-of-linear-dependance">Test of linear dependance</h2>
 
@@ -320,9 +324,39 @@ $$</p>
 
 <p>For some <script type="math/tex">c_i</script>, not all are 0. (at least 1 is non-zero)</p>
 
-<p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#section">proof</a></p>
+<p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence">see proof</a></p>
 
-<p><a href="#beginning">proof</a></p>
+<h3 id="example">Example</h3>
+
+<script type="math/tex; mode=display">\left( \mathbf A =
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+,
+\mathbf B =
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+\right)</script>
+
+<p>to test if A and B are independent</p>
+
+<script type="math/tex; mode=display">c_1
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
++ c_2
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+= 0</script>
+
+<p>To satisify the conditon above, if either <script type="math/tex">c_1</script> or <script type="math/tex">c_2</script> are non-zero, then A and B are dependent 
+If both <script type="math/tex">c_1,c_2</script> are 0, then A and B are independent</p>
 
 <h2 id="parametric-representation-of-lines">Parametric representation of lines</h2>
 

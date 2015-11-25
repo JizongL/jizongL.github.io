@@ -15,7 +15,7 @@ linear dependance
 $$
 
 $$
-
+<!--break-->
 
 ## Test of linear dependance
 
@@ -23,9 +23,45 @@ $$s = \{\vec v_1 \vec v_2, \cdots\vec v_n\} \iff c_1\vec v_1 + c_2\vec v_2 \cdot
 
 For some $$c_i$$, not all are 0. (at least 1 is non-zero)
 
-<p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#section">proof</a></p>
+<p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence">see proof</a></p>
 
-<a href = "#beginning">proof</a>
+### Example
+
+$$
+\left( \mathbf A =
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+,
+\mathbf B =
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+\right)
+$$
+
+to test if A and B are independent
+
+$$
+c_1
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
++ c_2
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+= 0 
+$$
+
+To satisify the conditon above, if either $$c_1$$ or $$c_2$$ are non-zero, then A and B are dependent 
+If both $$c_1,c_2$$ are 0, then A and B are independent 
+
+
 
 ## Parametric representation of lines
 

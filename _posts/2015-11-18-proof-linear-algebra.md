@@ -6,7 +6,13 @@ category: linear algebra
 tags: [linear algebra, proof, vector space]
 ---
 
-Prove that a vector space has only one zero vector. (Exercise 4.2, 19.) 
+* This line is a placeholder to generate the table of contents
+{:toc}
+
+
+## Prove that a vector space has only one zero vector. 
+
+(Exercise 4.2, 19.) 
 <!--break-->
 Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
 Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
@@ -36,72 +42,16 @@ u⊕w=0
 Thus, w = v, so that the additive inverse of u is unique.
 
 
-## Orthogonal complements
+<p id = "linear_dependence"></p>
 
-N(A) is the orthogonal complement 
+## proof of linear dependence
 
-Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
-Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
-z2 ⊕z1 =z1 ⊕z2 =z2
+$$\vec v_1 = c_2\vec v_2 + c_3\vec c_3 + \cdots c_n\vec v_n$$
 
-Comment: That is, just plug in z1 where you see 0, and z2 where you see u. Similarly, since
-z2 is a zero vector, and z1 is another vector, we have:
-z1 ⊕z2 =z2 ⊕z1 =z1
+Then at least one of the constant is non-zero
 
-By the two equations above, we have
-z1 ⊕ z2 = z1 = z2
-Thus z1 = z2. That is, any two zero vectors must be equal, so that the zero vector is unique.
+$$ 0 = -1\vec v_1 + c_2\vec c_2 + a_3\vec c_3 + \cdots c_n\vec v_n$$
 
-3. Prove that a vector u in a vector space has only one negative, -u. (Exercise 4.2, 20.) 
+assume c1 is non-zero
 
-Solution: Suppose that v and w are two additive inverses of u. Since w is an additive inverse
-
-Add v to both sides.
-
-v⊕u⊕w = v⊕0 v⊕u⊕w = v
-􏰂 􏰁􏰀 􏰃
-0
-u⊕w=0
-(property 3 in vector space defn)
-(property 4, since v is an additive inverse) (property 3)
-￼￼0⊕w = v w= v
-Thus, w = v, so that the additive inverse of u is unique.
-
-<p id = "section"></p>
-## Orthogonal complements
-
-N(A) is the orthogonal complement 
-
-Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
-Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
-z2 ⊕z1 =z1 ⊕z2 =z2
-
-Comment: That is, just plug in z1 where you see 0, and z2 where you see u. Similarly, since
-z2 is a zero vector, and z1 is another vector, we have:
-z1 ⊕z2 =z2 ⊕z1 =z1
-
-By the two equations above, we have
-z1 ⊕ z2 = z1 = z2
-Thus z1 = z2. That is, any two zero vectors must be equal, so that the zero vector is unique.
-
-3. Prove that a vector u in a vector space has only one negative, -u. (Exercise 4.2, 20.) 
-
-Solution: Suppose that v and w are two additive inverses of u. Since w is an additive inverse
-
-Add v to both sides.
-
-<p id = "section"></p>
-
-v⊕u⊕w = v⊕0 v⊕u⊕w = v
-􏰂 􏰁􏰀 􏰃
-0
-u⊕w=0
-(property 3 in vector space defn)
-(property 4, since v is an additive inverse) (property 3)
-￼￼0⊕w = v w= v
-Thus, w = v, so that the additive inverse of u is unique.
-
-
-## Orthogonal complements
-
-N(A) is the orthogonal complement 
+$$\vec v_1 + \frac{c_2}{c1}\vec v_2 + \cdots + \frac{c_n}{c_1}\vec v_n = 0$$
