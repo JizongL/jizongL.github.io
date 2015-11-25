@@ -6,6 +6,27 @@ category: linear algebra
 tags: [vector ,linear algebra]
 ---
 
+* This line is a placeholder to generate the table of contents
+{:toc}
+
+## The concept of Linear independance
+
+linear dependance 
+$$
+
+$$
+
+
+## Test of linear dependance
+
+$$s = \{\vec v_1 \vec v_2, \cdots\vec v_n\} \iff c_1\vec v_1 + c_2\vec v_2 \cdots c_n\vec v_n = \mathbf 0$$
+
+For some $$c_i$$, not all are 0. (at least 1 is non-zero)
+
+<p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#section">proof</a></p>
+
+<a href = "#beginning">proof</a>
+
 ## Parametric representation of lines
 
 <!--break-->
@@ -80,7 +101,7 @@ The following is adapted from [Khanacademy](https://www.khanacademy.org/math/lin
 
 <iframe frameborder="0" scrolling="no" width="560" height="355" src="https://www.khanacademy.org/embed_video?v=JUgrBkPteTg" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
 
-<!--break-->
+
 Rank is the dimension of the basis of a matrix. 
 
 In order to be a basis, it has to satisfy that

@@ -4,7 +4,7 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2015-11-23T14:11:43-06:00</updated>
+ <updated>2015-11-25T10:08:03-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
@@ -17,7 +17,31 @@
    <link href="http://lanyon.getpoole.com/linear%20algebra/2015/11/22/linear-algebra_study_note/"/>
    <updated>2015-11-22T00:00:00-06:00</updated>
    <id>http://lanyon.getpoole.com/linear%20algebra/2015/11/22/linear-algebra_study_note</id>
-   <content type="html">&lt;h2 id=&quot;parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/h2&gt;
+   <content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-concept-of-linear-independance&quot; id=&quot;markdown-toc-the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#test-of-linear-dependance&quot; id=&quot;markdown-toc-test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#parametric-representation-of-lines&quot; id=&quot;markdown-toc-parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dimension-of-the-column-space-or-rank&quot; id=&quot;markdown-toc-dimension-of-the-column-space-or-rank&quot;&gt;Dimension of the Column Space or Rank&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/h2&gt;
+
+&lt;p&gt;linear dependance 
+$$&lt;/p&gt;
+
+&lt;p&gt;$$&lt;/p&gt;
+
+&lt;h2 id=&quot;test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;s = \{\vec v_1 \vec v_2, \cdots\vec v_n\} \iff c_1\vec v_1 + c_2\vec v_2 \cdots c_n\vec v_n = \mathbf 0&lt;/script&gt;
+
+&lt;p&gt;For some &lt;script type=&quot;math/tex&quot;&gt;c_i&lt;/script&gt;, not all are 0. (at least 1 is non-zero)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#section&quot;&gt;proof&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#beginning&quot;&gt;proof&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/h2&gt;
 
 &lt;!--break--&gt;
 &lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec V = \begin{bmatrix}
@@ -83,7 +107,6 @@
 
 &lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;560&quot; height=&quot;355&quot; src=&quot;https://www.khanacademy.org/embed_video?v=JUgrBkPteTg&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;!--break--&gt;
 &lt;p&gt;Rank is the dimension of the basis of a matrix.&lt;/p&gt;
 
 &lt;p&gt;In order to be a basis, it has to satisfy that&lt;/p&gt;
@@ -175,6 +198,75 @@ u⊕w=0
 Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
 
 &lt;h2 id=&quot;orthogonal-complements&quot;&gt;Orthogonal complements&lt;/h2&gt;
+
+&lt;p&gt;N(A) is the orthogonal complement&lt;/p&gt;
+
+&lt;p&gt;Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
+Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
+z2 ⊕z1 =z1 ⊕z2 =z2&lt;/p&gt;
+
+&lt;p&gt;Comment: That is, just plug in z1 where you see 0, and z2 where you see u. Similarly, since
+z2 is a zero vector, and z1 is another vector, we have:
+z1 ⊕z2 =z2 ⊕z1 =z1&lt;/p&gt;
+
+&lt;p&gt;By the two equations above, we have
+z1 ⊕ z2 = z1 = z2
+Thus z1 = z2. That is, any two zero vectors must be equal, so that the zero vector is unique.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Prove that a vector u in a vector space has only one negative, -u. (Exercise 4.2, 20.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Solution: Suppose that v and w are two additive inverses of u. Since w is an additive inverse&lt;/p&gt;
+
+&lt;p&gt;Add v to both sides.&lt;/p&gt;
+
+&lt;p&gt;v⊕u⊕w = v⊕0 v⊕u⊕w = v
+􏰂 􏰁􏰀 􏰃
+0
+u⊕w=0
+(property 3 in vector space defn)
+(property 4, since v is an additive inverse) (property 3)
+￼￼0⊕w = v w= v
+Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
+
+&lt;p id=&quot;section&quot;&gt;&lt;/p&gt;
+&lt;p&gt;## Orthogonal complements&lt;/p&gt;
+
+&lt;p&gt;N(A) is the orthogonal complement&lt;/p&gt;
+
+&lt;p&gt;Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
+Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
+z2 ⊕z1 =z1 ⊕z2 =z2&lt;/p&gt;
+
+&lt;p&gt;Comment: That is, just plug in z1 where you see 0, and z2 where you see u. Similarly, since
+z2 is a zero vector, and z1 is another vector, we have:
+z1 ⊕z2 =z2 ⊕z1 =z1&lt;/p&gt;
+
+&lt;p&gt;By the two equations above, we have
+z1 ⊕ z2 = z1 = z2
+Thus z1 = z2. That is, any two zero vectors must be equal, so that the zero vector is unique.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Prove that a vector u in a vector space has only one negative, -u. (Exercise 4.2, 20.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Solution: Suppose that v and w are two additive inverses of u. Since w is an additive inverse&lt;/p&gt;
+
+&lt;p&gt;Add v to both sides.&lt;/p&gt;
+
+&lt;p id=&quot;section&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;v⊕u⊕w = v⊕0 v⊕u⊕w = v
+􏰂 􏰁􏰀 􏰃
+0
+u⊕w=0
+(property 3 in vector space defn)
+(property 4, since v is an additive inverse) (property 3)
+￼￼0⊕w = v w= v
+Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
+
+&lt;h2 id=&quot;orthogonal-complements-1&quot;&gt;Orthogonal complements&lt;/h2&gt;
 
 &lt;p&gt;N(A) is the orthogonal complement&lt;/p&gt;
 </content>
@@ -2308,7 +2400,14 @@ Did the summary describe the frequency distributions in terms of the values the 
    <link href="http://lanyon.getpoole.com/statistics/2015/09/29/regression-study/"/>
    <updated>2015-09-29T00:00:00-05:00</updated>
    <id>http://lanyon.getpoole.com/statistics/2015/09/29/regression-study</id>
-   <content type="html">&lt;p&gt;Some key points about Least Square Model&lt;/p&gt;
+   <content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#derivation-of-linear-regression-equations&quot; id=&quot;markdown-toc-derivation-of-linear-regression-equations&quot;&gt;Derivation of linear regression equations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#include-r-code-to-illustrate-why-it-is-0&quot; id=&quot;markdown-toc-include-r-code-to-illustrate-why-it-is-0&quot;&gt;include R code to illustrate why it is 0.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#regression-through-the-origin&quot; id=&quot;markdown-toc-regression-through-the-origin&quot;&gt;Regression through the origin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#derivation-of-regression-formula-through-calculus&quot; id=&quot;markdown-toc-derivation-of-regression-formula-through-calculus&quot;&gt;derivation of regression formula through calculus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some key points about Least Square Model&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -2362,7 +2461,7 @@ Did the summary describe the frequency distributions in terms of the values the 
 &lt;p align=&quot;right&quot;&gt;(1)&lt;/p&gt;
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Y_i = \alpha + |beta X_i + \epsilon_i&lt;/script&gt;&lt;/p&gt;
 
-&lt;p align=&quot;right&quot;&gt;(1)&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(2)&lt;/p&gt;
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;E(Y_i) = \alpha + \beta E(X_i)&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;subtract (2) from one (1)&lt;/p&gt;
@@ -2392,6 +2491,8 @@ Did the summary describe the frequency distributions in terms of the values the 
 &lt;p&gt;according to (4)&lt;/p&gt;
 &lt;p align=&quot;right&quot;&gt;(9)&lt;/p&gt;
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\hat\alpha = \bar Y - \hat\beta E(X_i)&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Generalize to multiple linear regression&lt;/p&gt;
 
 &lt;h2 id=&quot;regression-through-the-origin&quot;&gt;Regression through the origin&lt;/h2&gt;
 

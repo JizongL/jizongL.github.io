@@ -300,7 +300,14 @@
         <div class="post">
   <h1 class="post-title">Regression indepth study</h1>
   <span class="post-date">29 Sep 2015</span>
-  <p>Some key points about Least Square Model</p>
+  <ul id="markdown-toc">
+  <li><a href="#derivation-of-linear-regression-equations" id="markdown-toc-derivation-of-linear-regression-equations">Derivation of linear regression equations</a></li>
+  <li><a href="#include-r-code-to-illustrate-why-it-is-0" id="markdown-toc-include-r-code-to-illustrate-why-it-is-0">include R code to illustrate why it is 0.</a></li>
+  <li><a href="#regression-through-the-origin" id="markdown-toc-regression-through-the-origin">Regression through the origin</a></li>
+  <li><a href="#derivation-of-regression-formula-through-calculus" id="markdown-toc-derivation-of-regression-formula-through-calculus">derivation of regression formula through calculus</a></li>
+</ul>
+
+<p>Some key points about Least Square Model</p>
 
 <!--break-->
 
@@ -354,7 +361,7 @@
 <p align="right">(1)</p>
 <p><script type="math/tex">Y_i = \alpha + |beta X_i + \epsilon_i</script></p>
 
-<p align="right">(1)</p>
+<p align="right">(2)</p>
 <p><script type="math/tex">E(Y_i) = \alpha + \beta E(X_i)</script></p>
 
 <p>subtract (2) from one (1)</p>
@@ -384,6 +391,8 @@
 <p>according to (4)</p>
 <p align="right">(9)</p>
 <p><script type="math/tex">\hat\alpha = \bar Y - \hat\beta E(X_i)</script></p>
+
+<p>Generalize to multiple linear regression</p>
 
 <h2 id="regression-through-the-origin">Regression through the origin</h2>
 

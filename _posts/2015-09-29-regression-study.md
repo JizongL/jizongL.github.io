@@ -6,6 +6,9 @@ category: Statistics
 tags: [OLS, regression]
 ---
 
+* This line is a placeholder to generate the table of contents
+{:toc}
+
 Some key points about Least Square Model
 
 <!--break-->
@@ -68,7 +71,7 @@ $$\sum_{i=1}^n (\bar X^2-X_i\bar X) = 0  and  \sum_{i=1}^n (\bar X\bar Y -Y_i\ba
 <p align="right">(1)</p>
 $$Y_i = \alpha + |beta X_i + \epsilon_i$$ 
 
-<p align="right">(1)</p>
+<p align="right">(2)</p>
 $$E(Y_i) = \alpha + \beta E(X_i)$$
 
 subtract (2) from one (1)
@@ -99,6 +102,7 @@ according to (4)
 <p align="right">(9)</p>
 $$\hat\alpha = \bar Y - \hat\beta E(X_i)$$
 
+Generalize to multiple linear regression 
 
 
 ## Regression through the origin
