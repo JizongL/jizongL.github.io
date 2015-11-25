@@ -14,7 +14,10 @@ This is my personal website built upon the amazing Jekyll themes made by [@mdo](
 * [Python](https://www.python.org)
 * [Bioconductor](https://www.bioconductor.org) 
 * [The Galaxy Project](https://galaxyproject.org)
-
+* [stata](http://www.stata.com)
+* html
+* Javascript 
+* Hadoop
 
 You are welcome to check out my [GitHub](https://github.com/JizongL)
 

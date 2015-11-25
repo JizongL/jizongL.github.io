@@ -61,6 +61,8 @@ $$
 To satisify the conditon above, if either $$c_1$$ or $$c_2$$ are non-zero, then A and B are dependent 
 If both $$c_1,c_2$$ are 0, then A and B are independent 
 
+adapted from [Khanacademy](https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_independence/v/more-on-linear-independence)
+
 
 
 ## Parametric representation of lines
