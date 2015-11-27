@@ -185,12 +185,12 @@ $$
 let $$\vec r_i$$ denote the columns of A
 <p align = "right">(4)</p>
 
-we see that $$\{\vec r_1,\vec r_3,\vec r_4\} $$ are linear independent and for the basis of $$\mathbf A_e$$, and the 1s in these column vectors are also called the [pivot entries](https://en.wikibooks.org/wiki/Linear_Algebra/Row_Reduction_and_Echelon_Forms#Pivot_Positions). Moreover, $$\{\vec r_3,\vec r_5\}$$ can be represented as linear combinations of $$\{\vec r_1,\vec r_3,\vec r_4\}$$
+we see that $$\{\vec r_1,\vec r_3,\vec r_4\} $$ are linear independent and for the basis of $$\mathbf A_e$$, and the 1s in these column vectors are also called the [pivot entries](https://en.wikibooks.org/wiki/Linear_Algebra/Row_Reduction_and_Echelon_Forms#Pivot_Positions). Moreover, $$\{\vec r_3,\vec r_5\}$$ can be represented as linear combinations of $$\{\vec r_1,\vec r_2,\vec r_4\}$$
 
 
 
 
-Therefore, we can conclude that  $$\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\} in \mathbf A$$ are also linear independent and they are the basis of $$\mathbf A$$
+Therefore, we can conclude that  $$\{\vec a_1,\vec a_2,\vec a_4,\} in \mathbf A$$ are also linear independent and they are the basis of $$\mathbf A$$
 
 And the Rank of A is just the dimension of the basis, so $$rank(\mathbf A) = 3$$
 

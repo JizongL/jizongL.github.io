@@ -4,7 +4,7 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2015-11-27T08:41:47-06:00</updated>
+ <updated>2015-11-27T08:45:28-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
@@ -188,9 +188,9 @@ If both &lt;script type=&quot;math/tex&quot;&gt;c_1,c_2&lt;/script&gt; are 0, th
 &lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec r_i&lt;/script&gt; denote the columns of A&lt;/p&gt;
 &lt;p align=&quot;right&quot;&gt;(4)&lt;/p&gt;
 
-&lt;p&gt;we see that &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_1,\vec r_3,\vec r_4\}&lt;/script&gt; are linear independent and for the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A_e&lt;/script&gt;, and the 1s in these column vectors are also called the &lt;a href=&quot;https://en.wikibooks.org/wiki/Linear_Algebra/Row_Reduction_and_Echelon_Forms#Pivot_Positions&quot;&gt;pivot entries&lt;/a&gt;. Moreover, &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_3,\vec r_5\}&lt;/script&gt; can be represented as linear combinations of &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_1,\vec r_3,\vec r_4\}&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;we see that &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_1,\vec r_3,\vec r_4\}&lt;/script&gt; are linear independent and for the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A_e&lt;/script&gt;, and the 1s in these column vectors are also called the &lt;a href=&quot;https://en.wikibooks.org/wiki/Linear_Algebra/Row_Reduction_and_Echelon_Forms#Pivot_Positions&quot;&gt;pivot entries&lt;/a&gt;. Moreover, &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_3,\vec r_5\}&lt;/script&gt; can be represented as linear combinations of &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_1,\vec r_2,\vec r_4\}&lt;/script&gt;&lt;/p&gt;
 
-&lt;p&gt;Therefore, we can conclude that  &lt;script type=&quot;math/tex&quot;&gt;\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\} in \mathbf A&lt;/script&gt; are also linear independent and they are the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Therefore, we can conclude that  &lt;script type=&quot;math/tex&quot;&gt;\{\vec a_1,\vec a_2,\vec a_4,\} in \mathbf A&lt;/script&gt; are also linear independent and they are the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;And the Rank of A is just the dimension of the basis, so &lt;script type=&quot;math/tex&quot;&gt;rank(\mathbf A) = 3&lt;/script&gt;&lt;/p&gt;
 
