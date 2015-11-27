@@ -48,7 +48,7 @@ $$a = \bar Y - b \bar X$$
 
 which says that the constant a (the y-intercept) is set such that the line must go through the mean of x and y. This makes sense, because this point is the "center" of the data cloud. The second condition for minimizing Q is,
 <p align="right">(4)</p> 
-$$\frac{\partial Q}{\partial b} = \sum_{i=1}^n -2X_i(Y_i - a -bX_i) = \sum_{i=1}^n -2 (X_iY_i - aX_i - bX_i^2 = 0$$		
+$$\frac{\partial Q}{\partial b} = \sum_{i=1}^n -2X_i(Y_i - a -bX_i) = \sum_{i=1}^n -2 (X_iY_i - aX_i - bX_i^2) = 0$$		
 
 If we substitute the expression for a from (3) into (4), then we get
 <p align="right">(5)</p> 

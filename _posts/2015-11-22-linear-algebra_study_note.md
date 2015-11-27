@@ -9,13 +9,106 @@ tags: [vector ,linear algebra]
 * This line is a placeholder to generate the table of contents
 {:toc}
 
+
+<!--break-->
+
+## Definition of $$\mathbf R^n$$ and $$\mathbf R$$
+
+$$\vec X \in \mathbf R^n$$
+
+$$\mathbf R^n = \begin{cases}
+n-tuple\\
+(x_1,x_2 \cdots x_n)\end{cases}$$
+$$ \bigr| x_1,x_2,\cdots x_n \in \mathbf R
+$$
+
+## vector transformation 
+
+$$\vec x = \begin{bmatrix}
+	x_1\\
+	x_2\\
+	\vdots\\
+	x_n
+	\end{bmatrix}
+	\vec y = \begin{bmatrix}
+	y_1\\
+	y_2\\
+	\vdots\\
+	y_m
+	\end{bmatrix}
+	$$
+
+let $$\vec x \in \mathbf R^n \text{and} \vec y \in \mathbf R^m$$ 
+
+$$f:\mathbf R^n \implies \mathbf R^m$$
+
+for example
+
+$$f:\mathbf R^3 \implies \mathbf R^2$$
+
+$$\begin{bmatrix}
+	x_1\\
+	x_2\\
+	x_3\\
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+	x_1+2x_2\\
+	3x_3\\
+	\end{bmatrix}
+	$$
+
+$$\begin{bmatrix}
+	1\\
+	1\\
+	1\\
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+	3\\
+	3\\
+	\end{bmatrix}
+	$$
+
+$$\begin{bmatrix}
+	2\\
+	4\\
+	1\\
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+	10\\
+	3\\
+	\end{bmatrix}
+	$$
+
+
+
+$$T:\mathbf R^3 \implies\mathbf R^2$$ 
+
+$$T(x_1,x_2,x_3) \implies (x_1+2x_2, 3x_3)$$
+
+## Formal understanding of functions
+
+if a function g(x) maps the single number 2. 
+
+$$g(x_1,x_2) = 2$$
+
+Then, the domain is $$\mathbf R^2$$ and the codomain is $$\mathbf R^3$$ but the range is 2. 
+
+$$h:\mathbf R^2 \implies \mathbf R^3$$
+
+In this, the domain is $$\mathbf R^2$$ and the codomain and the range are $$\mathbf R^3$$, for example
+
+$$\mathbf h (x_1,x_2) = (x_1+x_2, x_2-x_1,x_2x_1)$$
+
+
 ## The concept of Linear independance
 
-linear dependance 
-$$
 
-$$
-<!--break-->
+
+
+
 
 ## Test of linear dependance
 

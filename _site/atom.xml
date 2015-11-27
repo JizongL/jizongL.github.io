@@ -4,7 +4,7 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2015-11-27T08:45:28-06:00</updated>
+ <updated>2015-11-27T10:08:17-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
@@ -18,6 +18,9 @@
    <updated>2015-11-22T00:00:00-06:00</updated>
    <id>http://lanyon.getpoole.com/linear%20algebra/2015/11/22/linear-algebra_study_note</id>
    <content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#definition-of-mathbf-rn-and-mathbf-r&quot; id=&quot;markdown-toc-definition-of-mathbf-rn-and-mathbf-r&quot;&gt;Definition of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\mathbf R&lt;/script&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#vector-transformation&quot; id=&quot;markdown-toc-vector-transformation&quot;&gt;vector transformation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#formal-understanding-of-functions&quot; id=&quot;markdown-toc-formal-understanding-of-functions&quot;&gt;Formal understanding of functions&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#the-concept-of-linear-independance&quot; id=&quot;markdown-toc-the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#test-of-linear-dependance&quot; id=&quot;markdown-toc-test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#example&quot; id=&quot;markdown-toc-example&quot;&gt;Example&lt;/a&gt;&lt;/li&gt;
@@ -27,13 +30,92 @@
   &lt;li&gt;&lt;a href=&quot;#dimension-of-the-column-space-or-rank&quot; id=&quot;markdown-toc-dimension-of-the-column-space-or-rank&quot;&gt;Dimension of the Column Space or Rank&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;!--break--&gt;
+
+&lt;h2 id=&quot;definition-of-mathbf-rn-and-mathbf-r&quot;&gt;Definition of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\mathbf R&lt;/script&gt;&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec X \in \mathbf R^n&lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n = \begin{cases}
+n-tuple\\
+(x_1,x_2 \cdots x_n)\end{cases}&lt;/script&gt;
+&lt;script type=&quot;math/tex&quot;&gt;\bigr| x_1,x_2,\cdots x_n \in \mathbf R&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;vector-transformation&quot;&gt;vector transformation&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec x = \begin{bmatrix}
+	x_1\\
+	x_2\\
+	\vdots\\
+	x_n
+	\end{bmatrix}
+	\vec y = \begin{bmatrix}
+	y_1\\
+	y_2\\
+	\vdots\\
+	y_m
+	\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec x \in \mathbf R^n \text{and} \vec y \in \mathbf R^m&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f:\mathbf R^n \implies \mathbf R^m&lt;/script&gt;
+
+&lt;p&gt;for example&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f:\mathbf R^3 \implies \mathbf R^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
+	x_1\\
+	x_2\\
+	x_3\\
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+	x_1+2x_2\\
+	3x_3\\
+	\end{bmatrix}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
+	1\\
+	1\\
+	1\\
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+	3\\
+	3\\
+	\end{bmatrix}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
+	2\\
+	4\\
+	1\\
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+	10\\
+	3\\
+	\end{bmatrix}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;T:\mathbf R^3 \implies\mathbf R^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;T(x_1,x_2,x_3) \implies (x_1+2x_2, 3x_3)&lt;/script&gt;
+
+&lt;h2 id=&quot;formal-understanding-of-functions&quot;&gt;Formal understanding of functions&lt;/h2&gt;
+
+&lt;p&gt;if a function g(x) maps the single number 2.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;g(x_1,x_2) = 2&lt;/script&gt;
+
+&lt;p&gt;Then, the domain is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt; and the codomain is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt; but the range is 2.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;h:\mathbf R^2 \implies \mathbf R^3&lt;/script&gt;
+
+&lt;p&gt;In this, the domain is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt; and the codomain and the range are &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;, for example&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf h (x_1,x_2) = (x_1+x_2, x_2-x_1,x_2x_1)&lt;/script&gt;
+
 &lt;h2 id=&quot;the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/h2&gt;
-
-&lt;p&gt;linear dependance 
-$$&lt;/p&gt;
-
-&lt;p&gt;$$
-&lt;!--break--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/h2&gt;
 
@@ -2425,7 +2507,7 @@ Did the summary describe the frequency distributions in terms of the values the 
 
 &lt;p&gt;which says that the constant a (the y-intercept) is set such that the line must go through the mean of x and y. This makes sense, because this point is the “center” of the data cloud. The second condition for minimizing Q is,&lt;/p&gt;
 &lt;p align=&quot;right&quot;&gt;(4)&lt;/p&gt;
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{\partial Q}{\partial b} = \sum_{i=1}^n -2X_i(Y_i - a -bX_i) = \sum_{i=1}^n -2 (X_iY_i - aX_i - bX_i^2 = 0&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{\partial Q}{\partial b} = \sum_{i=1}^n -2X_i(Y_i - a -bX_i) = \sum_{i=1}^n -2 (X_iY_i - aX_i - bX_i^2) = 0&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;If we substitute the expression for a from (3) into (4), then we get&lt;/p&gt;
 &lt;p align=&quot;right&quot;&gt;(5)&lt;/p&gt;
