@@ -92,7 +92,7 @@ we can use this formula
 
 $$ L =\{\vec X + t\vec V| t\in \mathbf R\}$$
 
-To find a line passes through both $$\vec X and \vec V$$, use either
+To find a line passes through both $$\vec a and \vec b$$, use either
 
 $$L = \{\vec b + t(\vec b-\vec a| t \in \mathbf R)\}$$
 

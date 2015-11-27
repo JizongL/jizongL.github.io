@@ -4,7 +4,7 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2015-11-25T10:59:55-06:00</updated>
+ <updated>2015-11-27T08:41:47-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
@@ -99,7 +99,7 @@ If both &lt;script type=&quot;math/tex&quot;&gt;c_1,c_2&lt;/script&gt; are 0, th
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;L =\{\vec X + t\vec V| t\in \mathbf R\}&lt;/script&gt;
 
-&lt;p&gt;To find a line passes through both &lt;script type=&quot;math/tex&quot;&gt;\vec X and \vec V&lt;/script&gt;, use either&lt;/p&gt;
+&lt;p&gt;To find a line passes through both &lt;script type=&quot;math/tex&quot;&gt;\vec a and \vec b&lt;/script&gt;, use either&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;L = \{\vec b + t(\vec b-\vec a| t \in \mathbf R)\}&lt;/script&gt;
 
