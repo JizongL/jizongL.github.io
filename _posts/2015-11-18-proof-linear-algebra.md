@@ -55,3 +55,24 @@ $$ 0 = -1\vec v_1 + c_2\vec c_2 + a_3\vec c_3 + \cdots c_n\vec v_n$$
 assume c1 is non-zero
 
 $$\vec v_1 + \frac{c_2}{c1}\vec v_2 + \cdots + \frac{c_n}{c_1}\vec v_n = 0$$
+
+<p id = "doc_product_loc"></p>
+Suppose that $$0<\theta<\pi, \ \text{so that the vectors} \ \vec v \ and \ \vec w $$  form a triangle. By the law of Cosines
+
+$$\left\|\vec v-\vec w\right\|^2 = \left\|\vec v\right\| + \left\|\vec w\right\| -2\left\|\vec v\right\| cos\theta $$
+
+also true for $$\theta = 0 \ and \ \theta = \pi$$
+
+$$\left\|\vec v\right\|^2 = v_1^2+v_2^2+v_3^2$$
+
+$$\left\|\vec w\right\|^2 = w_1^2+w_2^2+w_3^2$$
+
+$$\left\|\vec v-\vec w\right\|^2 =(v_1-w_1)^2+(v_3-w_3)^2+(v_3-w_3)^2
+=v_1^2 -2v_1w_1+w_1^2+v_2^2 - 2v_2w_2 + w_2^2+v_3^2-2v_3w_3+w_3^2
+$$
+
+Substitute into the Law of Cosines
+
+$$-2v_1w_1-2v_2w_2-2v_3w_3=-2\left\|\vec v\right\|\left\|\vec w\right\|cos \theta$$
+
+$$v_1w_1-v_2w_2-v_3w_3=\left\|\vec v\right\|\left\|\vec w\right\|cos \theta$$

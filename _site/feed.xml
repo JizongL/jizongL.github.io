@@ -5,8 +5,8 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Nov 2015 10:08:17 -0600</pubDate>
-    <lastBuildDate>Fri, 27 Nov 2015 10:08:17 -0600</lastBuildDate>
+    <pubDate>Sat, 28 Nov 2015 09:21:38 -0600</pubDate>
+    <lastBuildDate>Sat, 28 Nov 2015 09:21:38 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -15,13 +15,19 @@
   &lt;li&gt;&lt;a href=&quot;#definition-of-mathbf-rn-and-mathbf-r&quot; id=&quot;markdown-toc-definition-of-mathbf-rn-and-mathbf-r&quot;&gt;Definition of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\mathbf R&lt;/script&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#vector-transformation&quot; id=&quot;markdown-toc-vector-transformation&quot;&gt;vector transformation&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#formal-understanding-of-functions&quot; id=&quot;markdown-toc-formal-understanding-of-functions&quot;&gt;Formal understanding of functions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#the-concept-of-linear-independance&quot; id=&quot;markdown-toc-the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#test-of-linear-dependance&quot; id=&quot;markdown-toc-test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#example&quot; id=&quot;markdown-toc-example&quot;&gt;Example&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-concept-of-linear-independance&quot; id=&quot;markdown-toc-the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#test-of-linear-dependance&quot; id=&quot;markdown-toc-test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-1&quot; id=&quot;markdown-toc-example-1&quot;&gt;Example 1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-3&quot; id=&quot;markdown-toc-example-3&quot;&gt;example 3&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#parametric-representation-of-lines&quot; id=&quot;markdown-toc-parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#dimension-of-the-column-space-or-rank&quot; id=&quot;markdown-toc-dimension-of-the-column-space-or-rank&quot;&gt;Dimension of the Column Space or Rank&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dot-product&quot; id=&quot;markdown-toc-dot-product&quot;&gt;Dot product&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#definition&quot; id=&quot;markdown-toc-definition&quot;&gt;definition&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#vector-into-components-projection&quot; id=&quot;markdown-toc-vector-into-components-projection&quot;&gt;vector into components: projection&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!--break--&gt;
@@ -111,7 +117,13 @@ n-tuple\\
 
 &lt;h2 id=&quot;the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/h2&gt;
 
-&lt;h2 id=&quot;test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/h2&gt;
+&lt;p&gt;The main idea is that there is no redundent vectors in the space&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c_1\vec v_1+c_2\vec v_2 + \cdots c_n\vec v_n = \mathbf 0| c_1=c_2 \cdots c_n = 0&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_independence/v/span-and-linear-independence-example&quot;&gt;see&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/h3&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;s = \{\vec v_1 \vec v_2, \cdots\vec v_n\} \iff c_1\vec v_1 + c_2\vec v_2 \cdots c_n\vec v_n = \mathbf 0&lt;/script&gt;
 
@@ -119,7 +131,7 @@ n-tuple\\
 
 &lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence&quot;&gt;see proof&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;example&quot;&gt;Example&lt;/h3&gt;
+&lt;h3 id=&quot;example-1&quot;&gt;Example 1&lt;/h3&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\left( \mathbf A =
 \begin{bmatrix}
@@ -152,6 +164,27 @@ n-tuple\\
 If both &lt;script type=&quot;math/tex&quot;&gt;c_1,c_2&lt;/script&gt; are 0, then A and B are independent&lt;/p&gt;
 
 &lt;p&gt;adapted from &lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_independence/v/more-on-linear-independence&quot;&gt;Khanacademy&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;example-3&quot;&gt;example 3&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left(\begin{bmatrix}
+1\\
+-1\\
+2\\
+\end{bmatrix},
+
+\begin{bmatrix}
+1\\
+1\\
+3
+\end{bmatrix}
+,
+\begin{bmatrix}
+-1\\
+0\\
+2\\
+\end{bmatrix}\right)
+ = \mathbf Span(s) \ = \mathbf R^3?&lt;/script&gt;
 
 &lt;h2 id=&quot;parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/h2&gt;
 
@@ -270,6 +303,30 @@ If both &lt;script type=&quot;math/tex&quot;&gt;c_1,c_2&lt;/script&gt; are 0, th
 
 &lt;p&gt;And the Rank of A is just the dimension of the basis, so &lt;script type=&quot;math/tex&quot;&gt;rank(\mathbf A) = 3&lt;/script&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;dot-product&quot;&gt;Dot product&lt;/h2&gt;
+
+&lt;h3 id=&quot;definition&quot;&gt;definition&lt;/h3&gt;
+
+&lt;p id=&quot;geo_def&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Geometric definition 
+&lt;script type=&quot;math/tex&quot;&gt;\vec v\cdot\vec w = \left\|v\right\|\left\|w\right\|cos\theta \quad\text{Where}\quad\theta\quad \text{is the angle between}\quad\vec v \ \text{and} \ \vec w \quad and 0 \le \theta\le\pi&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Algebraic definition 
+&lt;script type=&quot;math/tex&quot;&gt;\vec v\cdot\vec w = v_1w_1+v_2w_2+v_3w_3.&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence&quot;&gt;see proof&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vector-into-components-projection&quot;&gt;vector into components: projection&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/LinearAlgebra/projection.png&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To compute &lt;script type=&quot;math/tex&quot;&gt;\left\|\vec v_{parallel}\right\| = \left\|\vec v\right\|cos\theta = \vec v\cdot\vec u \quad (since \ \left\|\vec u\right\| =1)&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then&lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel}\text{is a scalar multiple of $\vec u$, and since $\vec u$ is a unit vector}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.&lt;/script&gt; according to the&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#geo_def&quot;&gt;geometric definition&lt;/a&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Sun, 22 Nov 2015 00:00:00 -0600</pubDate>
         <link>http://lanyon.getpoole.com/linear%20algebra/2015/11/22/linear-algebra_study_note/</link>
@@ -337,6 +394,27 @@ Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
 &lt;p&gt;assume c1 is non-zero&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v_1 + \frac{c_2}{c1}\vec v_2 + \cdots + \frac{c_n}{c_1}\vec v_n = 0&lt;/script&gt;
+
+&lt;p id=&quot;doc_product_loc&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Suppose that &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+0&lt;\theta&lt;\pi, \ \text{so that the vectors} \ \vec v \ and \ \vec w %]]&gt;&lt;/script&gt;  form a triangle. By the law of Cosines&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec v-\vec w\right\|^2 = \left\|\vec v\right\| + \left\|\vec w\right\| -2\left\|\vec v\right\| cos\theta&lt;/script&gt;
+
+&lt;p&gt;also true for &lt;script type=&quot;math/tex&quot;&gt;\theta = 0 \ and \ \theta = \pi&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec v\right\|^2 = v_1^2+v_2^2+v_3^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec w\right\|^2 = w_1^2+w_2^2+w_3^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec v-\vec w\right\|^2 =(v_1-w_1)^2+(v_3-w_3)^2+(v_3-w_3)^2
+=v_1^2 -2v_1w_1+w_1^2+v_2^2 - 2v_2w_2 + w_2^2+v_3^2-2v_3w_3+w_3^2&lt;/script&gt;
+
+&lt;p&gt;Substitute into the Law of Cosines&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;-2v_1w_1-2v_2w_2-2v_3w_3=-2\left\|\vec v\right\|\left\|\vec w\right\|cos \theta&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;v_1w_1-v_2w_2-v_3w_3=\left\|\vec v\right\|\left\|\vec w\right\|cos \theta&lt;/script&gt;
 </description>
         <pubDate>Wed, 18 Nov 2015 00:00:00 -0600</pubDate>
         <link>http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra/</link>

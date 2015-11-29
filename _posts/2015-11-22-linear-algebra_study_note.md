@@ -105,12 +105,13 @@ $$\mathbf h (x_1,x_2) = (x_1+x_2, x_2-x_1,x_2x_1)$$
 
 ## The concept of Linear independance
 
+The main idea is that there is no redundent vectors in the space
 
+$$c_1\vec v_1+c_2\vec v_2 + \cdots c_n\vec v_n = \mathbf 0| c_1=c_2 \cdots c_n = 0$$ 
 
+[see](https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_independence/v/span-and-linear-independence-example)
 
-
-
-## Test of linear dependance
+### Test of linear dependance
 
 $$s = \{\vec v_1 \vec v_2, \cdots\vec v_n\} \iff c_1\vec v_1 + c_2\vec v_2 \cdots c_n\vec v_n = \mathbf 0$$
 
@@ -118,7 +119,7 @@ For some $$c_i$$, not all are 0. (at least 1 is non-zero)
 
 <p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence">see proof</a></p>
 
-### Example
+### Example 1
 
 $$
 \left( \mathbf A =
@@ -156,6 +157,27 @@ If both $$c_1,c_2$$ are 0, then A and B are independent
 
 adapted from [Khanacademy](https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_independence/v/more-on-linear-independence)
 
+### example 3 
+
+$$\left(\begin{bmatrix}
+1\\
+-1\\
+2\\
+\end{bmatrix},
+
+\begin{bmatrix}
+1\\
+1\\
+3
+\end{bmatrix}
+,
+\begin{bmatrix}
+-1\\
+0\\
+2\\
+\end{bmatrix}\right)
+ = \mathbf Span(s) \ = \mathbf R^3?
+$$
 
 
 ## Parametric representation of lines
@@ -289,5 +311,29 @@ And the Rank of A is just the dimension of the basis, so $$rank(\mathbf A) = 3$$
 
 
 
+## Dot product
+
+### definition 
+
+<p id="geo_def"></p>
+Geometric definition 
+$$\vec v\cdot\vec w = \left\|v\right\|\left\|w\right\|cos\theta \quad\text{Where}\quad\theta\quad \text{is the angle between}\quad\vec v \ \text{and} \ \vec w \quad and 0 \le \theta\le\pi$$
+
+Algebraic definition 
+$$\vec v\cdot\vec w = v_1w_1+v_2w_2+v_3w_3.$$
+
+<p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence">see proof</a></p>
+
+### vector into components: projection
+
+![projection](/assets/LinearAlgebra/projection.png)
+
+
+To compute $$\left\|\vec v_{parallel}\right\| = \left\|\vec v\right\|cos\theta = \vec v\cdot\vec u \quad (since \ \left\|\vec u\right\| =1)$$
+
+then$$\vec v_{parallel}\text{is a scalar multiple of $\vec u$, and since $\vec u$ is a unit vector}$$ 
+
+$$\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.$$ according to the 
+<p><a href="#geo_def">geometric definition</a></p> 
 
 

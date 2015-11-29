@@ -304,13 +304,19 @@
   <li><a href="#definition-of-mathbf-rn-and-mathbf-r" id="markdown-toc-definition-of-mathbf-rn-and-mathbf-r">Definition of <script type="math/tex">\mathbf R^n</script> and <script type="math/tex">\mathbf R</script></a></li>
   <li><a href="#vector-transformation" id="markdown-toc-vector-transformation">vector transformation</a></li>
   <li><a href="#formal-understanding-of-functions" id="markdown-toc-formal-understanding-of-functions">Formal understanding of functions</a></li>
-  <li><a href="#the-concept-of-linear-independance" id="markdown-toc-the-concept-of-linear-independance">The concept of Linear independance</a></li>
-  <li><a href="#test-of-linear-dependance" id="markdown-toc-test-of-linear-dependance">Test of linear dependance</a>    <ul>
-      <li><a href="#example" id="markdown-toc-example">Example</a></li>
+  <li><a href="#the-concept-of-linear-independance" id="markdown-toc-the-concept-of-linear-independance">The concept of Linear independance</a>    <ul>
+      <li><a href="#test-of-linear-dependance" id="markdown-toc-test-of-linear-dependance">Test of linear dependance</a></li>
+      <li><a href="#example-1" id="markdown-toc-example-1">Example 1</a></li>
+      <li><a href="#example-3" id="markdown-toc-example-3">example 3</a></li>
     </ul>
   </li>
   <li><a href="#parametric-representation-of-lines" id="markdown-toc-parametric-representation-of-lines">Parametric representation of lines</a></li>
   <li><a href="#dimension-of-the-column-space-or-rank" id="markdown-toc-dimension-of-the-column-space-or-rank">Dimension of the Column Space or Rank</a></li>
+  <li><a href="#dot-product" id="markdown-toc-dot-product">Dot product</a>    <ul>
+      <li><a href="#definition" id="markdown-toc-definition">definition</a></li>
+      <li><a href="#vector-into-components-projection" id="markdown-toc-vector-into-components-projection">vector into components: projection</a></li>
+    </ul>
+  </li>
 </ul>
 
 <!--break-->
@@ -400,7 +406,13 @@ n-tuple\\
 
 <h2 id="the-concept-of-linear-independance">The concept of Linear independance</h2>
 
-<h2 id="test-of-linear-dependance">Test of linear dependance</h2>
+<p>The main idea is that there is no redundent vectors in the space</p>
+
+<script type="math/tex; mode=display">c_1\vec v_1+c_2\vec v_2 + \cdots c_n\vec v_n = \mathbf 0| c_1=c_2 \cdots c_n = 0</script>
+
+<p><a href="https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_independence/v/span-and-linear-independence-example">see</a></p>
+
+<h3 id="test-of-linear-dependance">Test of linear dependance</h3>
 
 <script type="math/tex; mode=display">s = \{\vec v_1 \vec v_2, \cdots\vec v_n\} \iff c_1\vec v_1 + c_2\vec v_2 \cdots c_n\vec v_n = \mathbf 0</script>
 
@@ -408,7 +420,7 @@ n-tuple\\
 
 <p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence">see proof</a></p>
 
-<h3 id="example">Example</h3>
+<h3 id="example-1">Example 1</h3>
 
 <script type="math/tex; mode=display">\left( \mathbf A =
 \begin{bmatrix}
@@ -441,6 +453,27 @@ n-tuple\\
 If both <script type="math/tex">c_1,c_2</script> are 0, then A and B are independent</p>
 
 <p>adapted from <a href="https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_independence/v/more-on-linear-independence">Khanacademy</a></p>
+
+<h3 id="example-3">example 3</h3>
+
+<script type="math/tex; mode=display">\left(\begin{bmatrix}
+1\\
+-1\\
+2\\
+\end{bmatrix},
+
+\begin{bmatrix}
+1\\
+1\\
+3
+\end{bmatrix}
+,
+\begin{bmatrix}
+-1\\
+0\\
+2\\
+\end{bmatrix}\right)
+ = \mathbf Span(s) \ = \mathbf R^3?</script>
 
 <h2 id="parametric-representation-of-lines">Parametric representation of lines</h2>
 
@@ -558,6 +591,30 @@ If both <script type="math/tex">c_1,c_2</script> are 0, then A and B are indepen
 <p>Therefore, we can conclude that  <script type="math/tex">\{\vec a_1,\vec a_2,\vec a_4,\} in \mathbf A</script> are also linear independent and they are the basis of <script type="math/tex">\mathbf A</script></p>
 
 <p>And the Rank of A is just the dimension of the basis, so <script type="math/tex">rank(\mathbf A) = 3</script></p>
+
+<h2 id="dot-product">Dot product</h2>
+
+<h3 id="definition">definition</h3>
+
+<p id="geo_def"></p>
+<p>Geometric definition 
+<script type="math/tex">\vec v\cdot\vec w = \left\|v\right\|\left\|w\right\|cos\theta \quad\text{Where}\quad\theta\quad \text{is the angle between}\quad\vec v \ \text{and} \ \vec w \quad and 0 \le \theta\le\pi</script></p>
+
+<p>Algebraic definition 
+<script type="math/tex">\vec v\cdot\vec w = v_1w_1+v_2w_2+v_3w_3.</script></p>
+
+<p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence">see proof</a></p>
+
+<h3 id="vector-into-components-projection">vector into components: projection</h3>
+
+<p><img src="/assets/LinearAlgebra/projection.png" alt="projection" /></p>
+
+<p>To compute <script type="math/tex">\left\|\vec v_{parallel}\right\| = \left\|\vec v\right\|cos\theta = \vec v\cdot\vec u \quad (since \ \left\|\vec u\right\| =1)</script></p>
+
+<p>then<script type="math/tex">\vec v_{parallel}\text{is a scalar multiple of $\vec u$, and since $\vec u$ is a unit vector}</script></p>
+
+<p><script type="math/tex">\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.</script> according to the</p>
+<p><a href="#geo_def">geometric definition</a></p>
 
 
 </div>
