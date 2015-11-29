@@ -312,6 +312,12 @@
   </li>
   <li><a href="#parametric-representation-of-lines" id="markdown-toc-parametric-representation-of-lines">Parametric representation of lines</a></li>
   <li><a href="#dimension-of-the-column-space-or-rank" id="markdown-toc-dimension-of-the-column-space-or-rank">Dimension of the Column Space or Rank</a></li>
+  <li><a href="#linear-subspaces" id="markdown-toc-linear-subspaces">Linear subspaces</a>    <ul>
+      <li><a href="#a-trival-example-in-mathbf-r3" id="markdown-toc-a-trival-example-in-mathbf-r3">a trival example in <script type="math/tex">\mathbf R^3</script></a></li>
+      <li><a href="#example-2" id="markdown-toc-example-2">example 2</a></li>
+      <li><a href="#example-3-1" id="markdown-toc-example-3-1">example 3</a></li>
+    </ul>
+  </li>
   <li><a href="#dot-product" id="markdown-toc-dot-product">Dot product</a>    <ul>
       <li><a href="#definition" id="markdown-toc-definition">definition</a></li>
       <li><a href="#vector-into-components-projection" id="markdown-toc-vector-into-components-projection">vector into components: projection</a></li>
@@ -592,6 +598,145 @@ If both <script type="math/tex">c_1,c_2</script> are 0, then A and B are indepen
 
 <p>And the Rank of A is just the dimension of the basis, so <script type="math/tex">rank(\mathbf A) = 3</script></p>
 
+<h2 id="linear-subspaces">Linear subspaces</h2>
+
+<p>In order to be a subspace, a set must satisfy the following 3 criterias</p>
+
+<p>let</p>
+
+<script type="math/tex; mode=display">\mathbf R^n \leftarrow \left( 
+\begin{bmatrix}
+x_1\\
+x_2\\
+\vdots\\
+x_n
+\end{bmatrix} | x_i \in \mathbf R \ 1\le i \le n
+\right)</script>
+
+<p>Let’s assume <script type="math/tex">\mathbf V</script> is a subspace of <script type="math/tex">\mathbf R^n</script></p>
+
+<p>then</p>
+
+<p>1:</p>
+
+<script type="math/tex; mode=display">\mathbf V \ contains  \ \mathbf 0 = \begin{bmatrix}
+0\\
+\vdots\\
+0
+\end{bmatrix}</script>
+
+<p>2:</p>
+
+<p>And if <script type="math/tex">\vec x \in \mathbf V \ \text{then} \ c\vec x \ \ also \ in \mathbf V</script>
+This is defined as closure under scalar multiplication</p>
+
+<p>3:</p>
+
+<p><script type="math/tex">\vec a \in \mathbf V \ and \ \vec b \ \in \mathbf V, \ then \ \vec a + \vec b \ is \ also \ in \mathbf V</script>
+This is defined as closure under addition</p>
+
+<h3 id="a-trival-example-in-mathbf-r3">a trival example in <script type="math/tex">\mathbf R^3</script></h3>
+
+<script type="math/tex; mode=display">\mathbf V \ = \ {\mathbf 0} = \begin{bmatrix}
+0\\
+0\\
+0\\
+\end{bmatrix}</script>
+
+<p>it satisifies the 3 criterias</p>
+
+<p>1: it contains the zero vector.</p>
+
+<p>2: when it is multiplied by any real number scalar c, it is still itself. This implies it is still a member of <script type="math/tex">\mathbf 
+R^3</script> and satisify closure under multiplication</p>
+
+<p>3: when <script type="math/tex">\mathbf V + \mathbf V = \mathbf 0</script>, this implies it satisifies closure under addition</p>
+
+<p>so it is a subspace.</p>
+
+<h3 id="example-2">example 2</h3>
+
+<script type="math/tex; mode=display">\mathbf S = { \begin{bmatrix}
+x_1\\
+x_2
+\end{bmatrix}
+\in \ \mathbf R^2 | x_1 \ge 0 and x_2 \ge 0 }</script>
+
+<p>is <script type="math/tex">\mathbf S</script> a subspace of <script type="math/tex">\mathbf R^2</script>?</p>
+
+<p>1:</p>
+
+<p>because <script type="math/tex">x_1, x_2 \ge 0</script>, so it contains the zero vector.</p>
+
+<p>2:</p>
+
+<script type="math/tex; mode=display">\begin{bmatrix}
+a\\
+b
+\end{bmatrix}
++
+\begin{bmatrix}
+c\\
+d
+\end{bmatrix}
+=
+\begin{bmatrix}
+a+c\\
+b+d
+\end{bmatrix}</script>
+
+<p>it satisifies the closure of addition</p>
+
+<p>3: however, if</p>
+
+<script type="math/tex; mode=display">-1
+\begin{bmatrix}
+a\\
+b
+\end{bmatrix}
+=
+\begin{bmatrix}
+-a\\
+-b
+\end{bmatrix}</script>
+
+<p>This does not satisify the closure of multiplication because the result falls out of the restricted set. 
+(it is less than 0)</p>
+
+<h3 id="example-3-1">example 3</h3>
+
+<script type="math/tex; mode=display">let \ \mathbf U = \ span \ (\vec v_1,\vec v_2, \vec v_3)</script>
+
+<p>Is it subspace of <script type="math/tex">\mathbf R^3</script>?</p>
+
+<p>1: if</p>
+
+<script type="math/tex; mode=display">(0\vec v_1 +0\vec v_2+ 0\vec v_3 = \vec 0)</script>
+
+<p>so it contains the zero vector.</p>
+
+<p>2:</p>
+
+<script type="math/tex; mode=display">\vec X =c_1\vec v_1+c_2\vec v_2+ c_3\vec v_3</script>
+
+<script type="math/tex; mode=display">a\vec X =ac_1\vec v_1+ac_2\vec v_2+ ac_3\vec v_3</script>
+
+<p>if we let <script type="math/tex">ac_i = j_i</script></p>
+
+<script type="math/tex; mode=display">a\vec X =j_1\vec v_1+j_2\vec v_2+ j_3\vec v_3</script>
+
+<p>clear, it is just a linear combination of the 3 vectors and it is in the span of the 3 vectors, therefore it satisifies the closure of multiplication.</p>
+
+<p>3:</p>
+
+<script type="math/tex; mode=display">\vec Y =d_1\vec v_1+d_2\vec v_2+ d_3\vec v_3</script>
+
+<script type="math/tex; mode=display">\vec X + \vec Y =(c_1+d_1)\vec v_1+(c_2+d_2)\vec v_2+ (c_3+d_3)\vec v_3</script>
+
+<p>It clearly satisify the closure under addition</p>
+
+<p>so it is a subspace of <script type="math/tex">\mathbf R^3</script></p>
+
 <h2 id="dot-product">Dot product</h2>
 
 <h3 id="definition">definition</h3>
@@ -607,6 +752,9 @@ If both <script type="math/tex">c_1,c_2</script> are 0, then A and B are indepen
 
 <h3 id="vector-into-components-projection">vector into components: projection</h3>
 
+<p>From the figure, we see that <script type="math/tex">\vec v</script> is broken into two components <script type="math/tex">\vec v_{parallel} \ \vec v_{prep}</script> and they are 
+perpendicular, respectively, to a given nonzero vector, <script type="math/tex">\vec u</script> Figure from <a href="http://www.amazon.com/Calculus-Single-Variable-Deborah-Hughes-Hallett/dp/0470089156">Hughes-Hallett 5e</a></p>
+
 <p><img src="/assets/LinearAlgebra/projection.png" alt="projection" /></p>
 
 <p>To compute <script type="math/tex">\left\|\vec v_{parallel}\right\| = \left\|\vec v\right\|cos\theta = \vec v\cdot\vec u \quad (since \ \left\|\vec u\right\| =1)</script></p>
@@ -615,6 +763,8 @@ If both <script type="math/tex">c_1,c_2</script> are 0, then A and B are indepen
 
 <p><script type="math/tex">\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.</script> according to the</p>
 <p><a href="#geo_def">geometric definition</a></p>
+
+<script type="math/tex; mode=display">\vec_{prep} = \vec v - \vec v_{parallel}</script>
 
 
 </div>

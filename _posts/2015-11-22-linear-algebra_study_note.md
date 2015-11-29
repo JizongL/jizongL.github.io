@@ -309,7 +309,152 @@ Therefore, we can conclude that  $$\{\vec a_1,\vec a_2,\vec a_4,\} in \mathbf A$
 
 And the Rank of A is just the dimension of the basis, so $$rank(\mathbf A) = 3$$
 
+## Linear subspaces
 
+In order to be a subspace, a set must satisfy the following 3 criterias
+
+let 
+
+$$\mathbf R^n \leftarrow \left( 
+\begin{bmatrix}
+x_1\\
+x_2\\
+\vdots\\
+x_n
+\end{bmatrix} | x_i \in \mathbf R \ 1\le i \le n
+\right)
+$$
+
+Let's assume $$\mathbf V$$ is a subspace of $$\mathbf R^n$$
+
+then 
+
+1: 
+
+$$\mathbf V \ contains  \ \mathbf 0 = \begin{bmatrix}
+0\\
+\vdots\\
+0
+\end{bmatrix}
+$$
+
+2:
+
+And if $$\vec x \in \mathbf V \ \text{then} \ c\vec x \ \ also \ in \mathbf V$$
+This is defined as closure under scalar multiplication 
+
+3:
+
+$$\vec a \in \mathbf V \ and \ \vec b \ \in \mathbf V, \ then \ \vec a + \vec b \ is \ also \ in \mathbf V $$
+This is defined as closure under addition
+
+### a trival example in $$\mathbf R^3$$
+
+$$\mathbf V \ = \ {\mathbf 0} = \begin{bmatrix}
+0\\
+0\\
+0\\
+\end{bmatrix}
+$$
+
+it satisifies the 3 criterias
+
+1: it contains the zero vector.
+
+2: when it is multiplied by any real number scalar c, it is still itself. This implies it is still a member of $$\mathbf 
+R^3$$ and satisify closure under multiplication
+
+3: when $$\mathbf V + \mathbf V = \mathbf 0$$, this implies it satisifies closure under addition
+
+so it is a subspace. 
+
+### example 2
+
+$$\mathbf S = { \begin{bmatrix}
+x_1\\
+x_2
+\end{bmatrix}
+\in \ \mathbf R^2 | x_1 \ge 0 and x_2 \ge 0 }
+$$
+
+is $$\mathbf S$$ a subspace of $$\mathbf R^2$$?
+
+1: 
+
+because $$x_1, x_2 \ge 0$$, so it contains the zero vector. 
+
+2: 
+
+$$
+\begin{bmatrix}
+a\\
+b
+\end{bmatrix}
++
+\begin{bmatrix}
+c\\
+d
+\end{bmatrix}
+=
+\begin{bmatrix}
+a+c\\
+b+d
+\end{bmatrix}
+$$ 
+
+it satisifies the closure of addition
+
+3: however, if 
+
+$$ -1
+\begin{bmatrix}
+a\\
+b
+\end{bmatrix}
+=
+\begin{bmatrix}
+-a\\
+-b
+\end{bmatrix}
+$$ 
+
+This does not satisify the closure of multiplication because the result falls out of the restricted set. 
+(it is less than 0)
+
+### example 3
+
+$$let \ \mathbf U = \ span \ (\vec v_1,\vec v_2, \vec v_3)$$
+
+Is it subspace of $$\mathbf R^3$$?
+
+1: if 
+
+$$(0\vec v_1 +0\vec v_2+ 0\vec v_3 = \vec 0)$$ 
+
+so it contains the zero vector. 
+
+
+2: 
+
+$$\vec X =c_1\vec v_1+c_2\vec v_2+ c_3\vec v_3$$
+
+$$a\vec X =ac_1\vec v_1+ac_2\vec v_2+ ac_3\vec v_3$$
+
+if we let $$ac_i = j_i$$
+
+$$a\vec X =j_1\vec v_1+j_2\vec v_2+ j_3\vec v_3$$
+
+clear, it is just a linear combination of the 3 vectors and it is in the span of the 3 vectors, therefore it satisifies the closure of multiplication. 
+
+3:
+
+$$\vec Y =d_1\vec v_1+d_2\vec v_2+ d_3\vec v_3$$
+
+$$\vec X + \vec Y =(c_1+d_1)\vec v_1+(c_2+d_2)\vec v_2+ (c_3+d_3)\vec v_3$$
+
+It clearly satisify the closure under addition 
+
+so it is a subspace of $$\mathbf R^3$$
 
 ## Dot product
 
@@ -326,6 +471,9 @@ $$\vec v\cdot\vec w = v_1w_1+v_2w_2+v_3w_3.$$
 
 ### vector into components: projection
 
+From the figure, we see that $$\vec v$$ is broken into two components $$\vec v_{parallel} \ \vec v_{prep}$$ and they are 
+perpendicular, respectively, to a given nonzero vector, $$\vec u$$ Figure from [Hughes-Hallett 5e](http://www.amazon.com/Calculus-Single-Variable-Deborah-Hughes-Hallett/dp/0470089156)
+
 ![projection](/assets/LinearAlgebra/projection.png)
 
 
@@ -335,5 +483,15 @@ then$$\vec v_{parallel}\text{is a scalar multiple of $\vec u$, and since $\vec u
 
 $$\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.$$ according to the 
 <p><a href="#geo_def">geometric definition</a></p> 
+
+$$\vec_{prep} = \vec v - \vec v_{parallel}$$
+
+
+
+
+
+
+
+
 
 

@@ -4,7 +4,7 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2015-11-28T09:21:38-06:00</updated>
+ <updated>2015-11-29T09:22:56-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
@@ -29,6 +29,12 @@
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#parametric-representation-of-lines&quot; id=&quot;markdown-toc-parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#dimension-of-the-column-space-or-rank&quot; id=&quot;markdown-toc-dimension-of-the-column-space-or-rank&quot;&gt;Dimension of the Column Space or Rank&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#linear-subspaces&quot; id=&quot;markdown-toc-linear-subspaces&quot;&gt;Linear subspaces&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#a-trival-example-in-mathbf-r3&quot; id=&quot;markdown-toc-a-trival-example-in-mathbf-r3&quot;&gt;a trival example in &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-2&quot; id=&quot;markdown-toc-example-2&quot;&gt;example 2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-3-1&quot; id=&quot;markdown-toc-example-3-1&quot;&gt;example 3&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#dot-product&quot; id=&quot;markdown-toc-dot-product&quot;&gt;Dot product&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#definition&quot; id=&quot;markdown-toc-definition&quot;&gt;definition&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#vector-into-components-projection&quot; id=&quot;markdown-toc-vector-into-components-projection&quot;&gt;vector into components: projection&lt;/a&gt;&lt;/li&gt;
@@ -309,6 +315,145 @@ If both &lt;script type=&quot;math/tex&quot;&gt;c_1,c_2&lt;/script&gt; are 0, th
 
 &lt;p&gt;And the Rank of A is just the dimension of the basis, so &lt;script type=&quot;math/tex&quot;&gt;rank(\mathbf A) = 3&lt;/script&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;linear-subspaces&quot;&gt;Linear subspaces&lt;/h2&gt;
+
+&lt;p&gt;In order to be a subspace, a set must satisfy the following 3 criterias&lt;/p&gt;
+
+&lt;p&gt;let&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf R^n \leftarrow \left( 
+\begin{bmatrix}
+x_1\\
+x_2\\
+\vdots\\
+x_n
+\end{bmatrix} | x_i \in \mathbf R \ 1\le i \le n
+\right)&lt;/script&gt;
+
+&lt;p&gt;Let’s assume &lt;script type=&quot;math/tex&quot;&gt;\mathbf V&lt;/script&gt; is a subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then&lt;/p&gt;
+
+&lt;p&gt;1:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf V \ contains  \ \mathbf 0 = \begin{bmatrix}
+0\\
+\vdots\\
+0
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;2:&lt;/p&gt;
+
+&lt;p&gt;And if &lt;script type=&quot;math/tex&quot;&gt;\vec x \in \mathbf V \ \text{then} \ c\vec x \ \ also \ in \mathbf V&lt;/script&gt;
+This is defined as closure under scalar multiplication&lt;/p&gt;
+
+&lt;p&gt;3:&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec a \in \mathbf V \ and \ \vec b \ \in \mathbf V, \ then \ \vec a + \vec b \ is \ also \ in \mathbf V&lt;/script&gt;
+This is defined as closure under addition&lt;/p&gt;
+
+&lt;h3 id=&quot;a-trival-example-in-mathbf-r3&quot;&gt;a trival example in &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf V \ = \ {\mathbf 0} = \begin{bmatrix}
+0\\
+0\\
+0\\
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;it satisifies the 3 criterias&lt;/p&gt;
+
+&lt;p&gt;1: it contains the zero vector.&lt;/p&gt;
+
+&lt;p&gt;2: when it is multiplied by any real number scalar c, it is still itself. This implies it is still a member of &lt;script type=&quot;math/tex&quot;&gt;\mathbf 
+R^3&lt;/script&gt; and satisify closure under multiplication&lt;/p&gt;
+
+&lt;p&gt;3: when &lt;script type=&quot;math/tex&quot;&gt;\mathbf V + \mathbf V = \mathbf 0&lt;/script&gt;, this implies it satisifies closure under addition&lt;/p&gt;
+
+&lt;p&gt;so it is a subspace.&lt;/p&gt;
+
+&lt;h3 id=&quot;example-2&quot;&gt;example 2&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = { \begin{bmatrix}
+x_1\\
+x_2
+\end{bmatrix}
+\in \ \mathbf R^2 | x_1 \ge 0 and x_2 \ge 0 }&lt;/script&gt;
+
+&lt;p&gt;is &lt;script type=&quot;math/tex&quot;&gt;\mathbf S&lt;/script&gt; a subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt;?&lt;/p&gt;
+
+&lt;p&gt;1:&lt;/p&gt;
+
+&lt;p&gt;because &lt;script type=&quot;math/tex&quot;&gt;x_1, x_2 \ge 0&lt;/script&gt;, so it contains the zero vector.&lt;/p&gt;
+
+&lt;p&gt;2:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
+a\\
+b
+\end{bmatrix}
++
+\begin{bmatrix}
+c\\
+d
+\end{bmatrix}
+=
+\begin{bmatrix}
+a+c\\
+b+d
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;it satisifies the closure of addition&lt;/p&gt;
+
+&lt;p&gt;3: however, if&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;-1
+\begin{bmatrix}
+a\\
+b
+\end{bmatrix}
+=
+\begin{bmatrix}
+-a\\
+-b
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;This does not satisify the closure of multiplication because the result falls out of the restricted set. 
+(it is less than 0)&lt;/p&gt;
+
+&lt;h3 id=&quot;example-3-1&quot;&gt;example 3&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;let \ \mathbf U = \ span \ (\vec v_1,\vec v_2, \vec v_3)&lt;/script&gt;
+
+&lt;p&gt;Is it subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;?&lt;/p&gt;
+
+&lt;p&gt;1: if&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(0\vec v_1 +0\vec v_2+ 0\vec v_3 = \vec 0)&lt;/script&gt;
+
+&lt;p&gt;so it contains the zero vector.&lt;/p&gt;
+
+&lt;p&gt;2:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec X =c_1\vec v_1+c_2\vec v_2+ c_3\vec v_3&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\vec X =ac_1\vec v_1+ac_2\vec v_2+ ac_3\vec v_3&lt;/script&gt;
+
+&lt;p&gt;if we let &lt;script type=&quot;math/tex&quot;&gt;ac_i = j_i&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\vec X =j_1\vec v_1+j_2\vec v_2+ j_3\vec v_3&lt;/script&gt;
+
+&lt;p&gt;clear, it is just a linear combination of the 3 vectors and it is in the span of the 3 vectors, therefore it satisifies the closure of multiplication.&lt;/p&gt;
+
+&lt;p&gt;3:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec Y =d_1\vec v_1+d_2\vec v_2+ d_3\vec v_3&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec X + \vec Y =(c_1+d_1)\vec v_1+(c_2+d_2)\vec v_2+ (c_3+d_3)\vec v_3&lt;/script&gt;
+
+&lt;p&gt;It clearly satisify the closure under addition&lt;/p&gt;
+
+&lt;p&gt;so it is a subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;dot-product&quot;&gt;Dot product&lt;/h2&gt;
 
 &lt;h3 id=&quot;definition&quot;&gt;definition&lt;/h3&gt;
@@ -324,6 +469,9 @@ If both &lt;script type=&quot;math/tex&quot;&gt;c_1,c_2&lt;/script&gt; are 0, th
 
 &lt;h3 id=&quot;vector-into-components-projection&quot;&gt;vector into components: projection&lt;/h3&gt;
 
+&lt;p&gt;From the figure, we see that &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; is broken into two components &lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel} \ \vec v_{prep}&lt;/script&gt; and they are 
+perpendicular, respectively, to a given nonzero vector, &lt;script type=&quot;math/tex&quot;&gt;\vec u&lt;/script&gt; Figure from &lt;a href=&quot;http://www.amazon.com/Calculus-Single-Variable-Deborah-Hughes-Hallett/dp/0470089156&quot;&gt;Hughes-Hallett 5e&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;/assets/LinearAlgebra/projection.png&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To compute &lt;script type=&quot;math/tex&quot;&gt;\left\|\vec v_{parallel}\right\| = \left\|\vec v\right\|cos\theta = \vec v\cdot\vec u \quad (since \ \left\|\vec u\right\| =1)&lt;/script&gt;&lt;/p&gt;
@@ -332,6 +480,8 @@ If both &lt;script type=&quot;math/tex&quot;&gt;c_1,c_2&lt;/script&gt; are 0, th
 
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.&lt;/script&gt; according to the&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;#geo_def&quot;&gt;geometric definition&lt;/a&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec_{prep} = \vec v - \vec v_{parallel}&lt;/script&gt;
 
 </content>
  </entry>
