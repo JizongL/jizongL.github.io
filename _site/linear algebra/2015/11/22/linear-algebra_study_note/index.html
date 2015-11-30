@@ -318,6 +318,10 @@
       <li><a href="#example-3-1" id="markdown-toc-example-3-1">example 3</a></li>
     </ul>
   </li>
+  <li><a href="#basis" id="markdown-toc-basis">Basis</a>    <ul>
+      <li><a href="#example-1-1" id="markdown-toc-example-1-1">example 1</a></li>
+    </ul>
+  </li>
   <li><a href="#dot-product" id="markdown-toc-dot-product">Dot product</a>    <ul>
       <li><a href="#definition" id="markdown-toc-definition">definition</a></li>
       <li><a href="#vector-into-components-projection" id="markdown-toc-vector-into-components-projection">vector into components: projection</a></li>
@@ -736,6 +740,144 @@ b
 <p>It clearly satisify the closure under addition</p>
 
 <p>so it is a subspace of <script type="math/tex">\mathbf R^3</script></p>
+
+<h2 id="basis">Basis</h2>
+
+<script type="math/tex; mode=display">\mathbf S = 
+\left(\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
+,
+(\begin{bmatrix}
+7\\
+0
+\end{bmatrix}
+\right)</script>
+
+<p>What is the span of $$\mathbf S?</p>
+
+<script type="math/tex; mode=display">\mathbf S = 
+\left(c_1\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
++c_2\begin{bmatrix}
+7\\
+0
+\end{bmatrix}
+\right)</script>
+
+<script type="math/tex; mode=display">2c_1+7c_2 = x_1 \\
+3c_1 + 0 = x_2 \\
+c_1=\frac {x_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}x_2</script>
+
+<p>is <script type="math/tex">\mathbf S</script> linear independent?</p>
+
+<script type="math/tex; mode=display">\mathbf S = 
+\left(c_1\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
++c_2\begin{bmatrix}
+7\\
+0
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+0\\
+0
+\end{bmatrix}</script>
+
+<p>from above</p>
+
+<script type="math/tex; mode=display">c_1=\frac {x_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}x_2 \\
+c_1=\frac {0_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}0 \\
+c_1 = 0, c_2 = 0</script>
+
+<p>Since <script type="math/tex">\mathbf S \ spans \ \mathbf R^2</script> and it is linear independent, so <script type="math/tex">\mathbf S</script> is a basis for <script type="math/tex">\mathbf R^2</script>.</p>
+
+<h3 id="example-1-1">example 1</h3>
+
+<script type="math/tex; mode=display">\mathbf T = 
+\left(\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
+,
+(\begin{bmatrix}
+0\\
+1
+\end{bmatrix}
+\right)</script>
+
+<p>What is the span of <script type="math/tex">\mathbf T</script>?</p>
+
+<script type="math/tex; mode=display">\mathbf T = 
+\left(x_1\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
++x_2\begin{bmatrix}
+0\\
+1
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+x_1\\
+x_2
+\end{bmatrix}</script>
+
+<p>from above we know that the span is <script type="math/tex">\mathbf R^2</script></p>
+
+<p>Is it linear independent?</p>
+
+<script type="math/tex; mode=display">\mathbf T = 
+\left(x_1\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
++x_2\begin{bmatrix}
+0\\
+1
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+0\\
+0
+\end{bmatrix}</script>
+
+<p>to satisify the above, <script type="math/tex">x_1,x_2</script> have to be 0.</p>
+
+<p>so <script type="math/tex">\mathbf T</script> is a basis.</p>
+
+<p>In fact, <script type="math/tex">\mathbf T</script> is the unit vector <script type="math/tex">\hat i \ and \ \hat j</script></p>
+
+<p>conclusion</p>
+
+<script type="math/tex; mode=display">\mathbf P {v_1,v_2 \cdots v_n} = Basis \ for \ \mathbf U</script>
+
+<p>any member of the set <script type="math/tex">\mathbf U</script> is a unique combination of the basis <script type="math/tex">\mathbf P</script></p>
+
+<script type="math/tex; mode=display">\vec a \in U \vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n</script>
+
+<p>let’s prove the uniqueness by contraditon</p>
+
+<p>assume that they are not unique</p>
+
+<script type="math/tex; mode=display">\vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n</script>
+
+<script type="math/tex; mode=display">\vec a = d_1\vec d_1 + d_2\vec v_2 + \cdots d_n\vec v_n</script>
+
+<p>then if</p>
+
+<script type="math/tex; mode=display">\vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n \\
+\vec a = d_1\vec v_1 + d_2\vec v_2 + \cdots d_n\vec v_n \\
+0 = (c_1-d_1)\vec v_1 +(c_2-d_2)\vec v_2 + \cdots (c_1-d_n)\vec v_n</script>
+
+<p>since <script type="math/tex">\mathbf P</script> is the basis of <script type="math/tex">\mathbf U</script></p>
+
+<p>so it has to be linear independent, thus <script type="math/tex">c_i-d_i = 0</script>, therefore, <script type="math/tex">c_i</script> is unique.</p>
 
 <h2 id="dot-product">Dot product</h2>
 

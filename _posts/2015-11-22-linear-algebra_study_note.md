@@ -456,6 +456,157 @@ It clearly satisify the closure under addition
 
 so it is a subspace of $$\mathbf R^3$$
 
+## Basis 
+
+$$
+\mathbf S = 
+\left(\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
+,
+(\begin{bmatrix}
+7\\
+0
+\end{bmatrix}
+\right)$$
+
+What is the span of $$\mathbf S?
+
+$$
+\mathbf S = 
+\left(c_1\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
++c_2\begin{bmatrix}
+7\\
+0
+\end{bmatrix}
+\right)$$
+
+$$
+2c_1+7c_2 = x_1 \\
+3c_1 + 0 = x_2 \\
+c_1=\frac {x_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}x_2
+$$
+
+is $$\mathbf S$$ linear independent?
+
+$$
+\mathbf S = 
+\left(c_1\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
++c_2\begin{bmatrix}
+7\\
+0
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+0\\
+0
+\end{bmatrix}
+$$
+
+from above
+
+$$
+c_1=\frac {x_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}x_2 \\
+c_1=\frac {0_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}0 \\
+c_1 = 0, c_2 = 0
+$$
+
+Since $$\mathbf S \ spans \ \mathbf R^2$$ and it is linear independent, so $$\mathbf S$$ is a basis for $$\mathbf R^2$$.
+
+### example 1
+
+$$
+\mathbf T = 
+\left(\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
+,
+(\begin{bmatrix}
+0\\
+1
+\end{bmatrix}
+\right)$$
+
+What is the span of $$\mathbf T$$?
+
+$$
+\mathbf T = 
+\left(x_1\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
++x_2\begin{bmatrix}
+0\\
+1
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+x_1\\
+x_2
+\end{bmatrix}
+$$
+
+from above we know that the span is $$\mathbf R^2$$
+
+Is it linear independent?
+
+$$
+\mathbf T = 
+\left(x_1\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
++x_2\begin{bmatrix}
+0\\
+1
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+0\\
+0
+\end{bmatrix}
+$$
+
+to satisify the above, $$x_1,x_2$$ have to be 0. 
+
+so $$\mathbf T$$ is a basis. 
+
+In fact, $$\mathbf T$$ is the unit vector $$\hat i \ and \ \hat j$$
+
+conclusion 
+
+$$\mathbf P {v_1,v_2 \cdots v_n} = Basis \ for \ \mathbf U$$
+
+any member of the set $$\mathbf U$$ is a unique combination of the basis $$\mathbf P$$
+
+$$ \vec a \in U \vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n $$
+
+let's prove the uniqueness by contraditon
+
+assume that they are not unique
+
+$$ \vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n $$
+
+$$ \vec a = d_1\vec d_1 + d_2\vec v_2 + \cdots d_n\vec v_n $$
+
+then if 
+
+$$\vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n \\
+\vec a = d_1\vec v_1 + d_2\vec v_2 + \cdots d_n\vec v_n \\
+0 = (c_1-d_1)\vec v_1 +(c_2-d_2)\vec v_2 + \cdots (c_1-d_n)\vec v_n $$
+
+since $$\mathbf P$$ is the basis of $$\mathbf U$$
+
+so it has to be linear independent, thus $$c_i-d_i = 0$$, therefore, $$c_i$$ is unique. 
+
 ## Dot product
 
 ### definition 
@@ -485,6 +636,8 @@ $$\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec 
 <p><a href="#geo_def">geometric definition</a></p> 
 
 $$\vec_{prep} = \vec v - \vec v_{parallel}$$
+
+
 
 
 

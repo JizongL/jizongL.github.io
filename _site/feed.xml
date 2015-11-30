@@ -5,8 +5,8 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Nov 2015 09:22:56 -0600</pubDate>
-    <lastBuildDate>Sun, 29 Nov 2015 09:22:56 -0600</lastBuildDate>
+    <pubDate>Mon, 30 Nov 2015 10:14:31 -0600</pubDate>
+    <lastBuildDate>Mon, 30 Nov 2015 10:14:31 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -27,6 +27,10 @@
       &lt;li&gt;&lt;a href=&quot;#a-trival-example-in-mathbf-r3&quot; id=&quot;markdown-toc-a-trival-example-in-mathbf-r3&quot;&gt;a trival example in &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#example-2&quot; id=&quot;markdown-toc-example-2&quot;&gt;example 2&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#example-3-1&quot; id=&quot;markdown-toc-example-3-1&quot;&gt;example 3&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#basis&quot; id=&quot;markdown-toc-basis&quot;&gt;Basis&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-1-1&quot; id=&quot;markdown-toc-example-1-1&quot;&gt;example 1&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#dot-product&quot; id=&quot;markdown-toc-dot-product&quot;&gt;Dot product&lt;/a&gt;    &lt;ul&gt;
@@ -447,6 +451,144 @@ b
 &lt;p&gt;It clearly satisify the closure under addition&lt;/p&gt;
 
 &lt;p&gt;so it is a subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;basis&quot;&gt;Basis&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = 
+\left(\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
+,
+(\begin{bmatrix}
+7\\
+0
+\end{bmatrix}
+\right)&lt;/script&gt;
+
+&lt;p&gt;What is the span of $$\mathbf S?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = 
+\left(c_1\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
++c_2\begin{bmatrix}
+7\\
+0
+\end{bmatrix}
+\right)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2c_1+7c_2 = x_1 \\
+3c_1 + 0 = x_2 \\
+c_1=\frac {x_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}x_2&lt;/script&gt;
+
+&lt;p&gt;is &lt;script type=&quot;math/tex&quot;&gt;\mathbf S&lt;/script&gt; linear independent?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = 
+\left(c_1\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
++c_2\begin{bmatrix}
+7\\
+0
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+0\\
+0
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;from above&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c_1=\frac {x_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}x_2 \\
+c_1=\frac {0_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}0 \\
+c_1 = 0, c_2 = 0&lt;/script&gt;
+
+&lt;p&gt;Since &lt;script type=&quot;math/tex&quot;&gt;\mathbf S \ spans \ \mathbf R^2&lt;/script&gt; and it is linear independent, so &lt;script type=&quot;math/tex&quot;&gt;\mathbf S&lt;/script&gt; is a basis for &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;example-1-1&quot;&gt;example 1&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf T = 
+\left(\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
+,
+(\begin{bmatrix}
+0\\
+1
+\end{bmatrix}
+\right)&lt;/script&gt;
+
+&lt;p&gt;What is the span of &lt;script type=&quot;math/tex&quot;&gt;\mathbf T&lt;/script&gt;?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf T = 
+\left(x_1\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
++x_2\begin{bmatrix}
+0\\
+1
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+x_1\\
+x_2
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;from above we know that the span is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Is it linear independent?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf T = 
+\left(x_1\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
++x_2\begin{bmatrix}
+0\\
+1
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+0\\
+0
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;to satisify the above, &lt;script type=&quot;math/tex&quot;&gt;x_1,x_2&lt;/script&gt; have to be 0.&lt;/p&gt;
+
+&lt;p&gt;so &lt;script type=&quot;math/tex&quot;&gt;\mathbf T&lt;/script&gt; is a basis.&lt;/p&gt;
+
+&lt;p&gt;In fact, &lt;script type=&quot;math/tex&quot;&gt;\mathbf T&lt;/script&gt; is the unit vector &lt;script type=&quot;math/tex&quot;&gt;\hat i \ and \ \hat j&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;conclusion&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf P {v_1,v_2 \cdots v_n} = Basis \ for \ \mathbf U&lt;/script&gt;
+
+&lt;p&gt;any member of the set &lt;script type=&quot;math/tex&quot;&gt;\mathbf U&lt;/script&gt; is a unique combination of the basis &lt;script type=&quot;math/tex&quot;&gt;\mathbf P&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a \in U \vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n&lt;/script&gt;
+
+&lt;p&gt;let’s prove the uniqueness by contraditon&lt;/p&gt;
+
+&lt;p&gt;assume that they are not unique&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a = d_1\vec d_1 + d_2\vec v_2 + \cdots d_n\vec v_n&lt;/script&gt;
+
+&lt;p&gt;then if&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n \\
+\vec a = d_1\vec v_1 + d_2\vec v_2 + \cdots d_n\vec v_n \\
+0 = (c_1-d_1)\vec v_1 +(c_2-d_2)\vec v_2 + \cdots (c_1-d_n)\vec v_n&lt;/script&gt;
+
+&lt;p&gt;since &lt;script type=&quot;math/tex&quot;&gt;\mathbf P&lt;/script&gt; is the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf U&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;so it has to be linear independent, thus &lt;script type=&quot;math/tex&quot;&gt;c_i-d_i = 0&lt;/script&gt;, therefore, &lt;script type=&quot;math/tex&quot;&gt;c_i&lt;/script&gt; is unique.&lt;/p&gt;
 
 &lt;h2 id=&quot;dot-product&quot;&gt;Dot product&lt;/h2&gt;
 
