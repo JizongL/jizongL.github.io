@@ -76,3 +76,35 @@ Substitute into the Law of Cosines
 $$-2v_1w_1-2v_2w_2-2v_3w_3=-2\left\|\vec v\right\|\left\|\vec w\right\|cos \theta$$
 
 $$v_1w_1-v_2w_2-v_3w_3=\left\|\vec v\right\|\left\|\vec w\right\|cos \theta$$
+
+## proof of projection formula
+
+![projection](http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM)
+
+let 
+
+$$L = proj_v(\vec x)$$ be shadow of $$\vec x \ onto \ \vec v) $$
+
+then 
+
+$$L = c\vec v| c \in \mathbf R$$
+
+and 
+
+$$\vec x - c\vec v$$ is orthgonal to $$\vec v$$
+
+so if 
+
+$$(\vec x - c\vec ) \cdot \vec v = 0$$
+
+rearrange the formula to get c
+
+$$\vec x \cdot \vec v - c \vec v\cdot\vec v=0$$
+
+$$c= \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}$$
+
+to input c in the formula earlier 
+
+$$\mathbf L = c\vec v = \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}\vec v$$
+
+$$\mathbf L = c\vec v = (\vec x\cdot\vec v)\frac{\vec v}{|\vec v|^2}$$

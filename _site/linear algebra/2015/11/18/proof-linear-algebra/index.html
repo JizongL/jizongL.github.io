@@ -303,6 +303,7 @@
   <ul id="markdown-toc">
   <li><a href="#prove-that-a-vector-space-has-only-one-zero-vector" id="markdown-toc-prove-that-a-vector-space-has-only-one-zero-vector">Prove that a vector space has only one zero vector.</a></li>
   <li><a href="#proof-of-linear-dependence" id="markdown-toc-proof-of-linear-dependence">proof of linear dependence</a></li>
+  <li><a href="#proof-of-projection-formula" id="markdown-toc-proof-of-projection-formula">proof of projection formula</a></li>
 </ul>
 
 <h2 id="prove-that-a-vector-space-has-only-one-zero-vector">Prove that a vector space has only one zero vector.</h2>
@@ -373,10 +374,51 @@ Thus, w = v, so that the additive inverse of u is unique.</p>
 
 <script type="math/tex; mode=display">v_1w_1-v_2w_2-v_3w_3=\left\|\vec v\right\|\left\|\vec w\right\|cos \theta</script>
 
+<h2 id="proof-of-projection-formula">proof of projection formula</h2>
+
+<p><img src="http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM" alt="projection" /></p>
+
+<p>let</p>
+
+<p><script type="math/tex">L = proj_v(\vec x)</script> be shadow of <script type="math/tex">\vec x \ onto \ \vec v)</script></p>
+
+<p>then</p>
+
+<script type="math/tex; mode=display">L = c\vec v| c \in \mathbf R</script>
+
+<p>and</p>
+
+<p><script type="math/tex">\vec x - c\vec v</script> is orthgonal to <script type="math/tex">\vec v</script></p>
+
+<p>so if</p>
+
+<script type="math/tex; mode=display">(\vec x - c\vec ) \cdot \vec v = 0</script>
+
+<p>rearrange the formula to get c</p>
+
+<script type="math/tex; mode=display">\vec x \cdot \vec v - c \vec v\cdot\vec v=0</script>
+
+<script type="math/tex; mode=display">c= \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}</script>
+
+<p>to input c in the formula earlier</p>
+
+<script type="math/tex; mode=display">\mathbf L = c\vec v = \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}\vec v</script>
+
+<script type="math/tex; mode=display">\mathbf L = c\vec v = (\vec x\cdot\vec v)\frac{\vec v}{|\vec v|^2}</script>
+
 </div>
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/statistics/2015/12/02/statistics-study-note/">
+            statistics study note
+            <small>02 Dec 2015</small>
+          </a>
+        </h3>
+      </li>
     
       <li>
         <h3>
@@ -392,15 +434,6 @@ Thus, w = v, so that the additive inverse of u is unique.</p>
           <a href="/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/">
             Statistics for Genomic Data Science
             <small>14 Nov 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/statistics/2015/10/30/correlation-study/">
-            correlation study
-            <small>30 Oct 2015</small>
           </a>
         </h3>
       </li>

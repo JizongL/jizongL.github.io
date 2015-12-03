@@ -607,6 +607,10 @@ since $$\mathbf P$$ is the basis of $$\mathbf U$$
 
 so it has to be linear independent, thus $$c_i-d_i = 0$$, therefore, $$c_i$$ is unique. 
 
+## Linear transformation 
+
+[Visualizing linear transformations](https://www.khanacademy.org/math/linear-algebra/matrix_transformations/linear-transformations/a/visualizing-linear-transformations) from Khanacademy provides excellent illustration about the concept. 
+
 ## Dot product
 
 ### definition 
@@ -635,12 +639,59 @@ then$$\vec v_{parallel}\text{is a scalar multiple of $\vec u$, and since $\vec u
 $$\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.$$ according to the 
 <p><a href="#geo_def">geometric definition</a></p> 
 
-$$\vec_{prep} = \vec v - \vec v_{parallel}$$
+$$ \vec v_{prep} = \vec v - \vec v_{parallel}$$
 
 
+## Projection 
+
+$$Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{\vec v^2}$$
+
+![projection](http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM)
+
+The essent of this formula is to find the closest distance between the tip of $$\vec x$$ to a unique point in $$\vec v$$ to make a new distance vector (the dash line from the figure for example) that is orthogonal to $$\vec v$$. Visually, it looks as if it is a shadow casted by direct sun light on $$\vec x$$ to $$\vec v$$, so it is formally named the projection of $$\vec x$$ onto $$\vec v$$. The key to find this point is to get the value c, which scale $$\vec v$$ to the unique length. 
+
+<p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence">see proof</a></p>
 
 
+### example
 
+let 
+
+$$\mathbf L = \begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+
+\vec x = \begin{bmatrix}
+2\\
+3
+\end{bmatrix}
+$$
+
+$$Proj_L (\vec x) = \frac{
+	\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
+	\cdot
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+}{
+	\begin{bmatrix}
+2\\
+1
+\end{bmatrix} \cdot 
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+}
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix} = 7$$
 
 
 

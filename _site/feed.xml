@@ -5,9 +5,26 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Nov 2015 10:14:31 -0600</pubDate>
-    <lastBuildDate>Mon, 30 Nov 2015 10:14:31 -0600</lastBuildDate>
+    <pubDate>Thu, 03 Dec 2015 09:23:45 -0600</pubDate>
+    <lastBuildDate>Thu, 03 Dec 2015 09:23:45 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>statistics study note</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=BJZpx7Mdde4&quot;&gt;calculating power and probability of Type II Error&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Dec 2015 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/statistics/2015/12/02/statistics-study-note/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/statistics/2015/12/02/statistics-study-note/</guid>
+        
+        <category>statistics</category>
+        
+        <category>data</category>
+        
+        
+        <category>statistics</category>
+        
+      </item>
     
       <item>
         <title>Linear Algebra study note</title>
@@ -33,9 +50,14 @@
       &lt;li&gt;&lt;a href=&quot;#example-1-1&quot; id=&quot;markdown-toc-example-1-1&quot;&gt;example 1&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#linear-transformation&quot; id=&quot;markdown-toc-linear-transformation&quot;&gt;Linear transformation&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#dot-product&quot; id=&quot;markdown-toc-dot-product&quot;&gt;Dot product&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#definition&quot; id=&quot;markdown-toc-definition&quot;&gt;definition&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#vector-into-components-projection&quot; id=&quot;markdown-toc-vector-into-components-projection&quot;&gt;vector into components: projection&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#projection&quot; id=&quot;markdown-toc-projection&quot;&gt;Projection&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#example&quot; id=&quot;markdown-toc-example&quot;&gt;example&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -590,6 +612,10 @@ x_2
 
 &lt;p&gt;so it has to be linear independent, thus &lt;script type=&quot;math/tex&quot;&gt;c_i-d_i = 0&lt;/script&gt;, therefore, &lt;script type=&quot;math/tex&quot;&gt;c_i&lt;/script&gt; is unique.&lt;/p&gt;
 
+&lt;h2 id=&quot;linear-transformation&quot;&gt;Linear transformation&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/matrix_transformations/linear-transformations/a/visualizing-linear-transformations&quot;&gt;Visualizing linear transformations&lt;/a&gt; from Khanacademy provides excellent illustration about the concept.&lt;/p&gt;
+
 &lt;h2 id=&quot;dot-product&quot;&gt;Dot product&lt;/h2&gt;
 
 &lt;h3 id=&quot;definition&quot;&gt;definition&lt;/h3&gt;
@@ -617,7 +643,56 @@ perpendicular, respectively, to a given nonzero vector, &lt;script type=&quot;ma
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.&lt;/script&gt; according to the&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;#geo_def&quot;&gt;geometric definition&lt;/a&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec_{prep} = \vec v - \vec v_{parallel}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v_{prep} = \vec v - \vec v_{parallel}&lt;/script&gt;
+
+&lt;h2 id=&quot;projection&quot;&gt;Projection&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{\vec v^2}&lt;/script&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The essent of this formula is to find the closest distance between the tip of &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; to a unique point in &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; to make a new distance vector (the dash line from the figure for example) that is orthogonal to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;. Visually, it looks as if it is a shadow casted by direct sun light on &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;, so it is formally named the projection of &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; onto &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;. The key to find this point is to get the value c, which scale &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; to the unique length.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence&quot;&gt;see proof&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;example&quot;&gt;example&lt;/h3&gt;
+
+&lt;p&gt;let&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = \begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+
+\vec x = \begin{bmatrix}
+2\\
+3
+\end{bmatrix}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj_L (\vec x) = \frac{
+	\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
+	\cdot
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+}{
+	\begin{bmatrix}
+2\\
+1
+\end{bmatrix} \cdot 
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+}
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix} = 7&lt;/script&gt;
 
 </description>
         <pubDate>Sun, 22 Nov 2015 00:00:00 -0600</pubDate>
@@ -638,6 +713,7 @@ perpendicular, respectively, to a given nonzero vector, &lt;script type=&quot;ma
         <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#prove-that-a-vector-space-has-only-one-zero-vector&quot; id=&quot;markdown-toc-prove-that-a-vector-space-has-only-one-zero-vector&quot;&gt;Prove that a vector space has only one zero vector.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#proof-of-linear-dependence&quot; id=&quot;markdown-toc-proof-of-linear-dependence&quot;&gt;proof of linear dependence&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#proof-of-projection-formula&quot; id=&quot;markdown-toc-proof-of-projection-formula&quot;&gt;proof of projection formula&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;prove-that-a-vector-space-has-only-one-zero-vector&quot;&gt;Prove that a vector space has only one zero vector.&lt;/h2&gt;
@@ -707,6 +783,38 @@ Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;-2v_1w_1-2v_2w_2-2v_3w_3=-2\left\|\vec v\right\|\left\|\vec w\right\|cos \theta&lt;/script&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;v_1w_1-v_2w_2-v_3w_3=\left\|\vec v\right\|\left\|\vec w\right\|cos \theta&lt;/script&gt;
+
+&lt;h2 id=&quot;proof-of-projection-formula&quot;&gt;proof of projection formula&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;let&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;L = proj_v(\vec x)&lt;/script&gt; be shadow of &lt;script type=&quot;math/tex&quot;&gt;\vec x \ onto \ \vec v)&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L = c\vec v| c \in \mathbf R&lt;/script&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec x - c\vec v&lt;/script&gt; is orthgonal to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;so if&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\vec x - c\vec ) \cdot \vec v = 0&lt;/script&gt;
+
+&lt;p&gt;rearrange the formula to get c&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec x \cdot \vec v - c \vec v\cdot\vec v=0&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c= \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}&lt;/script&gt;
+
+&lt;p&gt;to input c in the formula earlier&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = c\vec v = \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}\vec v&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = c\vec v = (\vec x\cdot\vec v)\frac{\vec v}{|\vec v|^2}&lt;/script&gt;
 </description>
         <pubDate>Wed, 18 Nov 2015 00:00:00 -0600</pubDate>
         <link>http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra/</link>
@@ -2090,534 +2198,6 @@ von Willebrand assay=quantitative test&lt;/p&gt;
         <category>block 2</category>
         
         <category>small group 3</category>
-        
-        <category>WBC</category>
-        
-        
-        <category>pathology</category>
-        
-      </item>
-    
-      <item>
-        <title>WBC small group</title>
-        <description>&lt;p&gt;This post is written for the small group presentation on WBC, which is from the pathology course I take at UMMC&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p id=&quot;beginning&quot;&gt;&lt;/p&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#case-1&quot; id=&quot;markdown-toc-case-1&quot;&gt;Case 1&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-is-your-differential-diagnosis-after-physical-examination&quot; id=&quot;markdown-toc-what-is-your-differential-diagnosis-after-physical-examination&quot;&gt;1. What is your differential diagnosis after physical examination?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-are-some-causes-of-bone-marrow-failure&quot; id=&quot;markdown-toc-what-are-some-causes-of-bone-marrow-failure&quot;&gt;2. What are some causes of bone marrow failure?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#cbc-results&quot; id=&quot;markdown-toc-cbc-results&quot;&gt;CBC Results:&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#differential-&quot; id=&quot;markdown-toc-differential-&quot;&gt;Differential (%)&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#describe-the-findings-in-the-complete-blood-count--is-the-patient-anemic-and-if-so-how-would-you-describe-the-anemia--is-the-patient-neutropenic--explain-how-the-absolute-neutrophil-count-is-calculated--what-is-the-significance-of-neutropenia&quot; id=&quot;markdown-toc-describe-the-findings-in-the-complete-blood-count--is-the-patient-anemic-and-if-so-how-would-you-describe-the-anemia--is-the-patient-neutropenic--explain-how-the-absolute-neutrophil-count-is-calculated--what-is-the-significance-of-neutropenia&quot;&gt;3. Describe the findings in the complete blood count.  Is the patient anemic, and if so, how would you describe the anemia?  Is the patient neutropenic?  Explain how the absolute neutrophil count is calculated.  What is the significance of neutropenia?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#examine-the-peripheral-smear-and-describe-the-cells--what-are-these-cells-and-what-do-they-indicate&quot; id=&quot;markdown-toc-examine-the-peripheral-smear-and-describe-the-cells--what-are-these-cells-and-what-do-they-indicate&quot;&gt;4. Examine the peripheral smear and describe the cells.  What are these cells and what do they indicate?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-are-common-leukemias-that-afflict-children&quot; id=&quot;markdown-toc-what-are-common-leukemias-that-afflict-children&quot;&gt;5. What are common leukemias that afflict children?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-information-do-you-glean-from-these-cytochemical-stains&quot; id=&quot;markdown-toc-what-information-do-you-glean-from-these-cytochemical-stains&quot;&gt;6. What information do you glean from these cytochemical stains?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#more-description-for-patient&quot; id=&quot;markdown-toc-more-description-for-patient&quot;&gt;more description for patient&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#explain-the-flow-cytometry-results--how-do-immunophenotyping-studies-flow-cytometry-help-determine-the-diagnosis--refer-to-the-chart-of-lymphocyte-maturation-next-slide-for-a-reference&quot; id=&quot;markdown-toc-explain-the-flow-cytometry-results--how-do-immunophenotyping-studies-flow-cytometry-help-determine-the-diagnosis--refer-to-the-chart-of-lymphocyte-maturation-next-slide-for-a-reference&quot;&gt;7. Explain the flow cytometry results.  How do immunophenotyping studies (flow cytometry) help determine the diagnosis?  Refer to the chart of lymphocyte maturation (next slide) for a reference.&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-do-you-see-in-the-bone-marrow-biopsy&quot; id=&quot;markdown-toc-what-do-you-see-in-the-bone-marrow-biopsy&quot;&gt;8. What do you see in the bone marrow biopsy?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-is-the-prognosis-for-this-patient-based-on-wbc-age-and-gender--describe-favorable-and-unfavorable-cytogenetic-findings-for-patients-with-all&quot; id=&quot;markdown-toc-what-is-the-prognosis-for-this-patient-based-on-wbc-age-and-gender--describe-favorable-and-unfavorable-cytogenetic-findings-for-patients-with-all&quot;&gt;9.  What is the prognosis for this patient based on WBC, age, and gender?  Describe favorable and unfavorable cytogenetic findings for patients with ALL.&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#the-patient-is-treated-with-chemotherapy-including-vincristine-prednisone-and-l-asparaginase-with-intrathecal-methotrexate-mtx--why-is-intrathecal-treatment-indicated&quot; id=&quot;markdown-toc-the-patient-is-treated-with-chemotherapy-including-vincristine-prednisone-and-l-asparaginase-with-intrathecal-methotrexate-mtx--why-is-intrathecal-treatment-indicated&quot;&gt;10. The patient is treated with chemotherapy including vincristine, prednisone, and L-asparaginase with intrathecal methotrexate (MTX).  Why is intrathecal treatment indicated?&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#case-2&quot; id=&quot;markdown-toc-case-2&quot;&gt;Case 2&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#case-history&quot; id=&quot;markdown-toc-case-history&quot;&gt;Case History&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#cbc-results-1&quot; id=&quot;markdown-toc-cbc-results-1&quot;&gt;CBC Results:&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#wbc-differential-&quot; id=&quot;markdown-toc-wbc-differential-&quot;&gt;WBC Differential (%)&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#questions&quot; id=&quot;markdown-toc-questions&quot;&gt;QUESTIONS&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-does-the-cbc-reveal&quot; id=&quot;markdown-toc-what-does-the-cbc-reveal&quot;&gt;11. What does the CBC reveal?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#examine-the-peripheral-smear--describe-your-findings-particularly-the-nuclear-features-of-the-neutrophils--what-is-this-phenomenon-called-and-when-may-it-be-seen&quot; id=&quot;markdown-toc-examine-the-peripheral-smear--describe-your-findings-particularly-the-nuclear-features-of-the-neutrophils--what-is-this-phenomenon-called-and-when-may-it-be-seen&quot;&gt;12. Examine the peripheral smear.  Describe your findings, particularly the nuclear features of the neutrophils.  What is this phenomenon called and when may it be seen?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-is-your-differential-diagnosis&quot; id=&quot;markdown-toc-what-is-your-differential-diagnosis&quot;&gt;13. What is your differential diagnosis?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-is-the-next-diagnostic-test-which-should-be-performed-and-why&quot; id=&quot;markdown-toc-what-is-the-next-diagnostic-test-which-should-be-performed-and-why&quot;&gt;14. What is the next diagnostic test which should be performed and why?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#examine-the-bone-marrow-aspirate-and-biopsy-slides-2-5--describe-your-findings--what-are-typical-marrow-findings-in-myelodysplastic-syndromes&quot; id=&quot;markdown-toc-examine-the-bone-marrow-aspirate-and-biopsy-slides-2-5--describe-your-findings--what-are-typical-marrow-findings-in-myelodysplastic-syndromes&quot;&gt;15. Examine the bone marrow aspirate and biopsy (slides 2-5).  Describe your findings.  What are typical marrow findings in myelodysplastic syndromes?&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#bone-marrow-aspirate-and-biopsy-slides-2-5-for-case-2&quot; id=&quot;markdown-toc-bone-marrow-aspirate-and-biopsy-slides-2-5-for-case-2&quot;&gt;bone marrow aspirate and biopsy (slides 2-5) for case 2&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#describe-low-and-high-grade-myelodysplastic-syndromes-in-terms-of-marrow-cellularity&quot; id=&quot;markdown-toc-describe-low-and-high-grade-myelodysplastic-syndromes-in-terms-of-marrow-cellularity&quot;&gt;16. Describe low and high-grade myelodysplastic syndromes in terms of marrow cellularity.&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-is-aleukemic-leukemia&quot; id=&quot;markdown-toc-what-is-aleukemic-leukemia&quot;&gt;17. What is aleukemic leukemia?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-findings-might-you-expect-on-a-karyotyping-study-of-the-marrow-in-mds--what-is-the-most-common-cytogenetic-abnormality-in-acute-myeloid-leukemia&quot; id=&quot;markdown-toc-what-findings-might-you-expect-on-a-karyotyping-study-of-the-marrow-in-mds--what-is-the-most-common-cytogenetic-abnormality-in-acute-myeloid-leukemia&quot;&gt;18. What findings might you expect on a karyotyping study of the marrow in MDS?  What is the most common cytogenetic abnormality in acute myeloid leukemia?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-is-the-prognosis-for-mds--describe-treatments-for-myelodysplastic-syndrome--what-are-causes-of-death-in-myelodysplastic-syndrome&quot; id=&quot;markdown-toc-what-is-the-prognosis-for-mds--describe-treatments-for-myelodysplastic-syndrome--what-are-causes-of-death-in-myelodysplastic-syndrome&quot;&gt;19. What is the prognosis for MDS?  Describe treatments for myelodysplastic syndrome.  What are causes of death in myelodysplastic syndrome?&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#prognosis&quot; id=&quot;markdown-toc-prognosis&quot;&gt;prognosis&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#cause-of-death&quot; id=&quot;markdown-toc-cause-of-death&quot;&gt;cause of death&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#treatment&quot; id=&quot;markdown-toc-treatment&quot;&gt;treatment&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;case-1&quot;&gt;Case 1&lt;/h2&gt;
-
-&lt;h3 id=&quot;what-is-your-differential-diagnosis-after-physical-examination&quot;&gt;1. What is your differential diagnosis after physical examination?&lt;/h3&gt;
-
-&lt;h3 id=&quot;what-are-some-causes-of-bone-marrow-failure&quot;&gt;2. What are some causes of bone marrow failure?&lt;/h3&gt;
-
-&lt;h3 id=&quot;cbc-results&quot;&gt;CBC Results:&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;patient&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Reference Interval&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;WBC=9,000/mm3&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(4000-11,000/mm3)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;HGB=9 g/dL&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(12-15 g/dL)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;HCT=27%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(31-43%)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;MCV=86 fL&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(80-99 fL)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;MCHC=32%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(31-37%)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;RDW=13.0&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(11.5-14.5)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;PLATELETS=55,000/mm3&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(130-400,000/mm3)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&quot;differential-&quot;&gt;Differential (%)&lt;/h4&gt;
-
-&lt;p&gt;5 segmented neutrophils, 15 lymphocytes, 5 monocytes, 75 blasts.&lt;/p&gt;
-
-&lt;h3 id=&quot;describe-the-findings-in-the-complete-blood-count--is-the-patient-anemic-and-if-so-how-would-you-describe-the-anemia--is-the-patient-neutropenic--explain-how-the-absolute-neutrophil-count-is-calculated--what-is-the-significance-of-neutropenia&quot;&gt;3. Describe the findings in the complete blood count.  Is the patient anemic, and if so, how would you describe the anemia?  Is the patient neutropenic?  Explain how the absolute neutrophil count is calculated.  What is the significance of neutropenia?&lt;/h3&gt;
-
-&lt;h3 id=&quot;examine-the-peripheral-smear-and-describe-the-cells--what-are-these-cells-and-what-do-they-indicate&quot;&gt;4. Examine the peripheral smear and describe the cells.  What are these cells and what do they indicate?&lt;/h3&gt;
-
-&lt;div class=&quot;img&quot;&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;/assets/pathology/smallGroup/WBC/1.jpeg&quot;&gt;
-    &lt;img src=&quot;/assets/pathology/smallGroup/WBC/1.jpeg&quot; alt=&quot;slide1&quot; width=&quot;180&quot; height=&quot;150&quot; /&gt;
-  &lt;/a&gt;
-  &lt;div class=&quot;desc&quot;&gt;Peripheral blood smear with lymphoblasts  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;what-are-common-leukemias-that-afflict-children&quot;&gt;5. What are common leukemias that afflict children?&lt;/h3&gt;
-
-&lt;h3 id=&quot;what-information-do-you-glean-from-these-cytochemical-stains&quot;&gt;6. What information do you glean from these cytochemical stains?&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Sudan black B and myeloperoxidase - negative in blasts, positive in normal neutrophils&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;PAS - block positivity in blasts (see figure below)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Specific and non-specific esterases - negative in blasts&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;img&quot;&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;/assets/pathology/smallGroup/WBC/2.jpeg&quot;&gt;
-    &lt;img src=&quot;/assets/pathology/smallGroup/WBC/2.jpeg&quot; alt=&quot;slide2&quot; width=&quot;180&quot; height=&quot;150&quot; /&gt;
-  &lt;/a&gt;
-  &lt;div class=&quot;desc&quot;&gt;Lymphoblasts with characteristic “block” or globular PAS positivity &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;more-description-for-patient&quot;&gt;more description for patient&lt;/h3&gt;
-
-&lt;p&gt;The lab calls you with the CBC results as the patient is being taken to Radiology.  At this point, you decide a bone marrow biopsy is more important than the X-ray and call the patient back for a marrow biopsy, sending an aspirate to the Immunopathology Lab for flow cytometry immunophenotyping of the blasts.&lt;/p&gt;
-
-&lt;h3 id=&quot;explain-the-flow-cytometry-results--how-do-immunophenotyping-studies-flow-cytometry-help-determine-the-diagnosis--refer-to-the-chart-of-lymphocyte-maturation-next-slide-for-a-reference&quot;&gt;7. Explain the flow cytometry results.  How do immunophenotyping studies (flow cytometry) help determine the diagnosis?  Refer to the chart of lymphocyte maturation (next slide) for a reference.&lt;/h3&gt;
-
-&lt;p&gt;CD45  leukocyte common antigen (LCA)
-CD34  CD117 - blast/stem cell marker
-HLA-DR  (early myeloid and B-cells)
-TdT (lymphoid)
-CD 10,19,20 are positive, indicates lymphoid (B-lineage) 
-CD2,3,5 are negatives, rule out peripheral T-cell lymphomas -lymphoid (T-lineage)&lt;/p&gt;
-
-&lt;p&gt;kappa and lambda are negative - rule out Plasma Cell Neoplasms and Related Disorders&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CD45&lt;/td&gt;
-      &lt;td&gt;positive&lt;/td&gt;
-      &lt;td&gt;Surface kappa&lt;/td&gt;
-      &lt;td&gt;negative&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CD34&lt;/td&gt;
-      &lt;td&gt;negative&lt;/td&gt;
-      &lt;td&gt;Surface lambda&lt;/td&gt;
-      &lt;td&gt;negative&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;HLA-DR&lt;/td&gt;
-      &lt;td&gt;positive&lt;/td&gt;
-      &lt;td&gt;CD2&lt;/td&gt;
-      &lt;td&gt;negative&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;TdT&lt;/td&gt;
-      &lt;td&gt;positive&lt;/td&gt;
-      &lt;td&gt;CD3&lt;/td&gt;
-      &lt;td&gt;negative&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CD20&lt;/td&gt;
-      &lt;td&gt;positive&lt;/td&gt;
-      &lt;td&gt;CD5&lt;/td&gt;
-      &lt;td&gt;negative&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CD19&lt;/td&gt;
-      &lt;td&gt;positive&lt;/td&gt;
-      &lt;td&gt;CD10&lt;/td&gt;
-      &lt;td&gt;positive&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;div class=&quot;img&quot;&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;/assets/pathology/smallGroup/WBC/3.jpeg&quot;&gt;
-    &lt;img src=&quot;/assets/pathology/smallGroup/WBC/3.jpeg&quot; alt=&quot;slide3&quot; width=&quot;180&quot; height=&quot;150&quot; /&gt;
-  &lt;/a&gt;
-  &lt;div class=&quot;desc&quot;&gt;Lymphocyte development (B and T)&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;what-do-you-see-in-the-bone-marrow-biopsy&quot;&gt;8. What do you see in the bone marrow biopsy?&lt;/h3&gt;
-
-&lt;div class=&quot;img&quot;&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;/assets/pathology/smallGroup/WBC/4.jpeg&quot;&gt;
-    &lt;img src=&quot;/assets/pathology/smallGroup/WBC/4.jpeg&quot; alt=&quot;slide4&quot; width=&quot;180&quot; height=&quot;150&quot; /&gt;
-  &lt;/a&gt;
-  &lt;div class=&quot;desc&quot;&gt;
-		normal &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;img&quot;&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;/assets/pathology/smallGroup/WBC/5.jpeg&quot;&gt;
-    &lt;img src=&quot;/assets/pathology/smallGroup/WBC/5.jpeg&quot; alt=&quot;slide4&quot; width=&quot;180&quot; height=&quot;150&quot; /&gt;
-  &lt;/a&gt;
-  &lt;div class=&quot;desc&quot;&gt;
-	 acute leukemia &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;what-is-the-prognosis-for-this-patient-based-on-wbc-age-and-gender--describe-favorable-and-unfavorable-cytogenetic-findings-for-patients-with-all&quot;&gt;9.  What is the prognosis for this patient based on WBC, age, and gender?  Describe favorable and unfavorable cytogenetic findings for patients with ALL.&lt;/h3&gt;
-
-&lt;p&gt;B-ALL
-Children: 95% remission; 80% appear to be cured.&lt;/p&gt;
-
-&lt;p&gt;11 q23&lt;/p&gt;
-
-&lt;p&gt;Adults: 60-85% remission. Genetics not as well characterized as in children (25% have Ph1 chromosome.
-B-LBL
-High remission rate. Median survival 5 years&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#beginning&quot;&gt;back to the top&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-patient-is-treated-with-chemotherapy-including-vincristine-prednisone-and-l-asparaginase-with-intrathecal-methotrexate-mtx--why-is-intrathecal-treatment-indicated&quot;&gt;10. The patient is treated with chemotherapy including vincristine, prednisone, and L-asparaginase with intrathecal methotrexate (MTX).  Why is intrathecal treatment indicated?&lt;/h3&gt;
-
-&lt;p&gt;a lot of chemo drugs don’t pass the brain blood barrior. so it needs Intrathecal therapy&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a. What is the mechanism of the chemotherapeutic agents in general?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;targeting rapidly deviding cells&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;b. With what enzyme does methotrexate (MTX) interfere?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;dihydrofolate reductase&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;c. What is complete remission (CR)?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;dispearance of signs of cancer cells&lt;/p&gt;
-
-&lt;p&gt;the blast number should be at 5% or less&lt;/p&gt;
-
-&lt;h2 id=&quot;case-2&quot;&gt;Case 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;case-history&quot;&gt;Case History&lt;/h3&gt;
-
-&lt;p&gt;The patient is a 77 year-old man with &lt;strong&gt;extreme fatigue and malaise&lt;/strong&gt;.  He saw a doctor at a walk-in clinic seven months ago for similar complaints.  He shows you the prescription given to him then, which he has faithfully taken.  It is a &lt;strong&gt;multivitamin with iron&lt;/strong&gt;.  He is on no other medications.  He is thin, but not cachectic and he appears tired.&lt;/p&gt;
-
-&lt;p&gt;No abnormalities are found on physical exam except for &lt;strong&gt;petechiae&lt;/strong&gt;, a few &lt;strong&gt;bruises&lt;/strong&gt; on his lower legs, &lt;strong&gt;pallor and pale mucous membranes&lt;/strong&gt;.  The digital rectal exam shows no enlargement of the prostate gland and the stool guaiac test is negative for occult blood.  You send a blood sample in a purple top (EDTA) tube for a CBC with reticulocyte count.&lt;/p&gt;
-
-&lt;h3 id=&quot;cbc-results-1&quot;&gt;CBC Results:&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;patient&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Reference Interval&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;WBC=1,180/mm&lt;sup&gt;3&lt;/sup&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(4000-11,000/mm&lt;sup&gt;3&lt;/sup&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;HGB=10 g/dL&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(14-18 g/dL)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;HCT=30%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(42-49%)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;MCV=103 fL&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(80-99 fL)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;MCHC=33 g/dL&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(31-37 g/dL)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;RDW=20&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(11.5-14.5)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;PLATELETS=50,000/mm3&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(130,-400,000/mm3)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;RETICULOCYTE (%)=0.1 %&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(0.5-1.5%, manual)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&quot;wbc-differential-&quot;&gt;WBC Differential (%)&lt;/h4&gt;
-
-&lt;p&gt;65 segs, 30 lymphocytes, 5 monocytes&lt;/p&gt;
-
-&lt;h3 id=&quot;questions&quot;&gt;QUESTIONS&lt;/h3&gt;
-
-&lt;h3 id=&quot;what-does-the-cbc-reveal&quot;&gt;11. What does the CBC reveal?&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;low htc (anemia), low WBC(pan-cytopenias),low platelets indicates haematopoiesis&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;high MCV &amp;gt;100fL (macrocytosis), the multivitamin given previously was for B12 deficiency.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Abnormal RBC maturation (eg, myelodysplastic syndrome, acute leukemia, LGL leukemia)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;low reticulocyte (either it is not produced, the &lt;strong&gt;bone marrow&lt;/strong&gt; is not functioning)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;WEB differential does not mention any blast.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;examine-the-peripheral-smear--describe-your-findings-particularly-the-nuclear-features-of-the-neutrophils--what-is-this-phenomenon-called-and-when-may-it-be-seen&quot;&gt;12. Examine the peripheral smear.  Describe your findings, particularly the nuclear features of the neutrophils.  What is this phenomenon called and when may it be seen?&lt;/h3&gt;
-
-&lt;p&gt;neutrophils appear bilobed, indicative of Pelger-Huet anomaly. It may be seen in Myelodysplastic Syndromes&lt;/p&gt;
-
-&lt;p&gt;note: when seeing hypersegmented nutrophils, think of B12 deficiency&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/pathology/smallGroup/WBC/6.jpeg&quot; alt=&quot;Peripheral blood film&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;what-is-your-differential-diagnosis&quot;&gt;13. What is your differential diagnosis?&lt;/h3&gt;
-
-&lt;p&gt;old age, fatigue, anemia , pallor and pale mucous membranes,&lt;/p&gt;
-
-&lt;p&gt;bruise and petechiae assoicated with low platelets count (thrombocytopenia.)&lt;/p&gt;
-
-&lt;p&gt;Pelger-Huet anomaly&lt;/p&gt;
-
-&lt;p&gt;low htc, low WBC(pan-cytopenias),low platelets indicates haematopoiesis&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;note&lt;/strong&gt; patient previous was given iron treatment, and he did not response to it.&lt;/p&gt;
-
-&lt;p&gt;also consider drug toxicity&lt;/p&gt;
-
-&lt;h3 id=&quot;what-is-the-next-diagnostic-test-which-should-be-performed-and-why&quot;&gt;14. What is the next diagnostic test which should be performed and why?&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.cancer.org/cancer/myelodysplasticsyndrome/detailedguide/myelodysplastic-syndromes-diagnosis&quot;&gt;Bone marrow tests&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;trilineage of the cells&lt;/p&gt;
-
-&lt;p&gt;aspirate provides morphological features and architecture of the cells.&lt;/p&gt;
-
-&lt;p&gt;adjust cellularity&lt;/p&gt;
-
-&lt;p&gt;send to cytogenetic for abnormality&lt;/p&gt;
-
-&lt;p&gt;and float cytometry&lt;/p&gt;
-
-&lt;p&gt;These tests are used first for diagnosis and classification and may be repeated later to tell if the MDS is responding to therapy or is transforming into an acute leukemia.&lt;/p&gt;
-
-&lt;h3 id=&quot;examine-the-bone-marrow-aspirate-and-biopsy-slides-2-5--describe-your-findings--what-are-typical-marrow-findings-in-myelodysplastic-syndromes&quot;&gt;15. Examine the bone marrow aspirate and biopsy (slides 2-5).  Describe your findings.  What are typical marrow findings in myelodysplastic syndromes?&lt;/h3&gt;
-
-&lt;p&gt;1 Bone marrow biopsy showed 100% cellularity (hypercellularity) with erythroid predominance and granulocytic and megakaryocytic dyspoiesis&lt;/p&gt;
-
-&lt;p&gt;2 dysplastic red cell precursors manifested by abnormal nuclear contours, nuclear budding, and other abnormalities of nuclei&lt;/p&gt;
-
-&lt;p&gt;dysmegakaryopoiesis, erythoroid precursor.&lt;/p&gt;
-
-&lt;p&gt;3 Significant erythroid predominance with dyserythropoiesis and with &lt;strong&gt;Auer rod&lt;/strong&gt;. (confirmed it is AML)&lt;/p&gt;
-
-&lt;p&gt;large N/C ratio. has large cytoplasm.&lt;/p&gt;
-
-&lt;p&gt;4 Hypercellular bone marrow with dysmegakaryopoiesis.&lt;/p&gt;
-
-&lt;h4 id=&quot;bone-marrow-aspirate-and-biopsy-slides-2-5-for-case-2&quot;&gt;bone marrow aspirate and biopsy (slides 2-5) for case 2&lt;/h4&gt;
-
-&lt;div class=&quot;img&quot;&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;/assets/pathology/smallGroup/WBC/7.jpeg&quot;&gt;
-    &lt;img src=&quot;/assets/pathology/smallGroup/WBC/7.jpeg&quot; alt=&quot;slide2&quot; width=&quot;180&quot; height=&quot;150&quot; /&gt;
-  &lt;/a&gt;
-  &lt;div class=&quot;desc&quot;&gt;Bone marrow biopsy with predominance of blasts &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;img&quot;&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;/assets/pathology/smallGroup/WBC/8.jpeg&quot;&gt;
-    &lt;img src=&quot;/assets/pathology/smallGroup/WBC/8.jpeg&quot; alt=&quot;slide3&quot; width=&quot;180&quot; height=&quot;150&quot; /&gt;
-  &lt;/a&gt;
-  &lt;div class=&quot;desc&quot;&gt;Marked dyserythropoiesis in marrow&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Prominent erythroid dysplasia and rare dysplastic granulocytic precursors&lt;/p&gt;
-
-&lt;div class=&quot;img&quot;&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;/assets/pathology/smallGroup/WBC/9.jpeg&quot;&gt;
-    &lt;img src=&quot;/assets/pathology/smallGroup/WBC/9.jpeg&quot; alt=&quot;slide4&quot; width=&quot;180&quot; height=&quot;150&quot; /&gt;
-  &lt;/a&gt;
-   &lt;div class=&quot;desc&quot;&gt;Cluster of myeloblasts—one has an Auer rod&lt;/div&gt;
-
-
-
-&lt;/div&gt;
-&lt;div class=&quot;img&quot;&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;/assets/pathology/smallGroup/WBC/10.jpeg&quot;&gt;
-    &lt;img src=&quot;/assets/pathology/smallGroup/WBC/10.jpeg&quot; alt=&quot;slide5&quot; width=&quot;180&quot; height=&quot;150&quot; /&gt;
-  &lt;/a&gt;
-    &lt;div class=&quot;desc&quot;&gt;Marrow depicting abnormal localization of immature precursors&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Lymphoid aggregate in a background of hypercellular bone marrow.&lt;/p&gt;
-
-&lt;h3 id=&quot;describe-low-and-high-grade-myelodysplastic-syndromes-in-terms-of-marrow-cellularity&quot;&gt;16. Describe low and high-grade myelodysplastic syndromes in terms of marrow cellularity.&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;progress slowly and may cause mild to moderate anemia (a low number of red cells), or decrements to other types of cells.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;higher blast counts and more severe cytopenias, as well as the presence of multiple clonal chromosomal abnormalities.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;additional information&lt;/em&gt; (see &lt;a href=&quot;http://www.hopkinsmedicine.org/kimmel_cancer_center/types_cancer/myelodysplastic_syndrome.html&quot;&gt;source here&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;grade 1&lt;/p&gt;
-
-&lt;p&gt;5%  to 9%&lt;/p&gt;
-
-&lt;p&gt;grade 2
-10% to 19%&lt;/p&gt;
-
-&lt;p&gt;if auer rod is present, it is considered grade 2&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;immature cells called blast cells make up more than 5 percent of the cells in the marrow.&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;When MDS patients develop more than 20 percent blast cells, they are reclassified as having acute myelogenous leukemia (AML)*&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;what-is-aleukemic-leukemia&quot;&gt;17. What is aleukemic leukemia?&lt;/h3&gt;
-
-&lt;p&gt;blasts are entirely absent from the blood (aleukemic leukemia).&lt;/p&gt;
-
-&lt;p&gt;can happen in any of the 4 major leukemias.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-findings-might-you-expect-on-a-karyotyping-study-of-the-marrow-in-mds--what-is-the-most-common-cytogenetic-abnormality-in-acute-myeloid-leukemia&quot;&gt;18. What findings might you expect on a karyotyping study of the marrow in MDS?  What is the most common cytogenetic abnormality in acute myeloid leukemia?&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Monosomies 5 and 7&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Deletions of 5q, 7q, and 20q&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Trisomy 8&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;deletion 5q isolation, has better pronosis.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;7 q is worse&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;what-is-the-prognosis-for-mds--describe-treatments-for-myelodysplastic-syndrome--what-are-causes-of-death-in-myelodysplastic-syndrome&quot;&gt;19. What is the prognosis for MDS?  Describe treatments for myelodysplastic syndrome.  What are causes of death in myelodysplastic syndrome?&lt;/h3&gt;
-
-&lt;h4 id=&quot;prognosis&quot;&gt;prognosis&lt;/h4&gt;
-
-&lt;p&gt;The median survival in primary MDS varies from 9 to 29 months, but some individuals in good prognostic groups may live for 5 years or more.&lt;/p&gt;
-
-&lt;p&gt;Overall, progression to AML occurs in 10% to 40% of individuals and is usually accompanied by the appearance of additional cytogenetic abnormalities.&lt;/p&gt;
-
-&lt;h4 id=&quot;cause-of-death&quot;&gt;cause of death&lt;/h4&gt;
-
-&lt;p&gt;Patients often succumb to the complications of thrombocytopenia (bleeding) and neutropenia (infection). The outlook is even grimmer in t-MDS, which has a median survival of only 4 to 8 months. &lt;strong&gt;bleeding is the major cause&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In t-MDS, cytopenias tend to be more severe and progression to AML is often rapid.&lt;/p&gt;
-
-&lt;h4 id=&quot;treatment&quot;&gt;treatment&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;In younger patients&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;allogeneic hematopoietic stem cell transplantation offers hope for reconstitution of normal hematopoiesis and possible cure.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Older patients&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Supportively with antibiotics and blood product transfusions.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thalidomide-like drugs&lt;/strong&gt; and DNA methylation inhibitors improve the effectiveness of hematopoiesis and the peripheral blood counts in a subset of patients. (no longer use)&lt;/p&gt;
-
-&lt;p&gt;The presence of isolated 5q- is correlated with a hematologic response to thalidomide-like drugs, but as yet response to DNA methylation inhibitors is unpredictable.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 05 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/pathology/2015/10/05/small-group-wbc/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/pathology/2015/10/05/small-group-wbc/</guid>
-        
-        <category>exam II</category>
-        
-        <category>pathology</category>
-        
-        <category>block 2</category>
-        
-        <category>small group</category>
         
         <category>WBC</category>
         

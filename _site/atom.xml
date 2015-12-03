@@ -4,13 +4,22 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2015-11-30T10:14:31-06:00</updated>
+ <updated>2015-12-03T09:23:45-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
    <email>davidliangtmm@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>statistics study note</title>
+   <link href="http://lanyon.getpoole.com/statistics/2015/12/02/statistics-study-note/"/>
+   <updated>2015-12-02T00:00:00-06:00</updated>
+   <id>http://lanyon.getpoole.com/statistics/2015/12/02/statistics-study-note</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=BJZpx7Mdde4&quot;&gt;calculating power and probability of Type II Error&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Linear Algebra study note</title>
@@ -39,9 +48,14 @@
       &lt;li&gt;&lt;a href=&quot;#example-1-1&quot; id=&quot;markdown-toc-example-1-1&quot;&gt;example 1&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#linear-transformation&quot; id=&quot;markdown-toc-linear-transformation&quot;&gt;Linear transformation&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#dot-product&quot; id=&quot;markdown-toc-dot-product&quot;&gt;Dot product&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#definition&quot; id=&quot;markdown-toc-definition&quot;&gt;definition&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#vector-into-components-projection&quot; id=&quot;markdown-toc-vector-into-components-projection&quot;&gt;vector into components: projection&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#projection&quot; id=&quot;markdown-toc-projection&quot;&gt;Projection&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#example&quot; id=&quot;markdown-toc-example&quot;&gt;example&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -596,6 +610,10 @@ x_2
 
 &lt;p&gt;so it has to be linear independent, thus &lt;script type=&quot;math/tex&quot;&gt;c_i-d_i = 0&lt;/script&gt;, therefore, &lt;script type=&quot;math/tex&quot;&gt;c_i&lt;/script&gt; is unique.&lt;/p&gt;
 
+&lt;h2 id=&quot;linear-transformation&quot;&gt;Linear transformation&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/matrix_transformations/linear-transformations/a/visualizing-linear-transformations&quot;&gt;Visualizing linear transformations&lt;/a&gt; from Khanacademy provides excellent illustration about the concept.&lt;/p&gt;
+
 &lt;h2 id=&quot;dot-product&quot;&gt;Dot product&lt;/h2&gt;
 
 &lt;h3 id=&quot;definition&quot;&gt;definition&lt;/h3&gt;
@@ -623,7 +641,56 @@ perpendicular, respectively, to a given nonzero vector, &lt;script type=&quot;ma
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.&lt;/script&gt; according to the&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;#geo_def&quot;&gt;geometric definition&lt;/a&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec_{prep} = \vec v - \vec v_{parallel}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v_{prep} = \vec v - \vec v_{parallel}&lt;/script&gt;
+
+&lt;h2 id=&quot;projection&quot;&gt;Projection&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{\vec v^2}&lt;/script&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The essent of this formula is to find the closest distance between the tip of &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; to a unique point in &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; to make a new distance vector (the dash line from the figure for example) that is orthogonal to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;. Visually, it looks as if it is a shadow casted by direct sun light on &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;, so it is formally named the projection of &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; onto &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;. The key to find this point is to get the value c, which scale &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; to the unique length.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence&quot;&gt;see proof&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;example&quot;&gt;example&lt;/h3&gt;
+
+&lt;p&gt;let&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = \begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+
+\vec x = \begin{bmatrix}
+2\\
+3
+\end{bmatrix}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj_L (\vec x) = \frac{
+	\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
+	\cdot
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+}{
+	\begin{bmatrix}
+2\\
+1
+\end{bmatrix} \cdot 
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+}
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix} = 7&lt;/script&gt;
 
 </content>
  </entry>
@@ -636,6 +703,7 @@ perpendicular, respectively, to a given nonzero vector, &lt;script type=&quot;ma
    <content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#prove-that-a-vector-space-has-only-one-zero-vector&quot; id=&quot;markdown-toc-prove-that-a-vector-space-has-only-one-zero-vector&quot;&gt;Prove that a vector space has only one zero vector.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#proof-of-linear-dependence&quot; id=&quot;markdown-toc-proof-of-linear-dependence&quot;&gt;proof of linear dependence&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#proof-of-projection-formula&quot; id=&quot;markdown-toc-proof-of-projection-formula&quot;&gt;proof of projection formula&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;prove-that-a-vector-space-has-only-one-zero-vector&quot;&gt;Prove that a vector space has only one zero vector.&lt;/h2&gt;
@@ -705,6 +773,38 @@ Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;-2v_1w_1-2v_2w_2-2v_3w_3=-2\left\|\vec v\right\|\left\|\vec w\right\|cos \theta&lt;/script&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;v_1w_1-v_2w_2-v_3w_3=\left\|\vec v\right\|\left\|\vec w\right\|cos \theta&lt;/script&gt;
+
+&lt;h2 id=&quot;proof-of-projection-formula&quot;&gt;proof of projection formula&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;let&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;L = proj_v(\vec x)&lt;/script&gt; be shadow of &lt;script type=&quot;math/tex&quot;&gt;\vec x \ onto \ \vec v)&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L = c\vec v| c \in \mathbf R&lt;/script&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec x - c\vec v&lt;/script&gt; is orthgonal to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;so if&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\vec x - c\vec ) \cdot \vec v = 0&lt;/script&gt;
+
+&lt;p&gt;rearrange the formula to get c&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec x \cdot \vec v - c \vec v\cdot\vec v=0&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c= \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}&lt;/script&gt;
+
+&lt;p&gt;to input c in the formula earlier&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = c\vec v = \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}\vec v&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = c\vec v = (\vec x\cdot\vec v)\frac{\vec v}{|\vec v|^2}&lt;/script&gt;
 </content>
  </entry>
  

@@ -322,9 +322,14 @@
       <li><a href="#example-1-1" id="markdown-toc-example-1-1">example 1</a></li>
     </ul>
   </li>
+  <li><a href="#linear-transformation" id="markdown-toc-linear-transformation">Linear transformation</a></li>
   <li><a href="#dot-product" id="markdown-toc-dot-product">Dot product</a>    <ul>
       <li><a href="#definition" id="markdown-toc-definition">definition</a></li>
       <li><a href="#vector-into-components-projection" id="markdown-toc-vector-into-components-projection">vector into components: projection</a></li>
+    </ul>
+  </li>
+  <li><a href="#projection" id="markdown-toc-projection">Projection</a>    <ul>
+      <li><a href="#example" id="markdown-toc-example">example</a></li>
     </ul>
   </li>
 </ul>
@@ -879,6 +884,10 @@ x_2
 
 <p>so it has to be linear independent, thus <script type="math/tex">c_i-d_i = 0</script>, therefore, <script type="math/tex">c_i</script> is unique.</p>
 
+<h2 id="linear-transformation">Linear transformation</h2>
+
+<p><a href="https://www.khanacademy.org/math/linear-algebra/matrix_transformations/linear-transformations/a/visualizing-linear-transformations">Visualizing linear transformations</a> from Khanacademy provides excellent illustration about the concept.</p>
+
 <h2 id="dot-product">Dot product</h2>
 
 <h3 id="definition">definition</h3>
@@ -906,13 +915,71 @@ perpendicular, respectively, to a given nonzero vector, <script type="math/tex">
 <p><script type="math/tex">\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.</script> according to the</p>
 <p><a href="#geo_def">geometric definition</a></p>
 
-<script type="math/tex; mode=display">\vec_{prep} = \vec v - \vec v_{parallel}</script>
+<script type="math/tex; mode=display">\vec v_{prep} = \vec v - \vec v_{parallel}</script>
+
+<h2 id="projection">Projection</h2>
+
+<script type="math/tex; mode=display">Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{\vec v^2}</script>
+
+<p><img src="http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM" alt="projection" /></p>
+
+<p>The essent of this formula is to find the closest distance between the tip of <script type="math/tex">\vec x</script> to a unique point in <script type="math/tex">\vec v</script> to make a new distance vector (the dash line from the figure for example) that is orthogonal to <script type="math/tex">\vec v</script>. Visually, it looks as if it is a shadow casted by direct sun light on <script type="math/tex">\vec x</script> to <script type="math/tex">\vec v</script>, so it is formally named the projection of <script type="math/tex">\vec x</script> onto <script type="math/tex">\vec v</script>. The key to find this point is to get the value c, which scale <script type="math/tex">\vec v</script> to the unique length.</p>
+
+<p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence">see proof</a></p>
+
+<h3 id="example">example</h3>
+
+<p>let</p>
+
+<script type="math/tex; mode=display">\mathbf L = \begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+
+\vec x = \begin{bmatrix}
+2\\
+3
+\end{bmatrix}</script>
+
+<script type="math/tex; mode=display">Proj_L (\vec x) = \frac{
+	\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
+	\cdot
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+}{
+	\begin{bmatrix}
+2\\
+1
+\end{bmatrix} \cdot 
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+}
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix} = 7</script>
 
 
 </div>
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/statistics/2015/12/02/statistics-study-note/">
+            statistics study note
+            <small>02 Dec 2015</small>
+          </a>
+        </h3>
+      </li>
     
       <li>
         <h3>
@@ -928,15 +995,6 @@ perpendicular, respectively, to a given nonzero vector, <script type="math/tex">
           <a href="/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/">
             Statistics for Genomic Data Science
             <small>14 Nov 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/statistics/2015/10/30/correlation-study/">
-            correlation study
-            <small>30 Oct 2015</small>
           </a>
         </h3>
       </li>
