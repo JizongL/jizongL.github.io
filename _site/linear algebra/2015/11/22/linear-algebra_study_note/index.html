@@ -332,6 +332,11 @@
       <li><a href="#example" id="markdown-toc-example">example</a></li>
     </ul>
   </li>
+  <li><a href="#expressing-a-projection-on-to-a-line-as-matrix-vector-projection" id="markdown-toc-expressing-a-projection-on-to-a-line-as-matrix-vector-projection">Expressing a projection on to a line as matrix vector projection</a>    <ul>
+      <li><a href="#example-1-2" id="markdown-toc-example-1-2">example 1</a></li>
+      <li><a href="#criterias-of-projection" id="markdown-toc-criterias-of-projection">2 criterias of projection</a></li>
+    </ul>
+  </li>
 </ul>
 
 <!--break-->
@@ -919,7 +924,9 @@ perpendicular, respectively, to a given nonzero vector, <script type="math/tex">
 
 <h2 id="projection">Projection</h2>
 
-<script type="math/tex; mode=display">Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{\vec v^2}</script>
+<p align="right">(1)</p>
+
+<script type="math/tex; mode=display">Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{||\vec v||^2}\vec v</script>
 
 <p><img src="http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM" alt="projection" /></p>
 
@@ -965,6 +972,53 @@ perpendicular, respectively, to a given nonzero vector, <script type="math/tex">
 2\\
 1
 \end{bmatrix} = 7</script>
+
+<h2 id="expressing-a-projection-on-to-a-line-as-matrix-vector-projection">Expressing a projection on to a line as matrix vector projection</h2>
+
+<p>According to the formula (1) above, we can imagine <script type="math/tex">\left\lVert\vec v\right\rVert= 1</script> as a unit vector.</p>
+
+<p>then formula (1) becomes <script type="math/tex">(\vec x\vec v)\vec v</script></p>
+
+<p>In real practice, if <script type="math/tex">\left\lVert\vec v\right\rVert</script> is not a unit vector, we can transform it into <script type="math/tex">\vec u = \frac{1}{\left\lVert\vec v\right\rVert} \vec v given \vec v \neq 1</script></p>
+
+<h3 id="example-1-2">example 1</h3>
+
+<p>define</p>
+
+<script type="math/tex; mode=display">\vec v = \begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+,
+\vec x =\begin{bmatrix}
+2\\
+3
+\end{bmatrix}</script>
+
+<script type="math/tex; mode=display">\left\lVert\vec v\right\rVert = \sqrt{2^2+1^2}= \sqrt{5}</script>
+
+<script type="math/tex; mode=display">\hat u =1/\sqrt{5}\begin{bmatrix}
+2\\
+1
+\end{bmatrix}</script>
+
+<h3 id="criterias-of-projection">2 criterias of projection</h3>
+
+<p>criteria 1 The projection of the sum of the vectors is equal to the sum of the projection of the vectors.</p>
+
+<script type="math/tex; mode=display">Proj_L (\vec a+\vec b) = ((\vec a+ \vec b)\cdot \hat u)\hat u</script>
+
+<p>according to the distributive property.</p>
+
+<script type="math/tex; mode=display">(\vec a\cdot\hat u+\vec b\cdot\hat u)\hat u</script>
+
+<script type="math/tex; mode=display">=(\vec a\cdot\hat u)\hat u+(\vec b\cdot\hat u)\hat u</script>
+
+<p>criteria 2 Projection of a scalar multiple vector is the scalar multiple of the projection vector.</p>
+
+<p><script type="math/tex">Proj_L(c\vec a)= (c\vec a\cdot\hat u)\hat u</script>
+<script type="math/tex">c(\vec a\cdot\hat u)\hat u</script>
+<script type="math/tex">c(Proj_l \vec a)</script></p>
 
 
 </div>

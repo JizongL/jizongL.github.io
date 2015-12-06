@@ -644,7 +644,9 @@ $$ \vec v_{prep} = \vec v - \vec v_{parallel}$$
 
 ## Projection 
 
-$$Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{\vec v^2}$$
+<p align = "right">(1)</p>
+
+$$Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{||\vec v||^2}\vec v$$
 
 ![projection](http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM)
 
@@ -694,8 +696,53 @@ $$Proj_L (\vec x) = \frac{
 \end{bmatrix} = 7$$
 
 
+## Expressing a projection on to a line as matrix vector projection 
+
+According to the formula (1) above, we can imagine $$\left\lVert\vec v\right\rVert= 1 $$ as a unit vector. 
+
+then formula (1) becomes $$(\vec x\vec v)\vec v$$
+
+In real practice, if $$\left\lVert\vec v\right\rVert$$ is not a unit vector, we can transform it into $$\vec u = \frac{1}{\left\lVert\vec v\right\rVert} \vec v given \vec v \neq 1$$
+
+### example 1
+
+define 
+
+$$\vec v = \begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+,
+\vec x =\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
+$$
+
+$$\left\lVert\vec v\right\rVert = \sqrt{2^2+1^2}= \sqrt{5}$$
+
+$$\hat u =1/\sqrt{5}\begin{bmatrix}
+2\\
+1
+\end{bmatrix}$$
+
+### 2 criterias of projection 
+
+criteria 1 The projection of the sum of the vectors is equal to the sum of the projection of the vectors. 
+
+$$Proj_L (\vec a+\vec b) = ((\vec a+ \vec b)\cdot \hat u)\hat u$$
+
+according to the distributive property. 
+
+$$(\vec a\cdot\hat u+\vec b\cdot\hat u)\hat u$$
+
+$$=(\vec a\cdot\hat u)\hat u+(\vec b\cdot\hat u)\hat u$$
 
 
 
+criteria 2 Projection of a scalar multiple vector is the scalar multiple of the projection vector. 
 
+$$Proj_L(c\vec a)= (c\vec a\cdot\hat u)\hat u$$
+$$c(\vec a\cdot\hat u)\hat u$$
+$$c(Proj_l \vec a)$$
 

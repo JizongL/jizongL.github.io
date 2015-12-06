@@ -5,8 +5,8 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Dec 2015 09:23:45 -0600</pubDate>
-    <lastBuildDate>Thu, 03 Dec 2015 09:23:45 -0600</lastBuildDate>
+    <pubDate>Fri, 04 Dec 2015 10:49:01 -0600</pubDate>
+    <lastBuildDate>Fri, 04 Dec 2015 10:49:01 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -58,6 +58,11 @@
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#projection&quot; id=&quot;markdown-toc-projection&quot;&gt;Projection&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#example&quot; id=&quot;markdown-toc-example&quot;&gt;example&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#expressing-a-projection-on-to-a-line-as-matrix-vector-projection&quot; id=&quot;markdown-toc-expressing-a-projection-on-to-a-line-as-matrix-vector-projection&quot;&gt;Expressing a projection on to a line as matrix vector projection&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-1-2&quot; id=&quot;markdown-toc-example-1-2&quot;&gt;example 1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#criterias-of-projection&quot; id=&quot;markdown-toc-criterias-of-projection&quot;&gt;2 criterias of projection&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -647,7 +652,9 @@ perpendicular, respectively, to a given nonzero vector, &lt;script type=&quot;ma
 
 &lt;h2 id=&quot;projection&quot;&gt;Projection&lt;/h2&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{\vec v^2}&lt;/script&gt;
+&lt;p align=&quot;right&quot;&gt;(1)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{||\vec v||^2}\vec v&lt;/script&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
 
@@ -693,6 +700,53 @@ perpendicular, respectively, to a given nonzero vector, &lt;script type=&quot;ma
 2\\
 1
 \end{bmatrix} = 7&lt;/script&gt;
+
+&lt;h2 id=&quot;expressing-a-projection-on-to-a-line-as-matrix-vector-projection&quot;&gt;Expressing a projection on to a line as matrix vector projection&lt;/h2&gt;
+
+&lt;p&gt;According to the formula (1) above, we can imagine &lt;script type=&quot;math/tex&quot;&gt;\left\lVert\vec v\right\rVert= 1&lt;/script&gt; as a unit vector.&lt;/p&gt;
+
+&lt;p&gt;then formula (1) becomes &lt;script type=&quot;math/tex&quot;&gt;(\vec x\vec v)\vec v&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;In real practice, if &lt;script type=&quot;math/tex&quot;&gt;\left\lVert\vec v\right\rVert&lt;/script&gt; is not a unit vector, we can transform it into &lt;script type=&quot;math/tex&quot;&gt;\vec u = \frac{1}{\left\lVert\vec v\right\rVert} \vec v given \vec v \neq 1&lt;/script&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;example-1-2&quot;&gt;example 1&lt;/h3&gt;
+
+&lt;p&gt;define&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v = \begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+,
+\vec x =\begin{bmatrix}
+2\\
+3
+\end{bmatrix}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\lVert\vec v\right\rVert = \sqrt{2^2+1^2}= \sqrt{5}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat u =1/\sqrt{5}\begin{bmatrix}
+2\\
+1
+\end{bmatrix}&lt;/script&gt;
+
+&lt;h3 id=&quot;criterias-of-projection&quot;&gt;2 criterias of projection&lt;/h3&gt;
+
+&lt;p&gt;criteria 1 The projection of the sum of the vectors is equal to the sum of the projection of the vectors.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj_L (\vec a+\vec b) = ((\vec a+ \vec b)\cdot \hat u)\hat u&lt;/script&gt;
+
+&lt;p&gt;according to the distributive property.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\vec a\cdot\hat u+\vec b\cdot\hat u)\hat u&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;=(\vec a\cdot\hat u)\hat u+(\vec b\cdot\hat u)\hat u&lt;/script&gt;
+
+&lt;p&gt;criteria 2 Projection of a scalar multiple vector is the scalar multiple of the projection vector.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Proj_L(c\vec a)= (c\vec a\cdot\hat u)\hat u&lt;/script&gt;
+&lt;script type=&quot;math/tex&quot;&gt;c(\vec a\cdot\hat u)\hat u&lt;/script&gt;
+&lt;script type=&quot;math/tex&quot;&gt;c(Proj_l \vec a)&lt;/script&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 22 Nov 2015 00:00:00 -0600</pubDate>
@@ -814,7 +868,7 @@ Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = c\vec v = \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}\vec v&lt;/script&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = c\vec v = (\vec x\cdot\vec v)\frac{\vec v}{|\vec v|^2}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = c\vec v = (\vec x\cdot\vec v)\frac{\vec v}{||\vec v||^2}&lt;/script&gt;
 </description>
         <pubDate>Wed, 18 Nov 2015 00:00:00 -0600</pubDate>
         <link>http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra/</link>

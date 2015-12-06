@@ -107,4 +107,4 @@ to input c in the formula earlier
 
 $$\mathbf L = c\vec v = \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}\vec v$$
 
-$$\mathbf L = c\vec v = (\vec x\cdot\vec v)\frac{\vec v}{|\vec v|^2}$$
+$$\mathbf L = c\vec v = (\vec x\cdot\vec v)\frac{\vec v}{||\vec v||^2}$$
