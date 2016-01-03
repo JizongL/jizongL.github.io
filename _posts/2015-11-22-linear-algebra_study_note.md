@@ -6,11 +6,14 @@ category: linear algebra
 tags: [vector ,linear algebra]
 ---
 
+This is my note for my personal study of Linear Algebra
+<!--break-->
+
 * This line is a placeholder to generate the table of contents
 {:toc}
 
 
-<!--break-->
+
 
 ## Definition of $$\mathbf R^n$$ and $$\mathbf R$$
 
@@ -611,6 +614,17 @@ so it has to be linear independent, thus $$c_i-d_i = 0$$, therefore, $$c_i$$ is 
 
 [Visualizing linear transformations](https://www.khanacademy.org/math/linear-algebra/matrix_transformations/linear-transformations/a/visualizing-linear-transformations) from Khanacademy provides excellent illustration about the concept. 
 
+$$\mathbf T(\vec a + \vec b) = \mathbf T(\vec a) + \mathbf T(\vec b)$$
+
+$$\mathbf T(c \vec a)= c\mathbf T(\vec a)$$
+
+A matrix product with a vector is always a linear transformation 
+
+
+### Linear transformations as matrix vector products
+
+standard basis for $$\mathbf R^n$$
+
 ## Dot product
 
 ### definition 
@@ -654,6 +668,15 @@ The essent of this formula is to find the closest distance between the tip of $$
 
 <p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence">see proof</a></p>
 
+Further illustration of this the concept of the formula above. 
+
+We can imagine that $$\left\lVert v \right\rVert$$ as 1, then the formula becomes $$c\vec v = (\vec x\cdot\vec v)\vec v$$
+
+alternatively, if $$\left\lVert\ v right\rVert$$ is not one, we can create a unit vector $$\hat u = \frac{1}{\left\lVert \vec v \right\rVert}\vec v$$
+
+Then input $$\hat u$$ into the formula $$Proj_L(\vec x) = (\vec x\cdot\hat u)\hat u$$ 
+
+In this, we normalize the original $$\vec v$$ into a unit vector $$\hat u$$, sort of like a quntum portion, then when $$\vec x\cdot\vec v$$ it creates a scalar, which is used to signify the scalar multiple of the quntum portion per se. 
 
 ### example
 
@@ -743,6 +766,13 @@ $$=(\vec a\cdot\hat u)\hat u+(\vec b\cdot\hat u)\hat u$$
 criteria 2 Projection of a scalar multiple vector is the scalar multiple of the projection vector. 
 
 $$Proj_L(c\vec a)= (c\vec a\cdot\hat u)\hat u$$
-$$c(\vec a\cdot\hat u)\hat u$$
-$$c(Proj_l \vec a)$$
+
+$$=c(\vec a\cdot\hat u)\hat u$$
+
+$$=c(Proj_l \vec a)$$
+
+
+
+
+
 

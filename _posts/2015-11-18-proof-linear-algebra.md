@@ -95,7 +95,7 @@ $$\vec x - c\vec v$$ is orthgonal to $$\vec v$$
 
 so if 
 
-$$(\vec x - c\vec ) \cdot \vec v = 0$$
+$$(\vec x - c\vec v ) \cdot \vec v = 0$$
 
 rearrange the formula to get c
 
