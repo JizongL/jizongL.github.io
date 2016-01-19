@@ -4,7 +4,7 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2016-01-19T11:14:19-06:00</updated>
+ <updated>2016-01-19T11:15:45-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
@@ -248,7 +248,11 @@ http://www.rexegg.com/regex-quickstart.html&lt;/p&gt;
    <link href="http://lanyon.getpoole.com/2016/01/18/regular-expression-Java/"/>
    <updated>2016-01-18T00:00:00-06:00</updated>
    <id>http://lanyon.getpoole.com/2016/01/18/regular-expression-Java</id>
-   <content type="html">&lt;p&gt;[](http://www.tutorialspoint.com/java/java_regular_expressions.htm)&lt;/p&gt;
+   <content type="html">&lt;p&gt;developing&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;[](http://www.tutorialspoint.com/java/java_regular_expressions.htm)&lt;/p&gt;
 
 &lt;p&gt;import java.io.Console;
 import java.util.regex.Pattern;
@@ -270,15 +274,6 @@ import java.util.regex.Matcher;&lt;/p&gt;
     }
   }
 }&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Javascript Basics=steganography</title>
-   <link href="http://lanyon.getpoole.com/2016/01/03/javascript-basics=steganography/"/>
-   <updated>2016-01-03T00:00:00-06:00</updated>
-   <id>http://lanyon.getpoole.com/2016/01/03/javascript-basics=steganography</id>
-   <content type="html">
 </content>
  </entry>
  

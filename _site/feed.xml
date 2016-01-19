@@ -5,8 +5,8 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Jan 2016 11:14:19 -0600</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2016 11:14:19 -0600</lastBuildDate>
+    <pubDate>Tue, 19 Jan 2016 11:15:45 -0600</pubDate>
+    <lastBuildDate>Tue, 19 Jan 2016 11:15:45 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -250,7 +250,11 @@ http://www.rexegg.com/regex-quickstart.html&lt;/p&gt;
     
       <item>
         <title>Regular Expression Java</title>
-        <description>&lt;p&gt;[](http://www.tutorialspoint.com/java/java_regular_expressions.htm)&lt;/p&gt;
+        <description>&lt;p&gt;developing&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;[](http://www.tutorialspoint.com/java/java_regular_expressions.htm)&lt;/p&gt;
 
 &lt;p&gt;import java.io.Console;
 import java.util.regex.Pattern;
@@ -276,17 +280,6 @@ import java.util.regex.Matcher;&lt;/p&gt;
         <pubDate>Mon, 18 Jan 2016 00:00:00 -0600</pubDate>
         <link>http://lanyon.getpoole.com/2016/01/18/regular-expression-Java/</link>
         <guid isPermaLink="true">http://lanyon.getpoole.com/2016/01/18/regular-expression-Java/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Javascript Basics=steganography</title>
-        <description>
-</description>
-        <pubDate>Sun, 03 Jan 2016 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/2016/01/03/javascript-basics=steganography/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2016/01/03/javascript-basics=steganography/</guid>
         
         
       </item>
@@ -1224,6 +1217,24 @@ window.onload = loadScript;
         <link>http://lanyon.getpoole.com/2015/12/07/google-map-api/</link>
         <guid isPermaLink="true">http://lanyon.getpoole.com/2015/12/07/google-map-api/</guid>
         
+        
+      </item>
+    
+      <item>
+        <title>statistics study note</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=BJZpx7Mdde4&quot;&gt;calculating power and probability of Type II Error&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 02 Dec 2015 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/statistics/2015/12/02/statistics-study-note/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/statistics/2015/12/02/statistics-study-note/</guid>
+        
+        <category>statistics</category>
+        
+        <category>data</category>
+        
+        
+        <category>statistics</category>
         
       </item>
     

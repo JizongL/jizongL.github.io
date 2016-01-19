@@ -4,7 +4,6 @@ comments: True
 title: Javascript basics - How to build a steganography
 category: Javascript
 tags: [javascript,steganography]
-
 ---
 
 The following code is for building a steganography. It connects to a project that I built for my E portfolio, which is a final projects of a Coursera course [Programming and the Web for Beginners](https://www.coursera.org/learn/duke-programming-web/home/welcome)that I am taking. 
