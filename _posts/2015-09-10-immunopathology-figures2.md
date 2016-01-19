@@ -264,3 +264,8 @@ div.desc {
   <div class="desc">Direct Immunofluorescence: Bullous pemphigoid</div>
 </div>
 <p style="clear: both;">
+
+
+
+
+

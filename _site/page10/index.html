@@ -230,6 +230,10 @@
     
       
         
+      
+    
+      
+        
           <a class="sidebar-nav-item" href="/resource/">Pathology subsection</a>
         
       
@@ -278,7 +282,7 @@
 
   <div class="sidebar-item">
     <p>
-      &copy; 2015. All rights reserved.
+      &copy; 2016. All rights reserved.
     </p>
   </div>
 </div>
@@ -300,102 +304,89 @@
         <div class="posts">
   
   <div class="post-preview">
-    <h2><a href="/statistics/2015/12/02/statistics-study-note/">statistics study note</a></h2>
-    <div class="post-date">December 02, 2015</div>
-    <p><a href="https://www.youtube.com/watch?v=BJZpx7Mdde4">calculating power and probability of Type II Error</a></p>
+    <h2><a href="/regular%20expression/2016/01/18/regular-expression-video-project/">Introducing Regular expression</a></h2>
+    <div class="post-date">January 18, 2016</div>
+    <p>This tutorial is made to show you how you can use <a href="https://www.google.com/?gws_rd=ssl#q=regular+expression">Regular Expression</a> and a text editor to make your day to day office work easier.</p>
+
+<p><img src="https://viblo.asia/uploads/images/d9a2a14598974e7cc9ea922a835c70496648865f/8b06b3b2f79f332104e71323d7865d2c6de7379d.png" alt="ddd" /></p>
+
+
+    
+      <a href="/regular%20expression/2016/01/18/regular-expression-video-project/">[read more]</a>
+    
+  </div>
+  <hr>
+
+  <div class="post-preview">
+    <h2><a href="/2016/01/18/regular-expression-Java/">Regular Expression Java</a></h2>
+    <div class="post-date">January 18, 2016</div>
+    <p>[](http://www.tutorialspoint.com/java/java_regular_expressions.htm)</p>
+
+<p>import java.io.Console;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;</p>
+
+<p>class Reggie {
+  public void main(String args) {
+    Console console = System.console();
+    // Your amazing code below
+  String zipCode = args;
+    if (zipCode.matches(“^\d{5}(-\d{4})?$”)){
+      System.out.printf(“%s is a valid zip code%n”, zipCode);
+    }else{
+    System.out.printf(“%s is not a valid zip code%n”, zipCode);
+    }
+  String skills = “JavaScript, HTML, CSS, Java”;
+    for (String skill:skills.split(“\W+”)){
+        System.out.printf(“Skill: %s %n”, skill);
+    }
+  }
+}</p>
 
     
   </div>
   <hr>
 
   <div class="post-preview">
-    <h2><a href="/linear%20algebra/2015/11/22/linear-algebra_study_note/">Linear Algebra study note</a></h2>
-    <div class="post-date">November 22, 2015</div>
-    <ul id="markdown-toc">
-  <li><a href="#definition-of-mathbf-rn-and-mathbf-r" id="markdown-toc-definition-of-mathbf-rn-and-mathbf-r">Definition of <script type="math/tex">\mathbf R^n</script> and <script type="math/tex">\mathbf R</script></a></li>
-  <li><a href="#vector-transformation" id="markdown-toc-vector-transformation">vector transformation</a></li>
-  <li><a href="#formal-understanding-of-functions" id="markdown-toc-formal-understanding-of-functions">Formal understanding of functions</a></li>
-  <li><a href="#the-concept-of-linear-independance" id="markdown-toc-the-concept-of-linear-independance">The concept of Linear independance</a>    <ul>
-      <li><a href="#test-of-linear-dependance" id="markdown-toc-test-of-linear-dependance">Test of linear dependance</a></li>
-      <li><a href="#example-1" id="markdown-toc-example-1">Example 1</a></li>
-      <li><a href="#example-3" id="markdown-toc-example-3">example 3</a></li>
-    </ul>
-  </li>
-  <li><a href="#parametric-representation-of-lines" id="markdown-toc-parametric-representation-of-lines">Parametric representation of lines</a></li>
-  <li><a href="#dimension-of-the-column-space-or-rank" id="markdown-toc-dimension-of-the-column-space-or-rank">Dimension of the Column Space or Rank</a></li>
-  <li><a href="#linear-subspaces" id="markdown-toc-linear-subspaces">Linear subspaces</a>    <ul>
-      <li><a href="#a-trival-example-in-mathbf-r3" id="markdown-toc-a-trival-example-in-mathbf-r3">a trival example in <script type="math/tex">\mathbf R^3</script></a></li>
-      <li><a href="#example-2" id="markdown-toc-example-2">example 2</a></li>
-      <li><a href="#example-3-1" id="markdown-toc-example-3-1">example 3</a></li>
-    </ul>
-  </li>
-  <li><a href="#basis" id="markdown-toc-basis">Basis</a>    <ul>
-      <li><a href="#example-1-1" id="markdown-toc-example-1-1">example 1</a></li>
-    </ul>
-  </li>
-  <li><a href="#linear-transformation" id="markdown-toc-linear-transformation">Linear transformation</a></li>
-  <li><a href="#dot-product" id="markdown-toc-dot-product">Dot product</a>    <ul>
-      <li><a href="#definition" id="markdown-toc-definition">definition</a></li>
-      <li><a href="#vector-into-components-projection" id="markdown-toc-vector-into-components-projection">vector into components: projection</a></li>
-    </ul>
-  </li>
-  <li><a href="#projection" id="markdown-toc-projection">Projection</a>    <ul>
-      <li><a href="#example" id="markdown-toc-example">example</a></li>
-    </ul>
-  </li>
-  <li><a href="#expressing-a-projection-on-to-a-line-as-matrix-vector-projection" id="markdown-toc-expressing-a-projection-on-to-a-line-as-matrix-vector-projection">Expressing a projection on to a line as matrix vector projection</a>    <ul>
-      <li><a href="#example-1-2" id="markdown-toc-example-1-2">example 1</a></li>
-      <li><a href="#criterias-of-projection" id="markdown-toc-criterias-of-projection">2 criterias of projection</a></li>
-    </ul>
-  </li>
-</ul>
-
-
+    <h2><a href="/2016/01/03/javascript-basics=steganography/">Javascript Basics=steganography</a></h2>
+    <div class="post-date">January 03, 2016</div>
     
-      <a href="/linear%20algebra/2015/11/22/linear-algebra_study_note/">[read more]</a>
+
     
   </div>
   <hr>
 
   <div class="post-preview">
-    <h2><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/">Proof in vector space</a></h2>
-    <div class="post-date">November 18, 2015</div>
-    <ul id="markdown-toc">
-  <li><a href="#prove-that-a-vector-space-has-only-one-zero-vector" id="markdown-toc-prove-that-a-vector-space-has-only-one-zero-vector">Prove that a vector space has only one zero vector.</a></li>
-  <li><a href="#proof-of-linear-dependence" id="markdown-toc-proof-of-linear-dependence">proof of linear dependence</a></li>
-  <li><a href="#proof-of-projection-formula" id="markdown-toc-proof-of-projection-formula">proof of projection formula</a></li>
-</ul>
-
-<h2 id="prove-that-a-vector-space-has-only-one-zero-vector">Prove that a vector space has only one zero vector.</h2>
-
-<p>(Exercise 4.2, 19.) 
+    <h2><a href="/javascript/2016/01/03/javascript-basics-steganography/">Javascript basics - How to build a steganography</a></h2>
+    <div class="post-date">January 03, 2016</div>
+    <p>The following code is for building a steganography. It connects to a project that I built for my E portfolio, which is a final projects of a Coursera course <a href="https://www.coursera.org/learn/duke-programming-web/home/welcome">Programming and the Web for Beginners</a>that I am taking. 
 
     
-      <a href="/linear%20algebra/2015/11/18/proof-linear-algebra/">[read more]</a>
+      <a href="/javascript/2016/01/03/javascript-basics-steganography/">[read more]</a>
     
   </div>
   <hr>
 
   <div class="post-preview">
-    <h2><a href="/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/">Statistics for Genomic Data Science</a></h2>
-    <div class="post-date">November 14, 2015</div>
-    <p>Statistics for Genomic Data Science</p>
+    <h2><a href="/javascript/2015/12/24/javascript-basics/">Javascript basics</a></h2>
+    <div class="post-date">December 24, 2015</div>
+    <p>You can open the home page of the <a href="http://dukelearntoprogram.com/course1/">JavaScript Programming Environment</a> by Duke university to test the code in my note.</p>
 
-<p>week 1</p>
 
-<p>week 2</p>
+    
+      <a href="/javascript/2015/12/24/javascript-basics/">[read more]</a>
+    
+  </div>
+  <hr>
 
-<p>Asian Institute in Statistical Genetics and Genomics
-<a href="http://www.biostat.jhsph.edu/~iruczins/teaching/kogo/">Statistical Genomics</a></p>
+  <div class="post-preview">
+    <h2><a href="/geometry/2015/12/24/ellipse-and-scatterplot/">ellipse and scatter plot</a></h2>
+    <div class="post-date">December 24, 2015</div>
+    <p><a href="http://onlinelibrary.wiley.com/store/10.1002/9780470750711.app1/asset/app1.pdf;jsessionid=3A2DE2804CD8C8119197F67F47DDCA4C.f01t01?v=1&amp;t=iikpr60j&amp;s=f9c64f839ce4d43efb8aa1f24ffd41a2d31b4f7a">confidence ellipse</a></p>
 
-<h3 id="linear-models-with-categorical-covariateshttpsdocsgooglecompresentationd1pqjeviktzvmmsmsrdn30urxhgmptq-b0ucgoh7qeekoeditslideidgc6c125a130233"><a href="https://docs.google.com/presentation/d/1pqjeVIkTZVMmsmSrDn30UrxhgMPTQ-b0uCgoh7QEeko/edit#slide=id.gc6c125a13_0_233">Linear models with Categorical Covariates</a></h3>
+<p><a href="http://www.mathopenref.com/ellipseeccentricity.html">Eccentricity an Ellipse</a></p>
 
-<p>Thomas Lumley &amp; Ken Rice
-<a href="http://faculty.washington.edu/kenrice/teaching.html">Ken Rice</a>
-<a href="http://faculty.washington.edu/kenrice/sisg/sisg-lie11-04.pdf">slides</a> in pdf format
-<a href="http://faculty.washington.edu/kenrice/sisg/session4lie11.R">R code</a> of the slides</p>
-
-<p><a href="http://www.statsci.org/smyth/pubs/limma-biocbook-reprint.pdf">Limma: Linear Models for Microarray Data</a></p>
+<p><a href="http://www.visiondummy.com/2014/04/draw-error-ellipse-representing-covariance-matrix/">How to draw a covariance error ellipse?</a></p>
 
 
     
@@ -403,86 +394,99 @@
   <hr>
 
   <div class="post-preview">
-    <h2><a href="/statistics/2015/10/30/correlation-study/">correlation study</a></h2>
-    <div class="post-date">October 30, 2015</div>
-    <p><a href="https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html">An Introduction to corrplot package</a></p>
+    <h2><a href="/biology/2015/12/24/dynamic-modeling/">Dynamic modeling</a></h2>
+    <div class="post-date">December 24, 2015</div>
+    <p>copy paste the original source from the signalling website</p>
+
+<p>mathlab code(explain every line)</p>
 
     
   </div>
   <hr>
 
   <div class="post-preview">
-    <h2><a href="/python/2015/10/30/Ipython-Jupyter-study/">Ipython and Jupyter study</a></h2>
-    <div class="post-date">October 30, 2015</div>
-    <p>video resource</p>
+    <h2><a href="/r/2015/12/13/timing-my-code/">How to time my R code</a></h2>
+    <div class="post-date">December 13, 2015</div>
+    <p><a href="http://www.ats.ucla.edu/stat/r/faq/timing_code.htm">source</a></p>
 
-<p>IPython &amp; Jupyter in depth: high productivity interactive and parallel python - PyCon 2015</p>
+<p>x &lt;- c(0.18, -1.54, 0.42, 0.95)
+w &lt;- c(2, 1, 3, 1)
+l = c(.147,.0025,.3,1.077)</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/05fA_DXgW-Y" frameborder="0" allowfullscreen=""></iframe>
+
+    
+      <a href="/r/2015/12/13/timing-my-code/">[read more]</a>
+    
+  </div>
+  <hr>
+
+  <div class="post-preview">
+    <h2><a href="/2015/12/07/google-map-api-2/">Google Map Api 2</a></h2>
+    <div class="post-date">December 07, 2015</div>
+    <p>&lt;!DOCTYPE html&gt;</p>
+<html>
+<head>
+  <title>getElementById example</title>
+  <script>
+  function changeColor(newColor) {
+    var elem = document.getElementById("para1");
+    elem.style.color = newColor;
+  }
+
+function changeFont(newFont){
+	var elem2 = document.getElementById("dar");
+	elem2.style.fontsize = newFont;
+}
+
+  </script>
+</head>
+<body>
+  <p id="para1">Some text here</p>
+  <button onclick="changeColor('blue');">blue</button>
+  <button onclick="changeColor('red');">red</button>
+
+<p id="dar">some more text here</p>
+  <button onclick="changeFont('10');">10</button>
+  <button onclick="changeFont('5');">5</button>
+</body>
+</html>
 
     
   </div>
   <hr>
 
   <div class="post-preview">
-    <h2><a href="/pathology/2015/10/13/exam2-review-textbook/">exam2 review note from textbooks and others</a></h2>
-    <div class="post-date">October 13, 2015</div>
-    <h2 id="wbc-and-lymphoid">WBC and Lymphoid</h2>
+    <h2><a href="/2015/12/07/google-map-api/">Google Map Api</a></h2>
+    <div class="post-date">December 07, 2015</div>
+     <!DOCTYPE html>
+<html>
+<head>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(32.273202,-89.985916),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+function loadScript() {
+  var script = document.createElement("script");
+  script.src = "http://maps.googleapis.com/maps/api/js?callback=initialize";
+  document.body.appendChild(script);
+}
 
-<h3 id="keywords">keywords</h3>
+window.onload = loadScript; 
+</script>
+</head>
 
-    
-      <a href="/pathology/2015/10/13/exam2-review-textbook/">[read more]</a>
-    
-  </div>
-  <hr>
+<body>
+<div id="googleMap" style="width:500px;height:380px;"></div>
+</body>
 
-  <div class="post-preview">
-    <h2><a href="/2015/10/12/hemodynamics-supplimentary-material/">Hemodynamics Supplimentary Material</a></h2>
-    <div class="post-date">October 12, 2015</div>
-    
-<hr />
-<p>layout: post
-comments: True
-title: Bleeding and Thrombotic Disorders
-category: Pathology
-tags: [pathology, diseases, textbook, Lab Med]
-—</p>
-
-<h2 id="hemodynamics-and-bleeding-disorders">Hemodynamics and bleeding disorders</h2>
-
-<p>TABLE 2.-Causes of Pleural Effusions</p>
-
-<h3 id="transudates">Transudates</h3>
-
-    
-      <a href="/2015/10/12/hemodynamics-supplimentary-material/">[read more]</a>
-    
-  </div>
-  <hr>
-
-  <div class="post-preview">
-    <h2><a href="/data%20science/2015/10/11/assignment4-creating-graph/">Assignment 4 Creating graphs for your data</a></h2>
-    <div class="post-date">October 11, 2015</div>
-    <p>to download my python code <a href="https://dl.dropboxusercontent.com/u/49272502/TempDataScienceCourse/Assignment%204/Assignment%204.py">click here</a></p>
-
-<p>to download the dataset <a href="https://dl.dropboxusercontent.com/u/49272502/TempDataScienceCourse/Assignment%204/gapminder.csv">click here</a></p>
-
-
-    
-      <a href="/data%20science/2015/10/11/assignment4-creating-graph/">[read more]</a>
-    
-  </div>
-  <hr>
-
-  <div class="post-preview">
-    <h2><a href="/pathology/2015/10/05/small-group2-coagulation/">Coagulation Small Group</a></h2>
-    <div class="post-date">October 05, 2015</div>
-    <p>This post is written for the small group presentation on WBC, which is from the pathology course I take at UMMC</p>
-
-
-    
-      <a href="/pathology/2015/10/05/small-group2-coagulation/">[read more]</a>
+</html> 
     
   </div>
   <hr>
@@ -491,7 +495,7 @@ tags: [pathology, diseases, textbook, Lab Med]
 
 <div class="pagination">
   
-    <span class="pagination-item older">Older</span>
+    <a class="pagination-item older" href="/page11">Older</a>
   
   
     

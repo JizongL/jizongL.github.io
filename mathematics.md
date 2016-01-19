@@ -6,6 +6,7 @@ title: Mathematics
 
 ### Linear algebra
 
+[proof]()
 
 ### proofs
 

@@ -49,3 +49,8 @@ Error | SSE | n-2 | $$ s^2 \ = \frac{SSE}{n-2}\$$ |   |
 Total | SST | n-1 |  |  |  |
 
 
+
+
+
+
+

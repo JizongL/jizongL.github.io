@@ -230,6 +230,10 @@
     
       
         
+      
+    
+      
+        
           <a class="sidebar-nav-item" href="/resource/">Pathology subsection</a>
         
       
@@ -278,7 +282,7 @@
 
   <div class="sidebar-item">
     <p>
-      &copy; 2015. All rights reserved.
+      &copy; 2016. All rights reserved.
     </p>
   </div>
 </div>
@@ -300,7 +304,10 @@
         <div class="post">
   <h1 class="post-title">Linear Algebra study note</h1>
   <span class="post-date">22 Nov 2015</span>
-  <ul id="markdown-toc">
+  <p>This is my note for my personal study of Linear Algebra
+<!--break--></p>
+
+<ul id="markdown-toc">
   <li><a href="#definition-of-mathbf-rn-and-mathbf-r" id="markdown-toc-definition-of-mathbf-rn-and-mathbf-r">Definition of <script type="math/tex">\mathbf R^n</script> and <script type="math/tex">\mathbf R</script></a></li>
   <li><a href="#vector-transformation" id="markdown-toc-vector-transformation">vector transformation</a></li>
   <li><a href="#formal-understanding-of-functions" id="markdown-toc-formal-understanding-of-functions">Formal understanding of functions</a></li>
@@ -322,7 +329,10 @@
       <li><a href="#example-1-1" id="markdown-toc-example-1-1">example 1</a></li>
     </ul>
   </li>
-  <li><a href="#linear-transformation" id="markdown-toc-linear-transformation">Linear transformation</a></li>
+  <li><a href="#linear-transformation" id="markdown-toc-linear-transformation">Linear transformation</a>    <ul>
+      <li><a href="#linear-transformations-as-matrix-vector-products" id="markdown-toc-linear-transformations-as-matrix-vector-products">Linear transformations as matrix vector products</a></li>
+    </ul>
+  </li>
   <li><a href="#dot-product" id="markdown-toc-dot-product">Dot product</a>    <ul>
       <li><a href="#definition" id="markdown-toc-definition">definition</a></li>
       <li><a href="#vector-into-components-projection" id="markdown-toc-vector-into-components-projection">vector into components: projection</a></li>
@@ -338,8 +348,6 @@
     </ul>
   </li>
 </ul>
-
-<!--break-->
 
 <h2 id="definition-of-mathbf-rn-and-mathbf-r">Definition of <script type="math/tex">\mathbf R^n</script> and <script type="math/tex">\mathbf R</script></h2>
 
@@ -893,6 +901,16 @@ x_2
 
 <p><a href="https://www.khanacademy.org/math/linear-algebra/matrix_transformations/linear-transformations/a/visualizing-linear-transformations">Visualizing linear transformations</a> from Khanacademy provides excellent illustration about the concept.</p>
 
+<script type="math/tex; mode=display">\mathbf T(\vec a + \vec b) = \mathbf T(\vec a) + \mathbf T(\vec b)</script>
+
+<script type="math/tex; mode=display">\mathbf T(c \vec a)= c\mathbf T(\vec a)</script>
+
+<p>A matrix product with a vector is always a linear transformation</p>
+
+<h3 id="linear-transformations-as-matrix-vector-products">Linear transformations as matrix vector products</h3>
+
+<p>standard basis for <script type="math/tex">\mathbf R^n</script></p>
+
 <h2 id="dot-product">Dot product</h2>
 
 <h3 id="definition">definition</h3>
@@ -933,6 +951,16 @@ perpendicular, respectively, to a given nonzero vector, <script type="math/tex">
 <p>The essent of this formula is to find the closest distance between the tip of <script type="math/tex">\vec x</script> to a unique point in <script type="math/tex">\vec v</script> to make a new distance vector (the dash line from the figure for example) that is orthogonal to <script type="math/tex">\vec v</script>. Visually, it looks as if it is a shadow casted by direct sun light on <script type="math/tex">\vec x</script> to <script type="math/tex">\vec v</script>, so it is formally named the projection of <script type="math/tex">\vec x</script> onto <script type="math/tex">\vec v</script>. The key to find this point is to get the value c, which scale <script type="math/tex">\vec v</script> to the unique length.</p>
 
 <p><a href="/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence">see proof</a></p>
+
+<p>Further illustration of this the concept of the formula above.</p>
+
+<p>We can imagine that <script type="math/tex">\left\lVert v \right\rVert</script> as 1, then the formula becomes <script type="math/tex">c\vec v = (\vec x\cdot\vec v)\vec v</script></p>
+
+<p>alternatively, if <script type="math/tex">\left\lVert\ v right\rVert</script> is not one, we can create a unit vector <script type="math/tex">\hat u = \frac{1}{\left\lVert \vec v \right\rVert}\vec v</script></p>
+
+<p>Then input <script type="math/tex">\hat u</script> into the formula <script type="math/tex">Proj_L(\vec x) = (\vec x\cdot\hat u)\hat u</script></p>
+
+<p>In this, we normalize the original <script type="math/tex">\vec v</script> into a unit vector <script type="math/tex">\hat u</script>, sort of like a quntum portion, then when <script type="math/tex">\vec x\cdot\vec v</script> it creates a scalar, which is used to signify the scalar multiple of the quntum portion per se.</p>
 
 <h3 id="example">example</h3>
 
@@ -1016,9 +1044,11 @@ perpendicular, respectively, to a given nonzero vector, <script type="math/tex">
 
 <p>criteria 2 Projection of a scalar multiple vector is the scalar multiple of the projection vector.</p>
 
-<p><script type="math/tex">Proj_L(c\vec a)= (c\vec a\cdot\hat u)\hat u</script>
-<script type="math/tex">c(\vec a\cdot\hat u)\hat u</script>
-<script type="math/tex">c(Proj_l \vec a)</script></p>
+<script type="math/tex; mode=display">Proj_L(c\vec a)= (c\vec a\cdot\hat u)\hat u</script>
+
+<script type="math/tex; mode=display">=c(\vec a\cdot\hat u)\hat u</script>
+
+<script type="math/tex; mode=display">=c(Proj_l \vec a)</script>
 
 
 </div>
@@ -1028,27 +1058,27 @@ perpendicular, respectively, to a given nonzero vector, <script type="math/tex">
     
       <li>
         <h3>
-          <a href="/statistics/2015/12/02/statistics-study-note/">
-            statistics study note
-            <small>02 Dec 2015</small>
+          <a href="/regular%20expression/2016/01/18/regular-expression-video-project/">
+            Introducing Regular expression
+            <small>18 Jan 2016</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/linear%20algebra/2015/11/18/proof-linear-algebra/">
-            Proof in vector space
-            <small>18 Nov 2015</small>
+          <a href="/2016/01/18/regular-expression-Java/">
+            Regular Expression Java
+            <small>18 Jan 2016</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/">
-            Statistics for Genomic Data Science
-            <small>14 Nov 2015</small>
+          <a href="/2016/01/03/javascript-basics=steganography/">
+            Javascript Basics=steganography
+            <small>03 Jan 2016</small>
           </a>
         </h3>
       </li>

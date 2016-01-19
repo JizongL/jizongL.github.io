@@ -5,2258 +5,1225 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Dec 2015 10:49:01 -0600</pubDate>
-    <lastBuildDate>Fri, 04 Dec 2015 10:49:01 -0600</lastBuildDate>
+    <pubDate>Tue, 19 Jan 2016 11:14:19 -0600</pubDate>
+    <lastBuildDate>Tue, 19 Jan 2016 11:14:19 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>statistics study note</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=BJZpx7Mdde4&quot;&gt;calculating power and probability of Type II Error&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 02 Dec 2015 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/statistics/2015/12/02/statistics-study-note/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/statistics/2015/12/02/statistics-study-note/</guid>
-        
-        <category>statistics</category>
-        
-        <category>data</category>
-        
-        
-        <category>statistics</category>
-        
-      </item>
-    
-      <item>
-        <title>Linear Algebra study note</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#definition-of-mathbf-rn-and-mathbf-r&quot; id=&quot;markdown-toc-definition-of-mathbf-rn-and-mathbf-r&quot;&gt;Definition of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\mathbf R&lt;/script&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#vector-transformation&quot; id=&quot;markdown-toc-vector-transformation&quot;&gt;vector transformation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#formal-understanding-of-functions&quot; id=&quot;markdown-toc-formal-understanding-of-functions&quot;&gt;Formal understanding of functions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#the-concept-of-linear-independance&quot; id=&quot;markdown-toc-the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#test-of-linear-dependance&quot; id=&quot;markdown-toc-test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#example-1&quot; id=&quot;markdown-toc-example-1&quot;&gt;Example 1&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#example-3&quot; id=&quot;markdown-toc-example-3&quot;&gt;example 3&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#parametric-representation-of-lines&quot; id=&quot;markdown-toc-parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#dimension-of-the-column-space-or-rank&quot; id=&quot;markdown-toc-dimension-of-the-column-space-or-rank&quot;&gt;Dimension of the Column Space or Rank&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#linear-subspaces&quot; id=&quot;markdown-toc-linear-subspaces&quot;&gt;Linear subspaces&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#a-trival-example-in-mathbf-r3&quot; id=&quot;markdown-toc-a-trival-example-in-mathbf-r3&quot;&gt;a trival example in &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#example-2&quot; id=&quot;markdown-toc-example-2&quot;&gt;example 2&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#example-3-1&quot; id=&quot;markdown-toc-example-3-1&quot;&gt;example 3&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#basis&quot; id=&quot;markdown-toc-basis&quot;&gt;Basis&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#example-1-1&quot; id=&quot;markdown-toc-example-1-1&quot;&gt;example 1&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#linear-transformation&quot; id=&quot;markdown-toc-linear-transformation&quot;&gt;Linear transformation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#dot-product&quot; id=&quot;markdown-toc-dot-product&quot;&gt;Dot product&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#definition&quot; id=&quot;markdown-toc-definition&quot;&gt;definition&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#vector-into-components-projection&quot; id=&quot;markdown-toc-vector-into-components-projection&quot;&gt;vector into components: projection&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#projection&quot; id=&quot;markdown-toc-projection&quot;&gt;Projection&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#example&quot; id=&quot;markdown-toc-example&quot;&gt;example&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#expressing-a-projection-on-to-a-line-as-matrix-vector-projection&quot; id=&quot;markdown-toc-expressing-a-projection-on-to-a-line-as-matrix-vector-projection&quot;&gt;Expressing a projection on to a line as matrix vector projection&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#example-1-2&quot; id=&quot;markdown-toc-example-1-2&quot;&gt;example 1&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#criterias-of-projection&quot; id=&quot;markdown-toc-criterias-of-projection&quot;&gt;2 criterias of projection&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+        <title>Introducing Regular expression</title>
+        <description>&lt;p&gt;This tutorial is made to show you how you can use &lt;a href=&quot;https://www.google.com/?gws_rd=ssl#q=regular+expression&quot;&gt;Regular Expression&lt;/a&gt; and a text editor to make your day to day office work easier.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://viblo.asia/uploads/images/d9a2a14598974e7cc9ea922a835c70496648865f/8b06b3b2f79f332104e71323d7865d2c6de7379d.png&quot; alt=&quot;ddd&quot; /&gt;&lt;/p&gt;
 
 &lt;!--break--&gt;
-
-&lt;h2 id=&quot;definition-of-mathbf-rn-and-mathbf-r&quot;&gt;Definition of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\mathbf R&lt;/script&gt;&lt;/h2&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec X \in \mathbf R^n&lt;/script&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n = \begin{cases}
-n-tuple\\
-(x_1,x_2 \cdots x_n)\end{cases}&lt;/script&gt;
-&lt;script type=&quot;math/tex&quot;&gt;\bigr| x_1,x_2,\cdots x_n \in \mathbf R&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;vector-transformation&quot;&gt;vector transformation&lt;/h2&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec x = \begin{bmatrix}
-	x_1\\
-	x_2\\
-	\vdots\\
-	x_n
-	\end{bmatrix}
-	\vec y = \begin{bmatrix}
-	y_1\\
-	y_2\\
-	\vdots\\
-	y_m
-	\end{bmatrix}&lt;/script&gt;
-
-&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec x \in \mathbf R^n \text{and} \vec y \in \mathbf R^m&lt;/script&gt;&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f:\mathbf R^n \implies \mathbf R^m&lt;/script&gt;
-
-&lt;p&gt;for example&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f:\mathbf R^3 \implies \mathbf R^2&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
-	x_1\\
-	x_2\\
-	x_3\\
-	\end{bmatrix}
-	=
-	\begin{bmatrix}
-	x_1+2x_2\\
-	3x_3\\
-	\end{bmatrix}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
-	1\\
-	1\\
-	1\\
-	\end{bmatrix}
-	=
-	\begin{bmatrix}
-	3\\
-	3\\
-	\end{bmatrix}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
-	2\\
-	4\\
-	1\\
-	\end{bmatrix}
-	=
-	\begin{bmatrix}
-	10\\
-	3\\
-	\end{bmatrix}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;T:\mathbf R^3 \implies\mathbf R^2&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;T(x_1,x_2,x_3) \implies (x_1+2x_2, 3x_3)&lt;/script&gt;
-
-&lt;h2 id=&quot;formal-understanding-of-functions&quot;&gt;Formal understanding of functions&lt;/h2&gt;
-
-&lt;p&gt;if a function g(x) maps the single number 2.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;g(x_1,x_2) = 2&lt;/script&gt;
-
-&lt;p&gt;Then, the domain is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt; and the codomain is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt; but the range is 2.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;h:\mathbf R^2 \implies \mathbf R^3&lt;/script&gt;
-
-&lt;p&gt;In this, the domain is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt; and the codomain and the range are &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;, for example&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf h (x_1,x_2) = (x_1+x_2, x_2-x_1,x_2x_1)&lt;/script&gt;
-
-&lt;h2 id=&quot;the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/h2&gt;
-
-&lt;p&gt;The main idea is that there is no redundent vectors in the space&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;c_1\vec v_1+c_2\vec v_2 + \cdots c_n\vec v_n = \mathbf 0| c_1=c_2 \cdots c_n = 0&lt;/script&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_independence/v/span-and-linear-independence-example&quot;&gt;see&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;s = \{\vec v_1 \vec v_2, \cdots\vec v_n\} \iff c_1\vec v_1 + c_2\vec v_2 \cdots c_n\vec v_n = \mathbf 0&lt;/script&gt;
-
-&lt;p&gt;For some &lt;script type=&quot;math/tex&quot;&gt;c_i&lt;/script&gt;, not all are 0. (at least 1 is non-zero)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence&quot;&gt;see proof&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;example-1&quot;&gt;Example 1&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left( \mathbf A =
-\begin{bmatrix}
-2\\
-1\\
-\end{bmatrix}
-,
-\mathbf B =
-\begin{bmatrix}
-2\\
-1\\
-\end{bmatrix}
-\right)&lt;/script&gt;
-
-&lt;p&gt;to test if A and B are independent&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;c_1
-\begin{bmatrix}
-2\\
-1\\
-\end{bmatrix}
-+ c_2
-\begin{bmatrix}
-2\\
-1\\
-\end{bmatrix}
-= 0&lt;/script&gt;
-
-&lt;p&gt;To satisify the conditon above, if either &lt;script type=&quot;math/tex&quot;&gt;c_1&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;c_2&lt;/script&gt; are non-zero, then A and B are dependent 
-If both &lt;script type=&quot;math/tex&quot;&gt;c_1,c_2&lt;/script&gt; are 0, then A and B are independent&lt;/p&gt;
-
-&lt;p&gt;adapted from &lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_independence/v/more-on-linear-independence&quot;&gt;Khanacademy&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;example-3&quot;&gt;example 3&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left(\begin{bmatrix}
-1\\
--1\\
-2\\
-\end{bmatrix},
-
-\begin{bmatrix}
-1\\
-1\\
-3
-\end{bmatrix}
-,
-\begin{bmatrix}
--1\\
-0\\
-2\\
-\end{bmatrix}\right)
- = \mathbf Span(s) \ = \mathbf R^3?&lt;/script&gt;
-
-&lt;h2 id=&quot;parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/h2&gt;
-
-&lt;!--break--&gt;
-&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec V = \begin{bmatrix}
-		2\\
-        1\\
-\end{bmatrix}&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;then the span is 
-&lt;script type=&quot;math/tex&quot;&gt;\ \mathbf S = \{ c\vec V | c \in \mathbf R \}&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec X = \begin{bmatrix}
-			2\\
-			4\\	
-			\end{bmatrix}&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;To find a line passes through &lt;script type=&quot;math/tex&quot;&gt;\vec X&lt;/script&gt;  and parellel to &lt;script type=&quot;math/tex&quot;&gt;\vec V&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;we can use this formula&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;L =\{\vec X + t\vec V| t\in \mathbf R\}&lt;/script&gt;
-
-&lt;p&gt;To find a line passes through both &lt;script type=&quot;math/tex&quot;&gt;\vec a and \vec b&lt;/script&gt;, use either&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;L = \{\vec b + t(\vec b-\vec a| t \in \mathbf R)\}&lt;/script&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;L = \{\vec a + t(\vec b-\vec a| t \in \mathbf R)\}&lt;/script&gt;
-
-&lt;p&gt;example&lt;/p&gt;
-
-&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec a = \begin{bmatrix}
-			2\\
-			1\\
-			\end{bmatrix}&lt;/script&gt;
-	  &lt;script type=&quot;math/tex&quot;&gt;\vec b = \begin{bmatrix}
-	  		0\\
-			3\\
-			\end{bmatrix}&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;then &lt;script type=&quot;math/tex&quot;&gt;L = \{\begin{bmatrix}
-			2\\
-			1\\
-			\end{bmatrix} + t(\begin{bmatrix}
-			0\\
-			3\\
-			\end{bmatrix}
-			-\begin{bmatrix}
-			2\\
-			1\\
-			\end{bmatrix}) | t\in \mathbf R\}&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;To see full from this video&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&quot;color: #111; font-family: helvetica;&quot; target=&quot;_blank&quot; href=&quot;https://www.khanacademy.org/video/linear-algebra-parametric-representations-of-lines?utm_campaign=embed&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;560&quot; height=&quot;355&quot; src=&quot;https://www.khanacademy.org/embed_video?v=hWhs2cIj7Cw&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;dimension-of-the-column-space-or-rank&quot;&gt;Dimension of the Column Space or Rank&lt;/h2&gt;
-
-&lt;p&gt;The following is adapted from &lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/null_column_space/v/dimension-of-the-column-space-or-rank&quot;&gt;Khanacademy&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&quot;color: #111; font-family: helvetica;&quot; target=&quot;_blank&quot; href=&quot;https://www.khanacademy.org/video/dimension-of-the-column-space-or-rank?utm_campaign=embed&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;560&quot; height=&quot;355&quot; src=&quot;https://www.khanacademy.org/embed_video?v=JUgrBkPteTg&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Rank is the dimension of the basis of a matrix.&lt;/p&gt;
-
-&lt;p&gt;In order to be a basis, it has to satisfy that&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;vectors span &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;all the column vectors of a basis are linear independent&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;for example&lt;/p&gt;
-&lt;p align=&quot;right&quot;&gt;(1)&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\mathbf A = \begin{bmatrix}
-        1 &amp; 0 &amp; -1 &amp; 0 &amp; 4 \\
-        2 &amp; 1 &amp; 0 &amp; 0 &amp; 9 \\
-        -1 &amp; 2 &amp; 5 &amp; 1 &amp; -5 \\
-        1 &amp; -1 &amp; -3 &amp; -2 &amp; 9
-        \end{bmatrix} %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;the column space of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt; is&lt;/p&gt;
-
-&lt;p align=&quot;right&quot;&gt;(2)&lt;/p&gt;
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;C(\mathbf A) = span\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\}&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;However, we don’t know if all the  column vectors in the span are linear independant&lt;/p&gt;
-
-&lt;p&gt;To find the basis, let’s convert to reduced echelon form &lt;script type=&quot;math/tex&quot;&gt;A_e&lt;/script&gt;&lt;/p&gt;
-&lt;p align=&quot;right&quot;&gt;(3)&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\mathbf A_e = \begin{bmatrix}
-        1 &amp; 0 &amp; -1 &amp; 0 &amp; 4 \\
-        0 &amp; 1 &amp; 2 &amp; 0 &amp; 1 \\
-        0 &amp; 0 &amp; 0 &amp; 1 &amp; -3 \\
-        0 &amp; 0 &amp; 0 &amp; 0 &amp; 0
-        \end{bmatrix} %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec r_i&lt;/script&gt; denote the columns of A&lt;/p&gt;
-&lt;p align=&quot;right&quot;&gt;(4)&lt;/p&gt;
-
-&lt;p&gt;we see that &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_1,\vec r_3,\vec r_4\}&lt;/script&gt; are linear independent and for the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A_e&lt;/script&gt;, and the 1s in these column vectors are also called the &lt;a href=&quot;https://en.wikibooks.org/wiki/Linear_Algebra/Row_Reduction_and_Echelon_Forms#Pivot_Positions&quot;&gt;pivot entries&lt;/a&gt;. Moreover, &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_3,\vec r_5\}&lt;/script&gt; can be represented as linear combinations of &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_1,\vec r_2,\vec r_4\}&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Therefore, we can conclude that  &lt;script type=&quot;math/tex&quot;&gt;\{\vec a_1,\vec a_2,\vec a_4,\} in \mathbf A&lt;/script&gt; are also linear independent and they are the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;And the Rank of A is just the dimension of the basis, so &lt;script type=&quot;math/tex&quot;&gt;rank(\mathbf A) = 3&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;linear-subspaces&quot;&gt;Linear subspaces&lt;/h2&gt;
-
-&lt;p&gt;In order to be a subspace, a set must satisfy the following 3 criterias&lt;/p&gt;
-
-&lt;p&gt;let&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf R^n \leftarrow \left( 
-\begin{bmatrix}
-x_1\\
-x_2\\
-\vdots\\
-x_n
-\end{bmatrix} | x_i \in \mathbf R \ 1\le i \le n
-\right)&lt;/script&gt;
-
-&lt;p&gt;Let’s assume &lt;script type=&quot;math/tex&quot;&gt;\mathbf V&lt;/script&gt; is a subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;then&lt;/p&gt;
-
-&lt;p&gt;1:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf V \ contains  \ \mathbf 0 = \begin{bmatrix}
-0\\
-\vdots\\
-0
-\end{bmatrix}&lt;/script&gt;
-
-&lt;p&gt;2:&lt;/p&gt;
-
-&lt;p&gt;And if &lt;script type=&quot;math/tex&quot;&gt;\vec x \in \mathbf V \ \text{then} \ c\vec x \ \ also \ in \mathbf V&lt;/script&gt;
-This is defined as closure under scalar multiplication&lt;/p&gt;
-
-&lt;p&gt;3:&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec a \in \mathbf V \ and \ \vec b \ \in \mathbf V, \ then \ \vec a + \vec b \ is \ also \ in \mathbf V&lt;/script&gt;
-This is defined as closure under addition&lt;/p&gt;
-
-&lt;h3 id=&quot;a-trival-example-in-mathbf-r3&quot;&gt;a trival example in &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf V \ = \ {\mathbf 0} = \begin{bmatrix}
-0\\
-0\\
-0\\
-\end{bmatrix}&lt;/script&gt;
-
-&lt;p&gt;it satisifies the 3 criterias&lt;/p&gt;
-
-&lt;p&gt;1: it contains the zero vector.&lt;/p&gt;
-
-&lt;p&gt;2: when it is multiplied by any real number scalar c, it is still itself. This implies it is still a member of &lt;script type=&quot;math/tex&quot;&gt;\mathbf 
-R^3&lt;/script&gt; and satisify closure under multiplication&lt;/p&gt;
-
-&lt;p&gt;3: when &lt;script type=&quot;math/tex&quot;&gt;\mathbf V + \mathbf V = \mathbf 0&lt;/script&gt;, this implies it satisifies closure under addition&lt;/p&gt;
-
-&lt;p&gt;so it is a subspace.&lt;/p&gt;
-
-&lt;h3 id=&quot;example-2&quot;&gt;example 2&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = { \begin{bmatrix}
-x_1\\
-x_2
-\end{bmatrix}
-\in \ \mathbf R^2 | x_1 \ge 0 and x_2 \ge 0 }&lt;/script&gt;
-
-&lt;p&gt;is &lt;script type=&quot;math/tex&quot;&gt;\mathbf S&lt;/script&gt; a subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt;?&lt;/p&gt;
-
-&lt;p&gt;1:&lt;/p&gt;
-
-&lt;p&gt;because &lt;script type=&quot;math/tex&quot;&gt;x_1, x_2 \ge 0&lt;/script&gt;, so it contains the zero vector.&lt;/p&gt;
-
-&lt;p&gt;2:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
-a\\
-b
-\end{bmatrix}
-+
-\begin{bmatrix}
-c\\
-d
-\end{bmatrix}
-=
-\begin{bmatrix}
-a+c\\
-b+d
-\end{bmatrix}&lt;/script&gt;
-
-&lt;p&gt;it satisifies the closure of addition&lt;/p&gt;
-
-&lt;p&gt;3: however, if&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;-1
-\begin{bmatrix}
-a\\
-b
-\end{bmatrix}
-=
-\begin{bmatrix}
--a\\
--b
-\end{bmatrix}&lt;/script&gt;
-
-&lt;p&gt;This does not satisify the closure of multiplication because the result falls out of the restricted set. 
-(it is less than 0)&lt;/p&gt;
-
-&lt;h3 id=&quot;example-3-1&quot;&gt;example 3&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;let \ \mathbf U = \ span \ (\vec v_1,\vec v_2, \vec v_3)&lt;/script&gt;
-
-&lt;p&gt;Is it subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;?&lt;/p&gt;
-
-&lt;p&gt;1: if&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(0\vec v_1 +0\vec v_2+ 0\vec v_3 = \vec 0)&lt;/script&gt;
-
-&lt;p&gt;so it contains the zero vector.&lt;/p&gt;
-
-&lt;p&gt;2:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec X =c_1\vec v_1+c_2\vec v_2+ c_3\vec v_3&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\vec X =ac_1\vec v_1+ac_2\vec v_2+ ac_3\vec v_3&lt;/script&gt;
-
-&lt;p&gt;if we let &lt;script type=&quot;math/tex&quot;&gt;ac_i = j_i&lt;/script&gt;&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\vec X =j_1\vec v_1+j_2\vec v_2+ j_3\vec v_3&lt;/script&gt;
-
-&lt;p&gt;clear, it is just a linear combination of the 3 vectors and it is in the span of the 3 vectors, therefore it satisifies the closure of multiplication.&lt;/p&gt;
-
-&lt;p&gt;3:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec Y =d_1\vec v_1+d_2\vec v_2+ d_3\vec v_3&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec X + \vec Y =(c_1+d_1)\vec v_1+(c_2+d_2)\vec v_2+ (c_3+d_3)\vec v_3&lt;/script&gt;
-
-&lt;p&gt;It clearly satisify the closure under addition&lt;/p&gt;
-
-&lt;p&gt;so it is a subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;basis&quot;&gt;Basis&lt;/h2&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = 
-\left(\begin{bmatrix}
-2\\
-3
-\end{bmatrix}
-,
-(\begin{bmatrix}
-7\\
-0
-\end{bmatrix}
-\right)&lt;/script&gt;
-
-&lt;p&gt;What is the span of $$\mathbf S?&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = 
-\left(c_1\begin{bmatrix}
-2\\
-3
-\end{bmatrix}
-+c_2\begin{bmatrix}
-7\\
-0
-\end{bmatrix}
-\right)&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;2c_1+7c_2 = x_1 \\
-3c_1 + 0 = x_2 \\
-c_1=\frac {x_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}x_2&lt;/script&gt;
-
-&lt;p&gt;is &lt;script type=&quot;math/tex&quot;&gt;\mathbf S&lt;/script&gt; linear independent?&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = 
-\left(c_1\begin{bmatrix}
-2\\
-3
-\end{bmatrix}
-+c_2\begin{bmatrix}
-7\\
-0
-\end{bmatrix} 
-\right) =
-= \begin{bmatrix}
-0\\
-0
-\end{bmatrix}&lt;/script&gt;
-
-&lt;p&gt;from above&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;c_1=\frac {x_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}x_2 \\
-c_1=\frac {0_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}0 \\
-c_1 = 0, c_2 = 0&lt;/script&gt;
-
-&lt;p&gt;Since &lt;script type=&quot;math/tex&quot;&gt;\mathbf S \ spans \ \mathbf R^2&lt;/script&gt; and it is linear independent, so &lt;script type=&quot;math/tex&quot;&gt;\mathbf S&lt;/script&gt; is a basis for &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;example-1-1&quot;&gt;example 1&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf T = 
-\left(\begin{bmatrix}
-1\\
-0
-\end{bmatrix}
-,
-(\begin{bmatrix}
-0\\
-1
-\end{bmatrix}
-\right)&lt;/script&gt;
-
-&lt;p&gt;What is the span of &lt;script type=&quot;math/tex&quot;&gt;\mathbf T&lt;/script&gt;?&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf T = 
-\left(x_1\begin{bmatrix}
-1\\
-0
-\end{bmatrix}
-+x_2\begin{bmatrix}
-0\\
-1
-\end{bmatrix} 
-\right) =
-= \begin{bmatrix}
-x_1\\
-x_2
-\end{bmatrix}&lt;/script&gt;
-
-&lt;p&gt;from above we know that the span is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Is it linear independent?&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf T = 
-\left(x_1\begin{bmatrix}
-1\\
-0
-\end{bmatrix}
-+x_2\begin{bmatrix}
-0\\
-1
-\end{bmatrix} 
-\right) =
-= \begin{bmatrix}
-0\\
-0
-\end{bmatrix}&lt;/script&gt;
-
-&lt;p&gt;to satisify the above, &lt;script type=&quot;math/tex&quot;&gt;x_1,x_2&lt;/script&gt; have to be 0.&lt;/p&gt;
-
-&lt;p&gt;so &lt;script type=&quot;math/tex&quot;&gt;\mathbf T&lt;/script&gt; is a basis.&lt;/p&gt;
-
-&lt;p&gt;In fact, &lt;script type=&quot;math/tex&quot;&gt;\mathbf T&lt;/script&gt; is the unit vector &lt;script type=&quot;math/tex&quot;&gt;\hat i \ and \ \hat j&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;conclusion&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf P {v_1,v_2 \cdots v_n} = Basis \ for \ \mathbf U&lt;/script&gt;
-
-&lt;p&gt;any member of the set &lt;script type=&quot;math/tex&quot;&gt;\mathbf U&lt;/script&gt; is a unique combination of the basis &lt;script type=&quot;math/tex&quot;&gt;\mathbf P&lt;/script&gt;&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a \in U \vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n&lt;/script&gt;
-
-&lt;p&gt;let’s prove the uniqueness by contraditon&lt;/p&gt;
-
-&lt;p&gt;assume that they are not unique&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a = d_1\vec d_1 + d_2\vec v_2 + \cdots d_n\vec v_n&lt;/script&gt;
-
-&lt;p&gt;then if&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n \\
-\vec a = d_1\vec v_1 + d_2\vec v_2 + \cdots d_n\vec v_n \\
-0 = (c_1-d_1)\vec v_1 +(c_2-d_2)\vec v_2 + \cdots (c_1-d_n)\vec v_n&lt;/script&gt;
-
-&lt;p&gt;since &lt;script type=&quot;math/tex&quot;&gt;\mathbf P&lt;/script&gt; is the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf U&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;so it has to be linear independent, thus &lt;script type=&quot;math/tex&quot;&gt;c_i-d_i = 0&lt;/script&gt;, therefore, &lt;script type=&quot;math/tex&quot;&gt;c_i&lt;/script&gt; is unique.&lt;/p&gt;
-
-&lt;h2 id=&quot;linear-transformation&quot;&gt;Linear transformation&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/matrix_transformations/linear-transformations/a/visualizing-linear-transformations&quot;&gt;Visualizing linear transformations&lt;/a&gt; from Khanacademy provides excellent illustration about the concept.&lt;/p&gt;
-
-&lt;h2 id=&quot;dot-product&quot;&gt;Dot product&lt;/h2&gt;
-
-&lt;h3 id=&quot;definition&quot;&gt;definition&lt;/h3&gt;
-
-&lt;p id=&quot;geo_def&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Geometric definition 
-&lt;script type=&quot;math/tex&quot;&gt;\vec v\cdot\vec w = \left\|v\right\|\left\|w\right\|cos\theta \quad\text{Where}\quad\theta\quad \text{is the angle between}\quad\vec v \ \text{and} \ \vec w \quad and 0 \le \theta\le\pi&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Algebraic definition 
-&lt;script type=&quot;math/tex&quot;&gt;\vec v\cdot\vec w = v_1w_1+v_2w_2+v_3w_3.&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence&quot;&gt;see proof&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;vector-into-components-projection&quot;&gt;vector into components: projection&lt;/h3&gt;
-
-&lt;p&gt;From the figure, we see that &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; is broken into two components &lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel} \ \vec v_{prep}&lt;/script&gt; and they are 
-perpendicular, respectively, to a given nonzero vector, &lt;script type=&quot;math/tex&quot;&gt;\vec u&lt;/script&gt; Figure from &lt;a href=&quot;http://www.amazon.com/Calculus-Single-Variable-Deborah-Hughes-Hallett/dp/0470089156&quot;&gt;Hughes-Hallett 5e&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/LinearAlgebra/projection.png&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To compute &lt;script type=&quot;math/tex&quot;&gt;\left\|\vec v_{parallel}\right\| = \left\|\vec v\right\|cos\theta = \vec v\cdot\vec u \quad (since \ \left\|\vec u\right\| =1)&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;then&lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel}\text{is a scalar multiple of $\vec u$, and since $\vec u$ is a unit vector}&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.&lt;/script&gt; according to the&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#geo_def&quot;&gt;geometric definition&lt;/a&gt;&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v_{prep} = \vec v - \vec v_{parallel}&lt;/script&gt;
-
-&lt;h2 id=&quot;projection&quot;&gt;Projection&lt;/h2&gt;
-
-&lt;p align=&quot;right&quot;&gt;(1)&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{||\vec v||^2}\vec v&lt;/script&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The essent of this formula is to find the closest distance between the tip of &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; to a unique point in &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; to make a new distance vector (the dash line from the figure for example) that is orthogonal to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;. Visually, it looks as if it is a shadow casted by direct sun light on &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;, so it is formally named the projection of &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; onto &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;. The key to find this point is to get the value c, which scale &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; to the unique length.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence&quot;&gt;see proof&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;example&quot;&gt;example&lt;/h3&gt;
-
-&lt;p&gt;let&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = \begin{bmatrix}
-2\\
-1
-\end{bmatrix}
-
-\vec x = \begin{bmatrix}
-2\\
-3
-\end{bmatrix}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj_L (\vec x) = \frac{
-	\begin{bmatrix}
-2\\
-3
-\end{bmatrix}
-	\cdot
-\begin{bmatrix}
-2\\
-1
-\end{bmatrix}
-}{
-	\begin{bmatrix}
-2\\
-1
-\end{bmatrix} \cdot 
-\begin{bmatrix}
-2\\
-1
-\end{bmatrix}
-}
-\begin{bmatrix}
-2\\
-1
-\end{bmatrix} = 7&lt;/script&gt;
-
-&lt;h2 id=&quot;expressing-a-projection-on-to-a-line-as-matrix-vector-projection&quot;&gt;Expressing a projection on to a line as matrix vector projection&lt;/h2&gt;
-
-&lt;p&gt;According to the formula (1) above, we can imagine &lt;script type=&quot;math/tex&quot;&gt;\left\lVert\vec v\right\rVert= 1&lt;/script&gt; as a unit vector.&lt;/p&gt;
-
-&lt;p&gt;then formula (1) becomes &lt;script type=&quot;math/tex&quot;&gt;(\vec x\vec v)\vec v&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;In real practice, if &lt;script type=&quot;math/tex&quot;&gt;\left\lVert\vec v\right\rVert&lt;/script&gt; is not a unit vector, we can transform it into &lt;script type=&quot;math/tex&quot;&gt;\vec u = \frac{1}{\left\lVert\vec v\right\rVert} \vec v given \vec v \neq 1&lt;/script&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;example-1-2&quot;&gt;example 1&lt;/h3&gt;
-
-&lt;p&gt;define&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v = \begin{bmatrix}
-2\\
-1
-\end{bmatrix}
-,
-\vec x =\begin{bmatrix}
-2\\
-3
-\end{bmatrix}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\lVert\vec v\right\rVert = \sqrt{2^2+1^2}= \sqrt{5}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat u =1/\sqrt{5}\begin{bmatrix}
-2\\
-1
-\end{bmatrix}&lt;/script&gt;
-
-&lt;h3 id=&quot;criterias-of-projection&quot;&gt;2 criterias of projection&lt;/h3&gt;
-
-&lt;p&gt;criteria 1 The projection of the sum of the vectors is equal to the sum of the projection of the vectors.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj_L (\vec a+\vec b) = ((\vec a+ \vec b)\cdot \hat u)\hat u&lt;/script&gt;
-
-&lt;p&gt;according to the distributive property.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\vec a\cdot\hat u+\vec b\cdot\hat u)\hat u&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;=(\vec a\cdot\hat u)\hat u+(\vec b\cdot\hat u)\hat u&lt;/script&gt;
-
-&lt;p&gt;criteria 2 Projection of a scalar multiple vector is the scalar multiple of the projection vector.&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Proj_L(c\vec a)= (c\vec a\cdot\hat u)\hat u&lt;/script&gt;
-&lt;script type=&quot;math/tex&quot;&gt;c(\vec a\cdot\hat u)\hat u&lt;/script&gt;
-&lt;script type=&quot;math/tex&quot;&gt;c(Proj_l \vec a)&lt;/script&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 22 Nov 2015 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/linear%20algebra/2015/11/22/linear-algebra_study_note/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/linear%20algebra/2015/11/22/linear-algebra_study_note/</guid>
-        
-        <category>vector</category>
-        
-        <category>linear algebra</category>
-        
-        
-        <category>linear algebra</category>
-        
-      </item>
-    
-      <item>
-        <title>Proof in vector space</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#prove-that-a-vector-space-has-only-one-zero-vector&quot; id=&quot;markdown-toc-prove-that-a-vector-space-has-only-one-zero-vector&quot;&gt;Prove that a vector space has only one zero vector.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#proof-of-linear-dependence&quot; id=&quot;markdown-toc-proof-of-linear-dependence&quot;&gt;proof of linear dependence&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#proof-of-projection-formula&quot; id=&quot;markdown-toc-proof-of-projection-formula&quot;&gt;proof of projection formula&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;prove-that-a-vector-space-has-only-one-zero-vector&quot;&gt;Prove that a vector space has only one zero vector.&lt;/h2&gt;
-
-&lt;p&gt;(Exercise 4.2, 19.) 
-&lt;!--break--&gt;
-Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
-Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
-z2 ⊕z1 =z1 ⊕z2 =z2&lt;/p&gt;
-
-&lt;p&gt;Comment: That is, just plug in z1 where you see 0, and z2 where you see u. Similarly, since
-z2 is a zero vector, and z1 is another vector, we have:
-z1 ⊕z2 =z2 ⊕z1 =z1&lt;/p&gt;
-
-&lt;p&gt;By the two equations above, we have
-z1 ⊕ z2 = z1 = z2
-Thus z1 = z2. That is, any two zero vectors must be equal, so that the zero vector is unique.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Prove that a vector u in a vector space has only one negative, -u. (Exercise 4.2, 20.)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Solution: Suppose that v and w are two additive inverses of u. Since w is an additive inverse&lt;/p&gt;
-
-&lt;p&gt;Add v to both sides.&lt;/p&gt;
-
-&lt;p&gt;v⊕u⊕w = v⊕0 v⊕u⊕w = v
-􏰂 􏰁􏰀 􏰃
-0
-u⊕w=0
-(property 3 in vector space defn)
-(property 4, since v is an additive inverse) (property 3)
-￼￼0⊕w = v w= v
-Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
-
-&lt;p id=&quot;linear_dependence&quot;&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;proof-of-linear-dependence&quot;&gt;proof of linear dependence&lt;/h2&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v_1 = c_2\vec v_2 + c_3\vec c_3 + \cdots c_n\vec v_n&lt;/script&gt;
-
-&lt;p&gt;Then at least one of the constant is non-zero&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;0 = -1\vec v_1 + c_2\vec c_2 + a_3\vec c_3 + \cdots c_n\vec v_n&lt;/script&gt;
-
-&lt;p&gt;assume c1 is non-zero&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v_1 + \frac{c_2}{c1}\vec v_2 + \cdots + \frac{c_n}{c_1}\vec v_n = 0&lt;/script&gt;
-
-&lt;p id=&quot;doc_product_loc&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Suppose that &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-0&lt;\theta&lt;\pi, \ \text{so that the vectors} \ \vec v \ and \ \vec w %]]&gt;&lt;/script&gt;  form a triangle. By the law of Cosines&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec v-\vec w\right\|^2 = \left\|\vec v\right\| + \left\|\vec w\right\| -2\left\|\vec v\right\| cos\theta&lt;/script&gt;
-
-&lt;p&gt;also true for &lt;script type=&quot;math/tex&quot;&gt;\theta = 0 \ and \ \theta = \pi&lt;/script&gt;&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec v\right\|^2 = v_1^2+v_2^2+v_3^2&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec w\right\|^2 = w_1^2+w_2^2+w_3^2&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec v-\vec w\right\|^2 =(v_1-w_1)^2+(v_3-w_3)^2+(v_3-w_3)^2
-=v_1^2 -2v_1w_1+w_1^2+v_2^2 - 2v_2w_2 + w_2^2+v_3^2-2v_3w_3+w_3^2&lt;/script&gt;
-
-&lt;p&gt;Substitute into the Law of Cosines&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;-2v_1w_1-2v_2w_2-2v_3w_3=-2\left\|\vec v\right\|\left\|\vec w\right\|cos \theta&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;v_1w_1-v_2w_2-v_3w_3=\left\|\vec v\right\|\left\|\vec w\right\|cos \theta&lt;/script&gt;
-
-&lt;h2 id=&quot;proof-of-projection-formula&quot;&gt;proof of projection formula&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;let&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;L = proj_v(\vec x)&lt;/script&gt; be shadow of &lt;script type=&quot;math/tex&quot;&gt;\vec x \ onto \ \vec v)&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;then&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;L = c\vec v| c \in \mathbf R&lt;/script&gt;
-
-&lt;p&gt;and&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec x - c\vec v&lt;/script&gt; is orthgonal to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;so if&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\vec x - c\vec ) \cdot \vec v = 0&lt;/script&gt;
-
-&lt;p&gt;rearrange the formula to get c&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec x \cdot \vec v - c \vec v\cdot\vec v=0&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;c= \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}&lt;/script&gt;
-
-&lt;p&gt;to input c in the formula earlier&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = c\vec v = \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}\vec v&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = c\vec v = (\vec x\cdot\vec v)\frac{\vec v}{||\vec v||^2}&lt;/script&gt;
-</description>
-        <pubDate>Wed, 18 Nov 2015 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/linear%20algebra/2015/11/18/proof-linear-algebra/</guid>
-        
-        <category>linear algebra</category>
-        
-        <category>proof</category>
-        
-        <category>vector space</category>
-        
-        
-        <category>linear algebra</category>
-        
-      </item>
-    
-      <item>
-        <title>Statistics for Genomic Data Science</title>
-        <description>&lt;p&gt;Statistics for Genomic Data Science&lt;/p&gt;
-
-&lt;p&gt;week 1&lt;/p&gt;
-
-&lt;p&gt;week 2&lt;/p&gt;
-
-&lt;p&gt;Asian Institute in Statistical Genetics and Genomics
-&lt;a href=&quot;http://www.biostat.jhsph.edu/~iruczins/teaching/kogo/&quot;&gt;Statistical Genomics&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;linear-models-with-categorical-covariateshttpsdocsgooglecompresentationd1pqjeviktzvmmsmsrdn30urxhgmptq-b0ucgoh7qeekoeditslideidgc6c125a130233&quot;&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1pqjeVIkTZVMmsmSrDn30UrxhgMPTQ-b0uCgoh7QEeko/edit#slide=id.gc6c125a13_0_233&quot;&gt;Linear models with Categorical Covariates&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Thomas Lumley &amp;amp; Ken Rice
-&lt;a href=&quot;http://faculty.washington.edu/kenrice/teaching.html&quot;&gt;Ken Rice&lt;/a&gt;
-&lt;a href=&quot;http://faculty.washington.edu/kenrice/sisg/sisg-lie11-04.pdf&quot;&gt;slides&lt;/a&gt; in pdf format
-&lt;a href=&quot;http://faculty.washington.edu/kenrice/sisg/session4lie11.R&quot;&gt;R code&lt;/a&gt; of the slides&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.statsci.org/smyth/pubs/limma-biocbook-reprint.pdf&quot;&gt;Limma: Linear Models for Microarray Data&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 14 Nov 2015 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/genomic%20data%20science/2015/11/14/Genomic-Data-Science-JH/</guid>
-        
-        <category>Coursera</category>
-        
-        <category>statistics</category>
-        
-        <category>Johns Hopkin</category>
-        
-        <category>Jeff Leek</category>
-        
-        <category>Genomic</category>
-        
-        <category>Data Science</category>
-        
-        
-        <category>genomic data science</category>
-        
-      </item>
-    
-      <item>
-        <title>correlation study</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html&quot;&gt;An Introduction to corrplot package&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 30 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/statistics/2015/10/30/correlation-study/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/statistics/2015/10/30/correlation-study/</guid>
-        
-        <category>R</category>
-        
-        <category>correlation</category>
-        
-        <category>corrplot</category>
-        
-        
-        <category>statistics</category>
-        
-      </item>
-    
-      <item>
-        <title>Ipython and Jupyter study</title>
-        <description>&lt;p&gt;video resource&lt;/p&gt;
-
-&lt;p&gt;IPython &amp;amp; Jupyter in depth: high productivity interactive and parallel python - PyCon 2015&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/05fA_DXgW-Y&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Fri, 30 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/python/2015/10/30/Ipython-Jupyter-study/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/python/2015/10/30/Ipython-Jupyter-study/</guid>
-        
-        <category>Ipython</category>
-        
-        <category>Jupyter</category>
-        
-        <category>python</category>
-        
-        <category>notebook</category>
-        
-        
-        <category>python</category>
-        
-      </item>
-    
-      <item>
-        <title>exam2 review note from textbooks and others</title>
-        <description>&lt;h2 id=&quot;wbc-and-lymphoid&quot;&gt;WBC and Lymphoid&lt;/h2&gt;
-
-&lt;h3 id=&quot;keywords&quot;&gt;keywords&lt;/h3&gt;
-&lt;!--break--&gt;
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Emperipolesis#/media/File:Emperipolesis_-_very_high_mag.jpg&quot;&gt;emperipolesis&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;an intact cell within the cytoplasm of another cell&lt;/p&gt;
-
-&lt;h2 id=&quot;note-from-books&quot;&gt;note from books&lt;/h2&gt;
-
-&lt;h3 id=&quot;acute-leukemias-in-general&quot;&gt;Acute Leukemias in general&lt;/h3&gt;
-
-&lt;p&gt;oncogenic tyrosine kinases activate RAS and its two downstream signaling arms, the PI3K/AKT and MAPK pathways&lt;/p&gt;
-
-&lt;p&gt;B-ALL and CML -&amp;gt; BCR-ABL fusion gene (9,22) translocation, philiadelphia chromosome.&lt;/p&gt;
-
-&lt;p&gt;some T-ALLs -&amp;gt; NUP214-ABL (similar to BCR-ABL)&lt;/p&gt;
-
-&lt;p&gt;Acute leukemias have the following characteristics:&lt;/p&gt;
-
-&lt;p&gt;a lack of CD7 expression could insinuate mycosis fungoides (MF) or Sezary syndrome (SS).&lt;/p&gt;
-
-&lt;h4 id=&quot;laboratory-findings-in-acute-leukemias&quot;&gt;Laboratory Findings in Acute Leukemias&lt;/h4&gt;
-
-&lt;p&gt;(WBC count) variable; maybe &amp;gt; 100,000 cells/μL, in 50% of patient, &amp;lt; 10,000 cells/μL.&lt;/p&gt;
-
-&lt;p&gt;Anemia is almost always present&lt;/p&gt;
-
-&lt;p&gt;platelet count 00,000/μL&lt;/p&gt;
-
-&lt;p&gt;Neutropenia&lt;/p&gt;
-
-&lt;h4 id=&quot;all-immunophenotypic-features&quot;&gt;ALL Immunophenotypic Features&lt;/h4&gt;
-
-&lt;p&gt;Terminal deoxynucleotidyl transferase (TdT) -&amp;gt; pre-B and pre-T cells&lt;/p&gt;
-
-&lt;p&gt;Further subtyping of ALL -&amp;gt; lineage-specific markers, such as CD19 (B cell) and CD3 (T cell).&lt;/p&gt;
-
-&lt;h4 id=&quot;b-lymphoblastic-leukemialymphoma-immunophenotype&quot;&gt;B lymphoblastic leukemia/lymphoma: Immunophenotype&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;CD19 – pan-B-cell marker&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;CD10  - Common Acute Lymphoblastic Leukemia Antigen (CALLA), most cases&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;CD34 – stem cell marker, most cases&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;TdT – nearly all cases&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Cytoplasmic IgM heavy chain (μ chain)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Only in the more mature “late pre-B” cases&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Otherwise, ALL are negative for Ig&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Distinguishes ALL from mature B-cell leukemia/lymphoma&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;t-lymphoblastic-leukemialymphoma-immunophenotype&quot;&gt;T lymphoblastic leukemia/lymphoma: Immunophenotype&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;TdT – many cases&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Most T-cell antigens positive: CD1a, CD2, cytoplasmic CD3, CD5, and CD7&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;CD1a - T-cell markers often negative: surface CD3, CD4 and CD8&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;CD4 and CD8 often negative in more immature forms&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;CD4 and CD8 often positive in more mature forms&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;b-lymphoblastic-leukemialymphoma-genetics&quot;&gt;B lymphoblastic leukemia/lymphoma: genetics&lt;/h4&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Abnormality&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Frequency&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Prognosis&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t(v;11q23), MLL, early precursor&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2-3%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;unfavorable&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t(9;22), Ph1, BCR-ABL1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;3-4%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;unfavorable&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(25% adults)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t(12;21) TEL/AML1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;16-19%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;favorable&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Hyperdiploid &amp;gt; 50&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;20-25%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;favorable&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Hypodiploid&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;unfavorable&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Antigen  Designation&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Normal Cellular Distribution&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Primarily T-Cell Associated&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Thymocytes and Langerhans cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD3&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Thymocytes, mature T cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD4&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Helper T cells, subset of thymocytes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T cells and a small subset of B cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD8&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Cytotoxic T cells, subset of thymocytes, and some NK cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Primarily B-Cell Associated&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;BCL6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;a transcription factor required for the generation of germinal center B cells.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD10&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Pre-B cells and germinal-center B cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD19&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Pre-B cells and mature B cells but not plasma cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD20&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Pre-B cells after C19 and mature B cells but not plasma  cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD21&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;EBV receptor; mature B cells and follicular dendritic cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD23&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Activated mature B cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD79a&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Marrow pre-B cells and mature B cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Primarily Monocyte or Macrophage Associated&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD11c&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Granulocytes, monocytes, and macrophages; also  expressed by hairy cell leukemias&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD13&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Immature and mature monocytes and granulocytes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD14&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Monocytes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD15&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Granulocytes; Reed-Sternberg cells and variants&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD33&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Myeloid progenitors and monocytes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD64&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Mature myeloid cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Primarily NK-Cell Associated&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD16&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;NK cells and granulocytes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD56&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;NK cells and a subset of T cells&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Primarily Stem Cell and Progenitor Cell Associated&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD34&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Pluripotent hematopoietic stem cells and progenitor cells  of many lineages&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Activation Markers&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD30&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Activated B cells, T cells, and monocytes; Reed-Sternberg  cells and variants&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Present on All Leukocytes&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;CD45&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;All leukocytes; also known as leukocyte common antigen  (LCA)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Diagnosis&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Cell of Origin&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Genotype&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Salient Clinical Features&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Neoplasms of Immature B and T Cells&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;B-cell acute lymphoblastic  leukemia/lymphoma&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Bone marrow precursor  B cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Diverse chromosomal translocations;  t(12;21) involving RUNX1 and ETV6  present in 25%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Predominantly children; symptoms relating to marrow  replacement and pancytopenia; aggressive&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;T-cell acute lymphoblastic  leukemia/lymphoma&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Precursor T cell (often  of thymic origin)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Diverse chromosomal translocations,  NOTCH1 mutations (50%-70%)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Predominantly adolescent males; thymic masses and  variable bone marrow involvement; aggressive&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Neoplasms of Mature B Cells&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Burkitt lymphoma*&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Germinal-center B cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Translocations involving MYC and lg loci,  usually t(8;14); subset EBV-associated&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Adolescents or young adults with extranodal masses;  uncommonly presents as “leukemia”; aggressive&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Diffuse large B-cell  lymphoma†&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Germinal-center or  postgerminal center  B cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Diverse chromosomal rearrangements,  most often of BCL6 (30%), BCL2 (10%),  or MYC (5%)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;All ages, but most common in older adults; often appears  as a rapidly growing mass; 30% extranodal; aggressive&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Extranodal marginal zone  lymphoma&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Memory B cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t(11;18), t(1;14), and t(14;18) creating  MALT1-IAP2, BCL10-IgH, and  MALT1-IgH fusion genes, respectively&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Arises at extranodal sites in adults with chronic  inflammatory diseases; may remain localized; indolent&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Follicular lymphoma&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Germinal-center B cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t(14;18) creating BCL2-IgH fusion gene&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Older adults with generalized lymphadenopathy and  marrow involvement; indolent&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Hairy cell leukemia&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Memory B cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Activating BRAF mutations&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Older males with pancytopenia and splenomegaly; indolent&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Mantle cell lymphoma&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Naive B cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t(11;14) creating CyclinD1-IgH fusion gene&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Older males with disseminated disease; moderately  aggressive&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Multiple myeloma/solitary  plasmacytoma†&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Post-germinal-center  bone marrow homing  plasma cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Diverse rearrangements involving IgH; 13q  deletions&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Myeloma: older adults with lytic bone lesions, pathologic  fractures, hypercalcemia, and renal failure; moderately  aggressive&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Plasmacytoma: isolated plasma cell masses in bone or  soft tissue; indolent&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Small lymphocytic  lymphoma/chronic  lymphocytic leukemia&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Naive B cell or memory  B cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Trisomy 12, deletions of 11q, 13q, and  17p&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Older adults with bone marrow, lymph node, spleen, and  liver disease; autoimmune hemolysis and  thrombocytopenia in a minority; indolent&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Neoplasms of Mature T Cells or NK Cells&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Adult T-cell leukemia/ lymphoma&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Helper T cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;HTLV-1 provirus present in tumor cells&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Adults with cutaneous lesions, marrow involvement, and  hypercalcemia; occurs mainly in Japan, West Africa,  and the Caribbean; aggressive&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Peripheral T-cell lymphoma,  unspecified&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Helper or cytotoxic   T cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No specific chromosomal abnormality&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Mainly older adults; usually presents with  lymphadenopathy; aggressive&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Anaplastic large-cell  lymphoma&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Cytotoxic T cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Rearrangements of ALK (anaplastic large  cell lymphoma kinase) in a subset&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Children and young adults, usually with lymph node and  soft-tissue disease; aggressive&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Extranodal NK/T-cell  lymphoma&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;NK-cell (common) or  cytotoxic T cell (rare)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;EBV-associated; no specific chromosomal  abnormality&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Adults with destructive extranodal masses, most  commonly sinonasal; aggressive&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Mycosis fungoides/Sézary  syndrome&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Helper T cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No specific chromosomal abnormality&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Adult patients with cutaneous patches, plaques, nodules,  or generalized erythema; indolent&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Large granular lymphocytic  leukemia&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Two types: cytotoxic T  cell and NK cell&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Point mutations in STAT3&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Adult patients with splenomegaly, neutropenia, and  anemia, sometimes, accompanied by autoimmune  disease&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;*Most common tumors in children&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;†Most common tumors in adults.&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;EBV, Epstein-Barr virus; HIV, human immunodeficiency virus; Ig, immunoglobulin; NK, natural killer.&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Immunophenotype of chronic B-cell neoplasms&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;neoplasm&lt;/td&gt;
-      &lt;td&gt;CD19CD20&lt;/td&gt;
-      &lt;td&gt;CD5&lt;/td&gt;
-      &lt;td&gt;CD10&lt;/td&gt;
-      &lt;td&gt;CD23&lt;/td&gt;
-      &lt;td&gt;sIg&lt;/td&gt;
-      &lt;td&gt;CD103&lt;/td&gt;
-      &lt;td&gt;Cyclin D1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;:—:&lt;/td&gt;
-      &lt;td&gt;:—:&lt;/td&gt;
-      &lt;td&gt;:—:&lt;/td&gt;
-      &lt;td&gt;:—:&lt;/td&gt;
-      &lt;td&gt;:—:&lt;/td&gt;
-      &lt;td&gt;:—:&lt;/td&gt;
-      &lt;td&gt;:—:&lt;/td&gt;
-      &lt;td&gt;:—:&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CLL/SLL&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;-/+&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MCL&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;FL&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;++&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MZL&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;+++&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;HCL&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;+++&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;+/-&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&quot;leukocyte-alkaline-phosphatase&quot;&gt;Leukocyte alkaline phosphatase&lt;/h4&gt;
-
-&lt;p&gt;Leukocyte alkaline phosphatase (LAP) is found within mature white blood cells. White blood cell levels of LAP can help in the diagnosis of certain conditions.&lt;/p&gt;
-
-&lt;p&gt;Higher levels are seen in polycythemia vera (PV), essential thrombocytosis (ET), primary myelofibrosis (PM), and the leukemoid reaction.
-Lower levels are found in chronic myelogenous leukemia(CML), paroxysmal nocturnal hemoglobinuria (PNH) and acute myelogenous leukaemia (AML).&lt;/p&gt;
-
-&lt;h4 id=&quot;cllsll&quot;&gt;CLL/SLL&lt;/h4&gt;
-
-&lt;p&gt;circulating  nucleated  red  cells  could  stem  from  premature  release  of  progenitors  in  the  face  of  severe anemia&lt;/p&gt;
-
-&lt;p&gt;The most promising new therapy is BTK inhibitors, described earlier.&lt;/p&gt;
-
-&lt;h3 id=&quot;blood-count-note&quot;&gt;blood count note&lt;/h3&gt;
-
-&lt;p&gt;observing CBC and blood count&lt;/p&gt;
-
-&lt;p&gt;platlet count -&amp;gt; thrombocytopenia&lt;/p&gt;
-
-&lt;p&gt;Normal bone marrow -&amp;gt; exclude acute lymphoid or myeloid leukemia&lt;/p&gt;
-
-&lt;p&gt;reduction in RBCs, WBCs, and platelet production -&amp;gt; aplastic anemia&lt;/p&gt;
-
-&lt;p&gt;band neutrophil -&amp;gt; left shift -&amp;gt; inflammatory condition&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 13 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/pathology/2015/10/13/exam2-review-textbook/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/pathology/2015/10/13/exam2-review-textbook/</guid>
-        
-        <category>pathology</category>
-        
-        <category>diseases</category>
-        
-        <category>textbook</category>
-        
-        <category>Lab Med</category>
-        
-        
-        <category>pathology</category>
-        
-      </item>
-    
-      <item>
-        <title>Hemodynamics Supplimentary Material</title>
-        <description>
-&lt;hr /&gt;
-&lt;p&gt;layout: post
-comments: True
-title: Bleeding and Thrombotic Disorders
-category: Pathology
-tags: [pathology, diseases, textbook, Lab Med]
-—&lt;/p&gt;
-
-&lt;h2 id=&quot;hemodynamics-and-bleeding-disorders&quot;&gt;Hemodynamics and bleeding disorders&lt;/h2&gt;
-
-&lt;p&gt;TABLE 2.-Causes of Pleural Effusions&lt;/p&gt;
-
-&lt;h3 id=&quot;transudates&quot;&gt;Transudates&lt;/h3&gt;
-&lt;!--break--&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Congestive heart failure&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Cirrhosis with ascites&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Nephrotic syndrome Hypoalbuminemia&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Peritoneal dialysis Atelectasis,acute&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Superior vena cava obstruction Subclavian catheter misplacement Early mediastinal malignancy&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;exudates&quot;&gt;Exudates&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Parapneumonic effusion (bacterial pneumonia) Pulmonary infarction&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Malignancy (direct pleural involvement, late mediasti-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;nalinvolvement)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Viral disease&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Connective tissue disease (lupus, rheumatoid, mixed) Tuberculosis&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Fungal disease&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Parasitic disease (Entamoeba histolytica, Paragonimus&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;westermani)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Gastrpintestinal disease (pancreatitis, esophageal rup-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;ture, subphrenic abscess)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Drug reaction (nitrofurantoin, methysergide) Asbestos&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Meigs’ syndrome&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Postmyocardial infarction and postcardiac surgical&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;operation&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Trapped lung Lymphatic abnormality Uremic pleurisy Atelectasis,chronic Chylothorax Sarcoidosis&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 12 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/2015/10/12/hemodynamics-supplimentary-material/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/10/12/hemodynamics-supplimentary-material/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Assignment 4 Creating graphs for your data</title>
-        <description>&lt;p&gt;to download my python code &lt;a href=&quot;https://dl.dropboxusercontent.com/u/49272502/TempDataScienceCourse/Assignment%204/Assignment%204.py&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;to download the dataset &lt;a href=&quot;https://dl.dropboxusercontent.com/u/49272502/TempDataScienceCourse/Assignment%204/gapminder.csv&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;to download the ipython notebook file &lt;a href=&quot;https://dl.dropboxusercontent.com/u/49272502/TempDataScienceCourse/Assignment%204/Assignment%204.ipynb.json&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;To visit my assignment result, please &lt;a href=&quot;https://dl.dropboxusercontent.com/u/49272502/TempDataScienceCourse/Assignment%204/Assignment%204.html&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;to visit my previous assignments for reference, &lt;a href=&quot;http://jizongl.github.io/DataManagement/&quot;&gt;please click here&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;instructions&quot;&gt;instructions&lt;/h3&gt;
-
-&lt;p&gt;Continue with the program you’ve successfully run.&lt;/p&gt;
-
-&lt;p&gt;STEP 1: Create graphs of your variables one at a time (univariate graphs).&lt;/p&gt;
-
-&lt;p&gt;Examine both their center and spread.&lt;/p&gt;
-
-&lt;p&gt;STEP 2: Create a graph showing the association between your explanatory and response variables (bivariate graph).&lt;/p&gt;
-
-&lt;p&gt;Your output should be interpretable (i.e. organized and labeled).&lt;/p&gt;
-
-&lt;h3 id=&quot;review-criteria-less&quot;&gt;Review Criteria less&lt;/h3&gt;
-
-&lt;p&gt;Your assessment will be based on the evidence you provide that you have completed all of the steps. When relevant, gradients in the scoring will be available to reward clarity (for example, you will get one point for submitting graphs that do not accurately represent your data, but two points if the data is accurately represented). In all cases, consider that the peer assessing your work is likely not an expert in the field you are analyzing. You will be assessed equally on your description of your frequency distributions.&lt;/p&gt;
-
-&lt;p&gt;Specific rubric items, and their point values, are as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Was a univariate graph created for each of the selected variables? (2 points)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Was a bivariate graph created for the selected variables? (2 points)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Did the summary describe what the graphs revealed in terms of the individual&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;variables and the relationship between them? (2 points)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 11 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/data%20science/2015/10/11/assignment4-creating-graph/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/data%20science/2015/10/11/assignment4-creating-graph/</guid>
-        
-        <category>correlation</category>
-        
-        <category>data</category>
-        
-        <category>assignment</category>
-        
-        
-        <category>data science</category>
-        
-      </item>
-    
-      <item>
-        <title>Coagulation Small Group</title>
-        <description>&lt;p&gt;This post is written for the small group presentation on WBC, which is from the pathology course I take at UMMC&lt;/p&gt;
-
-&lt;!--break--&gt;
-
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#case-1&quot; id=&quot;markdown-toc-case-1&quot;&gt;Case 1&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#background-info&quot; id=&quot;markdown-toc-background-info&quot;&gt;background info&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#for-each-of-the-following-patient-signs-give-a-brief-description-of-possible-etiologies&quot; id=&quot;markdown-toc-for-each-of-the-following-patient-signs-give-a-brief-description-of-possible-etiologies&quot;&gt;1. For each of the following patient signs, give a brief description of possible etiologies:&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-coagulation-laboratory-tests-would-you-order-and-why&quot; id=&quot;markdown-toc-what-coagulation-laboratory-tests-would-you-order-and-why&quot;&gt;2. What coagulation laboratory tests would you order and why?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-is-your-interpretation-of-the-complete-blood-count-next-slide&quot; id=&quot;markdown-toc-what-is-your-interpretation-of-the-complete-blood-count-next-slide&quot;&gt;3. What is your interpretation of the complete blood count? (next slide)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#cbc-count&quot; id=&quot;markdown-toc-cbc-count&quot;&gt;CBC count&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#wbc-differential&quot; id=&quot;markdown-toc-wbc-differential&quot;&gt;WBC differential&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-is-your-interpretation-of-the-following-coagulation-tests-what-do-these-results-rule-in-and-rule-out&quot; id=&quot;markdown-toc-what-is-your-interpretation-of-the-following-coagulation-tests-what-do-these-results-rule-in-and-rule-out&quot;&gt;￼4.  What is your interpretation of the following coagulation tests? What do these results rule-in and rule-out?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#based-on-these-initial-findings-mixing-studies-and-certain-factor-levels-next-question-are-performed-what-is-a-mixing-study-and-how-is-it-performed-what-information-does-a-mixing-study-provide-interpret-the-following-mixing-study-information&quot; id=&quot;markdown-toc-based-on-these-initial-findings-mixing-studies-and-certain-factor-levels-next-question-are-performed-what-is-a-mixing-study-and-how-is-it-performed-what-information-does-a-mixing-study-provide-interpret-the-following-mixing-study-information&quot;&gt;￼5. Based on these initial findings, mixing studies and certain factor levels (next question) are performed. What is a mixing study and how is it performed? What information does a mixing study provide? Interpret the following mixing study information:&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#how-would-you-correct-this-coagulation-problem&quot; id=&quot;markdown-toc-how-would-you-correct-this-coagulation-problem&quot;&gt;7. How would you correct this coagulation problem?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#prerequsite&quot; id=&quot;markdown-toc-prerequsite&quot;&gt;prerequsite&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#download-and-install-sublime-text-editorhttpwwwsublimetextcom2&quot; id=&quot;markdown-toc-download-and-install-sublime-text-editorhttpwwwsublimetextcom2&quot;&gt;download and install &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;sublime text editor&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#download-the-text-file-you-will-need-for-this-tutorial-here&quot; id=&quot;markdown-toc-download-the-text-file-you-will-need-for-this-tutorial-here&quot;&gt;download the text file you will need for this tutorial &lt;a href=&quot;&quot;&gt;here&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#case-2&quot; id=&quot;markdown-toc-case-2&quot;&gt;Case 2&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#background-information&quot; id=&quot;markdown-toc-background-information&quot;&gt;background information&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-is-your-interpretation-of-the-complete-blood-count-next-slide-1&quot; id=&quot;markdown-toc-what-is-your-interpretation-of-the-complete-blood-count-next-slide-1&quot;&gt;8. What is your interpretation of the complete blood count (next slide)?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#cbc-count-1&quot; id=&quot;markdown-toc-cbc-count-1&quot;&gt;CBC count&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#wbc-differential-count&quot; id=&quot;markdown-toc-wbc-differential-count&quot;&gt;WBC differential count&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-coagulation-tests-would-you-order-and-why-look-at-the-test-results-what-is-your-interpretation-of-these-coagulation-tests-what-do-the-pfa-100-results-indicate&quot; id=&quot;markdown-toc-what-coagulation-tests-would-you-order-and-why-look-at-the-test-results-what-is-your-interpretation-of-these-coagulation-tests-what-do-the-pfa-100-results-indicate&quot;&gt;9. What coagulation tests would you order and why? Look at the test results. What is your interpretation of these coagulation tests? What do the PFA-100 results indicate?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#based-on-the-clinical-presentation-family-history-and-preliminary-laboratory-results-generate-a-differential-diagnosis-what-is-the-apparent-mode-of-inheritance&quot; id=&quot;markdown-toc-based-on-the-clinical-presentation-family-history-and-preliminary-laboratory-results-generate-a-differential-diagnosis-what-is-the-apparent-mode-of-inheritance&quot;&gt;10. Based on the clinical presentation, family history, and preliminary laboratory results, generate a differential diagnosis. What is the apparent mode of inheritance?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#a-mixing-study-is-performed-what-information-do-you-glean-from-the-results-do-you-have-a-working-diagnosis-how-do-you-explain-the-factor-viii-level&quot; id=&quot;markdown-toc-a-mixing-study-is-performed-what-information-do-you-glean-from-the-results-do-you-have-a-working-diagnosis-how-do-you-explain-the-factor-viii-level&quot;&gt;11. A mixing study is performed. What information do you glean from the results. Do you have a working diagnosis? How do you explain the factor VIII level?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#von-willebrand-disease-manifests-in-several-different-types-discuss-the-three-main-types-and-decide-what-type-of-von-willebrand-disease-this-patient-has&quot; id=&quot;markdown-toc-von-willebrand-disease-manifests-in-several-different-types-discuss-the-three-main-types-and-decide-what-type-of-von-willebrand-disease-this-patient-has&quot;&gt;13. Von Willebrand disease manifests in several different types. Discuss the three main types and decide what type of von Willebrand disease this patient has.&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#how-would-you-manage-this-patients-current-excessive-bleeding-what-choices-are-available-if-surgery-is-required-in-the-future&quot; id=&quot;markdown-toc-how-would-you-manage-this-patients-current-excessive-bleeding-what-choices-are-available-if-surgery-is-required-in-the-future&quot;&gt;15. How would you manage this patient’s current excessive bleeding? What choices are available if surgery is required in the future?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#as-this-young-girl-reaches-the-age-of-60-her-bruising-may-decrease-why&quot; id=&quot;markdown-toc-as-this-young-girl-reaches-the-age-of-60-her-bruising-may-decrease-why&quot;&gt;16. As this young girl reaches the age of 60 her bruising may decrease. Why?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#why-is-the-blood-type-important-in-assessing-a-patient-for-von-willebrand-disease&quot; id=&quot;markdown-toc-why-is-the-blood-type-important-in-assessing-a-patient-for-von-willebrand-disease&quot;&gt;17. Why is the blood type important in assessing a patient for von Willebrand disease?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#briefly-describe-the-subtypes-of-type-2-von-willebrand-disease&quot; id=&quot;markdown-toc-briefly-describe-the-subtypes-of-type-2-von-willebrand-disease&quot;&gt;18.  Briefly describe the subtypes of type 2 von Willebrand disease.&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-is-platelet-type-or-pseudo-vwd&quot; id=&quot;markdown-toc-what-is-platelet-type-or-pseudo-vwd&quot;&gt;19.  What is “platelet type” or “pseudo –vWD”?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#getting-started&quot; id=&quot;markdown-toc-getting-started&quot;&gt;Getting started&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#shushy-words-example&quot; id=&quot;markdown-toc-shushy-words-example&quot;&gt;Shushy words example&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#speech-coach-example&quot; id=&quot;markdown-toc-speech-coach-example&quot;&gt;Speech coach example&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#refex-for-a-moment&quot; id=&quot;markdown-toc-refex-for-a-moment&quot;&gt;refex for a moment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-visual-regex-testerhttpwwwocpsoftorgtutorialsregular-expressionsjava-visual-regex-tester&quot; id=&quot;markdown-toc-the-visual-regex-testerhttpwwwocpsoftorgtutorialsregular-expressionsjava-visual-regex-tester&quot;&gt;The &lt;a href=&quot;http://www.ocpsoft.org/tutorials/regular-expressions/java-visual-regex-tester/&quot;&gt;visual Regex Tester&lt;/a&gt;&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#regex-cheatsheet&quot; id=&quot;markdown-toc-regex-cheatsheet&quot;&gt;Regex Cheatsheet&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#practical-use-with-text-editors-for-everyone&quot; id=&quot;markdown-toc-practical-use-with-text-editors-for-everyone&quot;&gt;Practical use with text editors for everyone.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;case-1&quot;&gt;Case 1&lt;/h2&gt;
+&lt;h2 id=&quot;prerequsite&quot;&gt;prerequsite&lt;/h2&gt;
 
-&lt;h3 id=&quot;background-info&quot;&gt;background info&lt;/h3&gt;
+&lt;h3 id=&quot;download-and-install-sublime-text-editorhttpwwwsublimetextcom2&quot;&gt;download and install &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;sublime text editor&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;you can use either PC or Mac for this tutorial.&lt;/p&gt;
 
-&lt;p&gt;An 89 year-old man is admitted to the hospital from a local nursing home with generalized weakness, nausea, vomiting, fever, mild hypertension, and right lower lobe crepitant rales. Additional findings include a pale, cachexic, edentulous, and extremely agitated elderly man who is mildly disoriented to time and place. Examination of the skin reveals numerous small bruises and ecchymoses on arms, forearms, thighs, and the dorsal aspect of both hands. The bruises are of different sizes and various ages. The larger bruises are the more recent bruises and are painful. Blood is noted to extravasate at the phlebotomy sites and bright red blood is noted peri-rectally. The chest x-ray reveals right, lower lobe pneumonia, and the EKG is normal.&lt;/p&gt;
+&lt;h3 id=&quot;download-the-text-file-you-will-need-for-this-tutorial-here&quot;&gt;download the text file you will need for this tutorial &lt;a href=&quot;&quot;&gt;here&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;Family History: There is no family history of bleeding problems or bleeding disorders.&lt;/p&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
-&lt;h3 id=&quot;for-each-of-the-following-patient-signs-give-a-brief-description-of-possible-etiologies&quot;&gt;1. For each of the following patient signs, give a brief description of possible etiologies:&lt;/h3&gt;
+&lt;p&gt;So, What is &lt;a href=&quot;https://www.google.com/?gws_rd=ssl#q=regular+expression&quot;&gt;Regular expression&lt;/a&gt; ? Let’s pull up a 
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Regular_expression&quot;&gt;wikipedia defintion&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
+
+&lt;h3 id=&quot;shushy-words-example&quot;&gt;Shushy words example&lt;/h3&gt;
+
+&lt;p&gt;Let’s get to the practical side of the story.&lt;/p&gt;
+
+&lt;p&gt;To start simple, let’s say you want to extract certain characters out of a text file.&lt;/p&gt;
+
+&lt;p&gt;For example, the following&lt;/p&gt;
+
+&lt;p&gt;famous tourist tongue twister.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sh&lt;/strong&gt;e sells sea-&lt;strong&gt;sh&lt;/strong&gt;ells on the sea-&lt;strong&gt;sh&lt;/strong&gt;ore.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;sh&lt;/strong&gt;ells &lt;strong&gt;sh&lt;/strong&gt;e sells are sea-&lt;strong&gt;sh&lt;/strong&gt;ells, I’m &lt;strong&gt;su&lt;/strong&gt;re.&lt;/p&gt;
+
+&lt;p&gt;For if &lt;strong&gt;sh&lt;/strong&gt;e sells sea-&lt;strong&gt;sh&lt;/strong&gt;ells on the sea-&lt;strong&gt;sh&lt;/strong&gt;ore&lt;/p&gt;
+
+&lt;p&gt;Then I’m &lt;strong&gt;su&lt;/strong&gt;re &lt;strong&gt;sh&lt;/strong&gt;e sells sea-&lt;strong&gt;sh&lt;/strong&gt;ore &lt;strong&gt;sh&lt;/strong&gt;ells.&lt;/p&gt;
+
+&lt;p&gt;By using some simple regular expression syntax, I can extract all the words with the&lt;/p&gt;
+
+&lt;p&gt;“Sh” sound.&lt;/p&gt;
+
+&lt;p&gt;To illustrate the idea, I wrote a program in java to fulfill such task.&lt;/p&gt;
+
+&lt;div style=&quot;width:700px;height:300px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
+&lt;pre&gt;
+&lt;code&gt;
+	class FindAllTheShWords{
+ public void FindAllTheShushyWords(String args) {
+ 
+      String script = args;
+      Pattern pattern = Pattern.compile(&quot;(\\w*(sh|ti|su)\\w*)&quot;);
+      Matcher matcher = pattern.matcher(script);
+      while (matcher.find()){
+        System.out.printf(&quot;%s is a shushy word because of %s. %n&quot;,
+                        matcher.group(1),
+                        matcher.group(2));
+      } 
+  }
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;(you don’t have to study the code above if you are not a programmer)&lt;/p&gt;
+
+&lt;h3 id=&quot;speech-coach-example&quot;&gt;Speech coach example&lt;/h3&gt;
+
+&lt;p&gt;Ok, now let’s get more complicated, how about I were a speech couch, and I want to&lt;/p&gt;
+
+&lt;p&gt;select all the words that have the “Sh” sound to help my students to practice&lt;/p&gt;
+
+&lt;p&gt;speaking them?&lt;/p&gt;
+
+&lt;p&gt;Here is another Java program I wrote to fullfill this task.&lt;/p&gt;
+
+&lt;div style=&quot;width:700px;height:300px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
+&lt;pre&gt;
+&lt;code&gt;
+class FindAllWordsWith {
+  public void AllTheWordsEndWithED(String args) {
+ 
+      String script = args;
+      Pattern pattern = Pattern.compile(&quot;(\\w*(ed)\\b)&quot;);
+      Matcher matcher = pattern.matcher(script);
+      while (matcher.find()){
+        System.out.printf(
+          
+          &quot; you must emphasize &quot;+
+                        matcher.group(2)+&quot; sound in the word &quot; +
+                        matcher.group(1)+&quot;%n&quot;);
+      }
+      
+    }
+    public void AllTheWordsEndWithTorD(String args) {
+ 
+      String script = args;
+      Pattern pattern = Pattern.compile(&quot;(\\w*(d|t)\\b)&quot;);
+      Matcher matcher = pattern.matcher(script);
+      while (matcher.find()){
+        System.out.printf(
+          
+          &quot; you must emphasize &quot;+
+                        matcher.group(2)+&quot; sound in the word &quot; +
+                        matcher.group(1)+&quot;%n&quot;);
+      }
+      
+    } 
+}
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now, by using some basic combination of &lt;em&gt;regular expression&lt;/em&gt;, you can do a lot of&lt;/p&gt;
+
+&lt;p&gt;things that could have no limit but your imagination. For example, the many DNA sequencing softwares such as the powerful &lt;a href=&quot;http://blast.ncbi.nlm.nih.gov/Blast.cgi&quot;&gt;Blast on NCBI&lt;/a&gt;, or how about the post office wants to build an App that can recognize all &lt;a href=&quot;http://stackoverflow.com/questions/578406/what-is-the-ultimate-postal-code-and-zip-regex&quot;&gt;Postal code patterns&lt;/a&gt; around the world, in order to make their shipment task easier? Or how about &lt;a href=&quot;http://www.r-bloggers.com/slightly-more-than-basic-sentiment-analysis/&quot;&gt;sentiment analysis&lt;/a&gt; or spotting trends from twitter feeds or Facebook etc.&lt;/p&gt;
+
+&lt;p&gt;Now, you may say, wait a minute, you showed me the defintion of Regular Expression and&lt;/p&gt;
+
+&lt;p&gt;I more or less grasp some of its powerful functionalities, but I still don’t&lt;/p&gt;
+
+&lt;p&gt;exactly know to use it and how it could benefit my works? besides, I am not programmer&lt;/p&gt;
+
+&lt;p&gt;and I don’t write code. Don’t worry, you don’t have to be a programmer in order to use the functions of “regular expression”&lt;/p&gt;
+
+&lt;h2 id=&quot;refex-for-a-moment&quot;&gt;refex for a moment&lt;/h2&gt;
+&lt;p&gt;Before I walk you through all the basic details, I would like you to pause for a&lt;/p&gt;
+
+&lt;p&gt;few seconds and reflex.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Bruising&lt;/p&gt;
+    &lt;p&gt;What are some of the other possibilities you have in mind?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Ecchymoses&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Extravasation&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Rectal Bleeding&lt;/p&gt;
+    &lt;p&gt;and do you remember what is the definiton of Regular Expression?&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;what-coagulation-laboratory-tests-would-you-order-and-why&quot;&gt;2. What coagulation laboratory tests would you order and why?&lt;/h3&gt;
+&lt;p&gt;(the same quizs on video)&lt;/p&gt;
 
-&lt;h3 id=&quot;what-is-your-interpretation-of-the-complete-blood-count-next-slide&quot;&gt;3. What is your interpretation of the complete blood count? (next slide)&lt;/h3&gt;
+&lt;h2 id=&quot;the-visual-regex-testerhttpwwwocpsoftorgtutorialsregular-expressionsjava-visual-regex-tester&quot;&gt;The &lt;a href=&quot;http://www.ocpsoft.org/tutorials/regular-expressions/java-visual-regex-tester/&quot;&gt;visual Regex Tester&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h3 id=&quot;cbc-count&quot;&gt;CBC count&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;WBC:&lt;/td&gt;
-      &lt;td&gt;15,000/mm3&lt;/td&gt;
-      &lt;td&gt;(3.0-10.0X103)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Hgb:&lt;/td&gt;
-      &lt;td&gt;10.1 mg/dl&lt;/td&gt;
-      &lt;td&gt;(12.0-14.0)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Hct:&lt;/td&gt;
-      &lt;td&gt;30.5%&lt;/td&gt;
-      &lt;td&gt;(39.0-45.0)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;RBC:&lt;/td&gt;
-      &lt;td&gt;2.90 m/mm3&lt;/td&gt;
-      &lt;td&gt;(4.5-5.9)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MCV:&lt;/td&gt;
-      &lt;td&gt;89 fl&lt;/td&gt;
-      &lt;td&gt;(85-99)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MCH:&lt;/td&gt;
-      &lt;td&gt;28 pg&lt;/td&gt;
-      &lt;td&gt;(26-34)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MCHC:&lt;/td&gt;
-      &lt;td&gt;34%&lt;/td&gt;
-      &lt;td&gt;(31-37)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;RDW:&lt;/td&gt;
-      &lt;td&gt;13.0&lt;/td&gt;
-      &lt;td&gt;(11.5-14.5)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Platelet Count:&lt;/td&gt;
-      &lt;td&gt;200,000/mm3&lt;/td&gt;
-      &lt;td&gt;(170-500,000/mm3)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;wbc-differential&quot;&gt;WBC differential&lt;/h3&gt;
+&lt;p&gt;Now let’s introduce a few very basic expression syntaxs in the table below.&lt;/p&gt;
 
 &lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Function&lt;/th&gt;
+      &lt;th&gt;Syntax&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;Neutrophils&lt;/td&gt;
-      &lt;td&gt;60%&lt;/td&gt;
-      &lt;td&gt;(44-65)&lt;/td&gt;
+      &lt;td&gt;all the letters&lt;/td&gt;
+      &lt;td&gt;\w&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Bands&lt;/td&gt;
-      &lt;td&gt;25%&lt;/td&gt;
-      &lt;td&gt;(0-10)&lt;/td&gt;
+      &lt;td&gt;all the words&lt;/td&gt;
+      &lt;td&gt;\w*&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Eosinophils&lt;/td&gt;
-      &lt;td&gt;2%&lt;/td&gt;
-      &lt;td&gt;(0-9)&lt;/td&gt;
+      &lt;td&gt;all the words with the letter d&lt;/td&gt;
+      &lt;td&gt;\w*(d)&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Basophils&lt;/td&gt;
-      &lt;td&gt;1%&lt;/td&gt;
-      &lt;td&gt;(0-4)&lt;/td&gt;
+      &lt;td&gt;or&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Monocytes&lt;/td&gt;
-      &lt;td&gt;2%&lt;/td&gt;
-      &lt;td&gt;(1-10)&lt;/td&gt;
+      &lt;td&gt;all the words with d or t&lt;/td&gt;
+      &lt;td&gt;\w*(d|t)&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Lymphocytes&lt;/td&gt;
-      &lt;td&gt;10%&lt;/td&gt;
-      &lt;td&gt;(25-46)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;what-is-your-interpretation-of-the-following-coagulation-tests-what-do-these-results-rule-in-and-rule-out&quot;&gt;￼4.  What is your interpretation of the following coagulation tests? What do these results rule-in and rule-out?&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Prothrombin time: 21.4 sec&lt;/td&gt;
-      &lt;td&gt;(10.5-13.5 sec)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Partial thromboplastin time: 42 sec&lt;/td&gt;
-      &lt;td&gt;(25.0-36.0 sec)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Fibrinogen: 310 mg/dl&lt;/td&gt;
-      &lt;td&gt;(150-500 mg/dl)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;PFA-100:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ADP=110 sec closure&lt;/td&gt;
-      &lt;td&gt;(70-120 sec closure)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Epinephrine=98 sec closure&lt;/td&gt;
-      &lt;td&gt;(89-189 sec closure)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;based-on-these-initial-findings-mixing-studies-and-certain-factor-levels-next-question-are-performed-what-is-a-mixing-study-and-how-is-it-performed-what-information-does-a-mixing-study-provide-interpret-the-following-mixing-study-information&quot;&gt;￼5. Based on these initial findings, mixing studies and certain factor levels (next question) are performed. What is a mixing study and how is it performed? What information does a mixing study provide? Interpret the following mixing study information:&lt;/h3&gt;
-
-&lt;p&gt;Mixing Study with PT:&lt;/p&gt;
-
-&lt;p&gt;| :—: | :—: |
-|Dilutions |   Results |
-|1:1, 4:1  |  11, 12 seconds |
-￼￼
-### 6.  Interpret these factor levels. What factors are vitamin K dependent? (hint). What is the diagnosis?&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Factor&lt;/td&gt;
-      &lt;td&gt;VII 20%&lt;/td&gt;
-      &lt;td&gt;(50-150%)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Factor&lt;/td&gt;
-      &lt;td&gt;V 110%&lt;/td&gt;
-      &lt;td&gt;(50-150%)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;how-would-you-correct-this-coagulation-problem&quot;&gt;7. How would you correct this coagulation problem?&lt;/h3&gt;
-
-&lt;h2 id=&quot;case-2&quot;&gt;Case 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;background-information&quot;&gt;background information&lt;/h3&gt;
-
-&lt;p&gt;A pale but pleasant twelve year-old seventh grader began menses 14 months ago, and has had severe menorrhagia. She has had frequent nosebleeds since the age of four. An endocrine work-up is negative for anovulatory cycles. A careful history reveals her older sister, mother, and maternal aunt had similar menorrhagia. Her older brother and maternal uncle bruise easily and have frequent nosebleeds. All the members of her family are blood type 0 positive.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-is-your-interpretation-of-the-complete-blood-count-next-slide-1&quot;&gt;8. What is your interpretation of the complete blood count (next slide)?&lt;/h3&gt;
-
-&lt;h3 id=&quot;cbc-count-1&quot;&gt;CBC count&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;WBC:&lt;/td&gt;
-      &lt;td&gt;5400/mm3&lt;/td&gt;
-      &lt;td&gt;(3.0-10.0X103)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Hgb:&lt;/td&gt;
-      &lt;td&gt;10.1 mg/dl&lt;/td&gt;
-      &lt;td&gt;(12.0-14.0)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Hct:&lt;/td&gt;
-      &lt;td&gt;29.5%&lt;/td&gt;
-      &lt;td&gt;(39.0-45.0)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;RBC:&lt;/td&gt;
-      &lt;td&gt;2.89 m/mm3&lt;/td&gt;
-      &lt;td&gt;(4.5-5.9)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MCV:&lt;/td&gt;
-      &lt;td&gt;72 fl&lt;/td&gt;
-      &lt;td&gt;(85-99)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MCH:&lt;/td&gt;
-      &lt;td&gt;25 pg&lt;/td&gt;
-      &lt;td&gt;(26-34)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MCHC:&lt;/td&gt;
-      &lt;td&gt;29%&lt;/td&gt;
-      &lt;td&gt;(31-37)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;RDW:&lt;/td&gt;
-      &lt;td&gt;16.0&lt;/td&gt;
-      &lt;td&gt;(11.5-14.5)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Platelet Count:&lt;/td&gt;
-      &lt;td&gt;210,000/mm3&lt;/td&gt;
-      &lt;td&gt;(170-500,000/mm3)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;wbc-differential-count&quot;&gt;WBC differential count&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Neutrophils&lt;/td&gt;
-      &lt;td&gt;46%&lt;/td&gt;
-      &lt;td&gt;(44-65)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bands&lt;/td&gt;
-      &lt;td&gt;4%&lt;/td&gt;
-      &lt;td&gt;(0-10)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Eosinophils&lt;/td&gt;
-      &lt;td&gt;5%&lt;/td&gt;
-      &lt;td&gt;(0-9)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Basophils&lt;/td&gt;
-      &lt;td&gt;1%&lt;/td&gt;
-      &lt;td&gt;(0-4)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Monocytes&lt;/td&gt;
-      &lt;td&gt;9%&lt;/td&gt;
-      &lt;td&gt;(1-10)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Lymphocytes&lt;/td&gt;
-      &lt;td&gt;35%&lt;/td&gt;
-      &lt;td&gt;(25-46)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;what-coagulation-tests-would-you-order-and-why-look-at-the-test-results-what-is-your-interpretation-of-these-coagulation-tests-what-do-the-pfa-100-results-indicate&quot;&gt;9. What coagulation tests would you order and why? Look at the test results. What is your interpretation of these coagulation tests? What do the PFA-100 results indicate?&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Prothrombin time: 10.7 sec&lt;/td&gt;
-      &lt;td&gt;(10.5-13.5 sec)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Partial thromboplastin time: 73 sec&lt;/td&gt;
-      &lt;td&gt;(25.0-36.0 sec)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bleeding time: &amp;gt;15.0 min&lt;/td&gt;
-      &lt;td&gt;(2-9 min)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;PFA-100:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ADP=170 sec closure&lt;/td&gt;
-      &lt;td&gt;(70-120 sec closure)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Epinephrine=270 sec closure&lt;/td&gt;
-      &lt;td&gt;(89-189 sec closure)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;based-on-the-clinical-presentation-family-history-and-preliminary-laboratory-results-generate-a-differential-diagnosis-what-is-the-apparent-mode-of-inheritance&quot;&gt;10. Based on the clinical presentation, family history, and preliminary laboratory results, generate a differential diagnosis. What is the apparent mode of inheritance?&lt;/h3&gt;
-
-&lt;h3 id=&quot;a-mixing-study-is-performed-what-information-do-you-glean-from-the-results-do-you-have-a-working-diagnosis-how-do-you-explain-the-factor-viii-level&quot;&gt;11. A mixing study is performed. What information do you glean from the results. Do you have a working diagnosis? How do you explain the factor VIII level?&lt;/h3&gt;
-
-&lt;p&gt;Mixing study with PTT:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Dilution&lt;/td&gt;
-      &lt;td&gt;Results&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1:1, 1:4&lt;/td&gt;
-      &lt;td&gt;29, 32 sec&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Factor VIII&lt;/td&gt;
-      &lt;td&gt;35%&lt;/td&gt;
-      &lt;td&gt;[50-150%]&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;￼￼
-### 12. Explain the following test results. Is the defect primarily of vWF quantity or quality? State the diagnosis.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;von Willebrand cofactor assay&lt;/td&gt;
-      &lt;td&gt;20%&lt;/td&gt;
-      &lt;td&gt;[40-140%]&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;von Willebrand assay&lt;/td&gt;
-      &lt;td&gt;15%&lt;/td&gt;
-      &lt;td&gt;[45-180%]&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Multimer assay&lt;/td&gt;
-      &lt;td&gt;Normal pattern&lt;/td&gt;
+      &lt;td&gt;all the words end with d or t&lt;/td&gt;
+      &lt;td&gt;\w*(d|t)\b&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;strong&gt;Hints:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now, I encourage you to open &lt;a href=&quot;http://www.ocpsoft.org/tutorials/regular-expressions/java-visual-regex-tester/&quot;&gt;visual Regex Tester&lt;/a&gt; and following along as I show you in the video.&lt;/p&gt;
 
-&lt;p&gt;von Willebrand cofactor assay=functional test 
-von Willebrand assay=quantitative test&lt;/p&gt;
+&lt;h3 id=&quot;regex-cheatsheet&quot;&gt;Regex Cheatsheet&lt;/h3&gt;
+&lt;p&gt;Besides these few simple expressions, you can visit &lt;a href=&quot;http://www.rexegg.com/regex-quickstart.html&quot;&gt;The Regex Cheetsheet&lt;/a&gt; or &lt;a href=&quot;https://www.google.com/?gws_rd=ssl#q=regular+expression+documentation&quot;&gt;some other documentation sites&lt;/a&gt; to learn more useful expressions.&lt;/p&gt;
 
-&lt;h3 id=&quot;von-willebrand-disease-manifests-in-several-different-types-discuss-the-three-main-types-and-decide-what-type-of-von-willebrand-disease-this-patient-has&quot;&gt;13. Von Willebrand disease manifests in several different types. Discuss the three main types and decide what type of von Willebrand disease this patient has.&lt;/h3&gt;
-&lt;p&gt;￼
-### 14. Describe acquired von Willebrand disease. What are the disease associations and proposed mechanisms?&lt;/p&gt;
+&lt;h2 id=&quot;practical-use-with-text-editors-for-everyone&quot;&gt;Practical use with text editors for everyone.&lt;/h2&gt;
 
-&lt;h3 id=&quot;how-would-you-manage-this-patients-current-excessive-bleeding-what-choices-are-available-if-surgery-is-required-in-the-future&quot;&gt;15. How would you manage this patient’s current excessive bleeding? What choices are available if surgery is required in the future?&lt;/h3&gt;
+&lt;p&gt;Now, Let’s demonstrate how you can use Regular Expression with text editors.&lt;/p&gt;
 
-&lt;h3 id=&quot;as-this-young-girl-reaches-the-age-of-60-her-bruising-may-decrease-why&quot;&gt;16. As this young girl reaches the age of 60 her bruising may decrease. Why?&lt;/h3&gt;
+&lt;p&gt;There are many good &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_text_editors&quot;&gt;text editors&lt;/a&gt; out there, but I personally love the sublime text and you can &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;download it here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;why-is-the-blood-type-important-in-assessing-a-patient-for-von-willebrand-disease&quot;&gt;17. Why is the blood type important in assessing a patient for von Willebrand disease?&lt;/h3&gt;
+&lt;p&gt;(see demonstrating from video)&lt;/p&gt;
 
-&lt;h3 id=&quot;briefly-describe-the-subtypes-of-type-2-von-willebrand-disease&quot;&gt;18.  Briefly describe the subtypes of type 2 von Willebrand disease.&lt;/h3&gt;
+&lt;p&gt;I hope you would benefit from this, please leave your feedback and comments.&lt;/p&gt;
 
-&lt;h3 id=&quot;what-is-platelet-type-or-pseudo-vwd&quot;&gt;19.  What is “platelet type” or “pseudo –vWD”?&lt;/h3&gt;
+&lt;p&gt;share the resources
+http://www.rexegg.com/regex-quickstart.html&lt;/p&gt;
+
 </description>
-        <pubDate>Mon, 05 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/pathology/2015/10/05/small-group2-coagulation/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/pathology/2015/10/05/small-group2-coagulation/</guid>
+        <pubDate>Mon, 18 Jan 2016 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/regular%20expression/2016/01/18/regular-expression-video-project/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/regular%20expression/2016/01/18/regular-expression-video-project/</guid>
         
-        <category>exam II</category>
+        <category>java</category>
         
-        <category>pathology</category>
-        
-        <category>block 2</category>
-        
-        <category>small group 3</category>
-        
-        <category>WBC</category>
+        <category>regular expression</category>
         
         
-        <category>pathology</category>
+        <category>regular expression</category>
+        
+      </item>
+    
+      <item>
+        <title>Regular Expression Java</title>
+        <description>&lt;p&gt;[](http://www.tutorialspoint.com/java/java_regular_expressions.htm)&lt;/p&gt;
+
+&lt;p&gt;import java.io.Console;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;&lt;/p&gt;
+
+&lt;p&gt;class Reggie {
+  public void main(String args) {
+    Console console = System.console();
+    // Your amazing code below
+  String zipCode = args;
+    if (zipCode.matches(“^\d{5}(-\d{4})?$”)){
+      System.out.printf(“%s is a valid zip code%n”, zipCode);
+    }else{
+    System.out.printf(“%s is not a valid zip code%n”, zipCode);
+    }
+  String skills = “JavaScript, HTML, CSS, Java”;
+    for (String skill:skills.split(“\W+”)){
+        System.out.printf(“Skill: %s %n”, skill);
+    }
+  }
+}&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Jan 2016 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/2016/01/18/regular-expression-Java/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/2016/01/18/regular-expression-Java/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Javascript Basics=steganography</title>
+        <description>
+</description>
+        <pubDate>Sun, 03 Jan 2016 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/2016/01/03/javascript-basics=steganography/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/2016/01/03/javascript-basics=steganography/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Javascript basics - How to build a steganography</title>
+        <description>&lt;p&gt;The following code is for building a steganography. It connects to a project that I built for my E portfolio, which is a final projects of a Coursera course &lt;a href=&quot;https://www.coursera.org/learn/duke-programming-web/home/welcome&quot;&gt;Programming and the Web for Beginners&lt;/a&gt;that I am taking. 
+&lt;!--break--&gt;
+The logic behinds this program is very simple, simply manipulating the values of pixels of the images of interest.
+To see a full introduction of the code please visit my &lt;a href=&quot;http://codepen.io/JizongL/pen/mVRXop&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
+&lt;pre&gt;
+&lt;code&gt;
+// steganography
+
+
+// function for computing bit
+function bitToUse(bit){
+    result = Math.pow(2,bit);
+    return result;
+}
+
+
+// function for cropping the an image 
+function crop(image,width,height)
+{ var output= new SimpleImage(width,height);
+  for(var outpx of output.values())
+  { var x=outpx.getX();
+    var y=outpx.getY();
+    var px= image.getPixel(x,y);
+    outpx.setRed(px.getRed());
+    outpx.setGreen(px.getGreen());
+    outpx.setBlue(px.getBlue());
+  }
+  return output;
+}
+
+
+// Helper function for &quot;chop2hide&quot; for to eliminate the last 4 bits of every pixel
+function pixchange(pixval,bit){
+    var x = Math.floor(pixval/bit) * bit;
+    return x;
+}
+// function to convert an image to be ready for hiding information in it. 
+function chop2hide(image,bit){
+    bit = bitToUse(bit);
+    for(var px of image.values()){
+        px.setRed(pixchange(px.getRed(),bit));
+        px.setGreen(pixchange(px.getGreen(),bit));
+        px.setBlue(pixchange(px.getBlue(),bit));
+    }
+    return image;
+}
+
+// function for shifting the pixel of the hide image to have only 4 bits.
+function shift(im,bit){
+    bit=bitToUse(bit);
+  var nim = new SimpleImage(im.getWidth(), 
+                            im.getHeight());
+  for(var px of im.values()){
+    var x = px.getX();
+    var y = px.getY();
+    var npx = nim.getPixel(x,y);
+    npx.setRed(Math.floor(px.getRed()/bit));
+    npx.setGreen(Math.floor(px.getGreen()/bit));
+    npx.setBlue(Math.floor(px.getBlue()/bit));
+  }
+  return nim;
+}
+
+// combine function for adding the start and hide images together. 
+function combine(start,hide){
+var combinedImage = new SimpleImage(start.getWidth(),start.getHeight());
+for(var cPixel of combinedImage.values()){
+    x =cPixel.getX();
+    y = cPixel.getY();
+    sPixel = start.getPixel(x,y); // pixel on start corresponding to pp
+    hPixel = hide.getPixel(x,y); // pixel on hide corresponding to pp
+    cPixel.setRed(sPixel.getRed()+hPixel.getRed())
+    cPixel.setBlue(sPixel.getBlue()+hPixel.getBlue())
+    cPixel.setGreen(sPixel.getGreen()+hPixel.getGreen())
+    }
+return combinedImage
+}
+
+// function for decoding the combined image
+function decode(im,bit){
+    bit = bitToUse(bit);
+    var nim = new SimpleImage(im.getWidth(),
+                              im.getHeight());
+        for(var px of im.values()){
+            var x = px.getX();
+            var y = px.getY();
+            var npx = nim.getPixel(x,y);
+            npx.setRed(bit*(px.getRed()-(bit*Math.floor(px.getRed()/bit)))); // follow the math;
+            // original pixel from combined say 133, let 133/16 and round the result to no deximal
+            npx.setGreen(bit*(px.getGreen()-(bit*Math.floor(px.getGreen()/bit))));
+            npx.setBlue(bit*(px.getBlue()-(bit*Math.floor(px.getBlue()/bit))));
+            
+        }
+return nim;
+}
+
+
+var ShowImage= new SimpleImage(&quot;vanGohCrop.png&quot;);
+var HideImage= new SimpleImage(&quot;qrCode.jpg&quot;);
+
+var crw=Math.min(ShowImage.getWidth(),HideImage.getWidth());
+var crh=Math.min(ShowImage.getHeight(),HideImage.getHeight());
+
+var crSImg= crop(ShowImage,crw,crh);
+var crHImg= crop(HideImage,crw,crh);
+
+var bit = 6
+
+start = chop2hide(crSImg,bit);
+hide = shift(crHImg,bit);
+
+combined = combine(start,hide);
+decoded = decode(combined,bit)
+
+//print(start)
+//print(hide)
+print(&#39;ShowImage before processing&#39;)
+print(ShowImage)
+print(&#39;HideImage before processing&#39;)
+print(HideImage)
+print(&#39;the Show and Hide images are combined, the Hide image is hidden&#39;)
+print(combined)
+print(&#39;decode the Steganography&#39;)
+print(decoded)
+
+
+&lt;/code&gt;
+
+&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 03 Jan 2016 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/javascript/2016/01/03/javascript-basics-steganography/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/javascript/2016/01/03/javascript-basics-steganography/</guid>
+        
+        <category>javascript</category>
+        
+        <category>steganography</category>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>Javascript basics</title>
+        <description>&lt;p&gt;You can open the home page of the &lt;a href=&quot;http://dukelearntoprogram.com/course1/&quot;&gt;JavaScript Programming Environment&lt;/a&gt; by Duke university to test the code in my note.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
+&lt;pre&gt;
+&lt;code&gt;
+var image = new SimpleImage(200,200);
+w = image.getWidth();
+for (var pixel of image.values()) {
+        pixel.setRed(255);
+        pixel.setGreen(0);
+        pixel.setBlue(0);
+        x = pixel.getX();
+        y = pixel.getY();
+        
+    if ( x &amp;gt;=w/2 &amp;amp;&amp;amp; y &amp;lt;= w/2)  {
+        pixel.setGreen(255);
+        pixel.setRed(0);       
+        }
+    if ( x&amp;lt; w/2 &amp;amp;&amp;amp; y &amp;gt; w/2 ){
+        pixel.setRed(255);
+        pixel.setBlue(255);
+    }
+    if(x&amp;gt;=w/2 &amp;amp;&amp;amp; y&amp;gt;=w/2){
+        pixel.setBlue(255);
+        pixel.setRed(0);
+    }
+    
+    
+}
+    
+print(image);
+
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
+&lt;pre&gt;
+&lt;code&gt;
+var image = new SimpleImage(200,200);
+
+for (var pixel of image.values()) {
+     x = pixel.getX();
+     y = pixel.getY();
+ if(x &amp;gt; y){
+       pixel.setRed(255);
+   }    
+     if (x + y &amp;lt; 200) {
+          pixel.setRed(255);
+     }
+}
+ print(image)
+ 
+var image = new SimpleImage(200,200);
+for (var pixel of image.values()){
+     x = pixel.getX();
+     y = pixel.getY();
+   if(x &amp;gt; y){
+       pixel.setRed(255);
+   }
+   if (x+y &amp;gt; 200) {
+       pixel.setRed(255);
+   }
+   } 
+
+
+print(image)
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;fgImage
+bgImage
+output&lt;/p&gt;
+
+&lt;p&gt;for (var pixel of fgImage.values()) {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if(pixel.getGreen == 255){
+	var x = pixel.getX
+	var y = pixel.getY
+	var bgPixel = bgImage.getPixel(x,y);
+	output.setPixel(x,y, bgPixel);
+} }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;else{
+	output.setPixel(x,y,pixel)&lt;/p&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;h2 id=&quot;function-exercise&quot;&gt;function exercise&lt;/h2&gt;
+
+&lt;p&gt;Write a JavaScript program that has a function named swapRedGreen with one parameter pixel. This function should swap the red and green values of the pixel. Pick an image, print the image, then apply swapRedGreen to every pixel in the image, and print the new image. The choice of your image is important. For some images you may not notice any change. Think about what type of image you should use for testing your function.&lt;/p&gt;
+
+&lt;p&gt;I created a “swapRedGreen” function as instructed and then 
+I created a “createImage”function that would produce a square image of any size with 2 colors.
+I applied the swapRedGreen inside the “createImage” function to test if it would swap the color correctly.&lt;/p&gt;
+
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+// swapRedGreen function 
+function swapRedGreen(pixel){
+    var red = pixel.getRed();
+    var green = pixel.getGreen();
+    pixel.setGreen(red)
+    pixel.setRed(green)
+    return pixel;
+}
+
+// function for creating a flexible test image
+function createImage(L,W,R,G,B){
+var image = new SimpleImage(L,W);
+
+for (var p of image.values()) {
+    var x = p.getX();
+var y = p.getY();
+    if (x &amp;lt; image.getWidth()/2) { // remember the getWidth() must be set to image, not p. 
+        p.setGreen(G)
+    }
+    else {
+p.setRed(R)
+p.setBlue(B)
+        
+    }
+}
+print(image);
+for(var pixel of image.values()){
+swapRedGreen(pixel)}
+print(image)
+}
+
+createImage(300,300,255,255,0) // create a 300 by 300 image with half red and half green
+
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then I applied the “swapRedGreen” function to an image and test if it works.&lt;/p&gt;
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+function swapRedGreen(pixel){
+    var red = pixel.getRed();
+    var green = pixel.getGreen();
+    pixel.setGreen(red)
+    pixel.setRed(green)
+    return pixel;
+}
+
+var image = new SimpleImage(&quot;lion.jpg&quot;);
+for(var pixel of image.values()){
+swapRedGreen(pixel)}
+
+print(image)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;2: Write a JavaScript program to make an image have more red in it, by adding a given value to the red, making sure it doesn’t go over 255. Your program should have a function called moreRed with two parameters, a pixel and a value to increase the red by. Run your program on an image to see it get redder.&lt;/p&gt;
+
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;  
+function moreRed(pixel,addedRed){   // create a &quot;moreRed&quot; function 
+    var red = pixel.getRed();
+    if (red &amp;lt; 255){ pixel.setRed(red+addedRed)
+    } 
+    else if (red+addedRed == 255){        // make sure that the addedRed value does not go over 255. 
+        pixel.setRed(255)
+    }
+}
+
+var image = new SimpleImage(&quot;lion.jpg&quot;);// load an image
+for (var pixel of image.values()){        // apply the moreRed function
+    moreRed(pixel,266)}
+print(image)
+    &lt;/code&gt;
+  &lt;/pre&gt;  
+&lt;/div&gt;
+
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;  
+
+// border frame using a function, refactored
+function setBlack(pixel){
+    pixel.setRed(0);
+    pixel.setGreen(0);
+    pixel.setBlue(0);
+    return pixel;
+}
+function pixelOnEdge(pixel,image,borderWidth){
+    var x = pixel.getX();
+    var y = pixel.getY();
+    if (x &amp;lt; borderWidth) return true;
+    if (y &amp;lt; borderWidth) return true;
+    if (x &amp;gt;= image.getWidth() - borderWidth) return true;
+    if (y &amp;gt;= image.getHeight() - borderWidth) return true;
+    return false;
+}
+var image = new SimpleImage(&quot;lion.jpg&quot;);
+for (var pixel of image.values()) {
+   if (pixelOnEdge(pixel,image,10)){
+       pixel = setBlack(pixel);
+   }
+}
+print(image);
+
+    &lt;/code&gt;
+  &lt;/pre&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Based on the above code with a little refinement, I can now set the thickness of the borders separately 
+for either the Horizontal and Vertical borders.&lt;/p&gt;
+
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;  
+// border frame using a function, refactored
+function setBlack(pixel){
+    pixel.setRed(0);
+    pixel.setGreen(0);
+    pixel.setBlue(0);
+    return pixel;
+}
+function pixelOnEdgeDifferentThickness(pixel,image,HorWidth,VerWidth){
+    var x = pixel.getX();
+    var y = pixel.getY();
+    if (x &amp;lt; HorWidth) return true;
+    if (y &amp;lt; VerWidth) return true;
+    if (x &amp;gt;= image.getWidth() - HorWidth) return true;
+    if (y &amp;gt;= image.getHeight() - VerWidth) return true;
+    return false;
+}
+var image = new SimpleImage(&quot;lion.jpg&quot;);
+for (var pixel of image.values()) {
+   if (pixelOnEdgeDifferentThickness(pixel,image,1,30)){
+       pixel = setBlack(pixel);
+   }
+}
+print(image);
+    &lt;/code&gt;
+  &lt;/pre&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Steganography&lt;/p&gt;
+
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;  
+
+
+// steganography
+
+
+// function for computing bit
+function bitToUse(bit){
+    result = Math.pow(2,bit);
+    return result;
+}
+
+
+// function for cropping the an image 
+function crop(image,width,height)
+{ var output= new SimpleImage(width,height);
+  for(var outpx of output.values())
+  { var x=outpx.getX();
+    var y=outpx.getY();
+    var px= image.getPixel(x,y);
+    outpx.setRed(px.getRed());
+    outpx.setGreen(px.getGreen());
+    outpx.setBlue(px.getBlue());
+  }
+  return output;
+}
+
+
+// Helper function for &quot;chop2hide&quot; for to eliminate the last 4 bits of every pixel
+function pixchange(pixval,bit){
+    var x = Math.floor(pixval/bit) * bit;
+    return x;
+}
+// function to convert an image to be ready for hiding information in it. 
+function chop2hide(image,bit){
+    bit = bitToUse(bit);
+    for(var px of image.values()){
+        px.setRed(pixchange(px.getRed(),bit));
+        px.setGreen(pixchange(px.getGreen(),bit));
+        px.setBlue(pixchange(px.getBlue(),bit));
+    }
+    return image;
+}
+
+// function for shifting the pixel of the hide image to have only 4 bits.
+function shift(im,bit){
+    bit=bitToUse(bit);
+  var nim = new SimpleImage(im.getWidth(), 
+                            im.getHeight());
+  for(var px of im.values()){
+    var x = px.getX();
+    var y = px.getY();
+    var npx = nim.getPixel(x,y);
+    npx.setRed(Math.floor(px.getRed()/bit));
+    npx.setGreen(Math.floor(px.getGreen()/bit));
+    npx.setBlue(Math.floor(px.getBlue()/bit));
+  }
+  return nim;
+}
+
+// combine function for adding the start and hide images together. 
+function combine(start,hide){
+var combinedImage = new SimpleImage(start.getWidth(),start.getHeight());
+for(var cPixel of combinedImage.values()){
+    x =cPixel.getX();
+    y = cPixel.getY();
+    sPixel = start.getPixel(x,y); // pixel on start corresponding to pp
+    hPixel = hide.getPixel(x,y); // pixel on hide corresponding to pp
+    cPixel.setRed(sPixel.getRed()+hPixel.getRed())
+    cPixel.setBlue(sPixel.getBlue()+hPixel.getBlue())
+    cPixel.setGreen(sPixel.getGreen()+hPixel.getGreen())
+    }
+return combinedImage
+}
+
+// function for decoding the combined image
+function decode(im,bit){
+    bit = bitToUse(bit);
+    var nim = new SimpleImage(im.getWidth(),
+                              im.getHeight());
+        for(var px of im.values()){
+            var x = px.getX();
+            var y = px.getY();
+            var npx = nim.getPixel(x,y);
+            npx.setRed(bit*(px.getRed()-(bit*Math.floor(px.getRed()/bit)))); // follow the math;
+            // original pixel from combined say 133, let 133/16 and round the result to no deximal
+            npx.setGreen(bit*(px.getGreen()-(bit*Math.floor(px.getGreen()/bit))));
+            npx.setBlue(bit*(px.getBlue()-(bit*Math.floor(px.getBlue()/bit))));
+            
+        }
+return nim;
+}
+
+
+var ShowImage= new SimpleImage(&quot;astrachan.jpg&quot;);
+var HideImage= new SimpleImage(&quot;MessageCSEveryone.jpg&quot;);
+
+var crw=Math.min(ShowImage.getWidth(),HideImage.getWidth());
+var crh=Math.min(ShowImage.getHeight(),HideImage.getHeight());
+
+var crSImg= crop(ShowImage,crw,crh);
+var crHImg= crop(HideImage,crw,crh);
+
+var bit = 4
+
+start = chop2hide(crSImg,bit);
+hide = shift(crHImg,bit);
+
+combined = combine(start,hide);
+decoded = decode(combined,bit)
+
+//print(start)
+//print(hide)
+print(&#39;ShowImage before processing&#39;)
+print(ShowImage)
+print(&#39;HideImage before processing&#39;)
+print(HideImage)
+print(&#39;the Show and Hide images are combined, the Hide image is hidden&#39;)
+print(combined)
+print(&#39;decode the Steganography&#39;)
+print(decoded)
+
+
+
+
+
+    &lt;/code&gt;
+  &lt;/pre&gt;  
+&lt;/div&gt;
+
+&lt;h2 id=&quot;creating-a-duplicate-function&quot;&gt;creating a duplicate function&lt;/h2&gt;
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;  
+
+function duplicate(image){
+
+var outputImage = new SimpleImage(image.getWidth() * 2, image.getHeight() * 2);
+
+for (var pixel of outputImage.values()){
+
+var outputX = pixel.getX();
+
+var outputY = pixel.getY();
+
+if(outputX &amp;gt;= image.getWidth()){
+
+outputX = outputX - image.getWidth();
+
+}
+
+if(outputY &amp;gt;= image.getHeight()){
+
+outputY = outputY - image.getHeight();
+
+}
+
+if(outputX &amp;gt;= image.getWidth() &amp;amp;&amp;amp; outputY &amp;gt; image.getHeight()){
+
+outputX = outputX - image.getWidth();
+
+outputY = outputY - image.getHeight();
+
+}
+
+var inputPixel = image.getPixel(outputX, outputY);
+
+pixel.setRed(inputPixel.getRed());
+
+pixel.setGreen(inputPixel.getGreen());
+
+pixel.setBlue(inputPixel.getBlue());
+
+}
+
+return outputImage;
+
+}
+
+var image = new SimpleImage(&quot;chapel.png&quot;);
+
+image = duplicate(image);
+
+print(image);
+
+    &lt;/code&gt;
+  &lt;/pre&gt;  
+&lt;/div&gt;
+
+&lt;h2 id=&quot;create-an-image-from-scratch&quot;&gt;create an image from scratch&lt;/h2&gt;
+&lt;p&gt;In this example, we are going to create an image that looks like two planets in space, using mathematical functions.&lt;/p&gt;
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;  
+ function dist(pixel, x,y) {
+     var dx = pixel.getX() - x;  // x and y are the center of the circle to be created.
+     var dy = pixel.getY() - y;
+     return Math.sqrt(dx * dx + dy *dy);
+ }
+ //start with a blank image
+ var output = new SimpleImage(4,4);
+ 
+ //Make something here!
+ for (var pixel of output.values()){
+     //print(pixel.getX());
+     var dx = pixel.getX() - 2;
+     var dy = pixel.getY() - 2;
+     print(dx)
+     print(dy)
+     print(Math.sqrt(dx * dx + dy *dy));
+     
+     if (dist(pixel, 2,2)&amp;lt; 2){
+            pixel.setRed(255-5*dist(pixel,2,2));
+     }
+     
+ }
+ print(output);
+     &lt;/code&gt;
+  &lt;/pre&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;modifying an image&lt;/p&gt;
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt; 
+// blur by moving random pixels
+
+function combine(start,hide){
+var combinedImage = new SimpleImage(start.getWidth(),start.getHeight());
+for(var cPixel of combinedImage.values()){
+    x =cPixel.getX();
+    y = cPixel.getY();
+    sPixel = start.getPixel(x,y); // pixel on start corresponding to pp
+    hPixel = hide.getPixel(x,y); // pixel on hide corresponding to pp
+    cPixel.setRed(sPixel.getRed()+hPixel.getRed())
+    cPixel.setBlue(sPixel.getBlue()+hPixel.getBlue())
+    cPixel.setGreen(sPixel.getGreen()+hPixel.getGreen())
+    }
+return combinedImage
+}
+
+function ensureInImage (coordinate, size) {
+    // coordinate cannot be negative
+    if (coordinate &amp;lt; 0) {
+        return 0;
+    }
+    // coordinate must be in range [0 .. size-1]
+    if (coordinate &amp;gt;= size) {
+        return size - 1;
+    }
+    return coordinate;
+}
+
+function getPixelNearby (image, x, y, diameter) {
+    var dx = Math.random() * diameter - diameter / 2;
+    var dy = Math.random() * diameter - diameter / 2;
+    var nx = ensureInImage(x + dx, image.getWidth());
+    var ny = ensureInImage(y + dy, image.getHeight());
+    return image.getPixel(nx, ny);
+}
+
+
+var image = new SimpleImage(&quot;beautiful-autumn-scenery-6341-706.jpg&quot;);
+var image2 = new SimpleImage(&quot;beautiful-autumn-scenery-6341-706.jpg&quot;);
+for (var p of image.values()) {
+    var avg = (p.getGreen() + p.getRed() + p.getBlue()) / 3;
+    //var avg = 0.3 * p.getRed() + 0.59 * p.getGreen() + 0.11 * p.getBlue();
+    p.setRed(avg);
+    p.setBlue(avg);
+    p.setGreen(avg);
+   
+}
+
+var output = new SimpleImage(image.getWidth(), image.getHeight());
+
+for (var pixel of image.values()) {
+    var x = pixel.getX();
+    var y = pixel.getY();
+    if (Math.random() &amp;gt; 0.5) {
+        var other = getPixelNearby(image, x, y, 10);
+        output.setPixel(x, y, other);
+    }
+    else {
+        output.setPixel(x, y, pixel);
+    }
+}
+
+combined = combine(image2,output);
+
+print(output);
+print(combined);
+     &lt;/code&gt;
+  &lt;/pre&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;In this problem we want to create an image that is a copy of the original image, but is twice as wide and twice as high. We begin by creating the new blank image with the new dimensions. Then we need to set the red, green, and blue values of each of the new pixels so that the overall image of the new picture is the same as the original picture.&lt;/p&gt;
+
+&lt;p&gt;Consider, for example, enlarging a picture with dimensions 100 by 100 pixels. The new picture will be 200 by 200 pixels. What about the pixel at point (0,100) in the new picture? That pixel is on the leftmost edge, halfway down. Its corresponding pixel in the old picture is also on the leftmost edge, halfway down. In the original 100 by 100 picture that point would be (0, 50). Further examples confirm this pattern, that to find the corresponding pixel in the original image we divide both the x and y values by 2.&lt;/p&gt;
+
+&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt; 
+
+function duplicate(image){
+
+var outputImage = new SimpleImage(image.getWidth() * 2, image.getHeight() * 2);
+
+for (var pixel of outputImage.values()){
+
+var outputX = pixel.getX();
+
+var outputY = pixel.getY();
+
+if(outputX &amp;gt;= image.getWidth()){
+
+outputX = outputX - image.getWidth();
+
+}
+
+if(outputY &amp;gt;= image.getHeight()){
+
+outputY = outputY - image.getHeight();
+
+}
+
+if(outputX &amp;gt;= image.getWidth() &amp;amp;&amp;amp; outputY &amp;gt; image.getHeight()){
+
+outputX = outputX - image.getWidth();
+
+outputY = outputY - image.getHeight();
+
+}
+
+var inputPixel = image.getPixel(outputX, outputY);
+
+pixel.setRed(inputPixel.getRed());
+
+pixel.setGreen(inputPixel.getGreen());
+
+pixel.setBlue(inputPixel.getBlue());
+
+}
+
+return outputImage;
+
+}
+
+var image = new SimpleImage(&quot;chapel.png&quot;);
+
+image = duplicate(image);
+
+print(image);
+    &lt;/code&gt;
+  &lt;/pre&gt;  
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 24 Dec 2015 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/javascript/2015/12/24/javascript-basics/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/javascript/2015/12/24/javascript-basics/</guid>
+        
+        <category>javascript</category>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>ellipse and scatter plot</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://onlinelibrary.wiley.com/store/10.1002/9780470750711.app1/asset/app1.pdf;jsessionid=3A2DE2804CD8C8119197F67F47DDCA4C.f01t01?v=1&amp;amp;t=iikpr60j&amp;amp;s=f9c64f839ce4d43efb8aa1f24ffd41a2d31b4f7a&quot;&gt;confidence ellipse&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.mathopenref.com/ellipseeccentricity.html&quot;&gt;Eccentricity an Ellipse&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.visiondummy.com/2014/04/draw-error-ellipse-representing-covariance-matrix/&quot;&gt;How to draw a covariance error ellipse?&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 24 Dec 2015 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/geometry/2015/12/24/ellipse-and-scatterplot/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/geometry/2015/12/24/ellipse-and-scatterplot/</guid>
+        
+        <category>ellipse</category>
+        
+        <category>eccentricity</category>
+        
+        <category>differential equation</category>
+        
+        <category>mathlab</category>
+        
+        
+        <category>geometry</category>
+        
+      </item>
+    
+      <item>
+        <title>Dynamic modeling</title>
+        <description>&lt;p&gt;copy paste the original source from the signalling website&lt;/p&gt;
+
+&lt;p&gt;mathlab code(explain every line)&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Dec 2015 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/biology/2015/12/24/dynamic-modeling/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/biology/2015/12/24/dynamic-modeling/</guid>
+        
+        <category>biology</category>
+        
+        <category>statistics</category>
+        
+        <category>differential equation</category>
+        
+        <category>mathlab</category>
+        
+        
+        <category>biology</category>
+        
+      </item>
+    
+      <item>
+        <title>How to time my R code</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.ats.ucla.edu/stat/r/faq/timing_code.htm&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;x &amp;lt;- c(0.18, -1.54, 0.42, 0.95)
+w &amp;lt;- c(2, 1, 3, 1)
+l = c(.147,.0025,.3,1.077)&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;ptm &amp;lt;- proc.time()
+for (i in c(
+        .147,
+        .0025,
+        .3,
+        1.077)
+){print(min(sum(w*(x-i)^2)))}
+proc.time() - ptm&lt;/p&gt;
+
+&lt;p&gt;user  system elapsed 
+0.002   0.001   0.004&lt;/p&gt;
+
+&lt;p&gt;ptm &amp;lt;- proc.time()
+sapply(l,function(l) sum(w*(x-l)^2))
+proc.time() - ptm&lt;/p&gt;
+
+&lt;p&gt;user  system elapsed 
+0.000   0.001   0.002&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 13 Dec 2015 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/r/2015/12/13/timing-my-code/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/r/2015/12/13/timing-my-code/</guid>
+        
+        <category>R</category>
+        
+        <category>system time</category>
+        
+        
+        <category>r</category>
+        
+      </item>
+    
+      <item>
+        <title>Google Map Api 2</title>
+        <description>&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;getElementById example&lt;/title&gt;
+  &lt;script&gt;
+  function changeColor(newColor) {
+    var elem = document.getElementById(&quot;para1&quot;);
+    elem.style.color = newColor;
+  }
+
+function changeFont(newFont){
+	var elem2 = document.getElementById(&quot;dar&quot;);
+	elem2.style.fontsize = newFont;
+}
+
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p id=&quot;para1&quot;&gt;Some text here&lt;/p&gt;
+  &lt;button onclick=&quot;changeColor(&#39;blue&#39;);&quot;&gt;blue&lt;/button&gt;
+  &lt;button onclick=&quot;changeColor(&#39;red&#39;);&quot;&gt;red&lt;/button&gt;
+
+&lt;p id=&quot;dar&quot;&gt;some more text here&lt;/p&gt;
+  &lt;button onclick=&quot;changeFont(&#39;10&#39;);&quot;&gt;10&lt;/button&gt;
+  &lt;button onclick=&quot;changeFont(&#39;5&#39;);&quot;&gt;5&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+        <pubDate>Mon, 07 Dec 2015 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/2015/12/07/google-map-api-2/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/12/07/google-map-api-2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Google Map Api</title>
+        <description> &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;script src=&quot;http://maps.googleapis.com/maps/api/js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(32.273202,-89.985916),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById(&quot;googleMap&quot;),mapProp);
+}
+google.maps.event.addDomListener(window, &#39;load&#39;, initialize);
+function loadScript() {
+  var script = document.createElement(&quot;script&quot;);
+  script.src = &quot;http://maps.googleapis.com/maps/api/js?callback=initialize&quot;;
+  document.body.appendChild(script);
+}
+
+window.onload = loadScript; 
+&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;div id=&quot;googleMap&quot; style=&quot;width:500px;height:380px;&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt; </description>
+        <pubDate>Mon, 07 Dec 2015 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/2015/12/07/google-map-api/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/12/07/google-map-api/</guid>
+        
         
       </item>
     

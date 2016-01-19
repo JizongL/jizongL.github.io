@@ -4,7 +4,6 @@ comments: True
 title: Javascript basics
 category: Javascript
 tags: [javascript]
-
 ---
 
 You can open the home page of the [JavaScript Programming Environment](http://dukelearntoprogram.com/course1/) by Duke university to test the code in my note. 
@@ -566,5 +565,68 @@ combined = combine(image2,output);
 print(output);
 print(combined);
      </code>
+  </pre>  
+</div> 
+
+
+
+In this problem we want to create an image that is a copy of the original image, but is twice as wide and twice as high. We begin by creating the new blank image with the new dimensions. Then we need to set the red, green, and blue values of each of the new pixels so that the overall image of the new picture is the same as the original picture.
+
+Consider, for example, enlarging a picture with dimensions 100 by 100 pixels. The new picture will be 200 by 200 pixels. What about the pixel at point (0,100) in the new picture? That pixel is on the leftmost edge, halfway down. Its corresponding pixel in the old picture is also on the leftmost edge, halfway down. In the original 100 by 100 picture that point would be (0, 50). Further examples confirm this pattern, that to find the corresponding pixel in the original image we divide both the x and y values by 2.
+
+<div style ="width:700px;height:500px;line-height:3em;overflow:auto;padding;5px">
+  <pre>
+    <code> 
+
+function duplicate(image){
+
+var outputImage = new SimpleImage(image.getWidth() * 2, image.getHeight() * 2);
+
+for (var pixel of outputImage.values()){
+
+var outputX = pixel.getX();
+
+var outputY = pixel.getY();
+
+if(outputX >= image.getWidth()){
+
+outputX = outputX - image.getWidth();
+
+}
+
+if(outputY >= image.getHeight()){
+
+outputY = outputY - image.getHeight();
+
+}
+
+if(outputX >= image.getWidth() && outputY > image.getHeight()){
+
+outputX = outputX - image.getWidth();
+
+outputY = outputY - image.getHeight();
+
+}
+
+var inputPixel = image.getPixel(outputX, outputY);
+
+pixel.setRed(inputPixel.getRed());
+
+pixel.setGreen(inputPixel.getGreen());
+
+pixel.setBlue(inputPixel.getBlue());
+
+}
+
+return outputImage;
+
+}
+
+var image = new SimpleImage("chapel.png");
+
+image = duplicate(image);
+
+print(image);
+    </code>
   </pre>  
 </div> 
