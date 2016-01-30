@@ -5,9 +5,233 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Jan 2016 11:15:45 -0600</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2016 11:15:45 -0600</lastBuildDate>
+    <pubDate>Sat, 30 Jan 2016 17:32:55 -0600</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 17:32:55 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Extract PPT slide number and title</title>
+        <description>&lt;p&gt;Today, I am going to introduce a cool method with which you could extract all the titles of your PPT slide and the slide number accordingly. So often, we have to go through ton of PPT files with huge number of slides. Isn’t it nice that if we could programatically extract all the titles from slides of all the PPT files? So that we could review them, or in the case of a school scenario, it is very helpful to review and memorize slide titles sometime before exam or quiz.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;This post is written precisely for this goal and you will be amazed when you could do so within just a minute.&lt;/p&gt;
+
+&lt;p&gt;First, I need to disclose my system information, so that in the case if my method does not work on your machine, you could troubleshoot easier.&lt;/p&gt;
+
+&lt;p&gt;I use
+Macbook Pro Retina Display, early 2013. 
+OS X Yosemite Version 10.10.5
+Microsoft office Mac 2011(Through Microsoft 365).&lt;/p&gt;
+
+&lt;p&gt;You could also read on this following post 
+&lt;a href=&quot;http://www.pptfaq.com/FAQ00332_Export_Slide_Number_and_Title_Text_to_a_text_file.htm&quot;&gt;Export Slide Number and Title Text to a text file&lt;/a&gt; from the site “PPTools” as my method is based on it.&lt;/p&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+
+&lt;p&gt;If you have a PPT file, you could use your own, or you could find one from &lt;a href=&quot;https://www.google.com/#q=regression+ppt&quot;&gt;Google&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Open a PPT file, then from the &lt;strong&gt;Tool&lt;/strong&gt; dropdown menu, choose &lt;strong&gt;Marco&lt;/strong&gt; then &lt;strong&gt;Visual Basic Editor&lt;/strong&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/49272502/TextEditing%20Series%20Blog/assets/extractPPTSlideTitles/0f.png&quot; alt=&quot;ddd&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then a Project window will pop up, and you will see the name of the PPT file you want to extract on the list. Right click into the file name and you shall see &lt;strong&gt;Insert&lt;/strong&gt; then &lt;strong&gt;Module&lt;/strong&gt;. 
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/49272502/TextEditing%20Series%20Blog/assets/extractPPTSlideTitles/1f.png&quot; alt=&quot;ddd&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After inserting a new Module, copy the code I provided below into the Module console. 
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/49272502/TextEditing%20Series%20Blog/assets/extractPPTSlideTitles/2f.png&quot; alt=&quot;ddd&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then make sure you choose the function name “GatherTitles” from the dropdown menu on the upper right of the Console. 
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/49272502/TextEditing%20Series%20Blog/assets/extractPPTSlideTitles/3f.png&quot; alt=&quot;ddd&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then hit the &lt;strong&gt;Run&lt;/strong&gt; button from the VB editor navigation bar. 
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/49272502/TextEditing%20Series%20Blog/assets/extractPPTSlideTitles/4f.png&quot; alt=&quot;ddd&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then a copy of a &lt;strong&gt;txt&lt;/strong&gt; is created and saved in the same directory as your PPT file, open the txt file you shall see all the titles of your PPT file.&lt;/p&gt;
+
+&lt;p&gt;Voila, now you are an expert of PPT title extraction.&lt;/p&gt;
+
+&lt;p&gt;If you like this post please share it.&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+
+&lt;p&gt;Code that you need&lt;/p&gt;
+
+&lt;pre&gt;
+	&lt;code&gt;
+Sub GatherTitles()
+
+On Error GoTo ErrorHandler
+
+Dim oSlide As Slide
+Dim strTitles As String
+Dim strFilename As String
+Dim intFileNum As Integer
+Dim PathSep as String 
+
+If ActivePresentation.Path = &quot;&quot; Then
+    MsgBox &quot;Please save the presentation then try again&quot;
+    Exit Sub
+End If
+
+#If Mac Then
+    PathSep = &quot;:&quot;
+#Else
+    PathSep = &quot;\&quot;
+#End If
+
+On Error Resume Next  &#39; in case there&#39;s no title placeholder on the slide
+For Each oSlide In ActiveWindow.Presentation.Slides
+    strTitles = strTitles _
+        &amp;amp; &quot;Slide: &quot; _
+        &amp;amp; CStr(oSlide.SlideIndex) &amp;amp; vbCrLf _
+        &amp;amp; oSlide.Shapes.Title.TextFrame.TextRange.Text _
+        &amp;amp; vbCrLf &amp;amp; vbCrLf
+Next oSlide
+On Error GoTo ErrorHandler
+
+intFileNum = FreeFile
+
+&#39; PC-Centricity Alert!
+&#39; This assumes that the file has a .PPT extension and strips it off to make the text file name.
+strFilename = ActivePresentation.Path _
+    &amp;amp; PathSep _
+    &amp;amp; Mid$(ActivePresentation.Name, 1, Len(ActivePresentation.Name) - 4) _
+    &amp;amp; &quot;_Titles.TXT&quot;
+
+Open strFilename For Output As intFileNum
+Print #intFileNum, strTitles
+
+NormalExit:
+Close intFileNum
+Exit Sub
+
+ErrorHandler:
+MsgBox Err.Description
+Resume NormalExit
+
+End Sub
+	&lt;/code&gt;
+&lt;/pre&gt;
+</description>
+        <pubDate>Thu, 28 Jan 2016 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/text%20editing/2016/01/28/Extract-PPT-slide-title/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/text%20editing/2016/01/28/Extract-PPT-slide-title/</guid>
+        
+        <category>VBA code</category>
+        
+        <category>PowerPoint</category>
+        
+        
+        <category>text editing</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Twine Your Note Into a Webpage</title>
+        <description>&lt;!-- Google Tag Manager --&gt;
+&lt;noscript&gt;&lt;iframe src=&quot;//www.googletagmanager.com/ns.html?id=GTM-5FWTRL&quot; height=&quot;0&quot; width=&quot;0&quot; style=&quot;display:none;visibility:hidden&quot;&gt;&lt;/iframe&gt;&lt;/noscript&gt;
+&lt;script&gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#39;gtm.start&#39;:
+new Date().getTime(),event:&#39;gtm.js&#39;});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;j.async=true;j.src=
+&#39;//www.googletagmanager.com/gtm.js?id=&#39;+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-5FWTRL&#39;);&lt;/script&gt;
+
+&lt;!-- End Google Tag Manager --&gt;
+
+&lt;p&gt;Today, I am going to introduce to you this amazing tool called &lt;a href=&quot;http://twinery.org&quot;&gt;Twine&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.glorioustrainwrecks.com/files/screens/ct2-38_twine.jpg&quot; alt=&quot;twine&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;video-tutorial&quot;&gt;video tutorial&lt;/h3&gt;
+&lt;iframe width=&quot;760&quot; height=&quot;523&quot; src=&quot;https://www.youtube.com/embed/T4Hzt9LtR7g&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twinery.org&quot;&gt;Twine&lt;/a&gt; is an open-source tool for telling interactive, nonlinear stories. It was developed by &lt;a href=&quot;http://chrisklimas.com&quot;&gt;Chris Klimas&lt;/a&gt; back in 2009.&lt;/p&gt;
+
+&lt;p&gt;And the good news is that you don’t need any expert experience with software or web development in order to Twine!&lt;/p&gt;
+
+&lt;p&gt;So, what exactly can Twine help you? I think its usefulness has no boundary.&lt;/p&gt;
+
+&lt;p&gt;Let’s get you started with a twine project that I created for my upcoming boring exam.&lt;/p&gt;
+
+&lt;p&gt;(Showing the example)&lt;/p&gt;
+
+&lt;p&gt;Here are some of the uses that I came up with, such as making&lt;/p&gt;
+
+&lt;p&gt;Mind Mapping
+Taking note during class 
+create simple interactive webpage. 
+write interactive books. 
+etc&lt;/p&gt;
+
+&lt;p&gt;What about you? Please pause a while to think about what you can do with Twine.&lt;/p&gt;
+
+&lt;p&gt;Ok, let’s start building a very simple project to illustrate the workflow of Twine.&lt;/p&gt;
+
+&lt;p&gt;Before I walk you through the nitty gritty, let’s make sure that you have Twine downloaded. &lt;a href=&quot;http://twinery.org&quot;&gt;Download Twine&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You must be surprise that for ordinary users who do not program, you really only need to learn one syntax.&lt;/p&gt;
+
+&lt;h2 id=&quot;remember-these-two-syntaxs&quot;&gt;remember these two syntaxs&lt;/h2&gt;
+
+&lt;h1 id=&quot;and-&quot;&gt;”[[]]”  and “##”&lt;/h1&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;-&lt;/h2&gt;
+&lt;p&gt;-&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-html-image-tax&quot;&gt;Adding HTML image tax&lt;/h2&gt;
+
+&lt;h2 id=&quot;img&quot;&gt;&lt;img /&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;abc-example&quot;&gt;ABC example&lt;/h2&gt;
+
+&lt;p&gt;Let’s create a loop with A, B, C. First, we create 3 new passages and name them A, B 
+and C. Then we can type in the following accordingly.&lt;/p&gt;
+
+&lt;p&gt;(see video)&lt;/p&gt;
+
+&lt;h2 id=&quot;subject-example&quot;&gt;Subject example&lt;/h2&gt;
+
+&lt;p&gt;Say you are taking note for a class, it is always different to take note using 
+traditional method. So often the professor start talking about one subject A, then changes into another subject, B, C, etc. he then would jump back and forth between subjects and this makes it very different for students to make good note.&lt;/p&gt;
+
+&lt;p&gt;How, with Twine at your disposal, you can turn this challenging task into a piece of cake. Let’s build a simple subject note project.&lt;/p&gt;
+
+&lt;p&gt;(see video)&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-images&quot;&gt;Adding images&lt;/h2&gt;
+&lt;p&gt;How about adding some images
+There are many ways to add image, but I usually prefer to use &lt;a href=&quot;https://www.dropbox.com/business?home=300&amp;amp;f=1&amp;amp;_tk=sem_b_goog&amp;amp;_camp=sem-b-goog-us-eng-top-exact&amp;amp;_kw=dropbox|e&amp;amp;_ad=47393997462|1t1|c&amp;amp;gclid=CLzFxcL6ucoCFYOEaQodpNgApQ&quot;&gt;Dropbox&lt;/a&gt; because it is the easiest way. I first upload my images in a folder in the dropbox public folder, then I create public links to embed in my note. You can use the html image tag(see the following code) to achieve this.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&amp;lt;img src = &amp;quot;your link&amp;quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Let’s add an example image to our newly created note
+(see video)&lt;/p&gt;
+
+&lt;h2 id=&quot;publish-your-work&quot;&gt;publish your work&lt;/h2&gt;
+&lt;p&gt;Now, the last step is to publish your result. 
+The finished product is a html file, you can copy and paste it on your dropbox public folder, and then generate a public link and share it with your friends.&lt;/p&gt;
+
+&lt;p&gt;Finally, these are the most basic functions you should learn about Twine, if you are interested in web programming and want to explore more, I recommand you to subcribe to the channel &lt;a href=&quot;https://www.youtube.com/watch?v=HZzChB75DFs&quot;&gt;VegetarianZombie&lt;/a&gt; on YouTube which is an amazing video series to walk you through all the details of Twine or you could read the Twine &lt;a href=&quot;http://twinery.org/wiki/&quot;&gt;documentation&lt;/a&gt; to explore more.&lt;/p&gt;
+
+&lt;p&gt;Thank you!&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 18 Jan 2016 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/twine/2016/01/18/twine-makes-study-easy/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/twine/2016/01/18/twine-makes-study-easy/</guid>
+        
+        <category>html5</category>
+        
+        <category>css</category>
+        
+        <category>javascript</category>
+        
+        
+        <category>twine</category>
+        
+      </item>
     
       <item>
         <title>Introducing Regular expression</title>
@@ -281,6 +505,89 @@ import java.util.regex.Matcher;&lt;/p&gt;
         <link>http://lanyon.getpoole.com/2016/01/18/regular-expression-Java/</link>
         <guid isPermaLink="true">http://lanyon.getpoole.com/2016/01/18/regular-expression-Java/</guid>
         
+        
+      </item>
+    
+      <item>
+        <title>Java Note</title>
+        <description>&lt;h2 id=&quot;receiving-input&quot;&gt;Receiving Input&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;a href=&quot;https://docs.oracle.com/javase/tutorial/java/data/characters.html&quot;&gt;escape sequence&lt;/a&gt;&lt;/th&gt;
+      &lt;th&gt;explaination&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;%s&lt;/td&gt;
+      &lt;td&gt;The use of %s will result in the toString() method being called on the object, and thus will work for any type T&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;/n&lt;/td&gt;
+      &lt;td&gt;break line&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The following Java code prints out “Hello, my name is …”&lt;/p&gt;
+
+&lt;pre&gt;
+	&lt;code&gt;
+import java.io.Console;
+ 
+public class Introductions {
+  
+    public static void main(String[] args) {
+        Console console = System.console();
+        // console.readLine(&quot;prompt&quot;) takes input after prompting, and send it to the 	// variable firstName.
+        String firstName = console.readLine(&quot;What is your name? &quot;); 
+        console.printf(&quot;Hello, my name is %s\n&quot;,firstName);
+        console.printf(&quot;%s is learning how to write Java\n&quot;,firstName);
+  
+    }
+}
+	&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Input and Output - Source and Destination, check out &lt;a href=&quot;http://tutorials.jenkov.com/java-io/overview.html&quot;&gt;IO package&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;float chart of IO&lt;/p&gt;
+&lt;svg width=&quot;100%&quot; height=&quot;100&quot;&gt;
+
+    &lt;svg y=&quot;10&quot; x=&quot;30&quot;&gt;
+        &lt;path d=&quot;M110,35 l38,0 l0,-5 l10,5 l-10,5 l0,-5&quot; style=&quot;stroke: #336633; stroke-width: 1;  fill:#669966; &quot; /&gt;
+        &lt;path d=&quot;M260,35 l38,0 l0,-5 l10,5 l-10,5 l0,-5&quot; style=&quot;stroke: #336633; stroke-width: 1;  fill:#669966; &quot; /&gt;
+
+
+        &lt;svg x=&quot;0&quot; y=&quot;0&quot;&gt;
+            &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;50&quot; rx=&quot;2&quot; ry=&quot;2&quot; style=&quot;stroke: #669966; stroke-width: 1; fill: #ccffcc;&quot; /&gt;
+            &lt;text x=&quot;30&quot; y=&quot;40&quot; style=&quot;stroke: none; fill: #000000; font-family: Arial; font-size: 16px;&quot;&gt;Source&lt;/text&gt;
+        &lt;/svg&gt;
+
+        &lt;svg x=&quot;150&quot; y=&quot;0&quot;&gt;
+            &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;50&quot; rx=&quot;2&quot; ry=&quot;2&quot; style=&quot;stroke: #669966; stroke-width: 1; fill: #ccffcc;&quot; /&gt;
+            &lt;text x=&quot;30&quot; y=&quot;40&quot; style=&quot;stroke: none; fill: #000000; font-family: Arial; font-size: 16px;&quot;&gt;Program&lt;/text&gt;
+        &lt;/svg&gt;
+
+
+        &lt;svg x=&quot;300&quot; y=&quot;0&quot;&gt;
+            &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;50&quot; rx=&quot;2&quot; ry=&quot;2&quot; style=&quot;stroke: #669966; stroke-width: 1; fill: #ccffcc;&quot; /&gt;
+            &lt;text x=&quot;20&quot; y=&quot;40&quot; style=&quot;stroke: none; fill: #000000; font-family: Arial; font-size: 16px;&quot;&gt;Destination&lt;/text&gt;
+        &lt;/svg&gt;
+    &lt;/svg&gt;
+
+&lt;/svg&gt;
+</description>
+        <pubDate>Mon, 18 Jan 2016 00:00:00 -0600</pubDate>
+        <link>http://lanyon.getpoole.com/java/2016/01/18/Java-study-note/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/java/2016/01/18/Java-study-note/</guid>
+        
+        <category>java</category>
+        
+        
+        <category>java</category>
         
       </item>
     
@@ -1142,99 +1449,6 @@ proc.time() - ptm&lt;/p&gt;
         
         
         <category>r</category>
-        
-      </item>
-    
-      <item>
-        <title>Google Map Api 2</title>
-        <description>&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;getElementById example&lt;/title&gt;
-  &lt;script&gt;
-  function changeColor(newColor) {
-    var elem = document.getElementById(&quot;para1&quot;);
-    elem.style.color = newColor;
-  }
-
-function changeFont(newFont){
-	var elem2 = document.getElementById(&quot;dar&quot;);
-	elem2.style.fontsize = newFont;
-}
-
-  &lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p id=&quot;para1&quot;&gt;Some text here&lt;/p&gt;
-  &lt;button onclick=&quot;changeColor(&#39;blue&#39;);&quot;&gt;blue&lt;/button&gt;
-  &lt;button onclick=&quot;changeColor(&#39;red&#39;);&quot;&gt;red&lt;/button&gt;
-
-&lt;p id=&quot;dar&quot;&gt;some more text here&lt;/p&gt;
-  &lt;button onclick=&quot;changeFont(&#39;10&#39;);&quot;&gt;10&lt;/button&gt;
-  &lt;button onclick=&quot;changeFont(&#39;5&#39;);&quot;&gt;5&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</description>
-        <pubDate>Mon, 07 Dec 2015 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/2015/12/07/google-map-api-2/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/12/07/google-map-api-2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Google Map Api</title>
-        <description> &lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;script src=&quot;http://maps.googleapis.com/maps/api/js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
-function initialize() {
-  var mapProp = {
-    center:new google.maps.LatLng(32.273202,-89.985916),
-    zoom:5,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById(&quot;googleMap&quot;),mapProp);
-}
-google.maps.event.addDomListener(window, &#39;load&#39;, initialize);
-function loadScript() {
-  var script = document.createElement(&quot;script&quot;);
-  script.src = &quot;http://maps.googleapis.com/maps/api/js?callback=initialize&quot;;
-  document.body.appendChild(script);
-}
-
-window.onload = loadScript; 
-&lt;/script&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
-&lt;div id=&quot;googleMap&quot; style=&quot;width:500px;height:380px;&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-
-&lt;/html&gt; </description>
-        <pubDate>Mon, 07 Dec 2015 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/2015/12/07/google-map-api/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/12/07/google-map-api/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>statistics study note</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=BJZpx7Mdde4&quot;&gt;calculating power and probability of Type II Error&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 02 Dec 2015 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/statistics/2015/12/02/statistics-study-note/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/statistics/2015/12/02/statistics-study-note/</guid>
-        
-        <category>statistics</category>
-        
-        <category>data</category>
-        
-        
-        <category>statistics</category>
         
       </item>
     
