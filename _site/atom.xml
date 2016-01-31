@@ -4,7 +4,7 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2016-01-30T22:43:49-06:00</updated>
+ <updated>2016-01-30T22:47:25-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
@@ -132,7 +132,7 @@ End Sub
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#whole-video-tutorial&quot; id=&quot;markdown-toc-whole-video-tutorial&quot;&gt;Whole video tutorial&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#chinese-viewer-see-video-from-youku-below&quot; id=&quot;markdown-toc-chinese-viewer-see-video-from-youku-below&quot;&gt;Chinese viewer see video from Youku below&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#chinese-viewers-see-video-from-youku-below&quot; id=&quot;markdown-toc-chinese-viewers-see-video-from-youku-below&quot;&gt;Chinese viewers see video from Youku below&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
@@ -154,9 +154,9 @@ End Sub
 &lt;h2 id=&quot;whole-video-tutorial&quot;&gt;Whole video tutorial&lt;/h2&gt;
 &lt;iframe width=&quot;650&quot; height=&quot;423&quot; src=&quot;https://www.youtube.com/embed/T4Hzt9LtR7g&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&quot;chinese-viewer-see-video-from-youku-below&quot;&gt;Chinese viewer see video from Youku below&lt;/h3&gt;
+&lt;h3 id=&quot;chinese-viewers-see-video-from-youku-below&quot;&gt;Chinese viewers see video from Youku below&lt;/h3&gt;
 
-&lt;p&gt;&amp;lt;iframe height=498 width=510 src=”http://player.youku.com/embed/XMTQ2MTc1NjgwOA==” frameborder=0 allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTQ2MTc1NjgwOA==/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;650&quot; height=&quot;423&quot; align=&quot;middle&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot; /&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://twinery.org&quot;&gt;Twine&lt;/a&gt; is an open-source tool for telling interactive, nonlinear stories. It was developed by &lt;a href=&quot;http://chrisklimas.com&quot;&gt;Chris Klimas&lt;/a&gt; back in 2009.&lt;/p&gt;

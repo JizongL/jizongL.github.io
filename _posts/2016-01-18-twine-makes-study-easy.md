@@ -19,9 +19,9 @@ Today, I am going to introduce you to this amazing tool called [Twine](http://tw
 ## Whole video tutorial
 <iframe width="650" height="423" src="https://www.youtube.com/embed/T4Hzt9LtR7g" frameborder="0" allowfullscreen></iframe>
 
-### Chinese viewer see video from Youku below
+### Chinese viewers see video from Youku below
 
-<iframe height=498 width=510 src="http://player.youku.com/embed/XMTQ2MTc1NjgwOA==" frameborder=0 allowfullscreen></iframe>
+<embed src="http://player.youku.com/player.php/sid/XMTQ2MTc1NjgwOA==/v.swf" allowFullScreen="true" quality="high" width="650" height="423" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
 
 
 ## Introduction
