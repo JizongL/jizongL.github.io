@@ -5,8 +5,8 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Jan 2016 21:20:21 -0600</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2016 21:20:21 -0600</lastBuildDate>
+    <pubDate>Sat, 30 Jan 2016 21:37:33 -0600</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 21:37:33 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -139,6 +139,7 @@ End Sub
       &lt;li&gt;&lt;a href=&quot;#the-two-basic-syntaxes-to-remember&quot; id=&quot;markdown-toc-the-two-basic-syntaxes-to-remember&quot;&gt;The two basic syntaxes to remember&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#adding-a-home-button&quot; id=&quot;markdown-toc-adding-a-home-button&quot;&gt;Adding a Home button&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#adding-images&quot; id=&quot;markdown-toc-adding-images&quot;&gt;Adding images&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#publish-your-work&quot; id=&quot;markdown-toc-publish-your-work&quot;&gt;publish your work&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#ending&quot; id=&quot;markdown-toc-ending&quot;&gt;Ending&lt;/a&gt;    &lt;ul&gt;
@@ -166,8 +167,10 @@ End Sub
 &lt;h2 id=&quot;building-your-first-project&quot;&gt;Building your first project&lt;/h2&gt;
 &lt;p&gt;Ok, let’s start building a very simple project to illustrate the workflow of Twine.&lt;/p&gt;
 
-&lt;p&gt;Before I walk you through the nitty gritty, let’s make sure that you have Twine downloaded. &lt;a href=&quot;http://twinery.org&quot;&gt;Download Twine&lt;/a&gt; 
-And you have a &lt;a href=&quot;https://www.dropbox.com&quot;&gt;Dropbox&lt;/a&gt; account setup.&lt;/p&gt;
+&lt;p&gt;Before I walk you through the nitty gritty, let’s make sure that 
+*you have Twine downloaded. &lt;a href=&quot;http://twinery.org&quot;&gt;Download Twine here&lt;/a&gt; 
+*And you have a &lt;a href=&quot;https://www.dropbox.com&quot;&gt;Dropbox&lt;/a&gt; account setup. 
+*You can also download the Twine template file &lt;a href=&quot;https://dl.dropboxusercontent.com/u/49272502/video%20project/my%20first%20trial.html&quot;&gt;My first trial here&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;the-two-basic-syntaxes-to-remember&quot;&gt;The two basic syntaxes to remember&lt;/h3&gt;
 
@@ -179,6 +182,10 @@ And you have a &lt;a href=&quot;https://www.dropbox.com&quot;&gt;Dropbox&lt;/a&g
 &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;You can see the demo video for building a simple project from &lt;a href=&quot;http://www.youtube.com/watch?v=T4Hzt9LtR7g&amp;amp;t=2m35s&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-a-home-button&quot;&gt;Adding a Home button&lt;/h2&gt;
+
+&lt;p&gt;See video demo &lt;a href=&quot;https://www.youtube.com/watch?v=5V0glS88MGs&amp;amp;feature=youtu.be&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;adding-images&quot;&gt;Adding images&lt;/h2&gt;
 

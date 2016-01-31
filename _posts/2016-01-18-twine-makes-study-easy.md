@@ -34,9 +34,10 @@ Let's go through an example to illusrate what Twine can do.
 ##Building your first project
 Ok, let's start building a very simple project to illustrate the workflow of Twine. 
 
-Before I walk you through the nitty gritty, let's make sure that you have Twine downloaded. [Download Twine](http://twinery.org) 
-And you have a [Dropbox](https://www.dropbox.com) account setup. 
-
+Before I walk you through the nitty gritty, let's make sure that 
+*you have Twine downloaded. [Download Twine here](http://twinery.org) 
+*And you have a [Dropbox](https://www.dropbox.com) account setup. 
+*You can also download the Twine template file [My first trial here](https://dl.dropboxusercontent.com/u/49272502/video%20project/my%20first%20trial.html) 
 
 
 
@@ -52,7 +53,9 @@ To build this project, you only need to remember two syntaxes below.
 
 You can see the demo video for building a simple project from [here](http://www.youtube.com/watch?v=T4Hzt9LtR7g&t=2m35s)
 
+## Adding a Home button 
 
+See video demo [here](https://www.youtube.com/watch?v=5V0glS88MGs&feature=youtu.be)
 
 ## Adding images
 
