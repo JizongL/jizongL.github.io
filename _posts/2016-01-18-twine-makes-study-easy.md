@@ -19,6 +19,11 @@ Today, I am going to introduce you to this amazing tool called [Twine](http://tw
 ## Whole video tutorial
 <iframe width="650" height="423" src="https://www.youtube.com/embed/T4Hzt9LtR7g" frameborder="0" allowfullscreen></iframe>
 
+### Chinese viewer see video from Youku below
+
+<iframe height=498 width=510 src="http://player.youku.com/embed/XMTQ2MTc1NjgwOA==" frameborder=0 allowfullscreen></iframe>
+
+
 ## Introduction
 [Twine](http://twinery.org) is an open-source tool for telling interactive, nonlinear stories. It was developed by [Chris Klimas](http://chrisklimas.com) back in 2009. 
 
