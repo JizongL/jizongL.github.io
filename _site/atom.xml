@@ -4,7 +4,7 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2016-01-30T17:46:10-06:00</updated>
+ <updated>2016-01-30T21:20:21-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
@@ -126,94 +126,89 @@ End Sub
    <link href="http://lanyon.getpoole.com/twine/2016/01/18/twine-makes-study-easy/"/>
    <updated>2016-01-18T00:00:00-06:00</updated>
    <id>http://lanyon.getpoole.com/twine/2016/01/18/twine-makes-study-easy</id>
-   <content type="html">&lt;!-- Google Tag Manager --&gt;
-&lt;noscript&gt;&lt;iframe src=&quot;//www.googletagmanager.com/ns.html?id=GTM-5FWTRL&quot; height=&quot;0&quot; width=&quot;0&quot; style=&quot;display:none;visibility:hidden&quot;&gt;&lt;/iframe&gt;&lt;/noscript&gt;
-&lt;script&gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#39;gtm.start&#39;:
-new Date().getTime(),event:&#39;gtm.js&#39;});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;j.async=true;j.src=
-&#39;//www.googletagmanager.com/gtm.js?id=&#39;+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-5FWTRL&#39;);&lt;/script&gt;
-
-&lt;!-- End Google Tag Manager --&gt;
-
-&lt;p&gt;Today, I am going to introduce to you this amazing tool called &lt;a href=&quot;http://twinery.org&quot;&gt;Twine&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Today, I am going to introduce you to this amazing tool called &lt;a href=&quot;http://twinery.org&quot;&gt;Twine&lt;/a&gt;&lt;/p&gt;
 
 &lt;!--break--&gt;
 
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#whole-video-tutorial&quot; id=&quot;markdown-toc-whole-video-tutorial&quot;&gt;Whole video tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#building-your-first-project&quot; id=&quot;markdown-toc-building-your-first-project&quot;&gt;Building your first project&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#the-two-basic-syntaxes-to-remember&quot; id=&quot;markdown-toc-the-two-basic-syntaxes-to-remember&quot;&gt;The two basic syntaxes to remember&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#adding-images&quot; id=&quot;markdown-toc-adding-images&quot;&gt;Adding images&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#publish-your-work&quot; id=&quot;markdown-toc-publish-your-work&quot;&gt;publish your work&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ending&quot; id=&quot;markdown-toc-ending&quot;&gt;Ending&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#tips&quot; id=&quot;markdown-toc-tips&quot;&gt;tips&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;&lt;img src=&quot;https://www.glorioustrainwrecks.com/files/screens/ct2-38_twine.jpg&quot; alt=&quot;twine&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;video-tutorial&quot;&gt;video tutorial&lt;/h3&gt;
-&lt;iframe width=&quot;760&quot; height=&quot;523&quot; src=&quot;https://www.youtube.com/embed/T4Hzt9LtR7g&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;h2 id=&quot;whole-video-tutorial&quot;&gt;Whole video tutorial&lt;/h2&gt;
+&lt;iframe width=&quot;650&quot; height=&quot;423&quot; src=&quot;https://www.youtube.com/embed/T4Hzt9LtR7g&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://twinery.org&quot;&gt;Twine&lt;/a&gt; is an open-source tool for telling interactive, nonlinear stories. It was developed by &lt;a href=&quot;http://chrisklimas.com&quot;&gt;Chris Klimas&lt;/a&gt; back in 2009.&lt;/p&gt;
 
 &lt;p&gt;And the good news is that you don’t need any expert experience with software or web development in order to Twine!&lt;/p&gt;
 
-&lt;p&gt;So, what exactly can Twine help you? I think its usefulness has no boundary.&lt;/p&gt;
+&lt;p&gt;So, what exactly can Twine help you? I think its power has no boundary.&lt;/p&gt;
 
-&lt;p&gt;Let’s get you started with a twine project that I created for my upcoming boring exam.&lt;/p&gt;
+&lt;p&gt;Let’s go through an example to illusrate what Twine can do.&lt;/p&gt;
 
-&lt;p&gt;(Showing the example)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=T4Hzt9LtR7g&amp;amp;t=1m24s&quot;&gt;Click here&lt;/a&gt; to see the example demo video.&lt;/p&gt;
 
-&lt;p&gt;Here are some of the uses that I came up with, such as making&lt;/p&gt;
-
-&lt;p&gt;Mind Mapping
-Taking note during class 
-create simple interactive webpage. 
-write interactive books. 
-etc&lt;/p&gt;
-
-&lt;p&gt;What about you? Please pause a while to think about what you can do with Twine.&lt;/p&gt;
-
+&lt;h2 id=&quot;building-your-first-project&quot;&gt;Building your first project&lt;/h2&gt;
 &lt;p&gt;Ok, let’s start building a very simple project to illustrate the workflow of Twine.&lt;/p&gt;
 
-&lt;p&gt;Before I walk you through the nitty gritty, let’s make sure that you have Twine downloaded. &lt;a href=&quot;http://twinery.org&quot;&gt;Download Twine&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Before I walk you through the nitty gritty, let’s make sure that you have Twine downloaded. &lt;a href=&quot;http://twinery.org&quot;&gt;Download Twine&lt;/a&gt; 
+And you have a &lt;a href=&quot;https://www.dropbox.com&quot;&gt;Dropbox&lt;/a&gt; account setup.&lt;/p&gt;
 
-&lt;p&gt;You must be surprise that for ordinary users who do not program, you really only need to learn one syntax.&lt;/p&gt;
+&lt;h3 id=&quot;the-two-basic-syntaxes-to-remember&quot;&gt;The two basic syntaxes to remember&lt;/h3&gt;
 
-&lt;h2 id=&quot;remember-these-two-syntaxs&quot;&gt;remember these two syntaxs&lt;/h2&gt;
+&lt;p&gt;To build this project, you only need to remember two syntaxes below.&lt;/p&gt;
 
-&lt;h1 id=&quot;and-&quot;&gt;”[[]]”  and “##”&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;
+[[]]  
+ ##
+&lt;/code&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;-&lt;/h2&gt;
-&lt;p&gt;-&lt;/p&gt;
-
-&lt;h2 id=&quot;adding-html-image-tax&quot;&gt;Adding HTML image tax&lt;/h2&gt;
-
-&lt;h2 id=&quot;img&quot;&gt;&lt;img /&gt;&lt;/h2&gt;
-
-&lt;h2 id=&quot;abc-example&quot;&gt;ABC example&lt;/h2&gt;
-
-&lt;p&gt;Let’s create a loop with A, B, C. First, we create 3 new passages and name them A, B 
-and C. Then we can type in the following accordingly.&lt;/p&gt;
-
-&lt;p&gt;(see video)&lt;/p&gt;
-
-&lt;h2 id=&quot;subject-example&quot;&gt;Subject example&lt;/h2&gt;
-
-&lt;p&gt;Say you are taking note for a class, it is always different to take note using 
-traditional method. So often the professor start talking about one subject A, then changes into another subject, B, C, etc. he then would jump back and forth between subjects and this makes it very different for students to make good note.&lt;/p&gt;
-
-&lt;p&gt;How, with Twine at your disposal, you can turn this challenging task into a piece of cake. Let’s build a simple subject note project.&lt;/p&gt;
-
-&lt;p&gt;(see video)&lt;/p&gt;
+&lt;p&gt;You can see the demo video for building a simple project from &lt;a href=&quot;http://www.youtube.com/watch?v=T4Hzt9LtR7g&amp;amp;t=2m35s&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;adding-images&quot;&gt;Adding images&lt;/h2&gt;
-&lt;p&gt;How about adding some images
-There are many ways to add image, but I usually prefer to use &lt;a href=&quot;https://www.dropbox.com/business?home=300&amp;amp;f=1&amp;amp;_tk=sem_b_goog&amp;amp;_camp=sem-b-goog-us-eng-top-exact&amp;amp;_kw=dropbox|e&amp;amp;_ad=47393997462|1t1|c&amp;amp;gclid=CLzFxcL6ucoCFYOEaQodpNgApQ&quot;&gt;Dropbox&lt;/a&gt; because it is the easiest way. I first upload my images in a folder in the dropbox public folder, then I create public links to embed in my note. You can use the html image tag(see the following code) to achieve this.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&amp;lt;img src = &amp;quot;your link&amp;quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After mastering some basic text editing skill with TWINE, it is time to consider adding some images to your webpage. To do that, all you need to remember is the following &lt;a href=&quot;http://www.w3schools.com/tags/tag_img.asp&quot;&gt;html image tag&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Let’s add an example image to our newly created note
-(see video)&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&amp;lt;img src=&amp;quot;image url&amp;quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=T4Hzt9LtR7g&amp;amp;t=5m23s&quot;&gt;Click here&lt;/a&gt; to the video demo for adding image.&lt;/p&gt;
 
 &lt;h2 id=&quot;publish-your-work&quot;&gt;publish your work&lt;/h2&gt;
 &lt;p&gt;Now, the last step is to publish your result. 
-The finished product is a html file, you can copy and paste it on your dropbox public folder, and then generate a public link and share it with your friends.&lt;/p&gt;
+The finished product is a html file, you can copy and paste it on your &lt;a href=&quot;https://www.dropbox.com/en/help/20&quot;&gt;dropbox public&lt;/a&gt; folder, and then generate a public link and share it with your friends.&lt;/p&gt;
 
-&lt;p&gt;Finally, these are the most basic functions you should learn about Twine, if you are interested in web programming and want to explore more, I recommand you to subcribe to the channel &lt;a href=&quot;https://www.youtube.com/watch?v=HZzChB75DFs&quot;&gt;VegetarianZombie&lt;/a&gt; on YouTube which is an amazing video series to walk you through all the details of Twine or you could read the Twine &lt;a href=&quot;http://twinery.org/wiki/&quot;&gt;documentation&lt;/a&gt; to explore more.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=T4Hzt9LtR7g&amp;amp;t=7m15s&quot;&gt;Click here&lt;/a&gt; to see a video demo about how to publish your TWINE project.&lt;/p&gt;
 
-&lt;p&gt;Thank you!&lt;/p&gt;
+&lt;h2 id=&quot;ending&quot;&gt;Ending&lt;/h2&gt;
+&lt;p&gt;Congratulation, I hope you become more interested in web programming and want to explore more with TWINE, I recommand you to subcribe to the channel &lt;a href=&quot;https://www.youtube.com/watch?v=HZzChB75DFs&quot;&gt;VegetarianZombie&lt;/a&gt; on YouTube which is an amazing video series to walk you through a lot of the details of TWINE or you could read the TWINE &lt;a href=&quot;http://twinery.org/wiki/&quot;&gt;documentation&lt;/a&gt; to explore more on your own.&lt;/p&gt;
+
+&lt;h3 id=&quot;tips&quot;&gt;tips&lt;/h3&gt;
+&lt;p&gt;I made up a list of tips to share with you to end this tutorial.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use a unique title for every single passage box.&lt;/li&gt;
+  &lt;li&gt;Use the same naming convention for all boxes&lt;/li&gt;
+  &lt;li&gt;When you use online images, make sure they are not copyright protected.&lt;/li&gt;
+  &lt;li&gt;find images that are in similar resolution.&lt;/li&gt;
+  &lt;li&gt;push the play button to test the result every now and then, it is always good to debug early.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you like this tutorial, please share it with your friends, and leave comment.&lt;/p&gt;
+
+&lt;p&gt;Good luck.&lt;/p&gt;
 
 </content>
  </entry>
