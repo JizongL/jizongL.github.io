@@ -5,13 +5,14 @@ title: Regression indepth study
 category: Statistics
 tags: [OLS, regression]
 ---
+Some key points about Least Square Model
+<!--break-->
 
 * This line is a placeholder to generate the table of contents
 {:toc}
 
-Some key points about Least Square Model
 
-<!--break-->
+
 
 $$
 \hat \beta_1 = Cor(Y, X)\frac{Sd(Y)}{Sd(X)}

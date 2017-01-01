@@ -6,6 +6,9 @@ category: Pathology
 tags: [pathology, diseases,review]
 ---
 
+This is a demo on how to build a album, I use an example from a post I wrote for the purpose of reviewing some pathological slides. I include the source code here so you are free to copy them for your study. 
+
+<!--break-->
 
 <style>
 div.img {

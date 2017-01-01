@@ -5,7 +5,7 @@ title: How to create your web Gravatar
 ---
 
 
-Gravatar is such a handy tool that has many applications and can save you a lot of time and make things pretty. You can check out [Gravatar](https://en.gravatar.com/) to learn all the details. The objective of this post is to show you how you can use your gravatar ID for your blog or website built by [Jekyll](http://jekyllrb.com/) the static site generator, in order to show your ownership of your site. <!--break-->
+Gravatar is such a handy tool that has many applications and can save you a lot of time and make things pretty. <!--break-->You can check out [Gravatar](https://en.gravatar.com/) to learn all the details. The objective of this post is to show you how you can use your gravatar ID for your blog or website built by [Jekyll](http://jekyllrb.com/) the static site generator, in order to show your ownership of your site. 
 
 * First, register a [Gravatar](https://en.gravatar.com/) account and following all the instruction to set up your account. 
 

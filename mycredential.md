@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CV
+title: Certificates
 ---
 
 * [R Programming](https://www.coursera.org/account/accomplishments/certificate/H79NYLRSSL)

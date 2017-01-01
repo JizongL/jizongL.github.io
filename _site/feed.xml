@@ -3,89 +3,16 @@
   <channel>
     <title>TmmGeek</title>
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
-    <link>http://lanyon.getpoole.com/</link>
-    <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Dec 2016 14:40:21 -0600</pubDate>
-    <lastBuildDate>Fri, 30 Dec 2016 14:40:21 -0600</lastBuildDate>
+    <link>www.tmmlab.com/</link>
+    <atom:link href="www.tmmlab.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 31 Dec 2016 23:39:41 -0600</pubDate>
+    <lastBuildDate>Sat, 31 Dec 2016 23:39:41 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
-    
-      <item>
-        <title>Journal Of Modern School</title>
-        <description>&lt;p&gt;Top Dog The science of winning and losing.
-chapter 1
-first diving experiment, measurement of saliva of the jumper. 
-discovery
-1 jump often has much larger surge of tension
-2nd and 3rd, more relaxed and adapted.
-conclusion
-exposure to the situation is first hand learning experience. 
-reflextion. 
-traditional school system stifle students’ development
-it is completely based on play it safe model.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 04 Oct 2016 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/2016/10/04/journal-of-modern-school/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2016/10/04/journal-of-modern-school/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Python String Methods</title>
-        <description>&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
-&lt;pre&gt;
-&lt;code&gt;
-
-
-
-coord = (3, 5)
-&#39;X: {0[0]};  Y: {0[1]}&#39;.format(coord)
-&#39;X: 3;  Y: 5&#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</description>
-        <pubDate>Tue, 04 Oct 2016 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/python/2016/10/04/Python-String-Methods/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/python/2016/10/04/Python-String-Methods/</guid>
-        
-        <category>Python</category>
-        
-        
-        <category>Python</category>
-        
-      </item>
-    
-      <item>
-        <title>The Zipf Mystery</title>
-        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fCn8zs912OE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fCn8zs912OE&quot;&gt;The Zipf Mystery&lt;/a&gt;&lt;/p&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.wolfram.com/cdf-player/plugin/v2.1/cdfplugin.js&quot;&gt;&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;
-var cdf = new cdfplugin();
-cdf.setDefaultContent(&#39;&lt;a href=&quot;http://www.wolfram.com/cdf-player/&quot;&gt;&lt;img  src=&quot;/assets/wolfram/gilbert-4-La/lecture_4_chart.png&quot;&gt;&lt;/a&gt;&#39;);
-cdf.embed(&#39;/assets/wolfram/gilbert-4-La/lecture_4_chart.cdf&#39;, 433, 497);
-&lt;/script&gt;
-
-</description>
-        <pubDate>Sun, 04 Sep 2016 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/math/2016/09/04/The-Zipf-Mystery/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/math/2016/09/04/The-Zipf-Mystery/</guid>
-        
-        <category>math</category>
-        
-        <category>Zipf&#39;s law</category>
-        
-        
-        <category>math</category>
-        
-      </item>
     
       <item>
         <title>Homogeneous System</title>
         <description>&lt;p&gt;Vh is not a vector, but an infinite set of objects.
+&lt;!--break--&gt;
 &lt;img src=&quot;https://dl.dropboxusercontent.com/u/49272502/2016%20blog%20pictures/linear%20algebra/Homogeneous.png&quot; alt=&quot;ddd&quot; /&gt;&lt;/p&gt;
 
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
@@ -613,8 +540,8 @@ cdf.embed(&#39;/assets/wolfram/L-Algebra/Homogeneous.cdf&#39;, 427, 487);
 
 </description>
         <pubDate>Sun, 04 Sep 2016 00:00:00 -0500</pubDate>
-        <link>http://lanyon.getpoole.com/math/2016/09/04/Homogenous-systems/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/math/2016/09/04/Homogenous-systems/</guid>
+        <link>www.tmmlab.com/math/2016/09/04/Homogenous-systems/</link>
+        <guid isPermaLink="true">www.tmmlab.com/math/2016/09/04/Homogenous-systems/</guid>
         
         <category>math</category>
         
@@ -627,7 +554,7 @@ cdf.embed(&#39;/assets/wolfram/L-Algebra/Homogeneous.cdf&#39;, 427, 487);
     
       <item>
         <title>Extract PPT slide number and title</title>
-        <description>&lt;p&gt;Today, I am going to introduce a cool method with which you could extract all the titles of your PPT slide and the slide number accordingly. So often, we have to go through ton of PPT files with huge number of slides. Isn’t it nice that if we could programatically extract all the titles from slides of all the PPT files? So that we could review them, or in the case of a school scenario, it is very helpful to review and memorize slide titles sometime before exam or quiz.&lt;/p&gt;
+        <description>&lt;p&gt;Today, I am going to introduce a cool method with which you could extract all the titles of your PPT slide and the slide number accordingly. &lt;!--break--&gt;So often, we have to go through ton of PPT files with huge number of slides. Isn’t it nice that if we could programatically extract all the titles from slides of all the PPT files? So that we could review them, or in the case of a school scenario, it is very helpful to review and memorize slide titles sometime before exam or quiz.&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -730,8 +657,8 @@ End Sub
 &lt;/pre&gt;
 </description>
         <pubDate>Thu, 28 Jan 2016 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/text%20editing/2016/01/28/Extract-PPT-slide-title/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/text%20editing/2016/01/28/Extract-PPT-slide-title/</guid>
+        <link>www.tmmlab.com/text%20editing/2016/01/28/Extract-PPT-slide-title/</link>
+        <guid isPermaLink="true">www.tmmlab.com/text%20editing/2016/01/28/Extract-PPT-slide-title/</guid>
         
         <category>VBA code</category>
         
@@ -840,8 +767,8 @@ I made up a list of tips to share with you to end this tutorial.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 18 Jan 2016 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/twine/2016/01/18/twine-makes-study-easy/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/twine/2016/01/18/twine-makes-study-easy/</guid>
+        <link>www.tmmlab.com/twine/2016/01/18/twine-makes-study-easy/</link>
+        <guid isPermaLink="true">www.tmmlab.com/twine/2016/01/18/twine-makes-study-easy/</guid>
         
         <category>html5</category>
         
@@ -1077,8 +1004,8 @@ http://www.rexegg.com/regex-quickstart.html&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 18 Jan 2016 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/regular%20expression/2016/01/18/regular-expression-video-project/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/regular%20expression/2016/01/18/regular-expression-video-project/</guid>
+        <link>www.tmmlab.com/regular%20expression/2016/01/18/regular-expression-video-project/</link>
+        <guid isPermaLink="true">www.tmmlab.com/regular%20expression/2016/01/18/regular-expression-video-project/</guid>
         
         <category>java</category>
         
@@ -1119,8 +1046,8 @@ import java.util.regex.Matcher;&lt;/p&gt;
 }&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Jan 2016 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/javascript/2016/01/18/regular-expression-Java/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/javascript/2016/01/18/regular-expression-Java/</guid>
+        <link>www.tmmlab.com/javascript/2016/01/18/regular-expression-Java/</link>
+        <guid isPermaLink="true">www.tmmlab.com/javascript/2016/01/18/regular-expression-Java/</guid>
         
         <category>javascript</category>
         
@@ -1128,89 +1055,6 @@ import java.util.regex.Matcher;&lt;/p&gt;
         
         
         <category>Javascript</category>
-        
-      </item>
-    
-      <item>
-        <title>Java Note</title>
-        <description>&lt;h2 id=&quot;receiving-input&quot;&gt;Receiving Input&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;&lt;a href=&quot;https://docs.oracle.com/javase/tutorial/java/data/characters.html&quot;&gt;escape sequence&lt;/a&gt;&lt;/th&gt;
-      &lt;th&gt;explaination&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;%s&lt;/td&gt;
-      &lt;td&gt;The use of %s will result in the toString() method being called on the object, and thus will work for any type T&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;/n&lt;/td&gt;
-      &lt;td&gt;break line&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;The following Java code prints out “Hello, my name is …”&lt;/p&gt;
-
-&lt;pre&gt;
-	&lt;code&gt;
-import java.io.Console;
- 
-public class Introductions {
-  
-    public static void main(String[] args) {
-        Console console = System.console();
-        // console.readLine(&quot;prompt&quot;) takes input after prompting, and send it to the 	// variable firstName.
-        String firstName = console.readLine(&quot;What is your name? &quot;); 
-        console.printf(&quot;Hello, my name is %s\n&quot;,firstName);
-        console.printf(&quot;%s is learning how to write Java\n&quot;,firstName);
-  
-    }
-}
-	&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Input and Output - Source and Destination, check out &lt;a href=&quot;http://tutorials.jenkov.com/java-io/overview.html&quot;&gt;IO package&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;float chart of IO&lt;/p&gt;
-&lt;svg width=&quot;100%&quot; height=&quot;100&quot;&gt;
-
-    &lt;svg y=&quot;10&quot; x=&quot;30&quot;&gt;
-        &lt;path d=&quot;M110,35 l38,0 l0,-5 l10,5 l-10,5 l0,-5&quot; style=&quot;stroke: #336633; stroke-width: 1;  fill:#669966; &quot; /&gt;
-        &lt;path d=&quot;M260,35 l38,0 l0,-5 l10,5 l-10,5 l0,-5&quot; style=&quot;stroke: #336633; stroke-width: 1;  fill:#669966; &quot; /&gt;
-
-
-        &lt;svg x=&quot;0&quot; y=&quot;0&quot;&gt;
-            &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;50&quot; rx=&quot;2&quot; ry=&quot;2&quot; style=&quot;stroke: #669966; stroke-width: 1; fill: #ccffcc;&quot; /&gt;
-            &lt;text x=&quot;30&quot; y=&quot;40&quot; style=&quot;stroke: none; fill: #000000; font-family: Arial; font-size: 16px;&quot;&gt;Source&lt;/text&gt;
-        &lt;/svg&gt;
-
-        &lt;svg x=&quot;150&quot; y=&quot;0&quot;&gt;
-            &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;50&quot; rx=&quot;2&quot; ry=&quot;2&quot; style=&quot;stroke: #669966; stroke-width: 1; fill: #ccffcc;&quot; /&gt;
-            &lt;text x=&quot;30&quot; y=&quot;40&quot; style=&quot;stroke: none; fill: #000000; font-family: Arial; font-size: 16px;&quot;&gt;Program&lt;/text&gt;
-        &lt;/svg&gt;
-
-
-        &lt;svg x=&quot;300&quot; y=&quot;0&quot;&gt;
-            &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;50&quot; rx=&quot;2&quot; ry=&quot;2&quot; style=&quot;stroke: #669966; stroke-width: 1; fill: #ccffcc;&quot; /&gt;
-            &lt;text x=&quot;20&quot; y=&quot;40&quot; style=&quot;stroke: none; fill: #000000; font-family: Arial; font-size: 16px;&quot;&gt;Destination&lt;/text&gt;
-        &lt;/svg&gt;
-    &lt;/svg&gt;
-
-&lt;/svg&gt;
-</description>
-        <pubDate>Mon, 18 Jan 2016 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/java/2016/01/18/Java-study-note/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/java/2016/01/18/Java-study-note/</guid>
-        
-        <category>java</category>
-        
-        
-        <category>Java</category>
         
       </item>
     
@@ -1350,8 +1194,8 @@ print(decoded)
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 03 Jan 2016 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/javascript/2016/01/03/javascript-basics-steganography/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/javascript/2016/01/03/javascript-basics-steganography/</guid>
+        <link>www.tmmlab.com/javascript/2016/01/03/javascript-basics-steganography/</link>
+        <guid isPermaLink="true">www.tmmlab.com/javascript/2016/01/03/javascript-basics-steganography/</guid>
         
         <category>javascript</category>
         
@@ -1359,6 +1203,982 @@ print(decoded)
         
         
         <category>Javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>ellipse and scatter plot</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://onlinelibrary.wiley.com/store/10.1002/9780470750711.app1/asset/app1.pdf;jsessionid=3A2DE2804CD8C8119197F67F47DDCA4C.f01t01?v=1&amp;amp;t=iikpr60j&amp;amp;s=f9c64f839ce4d43efb8aa1f24ffd41a2d31b4f7a&quot;&gt;confidence ellipse&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.mathopenref.com/ellipseeccentricity.html&quot;&gt;Eccentricity an Ellipse&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.visiondummy.com/2014/04/draw-error-ellipse-representing-covariance-matrix/&quot;&gt;How to draw a covariance error ellipse?&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 24 Dec 2015 00:00:00 -0600</pubDate>
+        <link>www.tmmlab.com/geometry/2015/12/24/ellipse-and-scatterplot/</link>
+        <guid isPermaLink="true">www.tmmlab.com/geometry/2015/12/24/ellipse-and-scatterplot/</guid>
+        
+        <category>ellipse</category>
+        
+        <category>eccentricity</category>
+        
+        <category>differential equation</category>
+        
+        <category>mathlab</category>
+        
+        
+        <category>Geometry</category>
+        
+      </item>
+    
+      <item>
+        <title>Linear Algebra study note</title>
+        <description>&lt;p&gt;This is my note for my personal study of Linear Algebra
+&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#definition-of-mathbf-rn-and-mathbf-r&quot; id=&quot;markdown-toc-definition-of-mathbf-rn-and-mathbf-r&quot;&gt;Definition of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\mathbf R&lt;/script&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#vector-transformation&quot; id=&quot;markdown-toc-vector-transformation&quot;&gt;vector transformation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#formal-understanding-of-functions&quot; id=&quot;markdown-toc-formal-understanding-of-functions&quot;&gt;Formal understanding of functions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-concept-of-linear-independance&quot; id=&quot;markdown-toc-the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#test-of-linear-dependance&quot; id=&quot;markdown-toc-test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-1&quot; id=&quot;markdown-toc-example-1&quot;&gt;Example 1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-3&quot; id=&quot;markdown-toc-example-3&quot;&gt;example 3&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#parametric-representation-of-lines&quot; id=&quot;markdown-toc-parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dimension-of-the-column-space-or-rank&quot; id=&quot;markdown-toc-dimension-of-the-column-space-or-rank&quot;&gt;Dimension of the Column Space or Rank&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#linear-subspaces&quot; id=&quot;markdown-toc-linear-subspaces&quot;&gt;Linear subspaces&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#a-trival-example-in-mathbf-r3&quot; id=&quot;markdown-toc-a-trival-example-in-mathbf-r3&quot;&gt;a trival example in &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-2&quot; id=&quot;markdown-toc-example-2&quot;&gt;example 2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-3-1&quot; id=&quot;markdown-toc-example-3-1&quot;&gt;example 3&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#basis&quot; id=&quot;markdown-toc-basis&quot;&gt;Basis&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-1-1&quot; id=&quot;markdown-toc-example-1-1&quot;&gt;example 1&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#linear-transformation&quot; id=&quot;markdown-toc-linear-transformation&quot;&gt;Linear transformation&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#linear-transformations-as-matrix-vector-products&quot; id=&quot;markdown-toc-linear-transformations-as-matrix-vector-products&quot;&gt;Linear transformations as matrix vector products&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dot-product&quot; id=&quot;markdown-toc-dot-product&quot;&gt;Dot product&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#definition&quot; id=&quot;markdown-toc-definition&quot;&gt;definition&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#vector-into-components-projection&quot; id=&quot;markdown-toc-vector-into-components-projection&quot;&gt;vector into components: projection&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#projection&quot; id=&quot;markdown-toc-projection&quot;&gt;Projection&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#example&quot; id=&quot;markdown-toc-example&quot;&gt;example&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#expressing-a-projection-on-to-a-line-as-matrix-vector-projection&quot; id=&quot;markdown-toc-expressing-a-projection-on-to-a-line-as-matrix-vector-projection&quot;&gt;Expressing a projection on to a line as matrix vector projection&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#example-1-2&quot; id=&quot;markdown-toc-example-1-2&quot;&gt;example 1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#criterias-of-projection&quot; id=&quot;markdown-toc-criterias-of-projection&quot;&gt;2 criterias of projection&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;definition-of-mathbf-rn-and-mathbf-r&quot;&gt;Definition of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\mathbf R&lt;/script&gt;&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec X \in \mathbf R^n&lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n = \begin{cases}
+n-tuple\\
+(x_1,x_2 \cdots x_n)\end{cases}&lt;/script&gt;
+&lt;script type=&quot;math/tex&quot;&gt;\bigr| x_1,x_2,\cdots x_n \in \mathbf R&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;vector-transformation&quot;&gt;vector transformation&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec x = \begin{bmatrix}
+	x_1\\
+	x_2\\
+	\vdots\\
+	x_n
+	\end{bmatrix}
+	\vec y = \begin{bmatrix}
+	y_1\\
+	y_2\\
+	\vdots\\
+	y_m
+	\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec x \in \mathbf R^n \text{and} \vec y \in \mathbf R^m&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f:\mathbf R^n \implies \mathbf R^m&lt;/script&gt;
+
+&lt;p&gt;for example&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f:\mathbf R^3 \implies \mathbf R^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
+	x_1\\
+	x_2\\
+	x_3\\
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+	x_1+2x_2\\
+	3x_3\\
+	\end{bmatrix}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
+	1\\
+	1\\
+	1\\
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+	3\\
+	3\\
+	\end{bmatrix}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
+	2\\
+	4\\
+	1\\
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+	10\\
+	3\\
+	\end{bmatrix}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;T:\mathbf R^3 \implies\mathbf R^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;T(x_1,x_2,x_3) \implies (x_1+2x_2, 3x_3)&lt;/script&gt;
+
+&lt;h2 id=&quot;formal-understanding-of-functions&quot;&gt;Formal understanding of functions&lt;/h2&gt;
+
+&lt;p&gt;if a function g(x) maps the single number 2.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;g(x_1,x_2) = 2&lt;/script&gt;
+
+&lt;p&gt;Then, the domain is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt; and the codomain is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt; but the range is 2.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;h:\mathbf R^2 \implies \mathbf R^3&lt;/script&gt;
+
+&lt;p&gt;In this, the domain is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt; and the codomain and the range are &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;, for example&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf h (x_1,x_2) = (x_1+x_2, x_2-x_1,x_2x_1)&lt;/script&gt;
+
+&lt;h2 id=&quot;the-concept-of-linear-independance&quot;&gt;The concept of Linear independance&lt;/h2&gt;
+
+&lt;p&gt;The main idea is that there is no redundent vectors in the space&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c_1\vec v_1+c_2\vec v_2 + \cdots c_n\vec v_n = \mathbf 0| c_1=c_2 \cdots c_n = 0&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_independence/v/span-and-linear-independence-example&quot;&gt;see&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;test-of-linear-dependance&quot;&gt;Test of linear dependance&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;s = \{\vec v_1 \vec v_2, \cdots\vec v_n\} \iff c_1\vec v_1 + c_2\vec v_2 \cdots c_n\vec v_n = \mathbf 0&lt;/script&gt;
+
+&lt;p&gt;For some &lt;script type=&quot;math/tex&quot;&gt;c_i&lt;/script&gt;, not all are 0. (at least 1 is non-zero)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence&quot;&gt;see proof&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;example-1&quot;&gt;Example 1&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left( \mathbf A =
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+,
+\mathbf B =
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+\right)&lt;/script&gt;
+
+&lt;p&gt;to test if A and B are independent&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c_1
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
++ c_2
+\begin{bmatrix}
+2\\
+1\\
+\end{bmatrix}
+= 0&lt;/script&gt;
+
+&lt;p&gt;To satisify the conditon above, if either &lt;script type=&quot;math/tex&quot;&gt;c_1&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;c_2&lt;/script&gt; are non-zero, then A and B are dependent 
+If both &lt;script type=&quot;math/tex&quot;&gt;c_1,c_2&lt;/script&gt; are 0, then A and B are independent&lt;/p&gt;
+
+&lt;p&gt;adapted from &lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_independence/v/more-on-linear-independence&quot;&gt;Khanacademy&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;example-3&quot;&gt;example 3&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left(\begin{bmatrix}
+1\\
+-1\\
+2\\
+\end{bmatrix},
+
+\begin{bmatrix}
+1\\
+1\\
+3
+\end{bmatrix}
+,
+\begin{bmatrix}
+-1\\
+0\\
+2\\
+\end{bmatrix}\right)
+ = \mathbf Span(s) \ = \mathbf R^3?&lt;/script&gt;
+
+&lt;h2 id=&quot;parametric-representation-of-lines&quot;&gt;Parametric representation of lines&lt;/h2&gt;
+
+&lt;!--break--&gt;
+&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec V = \begin{bmatrix}
+		2\\
+        1\\
+\end{bmatrix}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then the span is 
+&lt;script type=&quot;math/tex&quot;&gt;\ \mathbf S = \{ c\vec V | c \in \mathbf R \}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec X = \begin{bmatrix}
+			2\\
+			4\\	
+			\end{bmatrix}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;To find a line passes through &lt;script type=&quot;math/tex&quot;&gt;\vec X&lt;/script&gt;  and parellel to &lt;script type=&quot;math/tex&quot;&gt;\vec V&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;we can use this formula&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L =\{\vec X + t\vec V| t\in \mathbf R\}&lt;/script&gt;
+
+&lt;p&gt;To find a line passes through both &lt;script type=&quot;math/tex&quot;&gt;\vec a and \vec b&lt;/script&gt;, use either&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L = \{\vec b + t(\vec b-\vec a| t \in \mathbf R)\}&lt;/script&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L = \{\vec a + t(\vec b-\vec a| t \in \mathbf R)\}&lt;/script&gt;
+
+&lt;p&gt;example&lt;/p&gt;
+
+&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec a = \begin{bmatrix}
+			2\\
+			1\\
+			\end{bmatrix}&lt;/script&gt;
+	  &lt;script type=&quot;math/tex&quot;&gt;\vec b = \begin{bmatrix}
+	  		0\\
+			3\\
+			\end{bmatrix}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then &lt;script type=&quot;math/tex&quot;&gt;L = \{\begin{bmatrix}
+			2\\
+			1\\
+			\end{bmatrix} + t(\begin{bmatrix}
+			0\\
+			3\\
+			\end{bmatrix}
+			-\begin{bmatrix}
+			2\\
+			1\\
+			\end{bmatrix}) | t\in \mathbf R\}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;To see full from this video&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;color: #111; font-family: helvetica;&quot; target=&quot;_blank&quot; href=&quot;https://www.khanacademy.org/video/linear-algebra-parametric-representations-of-lines?utm_campaign=embed&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;560&quot; height=&quot;355&quot; src=&quot;https://www.khanacademy.org/embed_video?v=hWhs2cIj7Cw&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;dimension-of-the-column-space-or-rank&quot;&gt;Dimension of the Column Space or Rank&lt;/h2&gt;
+
+&lt;p&gt;The following is adapted from &lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/null_column_space/v/dimension-of-the-column-space-or-rank&quot;&gt;Khanacademy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;color: #111; font-family: helvetica;&quot; target=&quot;_blank&quot; href=&quot;https://www.khanacademy.org/video/dimension-of-the-column-space-or-rank?utm_campaign=embed&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;560&quot; height=&quot;355&quot; src=&quot;https://www.khanacademy.org/embed_video?v=JUgrBkPteTg&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Rank is the dimension of the basis of a matrix.&lt;/p&gt;
+
+&lt;p&gt;In order to be a basis, it has to satisfy that&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;vectors span &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;all the column vectors of a basis are linear independent&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;for example&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(1)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\mathbf A = \begin{bmatrix}
+        1 &amp; 0 &amp; -1 &amp; 0 &amp; 4 \\
+        2 &amp; 1 &amp; 0 &amp; 0 &amp; 9 \\
+        -1 &amp; 2 &amp; 5 &amp; 1 &amp; -5 \\
+        1 &amp; -1 &amp; -3 &amp; -2 &amp; 9
+        \end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;the column space of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt; is&lt;/p&gt;
+
+&lt;p align=&quot;right&quot;&gt;(2)&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;C(\mathbf A) = span\{\vec a_1,\vec a_2,\vec a_3,\vec a_4, \vec a_5\}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;However, we don’t know if all the  column vectors in the span are linear independant&lt;/p&gt;
+
+&lt;p&gt;To find the basis, let’s convert to reduced echelon form &lt;script type=&quot;math/tex&quot;&gt;A_e&lt;/script&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(3)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\mathbf A_e = \begin{bmatrix}
+        1 &amp; 0 &amp; -1 &amp; 0 &amp; 4 \\
+        0 &amp; 1 &amp; 2 &amp; 0 &amp; 1 \\
+        0 &amp; 0 &amp; 0 &amp; 1 &amp; -3 \\
+        0 &amp; 0 &amp; 0 &amp; 0 &amp; 0
+        \end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;let &lt;script type=&quot;math/tex&quot;&gt;\vec r_i&lt;/script&gt; denote the columns of A&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;(4)&lt;/p&gt;
+
+&lt;p&gt;we see that &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_1,\vec r_3,\vec r_4\}&lt;/script&gt; are linear independent and for the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A_e&lt;/script&gt;, and the 1s in these column vectors are also called the &lt;a href=&quot;https://en.wikibooks.org/wiki/Linear_Algebra/Row_Reduction_and_Echelon_Forms#Pivot_Positions&quot;&gt;pivot entries&lt;/a&gt;. Moreover, &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_3,\vec r_5\}&lt;/script&gt; can be represented as linear combinations of &lt;script type=&quot;math/tex&quot;&gt;\{\vec r_1,\vec r_2,\vec r_4\}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Therefore, we can conclude that  &lt;script type=&quot;math/tex&quot;&gt;\{\vec a_1,\vec a_2,\vec a_4,\} in \mathbf A&lt;/script&gt; are also linear independent and they are the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf A&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;And the Rank of A is just the dimension of the basis, so &lt;script type=&quot;math/tex&quot;&gt;rank(\mathbf A) = 3&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;linear-subspaces&quot;&gt;Linear subspaces&lt;/h2&gt;
+
+&lt;p&gt;In order to be a subspace, a set must satisfy the following 3 criterias&lt;/p&gt;
+
+&lt;p&gt;let&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf R^n \leftarrow \left( 
+\begin{bmatrix}
+x_1\\
+x_2\\
+\vdots\\
+x_n
+\end{bmatrix} | x_i \in \mathbf R \ 1\le i \le n
+\right)&lt;/script&gt;
+
+&lt;p&gt;Let’s assume &lt;script type=&quot;math/tex&quot;&gt;\mathbf V&lt;/script&gt; is a subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then&lt;/p&gt;
+
+&lt;p&gt;1:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf V \ contains  \ \mathbf 0 = \begin{bmatrix}
+0\\
+\vdots\\
+0
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;2:&lt;/p&gt;
+
+&lt;p&gt;And if &lt;script type=&quot;math/tex&quot;&gt;\vec x \in \mathbf V \ \text{then} \ c\vec x \ \ also \ in \mathbf V&lt;/script&gt;
+This is defined as closure under scalar multiplication&lt;/p&gt;
+
+&lt;p&gt;3:&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec a \in \mathbf V \ and \ \vec b \ \in \mathbf V, \ then \ \vec a + \vec b \ is \ also \ in \mathbf V&lt;/script&gt;
+This is defined as closure under addition&lt;/p&gt;
+
+&lt;h3 id=&quot;a-trival-example-in-mathbf-r3&quot;&gt;a trival example in &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf V \ = \ {\mathbf 0} = \begin{bmatrix}
+0\\
+0\\
+0\\
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;it satisifies the 3 criterias&lt;/p&gt;
+
+&lt;p&gt;1: it contains the zero vector.&lt;/p&gt;
+
+&lt;p&gt;2: when it is multiplied by any real number scalar c, it is still itself. This implies it is still a member of &lt;script type=&quot;math/tex&quot;&gt;\mathbf 
+R^3&lt;/script&gt; and satisify closure under multiplication&lt;/p&gt;
+
+&lt;p&gt;3: when &lt;script type=&quot;math/tex&quot;&gt;\mathbf V + \mathbf V = \mathbf 0&lt;/script&gt;, this implies it satisifies closure under addition&lt;/p&gt;
+
+&lt;p&gt;so it is a subspace.&lt;/p&gt;
+
+&lt;h3 id=&quot;example-2&quot;&gt;example 2&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = { \begin{bmatrix}
+x_1\\
+x_2
+\end{bmatrix}
+\in \ \mathbf R^2 | x_1 \ge 0 and x_2 \ge 0 }&lt;/script&gt;
+
+&lt;p&gt;is &lt;script type=&quot;math/tex&quot;&gt;\mathbf S&lt;/script&gt; a subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt;?&lt;/p&gt;
+
+&lt;p&gt;1:&lt;/p&gt;
+
+&lt;p&gt;because &lt;script type=&quot;math/tex&quot;&gt;x_1, x_2 \ge 0&lt;/script&gt;, so it contains the zero vector.&lt;/p&gt;
+
+&lt;p&gt;2:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{bmatrix}
+a\\
+b
+\end{bmatrix}
++
+\begin{bmatrix}
+c\\
+d
+\end{bmatrix}
+=
+\begin{bmatrix}
+a+c\\
+b+d
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;it satisifies the closure of addition&lt;/p&gt;
+
+&lt;p&gt;3: however, if&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;-1
+\begin{bmatrix}
+a\\
+b
+\end{bmatrix}
+=
+\begin{bmatrix}
+-a\\
+-b
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;This does not satisify the closure of multiplication because the result falls out of the restricted set. 
+(it is less than 0)&lt;/p&gt;
+
+&lt;h3 id=&quot;example-3-1&quot;&gt;example 3&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;let \ \mathbf U = \ span \ (\vec v_1,\vec v_2, \vec v_3)&lt;/script&gt;
+
+&lt;p&gt;Is it subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;?&lt;/p&gt;
+
+&lt;p&gt;1: if&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(0\vec v_1 +0\vec v_2+ 0\vec v_3 = \vec 0)&lt;/script&gt;
+
+&lt;p&gt;so it contains the zero vector.&lt;/p&gt;
+
+&lt;p&gt;2:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec X =c_1\vec v_1+c_2\vec v_2+ c_3\vec v_3&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\vec X =ac_1\vec v_1+ac_2\vec v_2+ ac_3\vec v_3&lt;/script&gt;
+
+&lt;p&gt;if we let &lt;script type=&quot;math/tex&quot;&gt;ac_i = j_i&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\vec X =j_1\vec v_1+j_2\vec v_2+ j_3\vec v_3&lt;/script&gt;
+
+&lt;p&gt;clear, it is just a linear combination of the 3 vectors and it is in the span of the 3 vectors, therefore it satisifies the closure of multiplication.&lt;/p&gt;
+
+&lt;p&gt;3:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec Y =d_1\vec v_1+d_2\vec v_2+ d_3\vec v_3&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec X + \vec Y =(c_1+d_1)\vec v_1+(c_2+d_2)\vec v_2+ (c_3+d_3)\vec v_3&lt;/script&gt;
+
+&lt;p&gt;It clearly satisify the closure under addition&lt;/p&gt;
+
+&lt;p&gt;so it is a subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^3&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;basis&quot;&gt;Basis&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = 
+\left(\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
+,
+(\begin{bmatrix}
+7\\
+0
+\end{bmatrix}
+\right)&lt;/script&gt;
+
+&lt;p&gt;What is the span of $$\mathbf S?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = 
+\left(c_1\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
++c_2\begin{bmatrix}
+7\\
+0
+\end{bmatrix}
+\right)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2c_1+7c_2 = x_1 \\
+3c_1 + 0 = x_2 \\
+c_1=\frac {x_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}x_2&lt;/script&gt;
+
+&lt;p&gt;is &lt;script type=&quot;math/tex&quot;&gt;\mathbf S&lt;/script&gt; linear independent?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf S = 
+\left(c_1\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
++c_2\begin{bmatrix}
+7\\
+0
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+0\\
+0
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;from above&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c_1=\frac {x_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}x_2 \\
+c_1=\frac {0_2}{3} , c_2 = \frac{x_1}{7}-\frac{2}{21}0 \\
+c_1 = 0, c_2 = 0&lt;/script&gt;
+
+&lt;p&gt;Since &lt;script type=&quot;math/tex&quot;&gt;\mathbf S \ spans \ \mathbf R^2&lt;/script&gt; and it is linear independent, so &lt;script type=&quot;math/tex&quot;&gt;\mathbf S&lt;/script&gt; is a basis for &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;example-1-1&quot;&gt;example 1&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf T = 
+\left(\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
+,
+(\begin{bmatrix}
+0\\
+1
+\end{bmatrix}
+\right)&lt;/script&gt;
+
+&lt;p&gt;What is the span of &lt;script type=&quot;math/tex&quot;&gt;\mathbf T&lt;/script&gt;?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf T = 
+\left(x_1\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
++x_2\begin{bmatrix}
+0\\
+1
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+x_1\\
+x_2
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;from above we know that the span is &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^2&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Is it linear independent?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf T = 
+\left(x_1\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
++x_2\begin{bmatrix}
+0\\
+1
+\end{bmatrix} 
+\right) =
+= \begin{bmatrix}
+0\\
+0
+\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;to satisify the above, &lt;script type=&quot;math/tex&quot;&gt;x_1,x_2&lt;/script&gt; have to be 0.&lt;/p&gt;
+
+&lt;p&gt;so &lt;script type=&quot;math/tex&quot;&gt;\mathbf T&lt;/script&gt; is a basis.&lt;/p&gt;
+
+&lt;p&gt;In fact, &lt;script type=&quot;math/tex&quot;&gt;\mathbf T&lt;/script&gt; is the unit vector &lt;script type=&quot;math/tex&quot;&gt;\hat i \ and \ \hat j&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;conclusion&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf P {v_1,v_2 \cdots v_n} = Basis \ for \ \mathbf U&lt;/script&gt;
+
+&lt;p&gt;any member of the set &lt;script type=&quot;math/tex&quot;&gt;\mathbf U&lt;/script&gt; is a unique combination of the basis &lt;script type=&quot;math/tex&quot;&gt;\mathbf P&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a \in U \vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n&lt;/script&gt;
+
+&lt;p&gt;let’s prove the uniqueness by contraditon&lt;/p&gt;
+
+&lt;p&gt;assume that they are not unique&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a = d_1\vec d_1 + d_2\vec v_2 + \cdots d_n\vec v_n&lt;/script&gt;
+
+&lt;p&gt;then if&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec a = c_1\vec v_1 + c_2\vec v_2 + \cdots c_n\vec v_n \\
+\vec a = d_1\vec v_1 + d_2\vec v_2 + \cdots d_n\vec v_n \\
+0 = (c_1-d_1)\vec v_1 +(c_2-d_2)\vec v_2 + \cdots (c_1-d_n)\vec v_n&lt;/script&gt;
+
+&lt;p&gt;since &lt;script type=&quot;math/tex&quot;&gt;\mathbf P&lt;/script&gt; is the basis of &lt;script type=&quot;math/tex&quot;&gt;\mathbf U&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;so it has to be linear independent, thus &lt;script type=&quot;math/tex&quot;&gt;c_i-d_i = 0&lt;/script&gt;, therefore, &lt;script type=&quot;math/tex&quot;&gt;c_i&lt;/script&gt; is unique.&lt;/p&gt;
+
+&lt;h2 id=&quot;linear-transformation&quot;&gt;Linear transformation&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/matrix_transformations/linear-transformations/a/visualizing-linear-transformations&quot;&gt;Visualizing linear transformations&lt;/a&gt; from Khanacademy provides excellent illustration about the concept.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf T(\vec a + \vec b) = \mathbf T(\vec a) + \mathbf T(\vec b)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf T(c \vec a)= c\mathbf T(\vec a)&lt;/script&gt;
+
+&lt;p&gt;A matrix product with a vector is always a linear transformation&lt;/p&gt;
+
+&lt;h3 id=&quot;linear-transformations-as-matrix-vector-products&quot;&gt;Linear transformations as matrix vector products&lt;/h3&gt;
+
+&lt;p&gt;standard basis for &lt;script type=&quot;math/tex&quot;&gt;\mathbf R^n&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dot-product&quot;&gt;Dot product&lt;/h2&gt;
+
+&lt;h3 id=&quot;definition&quot;&gt;definition&lt;/h3&gt;
+
+&lt;p id=&quot;geo_def&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Geometric definition 
+&lt;script type=&quot;math/tex&quot;&gt;\vec v\cdot\vec w = \left\|v\right\|\left\|w\right\|cos\theta \quad\text{Where}\quad\theta\quad \text{is the angle between}\quad\vec v \ \text{and} \ \vec w \quad and 0 \le \theta\le\pi&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Algebraic definition 
+&lt;script type=&quot;math/tex&quot;&gt;\vec v\cdot\vec w = v_1w_1+v_2w_2+v_3w_3.&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence&quot;&gt;see proof&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vector-into-components-projection&quot;&gt;vector into components: projection&lt;/h3&gt;
+
+&lt;p&gt;From the figure, we see that &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; is broken into two components &lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel} \ \vec v_{prep}&lt;/script&gt; and they are 
+perpendicular, respectively, to a given nonzero vector, &lt;script type=&quot;math/tex&quot;&gt;\vec u&lt;/script&gt; Figure from &lt;a href=&quot;http://www.amazon.com/Calculus-Single-Variable-Deborah-Hughes-Hallett/dp/0470089156&quot;&gt;Hughes-Hallett 5e&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/LinearAlgebra/projection.png&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To compute &lt;script type=&quot;math/tex&quot;&gt;\left\|\vec v_{parallel}\right\| = \left\|\vec v\right\|cos\theta = \vec v\cdot\vec u \quad (since \ \left\|\vec u\right\| =1)&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then&lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel}\text{is a scalar multiple of $\vec u$, and since $\vec u$ is a unit vector}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec v_{parallel} = (\left\|\vec v\right\|cos\theta)\vec u = (\vec v\cdot\vec u)\vec u.&lt;/script&gt; according to the&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#geo_def&quot;&gt;geometric definition&lt;/a&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v_{prep} = \vec v - \vec v_{parallel}&lt;/script&gt;
+
+&lt;h2 id=&quot;projection&quot;&gt;Projection&lt;/h2&gt;
+
+&lt;p align=&quot;right&quot;&gt;(1)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj(\vec x)=c\vec v = \frac {\vec x \cdot \vec v}{||\vec v||^2}\vec v&lt;/script&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The essent of this formula is to find the closest distance between the tip of &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; to a unique point in &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; to make a new distance vector (the dash line from the figure for example) that is orthogonal to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;. Visually, it looks as if it is a shadow casted by direct sun light on &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;, so it is formally named the projection of &lt;script type=&quot;math/tex&quot;&gt;\vec x&lt;/script&gt; onto &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;. The key to find this point is to get the value c, which scale &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; to the unique length.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/linear%20algebra/2015/11/18/proof-linear-algebra/#linear_dependence&quot;&gt;see proof&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Further illustration of this the concept of the formula above.&lt;/p&gt;
+
+&lt;p&gt;We can imagine that &lt;script type=&quot;math/tex&quot;&gt;\left\lVert v \right\rVert&lt;/script&gt; as 1, then the formula becomes &lt;script type=&quot;math/tex&quot;&gt;c\vec v = (\vec x\cdot\vec v)\vec v&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;alternatively, if &lt;script type=&quot;math/tex&quot;&gt;\left\lVert\ v right\rVert&lt;/script&gt; is not one, we can create a unit vector &lt;script type=&quot;math/tex&quot;&gt;\hat u = \frac{1}{\left\lVert \vec v \right\rVert}\vec v&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Then input &lt;script type=&quot;math/tex&quot;&gt;\hat u&lt;/script&gt; into the formula &lt;script type=&quot;math/tex&quot;&gt;Proj_L(\vec x) = (\vec x\cdot\hat u)\hat u&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;In this, we normalize the original &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt; into a unit vector &lt;script type=&quot;math/tex&quot;&gt;\hat u&lt;/script&gt;, sort of like a quntum portion, then when &lt;script type=&quot;math/tex&quot;&gt;\vec x\cdot\vec v&lt;/script&gt; it creates a scalar, which is used to signify the scalar multiple of the quntum portion per se.&lt;/p&gt;
+
+&lt;h3 id=&quot;example&quot;&gt;example&lt;/h3&gt;
+
+&lt;p&gt;let&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = \begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+
+\vec x = \begin{bmatrix}
+2\\
+3
+\end{bmatrix}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj_L (\vec x) = \frac{
+	\begin{bmatrix}
+2\\
+3
+\end{bmatrix}
+	\cdot
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+}{
+	\begin{bmatrix}
+2\\
+1
+\end{bmatrix} \cdot 
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+}
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix} = 7&lt;/script&gt;
+
+&lt;h2 id=&quot;expressing-a-projection-on-to-a-line-as-matrix-vector-projection&quot;&gt;Expressing a projection on to a line as matrix vector projection&lt;/h2&gt;
+
+&lt;p&gt;According to the formula (1) above, we can imagine &lt;script type=&quot;math/tex&quot;&gt;\left\lVert\vec v\right\rVert= 1&lt;/script&gt; as a unit vector.&lt;/p&gt;
+
+&lt;p&gt;then formula (1) becomes &lt;script type=&quot;math/tex&quot;&gt;(\vec x\vec v)\vec v&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;In real practice, if &lt;script type=&quot;math/tex&quot;&gt;\left\lVert\vec v\right\rVert&lt;/script&gt; is not a unit vector, we can transform it into &lt;script type=&quot;math/tex&quot;&gt;\vec u = \frac{1}{\left\lVert\vec v\right\rVert} \vec v given \vec v \neq 1&lt;/script&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;example-1-2&quot;&gt;example 1&lt;/h3&gt;
+
+&lt;p&gt;define&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v = \begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+,
+\vec x =\begin{bmatrix}
+2\\
+3
+\end{bmatrix}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\lVert\vec v\right\rVert = \sqrt{2^2+1^2}= \sqrt{5}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat u =1/\sqrt{5}\begin{bmatrix}
+2\\
+1
+\end{bmatrix}&lt;/script&gt;
+
+&lt;h3 id=&quot;criterias-of-projection&quot;&gt;2 criterias of projection&lt;/h3&gt;
+
+&lt;p&gt;criteria 1 The projection of the sum of the vectors is equal to the sum of the projection of the vectors.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj_L (\vec a+\vec b) = ((\vec a+ \vec b)\cdot \hat u)\hat u&lt;/script&gt;
+
+&lt;p&gt;according to the distributive property.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\vec a\cdot\hat u+\vec b\cdot\hat u)\hat u&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;=(\vec a\cdot\hat u)\hat u+(\vec b\cdot\hat u)\hat u&lt;/script&gt;
+
+&lt;p&gt;criteria 2 Projection of a scalar multiple vector is the scalar multiple of the projection vector.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Proj_L(c\vec a)= (c\vec a\cdot\hat u)\hat u&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;=c(\vec a\cdot\hat u)\hat u&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;=c(Proj_l \vec a)&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 22 Nov 2015 00:00:00 -0600</pubDate>
+        <link>www.tmmlab.com/linear%20algebra/2015/11/22/linear-algebra_study_note/</link>
+        <guid isPermaLink="true">www.tmmlab.com/linear%20algebra/2015/11/22/linear-algebra_study_note/</guid>
+        
+        <category>vector</category>
+        
+        <category>linear algebra</category>
+        
+        
+        <category>linear algebra</category>
+        
+      </item>
+    
+      <item>
+        <title>Proof in vector space</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#prove-that-a-vector-space-has-only-one-zero-vector&quot; id=&quot;markdown-toc-prove-that-a-vector-space-has-only-one-zero-vector&quot;&gt;Prove that a vector space has only one zero vector.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#proof-of-linear-dependence&quot; id=&quot;markdown-toc-proof-of-linear-dependence&quot;&gt;proof of linear dependence&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#proof-of-projection-formula&quot; id=&quot;markdown-toc-proof-of-projection-formula&quot;&gt;proof of projection formula&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--break--&gt;
+
+&lt;h2 id=&quot;prove-that-a-vector-space-has-only-one-zero-vector&quot;&gt;Prove that a vector space has only one zero vector.&lt;/h2&gt;
+
+&lt;p&gt;(Exercise 4.2, 19.)&lt;/p&gt;
+
+&lt;p&gt;Solution: Suppose that z1 and z2 are two zero vectors of the vector space.
+Since z1 is a zero vector, and z2 another vector, by the third property (page 189) in the definition of a vector space. 
+z2 ⊕z1 =z1 ⊕z2 =z2&lt;/p&gt;
+
+&lt;p&gt;Comment: That is, just plug in z1 where you see 0, and z2 where you see u. Similarly, since
+z2 is a zero vector, and z1 is another vector, we have:
+z1 ⊕z2 =z2 ⊕z1 =z1&lt;/p&gt;
+
+&lt;p&gt;By the two equations above, we have
+z1 ⊕ z2 = z1 = z2
+Thus z1 = z2. That is, any two zero vectors must be equal, so that the zero vector is unique.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Prove that a vector u in a vector space has only one negative, -u. (Exercise 4.2, 20.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Solution: Suppose that v and w are two additive inverses of u. Since w is an additive inverse&lt;/p&gt;
+
+&lt;p&gt;Add v to both sides.&lt;/p&gt;
+
+&lt;p&gt;v⊕u⊕w = v⊕0 v⊕u⊕w = v
+􏰂 􏰁􏰀 􏰃
+0
+u⊕w=0
+(property 3 in vector space defn)
+(property 4, since v is an additive inverse) (property 3)
+￼￼0⊕w = v w= v
+Thus, w = v, so that the additive inverse of u is unique.&lt;/p&gt;
+
+&lt;p id=&quot;linear_dependence&quot;&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;proof-of-linear-dependence&quot;&gt;proof of linear dependence&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v_1 = c_2\vec v_2 + c_3\vec c_3 + \cdots c_n\vec v_n&lt;/script&gt;
+
+&lt;p&gt;Then at least one of the constant is non-zero&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;0 = -1\vec v_1 + c_2\vec c_2 + a_3\vec c_3 + \cdots c_n\vec v_n&lt;/script&gt;
+
+&lt;p&gt;assume c1 is non-zero&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec v_1 + \frac{c_2}{c1}\vec v_2 + \cdots + \frac{c_n}{c_1}\vec v_n = 0&lt;/script&gt;
+
+&lt;p id=&quot;doc_product_loc&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Suppose that &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+0&lt;\theta&lt;\pi, \ \text{so that the vectors} \ \vec v \ and \ \vec w %]]&gt;&lt;/script&gt;  form a triangle. By the law of Cosines&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec v-\vec w\right\|^2 = \left\|\vec v\right\| + \left\|\vec w\right\| -2\left\|\vec v\right\| cos\theta&lt;/script&gt;
+
+&lt;p&gt;also true for &lt;script type=&quot;math/tex&quot;&gt;\theta = 0 \ and \ \theta = \pi&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec v\right\|^2 = v_1^2+v_2^2+v_3^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec w\right\|^2 = w_1^2+w_2^2+w_3^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\|\vec v-\vec w\right\|^2 =(v_1-w_1)^2+(v_3-w_3)^2+(v_3-w_3)^2
+=v_1^2 -2v_1w_1+w_1^2+v_2^2 - 2v_2w_2 + w_2^2+v_3^2-2v_3w_3+w_3^2&lt;/script&gt;
+
+&lt;p&gt;Substitute into the Law of Cosines&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;-2v_1w_1-2v_2w_2-2v_3w_3=-2\left\|\vec v\right\|\left\|\vec w\right\|cos \theta&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;v_1w_1-v_2w_2-v_3w_3=\left\|\vec v\right\|\left\|\vec w\right\|cos \theta&lt;/script&gt;
+
+&lt;h2 id=&quot;proof-of-projection-formula&quot;&gt;proof of projection formula&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.leadinglesson.com/image/ahNzfmxlYWRpbmdsZXNzb24taHJkcg0LEgVJbWFnZRi8vzkM&quot; alt=&quot;projection&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;let&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;L = proj_v(\vec x)&lt;/script&gt; be shadow of &lt;script type=&quot;math/tex&quot;&gt;\vec x \ onto \ \vec v)&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;then&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L = c\vec v| c \in \mathbf R&lt;/script&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec x - c\vec v&lt;/script&gt; is orthgonal to &lt;script type=&quot;math/tex&quot;&gt;\vec v&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;so if&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\vec x - c\vec v ) \cdot \vec v = 0&lt;/script&gt;
+
+&lt;p&gt;rearrange the formula to get c&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec x \cdot \vec v - c \vec v\cdot\vec v=0&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;c= \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}&lt;/script&gt;
+
+&lt;p&gt;to input c in the formula earlier&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = c\vec v = \frac{\vec x\cdot\vec v}{\vec v\cdot\vec v}\vec v&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf L = c\vec v = (\vec x\cdot\vec v)\frac{\vec v}{||\vec v||^2}&lt;/script&gt;
+</description>
+        <pubDate>Wed, 18 Nov 2015 00:00:00 -0600</pubDate>
+        <link>www.tmmlab.com/linear%20algebra/2015/11/18/proof-linear-algebra/</link>
+        <guid isPermaLink="true">www.tmmlab.com/linear%20algebra/2015/11/18/proof-linear-algebra/</guid>
+        
+        <category>linear algebra</category>
+        
+        <category>proof</category>
+        
+        <category>vector space</category>
+        
+        
+        <category>linear algebra</category>
+        
+      </item>
+    
+      <item>
+        <title>Assignment 4 Creating graphs for your data</title>
+        <description>&lt;p&gt;to download my python code &lt;a href=&quot;https://dl.dropboxusercontent.com/u/49272502/TempDataScienceCourse/Assignment%204/Assignment%204.py&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;to download the dataset &lt;a href=&quot;https://dl.dropboxusercontent.com/u/49272502/TempDataScienceCourse/Assignment%204/gapminder.csv&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;to download the ipython notebook file &lt;a href=&quot;https://dl.dropboxusercontent.com/u/49272502/TempDataScienceCourse/Assignment%204/Assignment%204.ipynb.json&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To visit my assignment result, please &lt;a href=&quot;https://dl.dropboxusercontent.com/u/49272502/TempDataScienceCourse/Assignment%204/Assignment%204.html&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;to visit my previous assignments for reference, &lt;a href=&quot;http://jizongl.github.io/DataManagement/&quot;&gt;please click here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;instructions&quot;&gt;instructions&lt;/h3&gt;
+
+&lt;p&gt;Continue with the program you’ve successfully run.&lt;/p&gt;
+
+&lt;p&gt;STEP 1: Create graphs of your variables one at a time (univariate graphs).&lt;/p&gt;
+
+&lt;p&gt;Examine both their center and spread.&lt;/p&gt;
+
+&lt;p&gt;STEP 2: Create a graph showing the association between your explanatory and response variables (bivariate graph).&lt;/p&gt;
+
+&lt;p&gt;Your output should be interpretable (i.e. organized and labeled).&lt;/p&gt;
+
+&lt;h3 id=&quot;review-criteria-less&quot;&gt;Review Criteria less&lt;/h3&gt;
+
+&lt;p&gt;Your assessment will be based on the evidence you provide that you have completed all of the steps. When relevant, gradients in the scoring will be available to reward clarity (for example, you will get one point for submitting graphs that do not accurately represent your data, but two points if the data is accurately represented). In all cases, consider that the peer assessing your work is likely not an expert in the field you are analyzing. You will be assessed equally on your description of your frequency distributions.&lt;/p&gt;
+
+&lt;p&gt;Specific rubric items, and their point values, are as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Was a univariate graph created for each of the selected variables? (2 points)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Was a bivariate graph created for the selected variables? (2 points)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Did the summary describe what the graphs revealed in terms of the individual&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;variables and the relationship between them? (2 points)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 11 Oct 2015 00:00:00 -0500</pubDate>
+        <link>www.tmmlab.com/data%20science/2015/10/11/assignment4-creating-graph/</link>
+        <guid isPermaLink="true">www.tmmlab.com/data%20science/2015/10/11/assignment4-creating-graph/</guid>
+        
+        <category>correlation</category>
+        
+        <category>data</category>
+        
+        <category>assignment</category>
+        
+        
+        <category>Data Science</category>
         
       </item>
     

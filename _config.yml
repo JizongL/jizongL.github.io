@@ -13,9 +13,9 @@ tagline:             'A blog for bioinformatics programming and statistics'
 Archive:             '/archive'
 Resourse:			 '/resource'
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+url:                 www.tmmlab.com
 baseurl:             ''
-paginate:            5
+paginate:            10
 rss:				 atom.xml
 
 analytics :
@@ -30,8 +30,8 @@ extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrou
 # About/contact
 author:    
   name:              TmmGeek
-  twitter:           jizongliang
-  email:             davidliangtmm@gmail.com
+  twitter:           TmmGeek
+  email:             2015rpro@gmail.com
   github:			 JizongL
   linkedin: 		 jizongliang
   gravatar_md5:		 0f8154e563aa3319f1ebc77be5fca304

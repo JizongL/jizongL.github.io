@@ -7,12 +7,12 @@ tags: [Slidify, css]
 ---
 
 This issue can be addressed very easily. 
-
+<!--break-->
 * First, open the css folder in your slidify folder
 
 * then, open the ribbons.css file, where it stores information for your slidify slides' style setting. 
 
-<!--break-->
+
 
 * Finally, just add the following code at the end of the file. This is to specify a sepecific size for all the figures in your slide. 
 For instance, width = 780 and height=520

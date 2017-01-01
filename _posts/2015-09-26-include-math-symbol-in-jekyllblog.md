@@ -7,14 +7,14 @@ tags: [MathJax, Jekyll, mathematical notation]
 ---
 
 In order to use Mathjax with Jekyll markdown, you need to make change to the followings in your **_layouts** folder
-
+<!--break-->
 * page.html
 
 * post.html
 
 * config.yml
 
-<!--break-->
+
 
 first add the following into both your *page.html* and *post.html* files, this is to load the MathJax javascript for your blog posts and pages. 
 see [MathJax](https://docs.mathjax.org/en/latest/configuration.html) Document for further details. 

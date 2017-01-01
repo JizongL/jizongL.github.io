@@ -8,9 +8,9 @@ tags: [web crawler, web crawling, web content query]
 
 
 ### goals
-Say we are shopping on this[eBay](http://www.ebay.ie/sch/Clothes-Shoes-Accessories-/11450/i.html?_catref=1), we see numerous items and vast number of pages. We really do not have time to sort through the item one by one right away, but however we want to make a file with a list of all the links to all the items from all the pages, with specified title. How do we achieve this? Python and a 2 libraries will make this easy. 
+Say we are shopping on this[eBay](http://www.ebay.ie/sch/Clothes-Shoes-Accessories-/11450/i.html?_catref=1), we see numerous items and vast number of pages.<!--break--> We really do not have time to sort through the item one by one right away, but however we want to make a file with a list of all the links to all the items from all the pages, with specified title. How do we achieve this? Python and a 2 libraries will make this easy. 
 
-<!--break-->
+
 
 ### preparatory
 

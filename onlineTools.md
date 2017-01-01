@@ -1,6 +1,6 @@
 ---
 layout: page
-title: online tools and resources
+title: Collection
 ---
 
 Bioinformatics

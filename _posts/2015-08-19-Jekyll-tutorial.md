@@ -4,8 +4,8 @@ comments: True
 title: Step by Step of building a Jekyll blog
 ---
 
-So when I learned about Jekyll, it seemed like a great alternative. I like the idea that my entire blog is a set of static files. Besides its simplicity, it makes backups so much easier and avoids most common security concerns caused by running dynamic websites. I could write my posts in Markdown which I know from Confluence and GitHub. Also, Jekyll allows for code examples to be very nicely embedded in the website. Finally, Jekyll is very lightweight and allows for very minimal websites without any bloat.
-<!--break-->
+So when I learned about Jekyll, it seemed like a great alternative. I like the idea that my entire blog is a set of static files. Besides its simplicity, <!--break-->it makes backups so much easier and avoids most common security concerns caused by running dynamic websites. I could write my posts in Markdown which I know from Confluence and GitHub. Also, Jekyll allows for code examples to be very nicely embedded in the website. Finally, Jekyll is very lightweight and allows for very minimal websites without any bloat.
+
 The fact that GitHub provides free hosting for Jekyll blogs is just icing on the cake. It will save me ~$50 per year in hosting. GitHub provides automatic version control of my blog. I can use GitHub's web editor to write blog posts online. And I can still connect it to my custom domain (joshualande.com).
 
 

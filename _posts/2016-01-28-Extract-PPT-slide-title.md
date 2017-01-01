@@ -6,7 +6,7 @@ category: Text Editing
 tags: [VBA code, PowerPoint]
 ---
 
-Today, I am going to introduce a cool method with which you could extract all the titles of your PPT slide and the slide number accordingly. So often, we have to go through ton of PPT files with huge number of slides. Isn't it nice that if we could programatically extract all the titles from slides of all the PPT files? So that we could review them, or in the case of a school scenario, it is very helpful to review and memorize slide titles sometime before exam or quiz.  
+Today, I am going to introduce a cool method with which you could extract all the titles of your PPT slide and the slide number accordingly. <!--break-->So often, we have to go through ton of PPT files with huge number of slides. Isn't it nice that if we could programatically extract all the titles from slides of all the PPT files? So that we could review them, or in the case of a school scenario, it is very helpful to review and memorize slide titles sometime before exam or quiz.  
 
 <!--break-->
 

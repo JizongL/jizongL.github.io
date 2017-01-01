@@ -10,6 +10,7 @@ tags: [math,linear algebra]
 
 
 Vh is not a vector, but an infinite set of objects.
+<!--break-->
 ![ddd](https://dl.dropboxusercontent.com/u/49272502/2016%20blog%20pictures/linear%20algebra/Homogeneous.png)
 
 <?xml version="1.0" encoding="UTF-8"?>

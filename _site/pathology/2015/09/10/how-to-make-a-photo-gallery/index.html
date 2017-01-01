@@ -46,9 +46,7 @@
   
 
   <div class="sidebar-item">
-    <p>This blog is created for sharing my love and 
-      experiences with Bioinformatics, programming and
-      statistics, thank you for visiting!</p>
+    <p>This blog is my journey and passion in Computer Science, Math and programming!</p>
   </div>
    <div class="sidebar-logo" align="center" >
       <img src="http://www.gravatar.com/avatar/0f8154e563aa3319f1ebc77be5fca304?s=140" />
@@ -73,7 +71,7 @@
       
 
       
-        <a href="mailto: davidliangtmm@gmail.com">
+        <a href="mailto: 2015rpro@gmail.com">
           <span class="fa-stack fa-lg">
             <i class="fa fa-square-o fa-stack-2x"></i>
             <i class="fa fa-envelope fa-stack-1x"></i>
@@ -82,7 +80,7 @@
       
 
       
-        <a href="https://twitter.com/JizongLiang">
+        <a href="https://twitter.com/TmmGeek">
           <span class="fa-stack fa-lg">
             <i class="fa fa-square-o fa-stack-2x"></i>
             <i class="fa fa-twitter-square fa-stack-1x"></i>
@@ -110,47 +108,13 @@
     
       
         
-          <a class="sidebar-nav-item" href="/Coursera/">Coursera Courses Note</a>
+          <a class="sidebar-nav-item" href="/ProbabilityAndStastics/">My Chinese Site</a>
         
       
     
       
         
-          <a class="sidebar-nav-item" href="/DataManagement/">Data Management and Visualization</a>
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/HTML/">HTML zone</a>
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/ProbabilityAndStastics/">Probability and Statistics</a>
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/Programming%20Tips/">Programming tips for non-programmers</a>
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/TextMining/">Texting Mining Resource</a>
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/about/">About</a>
-        
-      
-    
-      
+          <a class="sidebar-nav-item" href="/about/">About Me</a>
         
       
     
@@ -184,19 +148,13 @@
     
       
         
-          <a class="sidebar-nav-item" href="/mathematics/">Mathematics</a>
+          <a class="sidebar-nav-item" href="/mycredential/">Certificates</a>
         
       
     
       
         
-          <a class="sidebar-nav-item" href="/mycredential/">CV</a>
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/onlineTools/">online tools and resources</a>
+          <a class="sidebar-nav-item" href="/onlineTools/">Collection</a>
         
       
     
@@ -209,50 +167,6 @@
       
     
       
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/resource/">Pathology subsection</a>
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/stata/">Stata</a>
         
       
     
@@ -260,30 +174,6 @@
         
           <a class="sidebar-nav-item" href="/tags/">Tags</a>
         
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
       
     
 
@@ -316,11 +206,9 @@
         <div class="post">
   <h1 class="post-title">How to create a photo gallery with HTML and CSS</h1>
   <span class="post-date">10 Sep 2015</span>
-  <p>This will work on platforms like Wordpress or Jekyll that let you minipulate “code” and input HTML directly. Although there are many web publishing tools included with photo gallery widgets or other plugins which can take care of this task for you, but knowing how to code it yourself is still something enjoyable to do!</p>
+  <p>This will work on platforms like Wordpress or Jekyll that let you minipulate “code” and input HTML directly. Although there are many web publishing tools included with photo gallery widgets<!--break--> or other plugins which can take care of this task for you, but knowing how to code it yourself is still something enjoyable to do!</p>
 
-<!--break-->
-
-<p>Here is an example which I built for my pathology review.</p>
+<p>Here is an example which I built for my pathology review.<a href="/pathology/2015/09/10/immunopathology-figures2/">Check it out</a></p>
 
 <p>Before we start, we need to get some photos. To make thing easy for you, I have already prepare some lovely</p>
 
@@ -328,7 +216,7 @@
 
 <p>for you. Please go ahead and download them and unzip the files and place them into your Jekyll blog’s main directory. In my case, I created a folder “asset” which store all my media files there.</p>
 
-<p>Once you get the previous steps setup, it is time to create a new post. If you are a beginner and do not know Jekyll well you could certainly learn all the basic quickly by visitting <a href="http://joshualande.com/jekyll-github-pages-poole/">Joshua Lande’s</a>blog, where you should find all the necessary information to help you get started.</p>
+<p>Once you get the previous steps setup, it is time to create a new post. If you are a beginner and do not know Jekyll well you could certainly learn all the basic quickly by visitting <a href="http://joshualande.com/jekyll-github-pages-poole/">Joshua Lande’s</a> blog, where you should find all the necessary information to help you get started.</p>
 
 <p>Once you created a new post, add the following chunk of code to the start, this is to set up the CSS style of the gallery layout.</p>
 
@@ -360,7 +248,22 @@ div.desc {
     width: 200px;
     margin: 5px;
 }
-&lt;/style&gt;</code></pre></figure>
+&lt;/style&gt;
+
+&lt;body&gt;
+
+&lt;div class="img"&gt;
+  &lt;a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/image2.jpeg"&gt;
+    &lt;img src="/assets/pathology/test1/Immunopathologyfigures/media/image2.jpeg" alt="Klematis" width="200" height="180"&gt;
+  &lt;/a&gt;
+  &lt;div class="desc"&gt;Type I hypersensitivity reaction &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img"&gt;
+  &lt;a target="_blank" href="/assets/pathology/test1/Immunopathologyfigures/media/image3.jpeg"&gt;
+    &lt;img src="/assets/pathology/test1/Immunopathologyfigures/media/image3.jpeg" alt="Klematis" width="200" height="180"&gt;
+  &lt;/a&gt;
+  &lt;div class="desc"&gt;Stomach, pernicious anemia&lt;/div&gt;
+&lt;/div&gt;</code></pre></figure>
 
 </div>
 <div class="related">
@@ -369,27 +272,27 @@ div.desc {
     
       <li>
         <h3>
-          <a href="/2016/10/04/journal-of-modern-school/">
-            Journal Of Modern School
-            <small>04 Oct 2016</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/python/2016/10/04/Python-String-Methods/">
-            Python String Methods
-            <small>04 Oct 2016</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/math/2016/09/04/The-Zipf-Mystery/">
-            The Zipf Mystery
+          <a href="/math/2016/09/04/Homogenous-systems/">
+            Homogeneous System
             <small>04 Sep 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/text%20editing/2016/01/28/Extract-PPT-slide-title/">
+            Extract PPT slide number and title
+            <small>28 Jan 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/twine/2016/01/18/twine-makes-study-easy/">
+            How to Twine Your Note Into a Webpage
+            <small>18 Jan 2016</small>
           </a>
         </h3>
       </li>

@@ -6,11 +6,14 @@ category: Data Science
 tags: [data management, data, assignment,EDA]
 ---
 
+
+
+
 ## Instructions
 
-This week, you will be making and implementing decisions about data management for the variables that you have chosen to examine based on the steps reviewed in the videos and supplemental materials. This assignment is important because it offers you the opportunity to practice making sound data management decisions and think about how these decisions will impact your research. 
+This week, you will be making and implementing decisions about data management for the variables that you 
+<!--break-->have chosen to examine based on the steps reviewed in the videos and supplemental materials. This assignment is important because it offers you the opportunity to practice making sound data management decisions and think about how these decisions will impact your research. 
 
-<!--break-->
 
 You can download my python code file [here](/assets/couseraAssignment/DataManagement/week3/week3assignment.py)
 

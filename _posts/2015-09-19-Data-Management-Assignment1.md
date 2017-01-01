@@ -7,10 +7,10 @@ tags: [correlation, data, assignment]
 ---
 
 ### Brief summary and introduction
-
+<!--break-->
 My name is [Jizong Liang](https://www.linkedin.com/in/jizongliang) and you can call me [TmmGeek](http://jizongl.github.io/), I am a PhD student in Pathology at the cancer research Institute at [University of Mississippi Medical Center](https://www.umc.edu/), In addition, I am also a computer geek and extremely interested in statistical analysis and Data Science. As a result, anything related to diseases and data analysis would be my areas of interests. 
 
-<!--break-->
+
 
 Recently, I have done indepth study in HIV and AIDS and have developed a thorougly understanding of its pathology and molecular mechanism and I am quite facinated with this devilish disease which is by far one of the most clever viruses known to us. and as a biomedical scientist, I believe that my priority is to focus on bringing better health care to people and conduct innovative research to improve disease treatments, and I believe in the near future, the mystery of HIV and AIDS will be resolved and million of people will have their second chance to relive their life. 
 
