@@ -5,9 +5,625 @@
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
     <link>http://lanyon.getpoole.com/</link>
     <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Jan 2016 22:47:25 -0600</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2016 22:47:25 -0600</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Fri, 30 Dec 2016 14:40:21 -0600</pubDate>
+    <lastBuildDate>Fri, 30 Dec 2016 14:40:21 -0600</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Journal Of Modern School</title>
+        <description>&lt;p&gt;Top Dog The science of winning and losing.
+chapter 1
+first diving experiment, measurement of saliva of the jumper. 
+discovery
+1 jump often has much larger surge of tension
+2nd and 3rd, more relaxed and adapted.
+conclusion
+exposure to the situation is first hand learning experience. 
+reflextion. 
+traditional school system stifle students’ development
+it is completely based on play it safe model.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 04 Oct 2016 00:00:00 -0500</pubDate>
+        <link>http://lanyon.getpoole.com/2016/10/04/journal-of-modern-school/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/2016/10/04/journal-of-modern-school/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Python String Methods</title>
+        <description>&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
+&lt;pre&gt;
+&lt;code&gt;
+
+
+
+coord = (3, 5)
+&#39;X: {0[0]};  Y: {0[1]}&#39;.format(coord)
+&#39;X: 3;  Y: 5&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 04 Oct 2016 00:00:00 -0500</pubDate>
+        <link>http://lanyon.getpoole.com/python/2016/10/04/Python-String-Methods/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/python/2016/10/04/Python-String-Methods/</guid>
+        
+        <category>Python</category>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>The Zipf Mystery</title>
+        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fCn8zs912OE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fCn8zs912OE&quot;&gt;The Zipf Mystery&lt;/a&gt;&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.wolfram.com/cdf-player/plugin/v2.1/cdfplugin.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+var cdf = new cdfplugin();
+cdf.setDefaultContent(&#39;&lt;a href=&quot;http://www.wolfram.com/cdf-player/&quot;&gt;&lt;img  src=&quot;/assets/wolfram/gilbert-4-La/lecture_4_chart.png&quot;&gt;&lt;/a&gt;&#39;);
+cdf.embed(&#39;/assets/wolfram/gilbert-4-La/lecture_4_chart.cdf&#39;, 433, 497);
+&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 04 Sep 2016 00:00:00 -0500</pubDate>
+        <link>http://lanyon.getpoole.com/math/2016/09/04/The-Zipf-Mystery/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/math/2016/09/04/The-Zipf-Mystery/</guid>
+        
+        <category>math</category>
+        
+        <category>Zipf&#39;s law</category>
+        
+        
+        <category>math</category>
+        
+      </item>
+    
+      <item>
+        <title>Homogeneous System</title>
+        <description>&lt;p&gt;Vh is not a vector, but an infinite set of objects.
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/49272502/2016%20blog%20pictures/linear%20algebra/Homogeneous.png&quot; alt=&quot;ddd&quot; /&gt;&lt;/p&gt;
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;?xml-stylesheet type=&quot;text/xsl&quot; href=&quot;HTMLFiles/pmathml.xsl&quot;?&gt;
+
+&lt;!-- Created with the Wolfram Language for Students - Personal Use Only : www.wolfram.com --&gt;
+
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+ &lt;title&gt;
+  Q 17 (the Wolfram Language for Students - Personal Use Only : www.wolfram.com)
+ &lt;/title&gt;
+ &lt;link href=&quot;HTMLFiles/Q 17.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;p class=&quot;Text&quot;&gt;
+ 17: Follow the method of Example 3 to describe the solutions of&lt;br /&gt;the following system in parametric vector form. Also, give&lt;br /&gt;a geometric description of the solution set and compare it to&lt;br /&gt;that in Exercise 5.&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mtext&gt;   &lt;/mtext&gt;
+  &lt;mrow&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+   &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+   &lt;msub&gt;
+    &lt;mi&gt;x&lt;/mi&gt;
+    &lt;mn&gt;1&lt;/mn&gt;
+   &lt;/msub&gt;
+  &lt;/mrow&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; + &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;2&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; + &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; = 0&lt;br /&gt;-&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;1&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;8&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;=&amp;nbsp;&amp;nbsp;&amp;nbsp;0&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;- &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;3&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;3&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; = 0&lt;br /&gt;&amp;nbsp;&amp;nbsp;(from exercise 5)&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mtext&gt;   &lt;/mtext&gt;
+  &lt;mrow&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+   &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+   &lt;msub&gt;
+    &lt;mi&gt;x&lt;/mi&gt;
+    &lt;mn&gt;1&lt;/mn&gt;
+   &lt;/msub&gt;
+  &lt;/mrow&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; + &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;2&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; + &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; = 8&lt;br /&gt;-&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;1&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;8&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;= -16&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;- &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;3&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;3&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; = 12&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;2&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;2&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;4&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;8&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;3&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;3&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;=&amp;nbsp;&amp;nbsp;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Parametric vector form&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-weight: bold;&quot;&gt;x&lt;/span&gt; = &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;msub&gt;
+  &lt;mi&gt;x&lt;/mi&gt;
+  &lt;mn&gt;3&lt;/mn&gt;
+ &lt;/msub&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;2&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;2&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;4&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;8&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;8&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;16&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;3&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;3&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;12&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;= &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;8&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Parametric vector form&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-weight: bold;&quot;&gt;x &lt;/span&gt; = &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;8&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;+&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+
+
+
+
+
+
+&lt;div style=&quot;font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;&quot;&gt;
+ &lt;a href=&quot;http://www.wolfram.com/language/&quot; style=&quot;color:#000; text-decoration:none;&quot;&gt;
+  &lt;span style=&quot;color:#555555&quot;&gt;Created with the Wolfram Language&lt;/span&gt; 
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.wolfram.com/cdf-player/plugin/v2.1/cdfplugin.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+var cdf = new cdfplugin();
+cdf.setDefaultContent(&#39;&lt;a href=&quot;http://www.wolfram.com/cdf-player/&quot;&gt;&lt;img  src=&quot;/assets/wolfram/L-Algebra/Homogeneous.png&quot;&gt;&lt;/a&gt;&#39;);
+cdf.embed(&#39;/assets/wolfram/L-Algebra/Homogeneous.cdf&#39;, 427, 487);
+&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 04 Sep 2016 00:00:00 -0500</pubDate>
+        <link>http://lanyon.getpoole.com/math/2016/09/04/Homogenous-systems/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/math/2016/09/04/Homogenous-systems/</guid>
+        
+        <category>math</category>
+        
+        <category>linear algebra</category>
+        
+        
+        <category>math</category>
+        
+      </item>
     
       <item>
         <title>Extract PPT slide number and title</title>
@@ -27,7 +643,7 @@ Microsoft office Mac 2011(Through Microsoft 365).&lt;/p&gt;
 &lt;p&gt;You could also read on this following post 
 &lt;a href=&quot;http://www.pptfaq.com/FAQ00332_Export_Slide_Number_and_Title_Text_to_a_text_file.htm&quot;&gt;Export Slide Number and Title Text to a text file&lt;/a&gt; from the site “PPTools” as my method is based on it.&lt;/p&gt;
 
-&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+&lt;p&gt;##Procedure&lt;/p&gt;
 
 &lt;p&gt;If you have a PPT file, you could use your own, or you could find one from &lt;a href=&quot;https://www.google.com/#q=regression+ppt&quot;&gt;Google&lt;/a&gt;.&lt;/p&gt;
 
@@ -122,7 +738,7 @@ End Sub
         <category>PowerPoint</category>
         
         
-        <category>text editing</category>
+        <category>Text Editing</category>
         
       </item>
     
@@ -137,18 +753,14 @@ End Sub
       &lt;li&gt;&lt;a href=&quot;#chinese-viewers-see-video-from-youku-below&quot; id=&quot;markdown-toc-chinese-viewers-see-video-from-youku-below&quot;&gt;Chinese viewers see video from Youku below&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#building-your-first-project&quot; id=&quot;markdown-toc-building-your-first-project&quot;&gt;Building your first project&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#the-two-basic-syntaxes-to-remember&quot; id=&quot;markdown-toc-the-two-basic-syntaxes-to-remember&quot;&gt;The two basic syntaxes to remember&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#adding-a-home-button&quot; id=&quot;markdown-toc-adding-a-home-button&quot;&gt;Adding a Home button&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#adding-images&quot; id=&quot;markdown-toc-adding-images&quot;&gt;Adding images&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#publish-your-work&quot; id=&quot;markdown-toc-publish-your-work&quot;&gt;publish your work&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#ending&quot; id=&quot;markdown-toc-ending&quot;&gt;Ending&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#tips&quot; id=&quot;markdown-toc-tips&quot;&gt;tips&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ending&quot; id=&quot;markdown-toc-ending&quot;&gt;Ending&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://www.glorioustrainwrecks.com/files/screens/ct2-38_twine.jpg&quot; alt=&quot;twine&quot; /&gt;&lt;/p&gt;
@@ -171,8 +783,8 @@ End Sub
 
 &lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=T4Hzt9LtR7g&amp;amp;t=1m24s&quot;&gt;Click here&lt;/a&gt; to see the example demo video.&lt;/p&gt;
 
-&lt;h2 id=&quot;building-your-first-project&quot;&gt;Building your first project&lt;/h2&gt;
-&lt;p&gt;Ok, let’s start building a very simple project to illustrate the workflow of Twine.&lt;/p&gt;
+&lt;p&gt;##Building your first project
+Ok, let’s start building a very simple project to illustrate the workflow of Twine.&lt;/p&gt;
 
 &lt;p&gt;Before I walk you through the nitty gritty, let’s make sure that 
 *you have Twine downloaded. &lt;a href=&quot;http://twinery.org&quot;&gt;Download Twine here&lt;/a&gt; 
@@ -198,7 +810,7 @@ End Sub
 
 &lt;p&gt;After mastering some basic text editing skill with TWINE, it is time to consider adding some images to your webpage. To do that, all you need to remember is the following &lt;a href=&quot;http://www.w3schools.com/tags/tag_img.asp&quot;&gt;html image tag&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&amp;lt;img src=&amp;quot;image url&amp;quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt; &amp;lt;img src=&quot;image url&quot;&amp;gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=T4Hzt9LtR7g&amp;amp;t=5m23s&quot;&gt;Click here&lt;/a&gt; to the video demo for adding image.&lt;/p&gt;
 
@@ -211,8 +823,8 @@ The finished product is a html file, you can copy and paste it on your &lt;a hre
 &lt;h2 id=&quot;ending&quot;&gt;Ending&lt;/h2&gt;
 &lt;p&gt;Congratulation, I hope you become more interested in web programming and want to explore more with TWINE, I recommand you to subcribe to the channel &lt;a href=&quot;https://www.youtube.com/watch?v=HZzChB75DFs&quot;&gt;VegetarianZombie&lt;/a&gt; on YouTube which is an amazing video series to walk you through a lot of the details of TWINE or you could read the TWINE &lt;a href=&quot;http://twinery.org/wiki/&quot;&gt;documentation&lt;/a&gt; to explore more on your own.&lt;/p&gt;
 
-&lt;h3 id=&quot;tips&quot;&gt;tips&lt;/h3&gt;
-&lt;p&gt;I made up a list of tips to share with you to end this tutorial.&lt;/p&gt;
+&lt;p&gt;###tips
+I made up a list of tips to share with you to end this tutorial.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Use a unique title for every single passage box.&lt;/li&gt;
@@ -238,7 +850,7 @@ The finished product is a html file, you can copy and paste it on your &lt;a hre
         <category>javascript</category>
         
         
-        <category>twine</category>
+        <category>Twine</category>
         
       </item>
     
@@ -250,11 +862,7 @@ The finished product is a html file, you can copy and paste it on your &lt;a hre
 
 &lt;!--break--&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#prerequsite&quot; id=&quot;markdown-toc-prerequsite&quot;&gt;prerequsite&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#download-and-install-sublime-text-editorhttpwwwsublimetextcom2&quot; id=&quot;markdown-toc-download-and-install-sublime-text-editorhttpwwwsublimetextcom2&quot;&gt;download and install &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;sublime text editor&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#download-the-text-file-you-will-need-for-this-tutorial-here&quot; id=&quot;markdown-toc-download-the-text-file-you-will-need-for-this-tutorial-here&quot;&gt;download the text file you will need for this tutorial &lt;a href=&quot;&quot;&gt;here&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#prerequsite&quot; id=&quot;markdown-toc-prerequsite&quot;&gt;prerequsite&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#getting-started&quot; id=&quot;markdown-toc-getting-started&quot;&gt;Getting started&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#shushy-words-example&quot; id=&quot;markdown-toc-shushy-words-example&quot;&gt;Shushy words example&lt;/a&gt;&lt;/li&gt;
@@ -271,10 +879,10 @@ The finished product is a html file, you can copy and paste it on your &lt;a hre
 
 &lt;h2 id=&quot;prerequsite&quot;&gt;prerequsite&lt;/h2&gt;
 
-&lt;h3 id=&quot;download-and-install-sublime-text-editorhttpwwwsublimetextcom2&quot;&gt;download and install &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;sublime text editor&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;you can use either PC or Mac for this tutorial.&lt;/p&gt;
+&lt;p&gt;###download and install &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;sublime text editor&lt;/a&gt;
+you can use either PC or Mac for this tutorial.&lt;/p&gt;
 
-&lt;h3 id=&quot;download-the-text-file-you-will-need-for-this-tutorial-here&quot;&gt;download the text file you will need for this tutorial &lt;a href=&quot;&quot;&gt;here&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;###download the text file you will need for this tutorial &lt;a href=&quot;&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
@@ -477,12 +1085,12 @@ http://www.rexegg.com/regex-quickstart.html&lt;/p&gt;
         <category>regular expression</category>
         
         
-        <category>regular expression</category>
+        <category>Regular Expression</category>
         
       </item>
     
       <item>
-        <title>Regular Expression Java</title>
+        <title>Java basics-Regular Expression</title>
         <description>&lt;p&gt;developing&lt;/p&gt;
 
 &lt;!--break--&gt;
@@ -511,9 +1119,15 @@ import java.util.regex.Matcher;&lt;/p&gt;
 }&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Jan 2016 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/2016/01/18/regular-expression-Java/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2016/01/18/regular-expression-Java/</guid>
+        <link>http://lanyon.getpoole.com/javascript/2016/01/18/regular-expression-Java/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/javascript/2016/01/18/regular-expression-Java/</guid>
         
+        <category>javascript</category>
+        
+        <category>steganography</category>
+        
+        
+        <category>Javascript</category>
         
       </item>
     
@@ -596,7 +1210,7 @@ public class Introductions {
         <category>java</category>
         
         
-        <category>java</category>
+        <category>Java</category>
         
       </item>
     
@@ -744,720 +1358,7 @@ print(decoded)
         <category>steganography</category>
         
         
-        <category>javascript</category>
-        
-      </item>
-    
-      <item>
-        <title>Javascript basics</title>
-        <description>&lt;p&gt;You can open the home page of the &lt;a href=&quot;http://dukelearntoprogram.com/course1/&quot;&gt;JavaScript Programming Environment&lt;/a&gt; by Duke university to test the code in my note.&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
-&lt;pre&gt;
-&lt;code&gt;
-var image = new SimpleImage(200,200);
-w = image.getWidth();
-for (var pixel of image.values()) {
-        pixel.setRed(255);
-        pixel.setGreen(0);
-        pixel.setBlue(0);
-        x = pixel.getX();
-        y = pixel.getY();
-        
-    if ( x &amp;gt;=w/2 &amp;amp;&amp;amp; y &amp;lt;= w/2)  {
-        pixel.setGreen(255);
-        pixel.setRed(0);       
-        }
-    if ( x&amp;lt; w/2 &amp;amp;&amp;amp; y &amp;gt; w/2 ){
-        pixel.setRed(255);
-        pixel.setBlue(255);
-    }
-    if(x&amp;gt;=w/2 &amp;amp;&amp;amp; y&amp;gt;=w/2){
-        pixel.setBlue(255);
-        pixel.setRed(0);
-    }
-    
-    
-}
-    
-print(image);
-
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
-&lt;pre&gt;
-&lt;code&gt;
-var image = new SimpleImage(200,200);
-
-for (var pixel of image.values()) {
-     x = pixel.getX();
-     y = pixel.getY();
- if(x &amp;gt; y){
-       pixel.setRed(255);
-   }    
-     if (x + y &amp;lt; 200) {
-          pixel.setRed(255);
-     }
-}
- print(image)
- 
-var image = new SimpleImage(200,200);
-for (var pixel of image.values()){
-     x = pixel.getX();
-     y = pixel.getY();
-   if(x &amp;gt; y){
-       pixel.setRed(255);
-   }
-   if (x+y &amp;gt; 200) {
-       pixel.setRed(255);
-   }
-   } 
-
-
-print(image)
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;fgImage
-bgImage
-output&lt;/p&gt;
-
-&lt;p&gt;for (var pixel of fgImage.values()) {&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;if(pixel.getGreen == 255){
-	var x = pixel.getX
-	var y = pixel.getY
-	var bgPixel = bgImage.getPixel(x,y);
-	output.setPixel(x,y, bgPixel);
-} }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;else{
-	output.setPixel(x,y,pixel)&lt;/p&gt;
-
-&lt;p&gt;}&lt;/p&gt;
-
-&lt;h2 id=&quot;function-exercise&quot;&gt;function exercise&lt;/h2&gt;
-
-&lt;p&gt;Write a JavaScript program that has a function named swapRedGreen with one parameter pixel. This function should swap the red and green values of the pixel. Pick an image, print the image, then apply swapRedGreen to every pixel in the image, and print the new image. The choice of your image is important. For some images you may not notice any change. Think about what type of image you should use for testing your function.&lt;/p&gt;
-
-&lt;p&gt;I created a “swapRedGreen” function as instructed and then 
-I created a “createImage”function that would produce a square image of any size with 2 colors.
-I applied the swapRedGreen inside the “createImage” function to test if it would swap the color correctly.&lt;/p&gt;
-
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
-  &lt;pre&gt;
-    &lt;code&gt;
-// swapRedGreen function 
-function swapRedGreen(pixel){
-    var red = pixel.getRed();
-    var green = pixel.getGreen();
-    pixel.setGreen(red)
-    pixel.setRed(green)
-    return pixel;
-}
-
-// function for creating a flexible test image
-function createImage(L,W,R,G,B){
-var image = new SimpleImage(L,W);
-
-for (var p of image.values()) {
-    var x = p.getX();
-var y = p.getY();
-    if (x &amp;lt; image.getWidth()/2) { // remember the getWidth() must be set to image, not p. 
-        p.setGreen(G)
-    }
-    else {
-p.setRed(R)
-p.setBlue(B)
-        
-    }
-}
-print(image);
-for(var pixel of image.values()){
-swapRedGreen(pixel)}
-print(image)
-}
-
-createImage(300,300,255,255,0) // create a 300 by 300 image with half red and half green
-
-    &lt;/code&gt;
-  &lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Then I applied the “swapRedGreen” function to an image and test if it works.&lt;/p&gt;
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
-  &lt;pre&gt;
-    &lt;code&gt;
-function swapRedGreen(pixel){
-    var red = pixel.getRed();
-    var green = pixel.getGreen();
-    pixel.setGreen(red)
-    pixel.setRed(green)
-    return pixel;
-}
-
-var image = new SimpleImage(&quot;lion.jpg&quot;);
-for(var pixel of image.values()){
-swapRedGreen(pixel)}
-
-print(image)
-    &lt;/code&gt;
-  &lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;2: Write a JavaScript program to make an image have more red in it, by adding a given value to the red, making sure it doesn’t go over 255. Your program should have a function called moreRed with two parameters, a pixel and a value to increase the red by. Run your program on an image to see it get redder.&lt;/p&gt;
-
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
-  &lt;pre&gt;
-    &lt;code&gt;  
-function moreRed(pixel,addedRed){   // create a &quot;moreRed&quot; function 
-    var red = pixel.getRed();
-    if (red &amp;lt; 255){ pixel.setRed(red+addedRed)
-    } 
-    else if (red+addedRed == 255){        // make sure that the addedRed value does not go over 255. 
-        pixel.setRed(255)
-    }
-}
-
-var image = new SimpleImage(&quot;lion.jpg&quot;);// load an image
-for (var pixel of image.values()){        // apply the moreRed function
-    moreRed(pixel,266)}
-print(image)
-    &lt;/code&gt;
-  &lt;/pre&gt;  
-&lt;/div&gt;
-
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
-  &lt;pre&gt;
-    &lt;code&gt;  
-
-// border frame using a function, refactored
-function setBlack(pixel){
-    pixel.setRed(0);
-    pixel.setGreen(0);
-    pixel.setBlue(0);
-    return pixel;
-}
-function pixelOnEdge(pixel,image,borderWidth){
-    var x = pixel.getX();
-    var y = pixel.getY();
-    if (x &amp;lt; borderWidth) return true;
-    if (y &amp;lt; borderWidth) return true;
-    if (x &amp;gt;= image.getWidth() - borderWidth) return true;
-    if (y &amp;gt;= image.getHeight() - borderWidth) return true;
-    return false;
-}
-var image = new SimpleImage(&quot;lion.jpg&quot;);
-for (var pixel of image.values()) {
-   if (pixelOnEdge(pixel,image,10)){
-       pixel = setBlack(pixel);
-   }
-}
-print(image);
-
-    &lt;/code&gt;
-  &lt;/pre&gt;  
-&lt;/div&gt;
-
-&lt;p&gt;Based on the above code with a little refinement, I can now set the thickness of the borders separately 
-for either the Horizontal and Vertical borders.&lt;/p&gt;
-
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
-  &lt;pre&gt;
-    &lt;code&gt;  
-// border frame using a function, refactored
-function setBlack(pixel){
-    pixel.setRed(0);
-    pixel.setGreen(0);
-    pixel.setBlue(0);
-    return pixel;
-}
-function pixelOnEdgeDifferentThickness(pixel,image,HorWidth,VerWidth){
-    var x = pixel.getX();
-    var y = pixel.getY();
-    if (x &amp;lt; HorWidth) return true;
-    if (y &amp;lt; VerWidth) return true;
-    if (x &amp;gt;= image.getWidth() - HorWidth) return true;
-    if (y &amp;gt;= image.getHeight() - VerWidth) return true;
-    return false;
-}
-var image = new SimpleImage(&quot;lion.jpg&quot;);
-for (var pixel of image.values()) {
-   if (pixelOnEdgeDifferentThickness(pixel,image,1,30)){
-       pixel = setBlack(pixel);
-   }
-}
-print(image);
-    &lt;/code&gt;
-  &lt;/pre&gt;  
-&lt;/div&gt;
-
-&lt;p&gt;Steganography&lt;/p&gt;
-
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
-  &lt;pre&gt;
-    &lt;code&gt;  
-
-
-// steganography
-
-
-// function for computing bit
-function bitToUse(bit){
-    result = Math.pow(2,bit);
-    return result;
-}
-
-
-// function for cropping the an image 
-function crop(image,width,height)
-{ var output= new SimpleImage(width,height);
-  for(var outpx of output.values())
-  { var x=outpx.getX();
-    var y=outpx.getY();
-    var px= image.getPixel(x,y);
-    outpx.setRed(px.getRed());
-    outpx.setGreen(px.getGreen());
-    outpx.setBlue(px.getBlue());
-  }
-  return output;
-}
-
-
-// Helper function for &quot;chop2hide&quot; for to eliminate the last 4 bits of every pixel
-function pixchange(pixval,bit){
-    var x = Math.floor(pixval/bit) * bit;
-    return x;
-}
-// function to convert an image to be ready for hiding information in it. 
-function chop2hide(image,bit){
-    bit = bitToUse(bit);
-    for(var px of image.values()){
-        px.setRed(pixchange(px.getRed(),bit));
-        px.setGreen(pixchange(px.getGreen(),bit));
-        px.setBlue(pixchange(px.getBlue(),bit));
-    }
-    return image;
-}
-
-// function for shifting the pixel of the hide image to have only 4 bits.
-function shift(im,bit){
-    bit=bitToUse(bit);
-  var nim = new SimpleImage(im.getWidth(), 
-                            im.getHeight());
-  for(var px of im.values()){
-    var x = px.getX();
-    var y = px.getY();
-    var npx = nim.getPixel(x,y);
-    npx.setRed(Math.floor(px.getRed()/bit));
-    npx.setGreen(Math.floor(px.getGreen()/bit));
-    npx.setBlue(Math.floor(px.getBlue()/bit));
-  }
-  return nim;
-}
-
-// combine function for adding the start and hide images together. 
-function combine(start,hide){
-var combinedImage = new SimpleImage(start.getWidth(),start.getHeight());
-for(var cPixel of combinedImage.values()){
-    x =cPixel.getX();
-    y = cPixel.getY();
-    sPixel = start.getPixel(x,y); // pixel on start corresponding to pp
-    hPixel = hide.getPixel(x,y); // pixel on hide corresponding to pp
-    cPixel.setRed(sPixel.getRed()+hPixel.getRed())
-    cPixel.setBlue(sPixel.getBlue()+hPixel.getBlue())
-    cPixel.setGreen(sPixel.getGreen()+hPixel.getGreen())
-    }
-return combinedImage
-}
-
-// function for decoding the combined image
-function decode(im,bit){
-    bit = bitToUse(bit);
-    var nim = new SimpleImage(im.getWidth(),
-                              im.getHeight());
-        for(var px of im.values()){
-            var x = px.getX();
-            var y = px.getY();
-            var npx = nim.getPixel(x,y);
-            npx.setRed(bit*(px.getRed()-(bit*Math.floor(px.getRed()/bit)))); // follow the math;
-            // original pixel from combined say 133, let 133/16 and round the result to no deximal
-            npx.setGreen(bit*(px.getGreen()-(bit*Math.floor(px.getGreen()/bit))));
-            npx.setBlue(bit*(px.getBlue()-(bit*Math.floor(px.getBlue()/bit))));
-            
-        }
-return nim;
-}
-
-
-var ShowImage= new SimpleImage(&quot;astrachan.jpg&quot;);
-var HideImage= new SimpleImage(&quot;MessageCSEveryone.jpg&quot;);
-
-var crw=Math.min(ShowImage.getWidth(),HideImage.getWidth());
-var crh=Math.min(ShowImage.getHeight(),HideImage.getHeight());
-
-var crSImg= crop(ShowImage,crw,crh);
-var crHImg= crop(HideImage,crw,crh);
-
-var bit = 4
-
-start = chop2hide(crSImg,bit);
-hide = shift(crHImg,bit);
-
-combined = combine(start,hide);
-decoded = decode(combined,bit)
-
-//print(start)
-//print(hide)
-print(&#39;ShowImage before processing&#39;)
-print(ShowImage)
-print(&#39;HideImage before processing&#39;)
-print(HideImage)
-print(&#39;the Show and Hide images are combined, the Hide image is hidden&#39;)
-print(combined)
-print(&#39;decode the Steganography&#39;)
-print(decoded)
-
-
-
-
-
-    &lt;/code&gt;
-  &lt;/pre&gt;  
-&lt;/div&gt;
-
-&lt;h2 id=&quot;creating-a-duplicate-function&quot;&gt;creating a duplicate function&lt;/h2&gt;
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
-  &lt;pre&gt;
-    &lt;code&gt;  
-
-function duplicate(image){
-
-var outputImage = new SimpleImage(image.getWidth() * 2, image.getHeight() * 2);
-
-for (var pixel of outputImage.values()){
-
-var outputX = pixel.getX();
-
-var outputY = pixel.getY();
-
-if(outputX &amp;gt;= image.getWidth()){
-
-outputX = outputX - image.getWidth();
-
-}
-
-if(outputY &amp;gt;= image.getHeight()){
-
-outputY = outputY - image.getHeight();
-
-}
-
-if(outputX &amp;gt;= image.getWidth() &amp;amp;&amp;amp; outputY &amp;gt; image.getHeight()){
-
-outputX = outputX - image.getWidth();
-
-outputY = outputY - image.getHeight();
-
-}
-
-var inputPixel = image.getPixel(outputX, outputY);
-
-pixel.setRed(inputPixel.getRed());
-
-pixel.setGreen(inputPixel.getGreen());
-
-pixel.setBlue(inputPixel.getBlue());
-
-}
-
-return outputImage;
-
-}
-
-var image = new SimpleImage(&quot;chapel.png&quot;);
-
-image = duplicate(image);
-
-print(image);
-
-    &lt;/code&gt;
-  &lt;/pre&gt;  
-&lt;/div&gt;
-
-&lt;h2 id=&quot;create-an-image-from-scratch&quot;&gt;create an image from scratch&lt;/h2&gt;
-&lt;p&gt;In this example, we are going to create an image that looks like two planets in space, using mathematical functions.&lt;/p&gt;
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
-  &lt;pre&gt;
-    &lt;code&gt;  
- function dist(pixel, x,y) {
-     var dx = pixel.getX() - x;  // x and y are the center of the circle to be created.
-     var dy = pixel.getY() - y;
-     return Math.sqrt(dx * dx + dy *dy);
- }
- //start with a blank image
- var output = new SimpleImage(4,4);
- 
- //Make something here!
- for (var pixel of output.values()){
-     //print(pixel.getX());
-     var dx = pixel.getX() - 2;
-     var dy = pixel.getY() - 2;
-     print(dx)
-     print(dy)
-     print(Math.sqrt(dx * dx + dy *dy));
-     
-     if (dist(pixel, 2,2)&amp;lt; 2){
-            pixel.setRed(255-5*dist(pixel,2,2));
-     }
-     
- }
- print(output);
-     &lt;/code&gt;
-  &lt;/pre&gt;  
-&lt;/div&gt;
-
-&lt;p&gt;modifying an image&lt;/p&gt;
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
-  &lt;pre&gt;
-    &lt;code&gt; 
-// blur by moving random pixels
-
-function combine(start,hide){
-var combinedImage = new SimpleImage(start.getWidth(),start.getHeight());
-for(var cPixel of combinedImage.values()){
-    x =cPixel.getX();
-    y = cPixel.getY();
-    sPixel = start.getPixel(x,y); // pixel on start corresponding to pp
-    hPixel = hide.getPixel(x,y); // pixel on hide corresponding to pp
-    cPixel.setRed(sPixel.getRed()+hPixel.getRed())
-    cPixel.setBlue(sPixel.getBlue()+hPixel.getBlue())
-    cPixel.setGreen(sPixel.getGreen()+hPixel.getGreen())
-    }
-return combinedImage
-}
-
-function ensureInImage (coordinate, size) {
-    // coordinate cannot be negative
-    if (coordinate &amp;lt; 0) {
-        return 0;
-    }
-    // coordinate must be in range [0 .. size-1]
-    if (coordinate &amp;gt;= size) {
-        return size - 1;
-    }
-    return coordinate;
-}
-
-function getPixelNearby (image, x, y, diameter) {
-    var dx = Math.random() * diameter - diameter / 2;
-    var dy = Math.random() * diameter - diameter / 2;
-    var nx = ensureInImage(x + dx, image.getWidth());
-    var ny = ensureInImage(y + dy, image.getHeight());
-    return image.getPixel(nx, ny);
-}
-
-
-var image = new SimpleImage(&quot;beautiful-autumn-scenery-6341-706.jpg&quot;);
-var image2 = new SimpleImage(&quot;beautiful-autumn-scenery-6341-706.jpg&quot;);
-for (var p of image.values()) {
-    var avg = (p.getGreen() + p.getRed() + p.getBlue()) / 3;
-    //var avg = 0.3 * p.getRed() + 0.59 * p.getGreen() + 0.11 * p.getBlue();
-    p.setRed(avg);
-    p.setBlue(avg);
-    p.setGreen(avg);
-   
-}
-
-var output = new SimpleImage(image.getWidth(), image.getHeight());
-
-for (var pixel of image.values()) {
-    var x = pixel.getX();
-    var y = pixel.getY();
-    if (Math.random() &amp;gt; 0.5) {
-        var other = getPixelNearby(image, x, y, 10);
-        output.setPixel(x, y, other);
-    }
-    else {
-        output.setPixel(x, y, pixel);
-    }
-}
-
-combined = combine(image2,output);
-
-print(output);
-print(combined);
-     &lt;/code&gt;
-  &lt;/pre&gt;  
-&lt;/div&gt;
-
-&lt;p&gt;In this problem we want to create an image that is a copy of the original image, but is twice as wide and twice as high. We begin by creating the new blank image with the new dimensions. Then we need to set the red, green, and blue values of each of the new pixels so that the overall image of the new picture is the same as the original picture.&lt;/p&gt;
-
-&lt;p&gt;Consider, for example, enlarging a picture with dimensions 100 by 100 pixels. The new picture will be 200 by 200 pixels. What about the pixel at point (0,100) in the new picture? That pixel is on the leftmost edge, halfway down. Its corresponding pixel in the old picture is also on the leftmost edge, halfway down. In the original 100 by 100 picture that point would be (0, 50). Further examples confirm this pattern, that to find the corresponding pixel in the original image we divide both the x and y values by 2.&lt;/p&gt;
-
-&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
-  &lt;pre&gt;
-    &lt;code&gt; 
-
-function duplicate(image){
-
-var outputImage = new SimpleImage(image.getWidth() * 2, image.getHeight() * 2);
-
-for (var pixel of outputImage.values()){
-
-var outputX = pixel.getX();
-
-var outputY = pixel.getY();
-
-if(outputX &amp;gt;= image.getWidth()){
-
-outputX = outputX - image.getWidth();
-
-}
-
-if(outputY &amp;gt;= image.getHeight()){
-
-outputY = outputY - image.getHeight();
-
-}
-
-if(outputX &amp;gt;= image.getWidth() &amp;amp;&amp;amp; outputY &amp;gt; image.getHeight()){
-
-outputX = outputX - image.getWidth();
-
-outputY = outputY - image.getHeight();
-
-}
-
-var inputPixel = image.getPixel(outputX, outputY);
-
-pixel.setRed(inputPixel.getRed());
-
-pixel.setGreen(inputPixel.getGreen());
-
-pixel.setBlue(inputPixel.getBlue());
-
-}
-
-return outputImage;
-
-}
-
-var image = new SimpleImage(&quot;chapel.png&quot;);
-
-image = duplicate(image);
-
-print(image);
-    &lt;/code&gt;
-  &lt;/pre&gt;  
-&lt;/div&gt;
-</description>
-        <pubDate>Thu, 24 Dec 2015 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/javascript/2015/12/24/javascript-basics/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/javascript/2015/12/24/javascript-basics/</guid>
-        
-        <category>javascript</category>
-        
-        
-        <category>javascript</category>
-        
-      </item>
-    
-      <item>
-        <title>ellipse and scatter plot</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://onlinelibrary.wiley.com/store/10.1002/9780470750711.app1/asset/app1.pdf;jsessionid=3A2DE2804CD8C8119197F67F47DDCA4C.f01t01?v=1&amp;amp;t=iikpr60j&amp;amp;s=f9c64f839ce4d43efb8aa1f24ffd41a2d31b4f7a&quot;&gt;confidence ellipse&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.mathopenref.com/ellipseeccentricity.html&quot;&gt;Eccentricity an Ellipse&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.visiondummy.com/2014/04/draw-error-ellipse-representing-covariance-matrix/&quot;&gt;How to draw a covariance error ellipse?&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 24 Dec 2015 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/geometry/2015/12/24/ellipse-and-scatterplot/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/geometry/2015/12/24/ellipse-and-scatterplot/</guid>
-        
-        <category>ellipse</category>
-        
-        <category>eccentricity</category>
-        
-        <category>differential equation</category>
-        
-        <category>mathlab</category>
-        
-        
-        <category>geometry</category>
-        
-      </item>
-    
-      <item>
-        <title>Dynamic modeling</title>
-        <description>&lt;p&gt;copy paste the original source from the signalling website&lt;/p&gt;
-
-&lt;p&gt;mathlab code(explain every line)&lt;/p&gt;
-</description>
-        <pubDate>Thu, 24 Dec 2015 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/biology/2015/12/24/dynamic-modeling/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/biology/2015/12/24/dynamic-modeling/</guid>
-        
-        <category>biology</category>
-        
-        <category>statistics</category>
-        
-        <category>differential equation</category>
-        
-        <category>mathlab</category>
-        
-        
-        <category>biology</category>
-        
-      </item>
-    
-      <item>
-        <title>How to time my R code</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://www.ats.ucla.edu/stat/r/faq/timing_code.htm&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;x &amp;lt;- c(0.18, -1.54, 0.42, 0.95)
-w &amp;lt;- c(2, 1, 3, 1)
-l = c(.147,.0025,.3,1.077)&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;ptm &amp;lt;- proc.time()
-for (i in c(
-        .147,
-        .0025,
-        .3,
-        1.077)
-){print(min(sum(w*(x-i)^2)))}
-proc.time() - ptm&lt;/p&gt;
-
-&lt;p&gt;user  system elapsed 
-0.002   0.001   0.004&lt;/p&gt;
-
-&lt;p&gt;ptm &amp;lt;- proc.time()
-sapply(l,function(l) sum(w*(x-l)^2))
-proc.time() - ptm&lt;/p&gt;
-
-&lt;p&gt;user  system elapsed 
-0.000   0.001   0.002&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 13 Dec 2015 00:00:00 -0600</pubDate>
-        <link>http://lanyon.getpoole.com/r/2015/12/13/timing-my-code/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/r/2015/12/13/timing-my-code/</guid>
-        
-        <category>R</category>
-        
-        <category>system time</category>
-        
-        
-        <category>r</category>
+        <category>Javascript</category>
         
       </item>
     

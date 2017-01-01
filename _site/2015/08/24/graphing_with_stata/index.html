@@ -324,17 +324,17 @@
 <h2 id="import-and-explore-the-data-set">Import and explore the data set</h2>
 <p>We use the data set <a href="https://dl.dropboxusercontent.com/u/49272502/stata%20blog/Nations2.dta">Nations2.dta</a> in this tutorial, you could either download it and manually import it to Stata or you can simply use the following code to import the data set.</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">use https://dl.dropboxusercontent.com/u/49272502/stata%20blog/Nations2.dta, clear</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">use https://dl.dropboxusercontent.com/u/49272502/stata%20blog/Nations2.dta, clear</code></pre></figure>
 
 <p>Next, use describe have an idea how the data looks like.</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">describe</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">describe </code></pre></figure>
 
 <h3 id="histogram">Histogram</h3>
 
 <p>First, let’s plot a basic histogram for the variable adfert, which stands for adolescent fertility rate.</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">histogram adfert, percent</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">histogram adfert, percent</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/hist1.png" alt="My helpful screenshot" /></p>
 
@@ -352,9 +352,9 @@
 
 <p>You can put all of the above items together in the following fashion</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">histogram adfert, frequency start(0) width(10) xlabel(0(20)200) xtick(10(20)210)
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">histogram adfert, frequency start(0) width(10) xlabel(0(20)200) xtick(10(20)210)
 ylabel(0(5)35, grid gmax)
-title(&quot;Adolescent fertility rate in 194 nations&quot;)</code></pre></div>
+title("Adolescent fertility rate in 194 nations")</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/hist2.png" alt="My helpful screenshot" /></p>
 
@@ -362,7 +362,7 @@ title(&quot;Adolescent fertility rate in 194 nations&quot;)</code></pre></div>
 
 <p>To explore the variable <em>adfert</em> further, we can use a <strong>by</strong>(varname) option. For example, if we want to illustrate with histograms of <em>adfert</em> for each of the five regions, along with a sixth <strong>(total)</strong> histogram showing the distribution for all nations. We can use the following code</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">histogram adfert, percent start(0) width(10) by(region, total)</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">histogram adfert, percent start(0) width(10) by(region, total)</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/hist3.png" alt="My helpful screenshot" /></p>
 
@@ -372,7 +372,7 @@ title(&quot;Adolescent fertility rate in 194 nations&quot;)</code></pre></div>
 
 <p>Box plots convey information about center, spread, symmetry and outliers at a glance. For example</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph box adfert</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph box adfert</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/box1.png" alt="My helpful screenshot" /></p>
 
@@ -380,20 +380,20 @@ title(&quot;Adolescent fertility rate in 194 nations&quot;)</code></pre></div>
 
 <p>If we want to identify the adfert outliers by with labels, we can add a <strong>marker</strong> option as follow.</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph box adfert, marker(1, mlabel(country)) ytitle(&quot;Births per 1,000 females 15-19&quot;)</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph box adfert, marker(1, mlabel(country)) ytitle("Births per 1,000 females 15-19")</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/box2.png" alt="My helpful screenshot" /></p>
 
 <p>Now, if we want to compare the distributions of <em>adfert</em> from all 5 regions with a baseline, for instance 40, as well as labelling the outliers with their country names. We can use the option <strong>over</strong> and the <strong>yline()</strong> as following.</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph box adfert, marker(1, mlabel(country)) yline(39.3) over(region)</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph box adfert, marker(1, mlabel(country)) yline(39.3) over(region)</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/box3.png" alt="My helpful screenshot" /></p>
 
 <p>We can also plot the boxplots horizontally by using the command <strong>hbox</strong></p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph hbox co2, over(region)
-note(&quot;note: {bf:Statistics with Stata}, version 12&quot;) caption(&quot;caption: United Nations Human Development Report 2011&quot;) title(&quot;title: {it:Example of horizontal box plots}&quot;) ytitle(&quot;ytitle: Tons of CO{subscript:2} emitted per capita&quot;)</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph hbox co2, over(region)
+note("note: {bf:Statistics with Stata}, version 12") caption("caption: United Nations Human Development Report 2011") title("title: {it:Example of horizontal box plots}") ytitle("ytitle: Tons of CO{subscript:2} emitted per capita")</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/box4.png" alt="My helpful screenshot" /></p>
 
@@ -403,17 +403,17 @@ note(&quot;note: {bf:Statistics with Stata}, version 12&quot;) caption(&quot;cap
 
 <p>Stata’s basic scatterplot command has the form</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph twoway scatter y x</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph twoway scatter y x</code></pre></figure>
 
 <p>Now, let’s make a twoway scatterplot with the variable <strong>life</strong> and <strong>school</strong></p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph twoway scatter life school</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph twoway scatter life school</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/scatter1.png" alt="My helpful screenshot" /></p>
 
 <p>To make thing more interesting, we can manipulate the <strong>frequency weight feature</strong> with <strong>[fweight = varname]</strong> as follow</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph twoway scatter life school [fweight=pop], msymbol(Oh)</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph twoway scatter life school [fweight=pop], msymbol(Oh)</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/scatter2.png" alt="My helpful screenshot" /></p>
 
@@ -421,13 +421,13 @@ note(&quot;note: {bf:Statistics with Stata}, version 12&quot;) caption(&quot;cap
 
 <p>Now, let’s explore a key feature of Stata’s graph twoway family, that is we can overlay two or more graphs to build a more complex images. For example, we can plot a regression lines **lfit) on top of the scatter plot.</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">twoway (scatter life school, msymbol(Oh))(lfit life school, lwidth(medthick))</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">twoway (scatter life school, msymbol(Oh))(lfit life school, lwidth(medthick))</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/scatter3.png" alt="My helpful screenshot" /></p>
 
 <p>We can also add x and y labels and tick mark as well as legend, for example</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">twoway (scatter life school, msymbol(Oh))(lfit life school, lwidth(medthick)ylabel(45(5)85) xlabel(2(2)12) xtick(1(2)13) legend(col(1) ring(0) position(11)))</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">twoway (scatter life school, msymbol(Oh))(lfit life school, lwidth(medthick)ylabel(45(5)85) xlabel(2(2)12) xtick(1(2)13) legend(col(1) ring(0) position(11)))</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/scatter4.png" alt="My helpful screenshot" /></p>
 
@@ -443,7 +443,7 @@ be empty of data.</li>
 
 <p>Finally, let’s try to graph a more advanced regression scatterplot shows also the confident bands for the <em>conditonal mean of y</em>.  We can do so with the command <strong>lfitci</strong> and <strong>stdp</strong>. note that the <em>ci</em> in <strong>lfitci</strong> refers to <em>confident interval</em> and <strong>stdp</strong> refers to standard erors for the conditional mean as “standard deviation of prediction”</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">twoway (lfitci life school, stdp)(scatter life school, msymbol(Th))(scatter life school if school &gt; 8 &amp; life &lt; 55, msymbol(S) mlabel(country)legend(col(1) ring(0) position(11) label(3 &quot;Life expectancy&quot;)order(3 2 1)))</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">twoway (lfitci life school, stdp)(scatter life school, msymbol(Th))(scatter life school if school &gt; 8 &amp; life &lt; 55, msymbol(S) mlabel(country)legend(col(1) ring(0) position(11) label(3 "Life expectancy")order(3 2 1)))</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/scatter5.png" alt="My helpful screenshot" /></p>
 
@@ -451,7 +451,7 @@ be empty of data.</li>
 
 <p>Lastly, we wrap up this tutorial with introducing the <strong>scatterplot matrices</strong>. Scatterplot matrices are different from other twoway plots types that it can not be overlaid. Nevertheless, it is possible to include multiple plots in a single plot and it follows the same marker symbol conventions. Let’s create an example.</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph matrix gdp school adfert chldmort life, half msymbol(oh)</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">graph matrix gdp school adfert chldmort life, half msymbol(oh)</code></pre></figure>
 
 <p><img src="/assets/stata/graphing/scatter6.png" alt="My helpful screenshot" /></p>
 
@@ -466,27 +466,27 @@ be empty of data.</li>
     
       <li>
         <h3>
-          <a href="/text%20editing/2016/01/28/Extract-PPT-slide-title/">
-            Extract PPT slide number and title
-            <small>28 Jan 2016</small>
+          <a href="/2016/10/04/journal-of-modern-school/">
+            Journal Of Modern School
+            <small>04 Oct 2016</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/twine/2016/01/18/twine-makes-study-easy/">
-            How to Twine Your Note Into a Webpage
-            <small>18 Jan 2016</small>
+          <a href="/python/2016/10/04/Python-String-Methods/">
+            Python String Methods
+            <small>04 Oct 2016</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/regular%20expression/2016/01/18/regular-expression-video-project/">
-            Introducing Regular expression
-            <small>18 Jan 2016</small>
+          <a href="/math/2016/09/04/The-Zipf-Mystery/">
+            The Zipf Mystery
+            <small>04 Sep 2016</small>
           </a>
         </h3>
       </li>
@@ -510,6 +510,8 @@ be empty of data.</li>
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
 
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

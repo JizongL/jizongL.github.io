@@ -348,26 +348,26 @@ idiomatic ways of navigating, searching, and modifying the parse tree. It common
 
 <p>this chunk is for importing the libraries</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">import requests
-from bs4 import BeautifulSoup</code></pre></div>
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">import requests
+from bs4 import BeautifulSoup</code></pre></figure>
 
 <p>this chunk is for building a “while loop” to crawl through the source code of the site.</p>
 
-<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">def trade_spider(max_pages):      ## build a helper function to enact the task
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">def trade_spider(max_pages):      ## build a helper function to enact the task
     page = 1
     while page &lt;= max_pages:      ## set dummy variables to represent page numbers to be queried.
-        url = &quot;http://www.ebay.ie/sch/Clothes-Shoes-Accessories-/11450/i.html?_catref=&quot; + str(page)
+        url = "http://www.ebay.ie/sch/Clothes-Shoes-Accessories-/11450/i.html?_catref=" + str(page)
         source_code = requests.get(url)     ## machine for getting info from url
         plain_text = source_code.text       ## machine for storing info from url
         soup = BeautifulSoup(plain_text)    ## machine for converting text into soup format.
-        for link in soup.findAll(&#39;a&#39;,{&#39;class&#39;:&#39;vip&#39;}):    ##  look for an item that is unique for that link.
-            href = &quot;https://www.thenewboston.com&quot; + link.get(&#39;href&#39;)   ## paste the main url to the specific sublinks
+        for link in soup.findAll('a',{'class':'vip'}):    ##  look for an item that is unique for that link.
+            href = "https://www.thenewboston.com" + link.get('href')   ## paste the main url to the specific sublinks
             title = link.string   ## include titles by using link.string
             print(href)           ## print href
             print(title)          ## print title
         page += 1
 
-trade_spider(1)    ## print only 1 page</code></pre></div>
+trade_spider(1)    ## print only 1 page</code></pre></figure>
 
 </div>
 <div class="related">
@@ -376,27 +376,27 @@ trade_spider(1)    ## print only 1 page</code></pre></div>
     
       <li>
         <h3>
-          <a href="/text%20editing/2016/01/28/Extract-PPT-slide-title/">
-            Extract PPT slide number and title
-            <small>28 Jan 2016</small>
+          <a href="/2016/10/04/journal-of-modern-school/">
+            Journal Of Modern School
+            <small>04 Oct 2016</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/twine/2016/01/18/twine-makes-study-easy/">
-            How to Twine Your Note Into a Webpage
-            <small>18 Jan 2016</small>
+          <a href="/python/2016/10/04/Python-String-Methods/">
+            Python String Methods
+            <small>04 Oct 2016</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/regular%20expression/2016/01/18/regular-expression-video-project/">
-            Introducing Regular expression
-            <small>18 Jan 2016</small>
+          <a href="/math/2016/09/04/The-Zipf-Mystery/">
+            The Zipf Mystery
+            <small>04 Sep 2016</small>
           </a>
         </h3>
       </li>
@@ -420,6 +420,8 @@ trade_spider(1)    ## print only 1 page</code></pre></div>
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
 
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

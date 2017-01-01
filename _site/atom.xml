@@ -4,13 +4,605 @@
  <title>TmmGeek</title>
  <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/"/>
- <updated>2016-01-30T22:47:25-06:00</updated>
+ <updated>2016-12-30T14:40:21-06:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>TmmGeek</name>
    <email>davidliangtmm@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Journal Of Modern School</title>
+   <link href="http://lanyon.getpoole.com/2016/10/04/journal-of-modern-school/"/>
+   <updated>2016-10-04T00:00:00-05:00</updated>
+   <id>http://lanyon.getpoole.com/2016/10/04/journal-of-modern-school</id>
+   <content type="html">&lt;p&gt;Top Dog The science of winning and losing.
+chapter 1
+first diving experiment, measurement of saliva of the jumper. 
+discovery
+1 jump often has much larger surge of tension
+2nd and 3rd, more relaxed and adapted.
+conclusion
+exposure to the situation is first hand learning experience. 
+reflextion. 
+traditional school system stifle students’ development
+it is completely based on play it safe model.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Python String Methods</title>
+   <link href="http://lanyon.getpoole.com/python/2016/10/04/Python-String-Methods/"/>
+   <updated>2016-10-04T00:00:00-05:00</updated>
+   <id>http://lanyon.getpoole.com/python/2016/10/04/Python-String-Methods</id>
+   <content type="html">&lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding:5px;&quot;&gt;
+&lt;pre&gt;
+&lt;code&gt;
+
+
+
+coord = (3, 5)
+&#39;X: {0[0]};  Y: {0[1]}&#39;.format(coord)
+&#39;X: 3;  Y: 5&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Zipf Mystery</title>
+   <link href="http://lanyon.getpoole.com/math/2016/09/04/The-Zipf-Mystery/"/>
+   <updated>2016-09-04T00:00:00-05:00</updated>
+   <id>http://lanyon.getpoole.com/math/2016/09/04/The-Zipf-Mystery</id>
+   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fCn8zs912OE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fCn8zs912OE&quot;&gt;The Zipf Mystery&lt;/a&gt;&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.wolfram.com/cdf-player/plugin/v2.1/cdfplugin.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+var cdf = new cdfplugin();
+cdf.setDefaultContent(&#39;&lt;a href=&quot;http://www.wolfram.com/cdf-player/&quot;&gt;&lt;img  src=&quot;/assets/wolfram/gilbert-4-La/lecture_4_chart.png&quot;&gt;&lt;/a&gt;&#39;);
+cdf.embed(&#39;/assets/wolfram/gilbert-4-La/lecture_4_chart.cdf&#39;, 433, 497);
+&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Homogeneous System</title>
+   <link href="http://lanyon.getpoole.com/math/2016/09/04/Homogenous-systems/"/>
+   <updated>2016-09-04T00:00:00-05:00</updated>
+   <id>http://lanyon.getpoole.com/math/2016/09/04/Homogenous-systems</id>
+   <content type="html">&lt;p&gt;Vh is not a vector, but an infinite set of objects.
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/49272502/2016%20blog%20pictures/linear%20algebra/Homogeneous.png&quot; alt=&quot;ddd&quot; /&gt;&lt;/p&gt;
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;?xml-stylesheet type=&quot;text/xsl&quot; href=&quot;HTMLFiles/pmathml.xsl&quot;?&gt;
+
+&lt;!-- Created with the Wolfram Language for Students - Personal Use Only : www.wolfram.com --&gt;
+
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+ &lt;title&gt;
+  Q 17 (the Wolfram Language for Students - Personal Use Only : www.wolfram.com)
+ &lt;/title&gt;
+ &lt;link href=&quot;HTMLFiles/Q 17.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;p class=&quot;Text&quot;&gt;
+ 17: Follow the method of Example 3 to describe the solutions of&lt;br /&gt;the following system in parametric vector form. Also, give&lt;br /&gt;a geometric description of the solution set and compare it to&lt;br /&gt;that in Exercise 5.&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mtext&gt;   &lt;/mtext&gt;
+  &lt;mrow&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+   &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+   &lt;msub&gt;
+    &lt;mi&gt;x&lt;/mi&gt;
+    &lt;mn&gt;1&lt;/mn&gt;
+   &lt;/msub&gt;
+  &lt;/mrow&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; + &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;2&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; + &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; = 0&lt;br /&gt;-&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;1&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;8&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;=&amp;nbsp;&amp;nbsp;&amp;nbsp;0&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;- &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;3&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;3&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; = 0&lt;br /&gt;&amp;nbsp;&amp;nbsp;(from exercise 5)&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mtext&gt;   &lt;/mtext&gt;
+  &lt;mrow&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+   &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+   &lt;msub&gt;
+    &lt;mi&gt;x&lt;/mi&gt;
+    &lt;mn&gt;1&lt;/mn&gt;
+   &lt;/msub&gt;
+  &lt;/mrow&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; + &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;2&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; + &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; = 8&lt;br /&gt;-&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;1&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;8&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;= -16&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;- &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;3&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; - &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;3&lt;/mn&gt;
+  &lt;mo&gt;&amp;InvisibleTimes;&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;X&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; = 12&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;2&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;2&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;4&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;8&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;3&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;3&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;=&amp;nbsp;&amp;nbsp;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Parametric vector form&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-weight: bold;&quot;&gt;x&lt;/span&gt; = &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;msub&gt;
+  &lt;mi&gt;x&lt;/mi&gt;
+  &lt;mn&gt;3&lt;/mn&gt;
+ &lt;/msub&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;2&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;2&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;4&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;8&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;8&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;16&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;3&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;3&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;12&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;= &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;8&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Parametric vector form&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-weight: bold;&quot;&gt;x &lt;/span&gt; = &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;8&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt; &lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; mathematica:form=&quot;TraditionalForm&quot; xmlns:mathematica=&quot;http://www.wolfram.com/XML/&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;+&lt;/mo&gt;
+  &lt;msub&gt;
+   &lt;mi&gt;x&lt;/mi&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/msub&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mtable&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mrow&gt;
+      &lt;mo&gt;-&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+     &lt;/mrow&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+   &lt;mtr&gt;
+    &lt;mtd&gt;
+     &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mtd&gt;
+   &lt;/mtr&gt;
+  &lt;/mtable&gt;
+  &lt;mtext&gt;&amp;#8288;&lt;/mtext&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+
+
+
+
+
+
+&lt;div style=&quot;font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;&quot;&gt;
+ &lt;a href=&quot;http://www.wolfram.com/language/&quot; style=&quot;color:#000; text-decoration:none;&quot;&gt;
+  &lt;span style=&quot;color:#555555&quot;&gt;Created with the Wolfram Language&lt;/span&gt; 
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.wolfram.com/cdf-player/plugin/v2.1/cdfplugin.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+var cdf = new cdfplugin();
+cdf.setDefaultContent(&#39;&lt;a href=&quot;http://www.wolfram.com/cdf-player/&quot;&gt;&lt;img  src=&quot;/assets/wolfram/L-Algebra/Homogeneous.png&quot;&gt;&lt;/a&gt;&#39;);
+cdf.embed(&#39;/assets/wolfram/L-Algebra/Homogeneous.cdf&#39;, 427, 487);
+&lt;/script&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Extract PPT slide number and title</title>
@@ -33,7 +625,7 @@ Microsoft office Mac 2011(Through Microsoft 365).&lt;/p&gt;
 &lt;p&gt;You could also read on this following post 
 &lt;a href=&quot;http://www.pptfaq.com/FAQ00332_Export_Slide_Number_and_Title_Text_to_a_text_file.htm&quot;&gt;Export Slide Number and Title Text to a text file&lt;/a&gt; from the site “PPTools” as my method is based on it.&lt;/p&gt;
 
-&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+&lt;p&gt;##Procedure&lt;/p&gt;
 
 &lt;p&gt;If you have a PPT file, you could use your own, or you could find one from &lt;a href=&quot;https://www.google.com/#q=regression+ppt&quot;&gt;Google&lt;/a&gt;.&lt;/p&gt;
 
@@ -135,18 +727,14 @@ End Sub
       &lt;li&gt;&lt;a href=&quot;#chinese-viewers-see-video-from-youku-below&quot; id=&quot;markdown-toc-chinese-viewers-see-video-from-youku-below&quot;&gt;Chinese viewers see video from Youku below&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#building-your-first-project&quot; id=&quot;markdown-toc-building-your-first-project&quot;&gt;Building your first project&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#the-two-basic-syntaxes-to-remember&quot; id=&quot;markdown-toc-the-two-basic-syntaxes-to-remember&quot;&gt;The two basic syntaxes to remember&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#adding-a-home-button&quot; id=&quot;markdown-toc-adding-a-home-button&quot;&gt;Adding a Home button&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#adding-images&quot; id=&quot;markdown-toc-adding-images&quot;&gt;Adding images&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#publish-your-work&quot; id=&quot;markdown-toc-publish-your-work&quot;&gt;publish your work&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#ending&quot; id=&quot;markdown-toc-ending&quot;&gt;Ending&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#tips&quot; id=&quot;markdown-toc-tips&quot;&gt;tips&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ending&quot; id=&quot;markdown-toc-ending&quot;&gt;Ending&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://www.glorioustrainwrecks.com/files/screens/ct2-38_twine.jpg&quot; alt=&quot;twine&quot; /&gt;&lt;/p&gt;
@@ -169,8 +757,8 @@ End Sub
 
 &lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=T4Hzt9LtR7g&amp;amp;t=1m24s&quot;&gt;Click here&lt;/a&gt; to see the example demo video.&lt;/p&gt;
 
-&lt;h2 id=&quot;building-your-first-project&quot;&gt;Building your first project&lt;/h2&gt;
-&lt;p&gt;Ok, let’s start building a very simple project to illustrate the workflow of Twine.&lt;/p&gt;
+&lt;p&gt;##Building your first project
+Ok, let’s start building a very simple project to illustrate the workflow of Twine.&lt;/p&gt;
 
 &lt;p&gt;Before I walk you through the nitty gritty, let’s make sure that 
 *you have Twine downloaded. &lt;a href=&quot;http://twinery.org&quot;&gt;Download Twine here&lt;/a&gt; 
@@ -196,7 +784,7 @@ End Sub
 
 &lt;p&gt;After mastering some basic text editing skill with TWINE, it is time to consider adding some images to your webpage. To do that, all you need to remember is the following &lt;a href=&quot;http://www.w3schools.com/tags/tag_img.asp&quot;&gt;html image tag&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&amp;lt;img src=&amp;quot;image url&amp;quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt; &amp;lt;img src=&quot;image url&quot;&amp;gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=T4Hzt9LtR7g&amp;amp;t=5m23s&quot;&gt;Click here&lt;/a&gt; to the video demo for adding image.&lt;/p&gt;
 
@@ -209,8 +797,8 @@ The finished product is a html file, you can copy and paste it on your &lt;a hre
 &lt;h2 id=&quot;ending&quot;&gt;Ending&lt;/h2&gt;
 &lt;p&gt;Congratulation, I hope you become more interested in web programming and want to explore more with TWINE, I recommand you to subcribe to the channel &lt;a href=&quot;https://www.youtube.com/watch?v=HZzChB75DFs&quot;&gt;VegetarianZombie&lt;/a&gt; on YouTube which is an amazing video series to walk you through a lot of the details of TWINE or you could read the TWINE &lt;a href=&quot;http://twinery.org/wiki/&quot;&gt;documentation&lt;/a&gt; to explore more on your own.&lt;/p&gt;
 
-&lt;h3 id=&quot;tips&quot;&gt;tips&lt;/h3&gt;
-&lt;p&gt;I made up a list of tips to share with you to end this tutorial.&lt;/p&gt;
+&lt;p&gt;###tips
+I made up a list of tips to share with you to end this tutorial.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Use a unique title for every single passage box.&lt;/li&gt;
@@ -238,11 +826,7 @@ The finished product is a html file, you can copy and paste it on your &lt;a hre
 
 &lt;!--break--&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#prerequsite&quot; id=&quot;markdown-toc-prerequsite&quot;&gt;prerequsite&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#download-and-install-sublime-text-editorhttpwwwsublimetextcom2&quot; id=&quot;markdown-toc-download-and-install-sublime-text-editorhttpwwwsublimetextcom2&quot;&gt;download and install &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;sublime text editor&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#download-the-text-file-you-will-need-for-this-tutorial-here&quot; id=&quot;markdown-toc-download-the-text-file-you-will-need-for-this-tutorial-here&quot;&gt;download the text file you will need for this tutorial &lt;a href=&quot;&quot;&gt;here&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#prerequsite&quot; id=&quot;markdown-toc-prerequsite&quot;&gt;prerequsite&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#getting-started&quot; id=&quot;markdown-toc-getting-started&quot;&gt;Getting started&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#shushy-words-example&quot; id=&quot;markdown-toc-shushy-words-example&quot;&gt;Shushy words example&lt;/a&gt;&lt;/li&gt;
@@ -259,10 +843,10 @@ The finished product is a html file, you can copy and paste it on your &lt;a hre
 
 &lt;h2 id=&quot;prerequsite&quot;&gt;prerequsite&lt;/h2&gt;
 
-&lt;h3 id=&quot;download-and-install-sublime-text-editorhttpwwwsublimetextcom2&quot;&gt;download and install &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;sublime text editor&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;you can use either PC or Mac for this tutorial.&lt;/p&gt;
+&lt;p&gt;###download and install &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;sublime text editor&lt;/a&gt;
+you can use either PC or Mac for this tutorial.&lt;/p&gt;
 
-&lt;h3 id=&quot;download-the-text-file-you-will-need-for-this-tutorial-here&quot;&gt;download the text file you will need for this tutorial &lt;a href=&quot;&quot;&gt;here&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;###download the text file you will need for this tutorial &lt;a href=&quot;&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
@@ -459,10 +1043,10 @@ http://www.rexegg.com/regex-quickstart.html&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Regular Expression Java</title>
-   <link href="http://lanyon.getpoole.com/2016/01/18/regular-expression-Java/"/>
+   <title>Java basics-Regular Expression</title>
+   <link href="http://lanyon.getpoole.com/javascript/2016/01/18/regular-expression-Java/"/>
    <updated>2016-01-18T00:00:00-06:00</updated>
-   <id>http://lanyon.getpoole.com/2016/01/18/regular-expression-Java</id>
+   <id>http://lanyon.getpoole.com/javascript/2016/01/18/regular-expression-Java</id>
    <content type="html">&lt;p&gt;developing&lt;/p&gt;
 
 &lt;!--break--&gt;
@@ -793,13 +1377,14 @@ output&lt;/p&gt;
 
 &lt;p&gt;for (var pixel of fgImage.values()) {&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;if(pixel.getGreen == 255){
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if(pixel.getGreen == 255){
 	var x = pixel.getX
 	var y = pixel.getY
 	var bgPixel = bgImage.getPixel(x,y);
 	output.setPixel(x,y, bgPixel);
 } }
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;else{
 	output.setPixel(x,y,pixel)&lt;/p&gt;
@@ -1096,7 +1681,7 @@ print(decoded)
   &lt;/pre&gt;  
 &lt;/div&gt;
 
-&lt;h2 id=&quot;creating-a-duplicate-function&quot;&gt;creating a duplicate function&lt;/h2&gt;
+&lt;p&gt;##creating a duplicate function&lt;/p&gt;
 &lt;div style=&quot;width:700px;height:500px;line-height:3em;overflow:auto;padding;5px&quot;&gt;
   &lt;pre&gt;
     &lt;code&gt;  
@@ -1385,41 +1970,6 @@ proc.time() - ptm&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Google Map Api 2</title>
-   <link href="http://lanyon.getpoole.com/2015/12/07/google-map-api-2/"/>
-   <updated>2015-12-07T00:00:00-06:00</updated>
-   <id>http://lanyon.getpoole.com/2015/12/07/google-map-api-2</id>
-   <content type="html">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;getElementById example&lt;/title&gt;
-  &lt;script&gt;
-  function changeColor(newColor) {
-    var elem = document.getElementById(&quot;para1&quot;);
-    elem.style.color = newColor;
-  }
-
-function changeFont(newFont){
-	var elem2 = document.getElementById(&quot;dar&quot;);
-	elem2.style.fontsize = newFont;
-}
-
-  &lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p id=&quot;para1&quot;&gt;Some text here&lt;/p&gt;
-  &lt;button onclick=&quot;changeColor(&#39;blue&#39;);&quot;&gt;blue&lt;/button&gt;
-  &lt;button onclick=&quot;changeColor(&#39;red&#39;);&quot;&gt;red&lt;/button&gt;
-
-&lt;p id=&quot;dar&quot;&gt;some more text here&lt;/p&gt;
-  &lt;button onclick=&quot;changeFont(&#39;10&#39;);&quot;&gt;10&lt;/button&gt;
-  &lt;button onclick=&quot;changeFont(&#39;5&#39;);&quot;&gt;5&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Google Map Api</title>
    <link href="http://lanyon.getpoole.com/2015/12/07/google-map-api/"/>
    <updated>2015-12-07T00:00:00-06:00</updated>
@@ -1453,6 +2003,41 @@ window.onload = loadScript;
 &lt;/body&gt;
 
 &lt;/html&gt; </content>
+ </entry>
+ 
+ <entry>
+   <title>Google Map Api 2</title>
+   <link href="http://lanyon.getpoole.com/2015/12/07/google-map-api-2/"/>
+   <updated>2015-12-07T00:00:00-06:00</updated>
+   <id>http://lanyon.getpoole.com/2015/12/07/google-map-api-2</id>
+   <content type="html">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;getElementById example&lt;/title&gt;
+  &lt;script&gt;
+  function changeColor(newColor) {
+    var elem = document.getElementById(&quot;para1&quot;);
+    elem.style.color = newColor;
+  }
+
+function changeFont(newFont){
+	var elem2 = document.getElementById(&quot;dar&quot;);
+	elem2.style.fontsize = newFont;
+}
+
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p id=&quot;para1&quot;&gt;Some text here&lt;/p&gt;
+  &lt;button onclick=&quot;changeColor(&#39;blue&#39;);&quot;&gt;blue&lt;/button&gt;
+  &lt;button onclick=&quot;changeColor(&#39;red&#39;);&quot;&gt;red&lt;/button&gt;
+
+&lt;p id=&quot;dar&quot;&gt;some more text here&lt;/p&gt;
+  &lt;button onclick=&quot;changeFont(&#39;10&#39;);&quot;&gt;10&lt;/button&gt;
+  &lt;button onclick=&quot;changeFont(&#39;5&#39;);&quot;&gt;5&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
  </entry>
  
  <entry>
@@ -3470,10 +4055,11 @@ Process finished with exit code 0
 
 &lt;p&gt;Specific rubric items, and their point values, are as follows:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Was the program output interpretable (i.e. organized and labeled)? (1 point)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Was the program output interpretable (i.e. organized and labeled)? (1 point)
 Does the program output display three data managed variables as frequency tables? (1 point)
 Did the summary describe the frequency distributions in terms of the values the variables take, how often they take them, the presence of missing data, etc.? (2 points)
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 </content>
  </entry>
  
@@ -4354,26 +4940,26 @@ idiomatic ways of navigating, searching, and modifying the parse tree. It common
 
 &lt;p&gt;this chunk is for importing the libraries&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;import requests
-from bs4 import BeautifulSoup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;import requests
+from bs4 import BeautifulSoup&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;this chunk is for building a “while loop” to crawl through the source code of the site.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;def trade_spider(max_pages):      ## build a helper function to enact the task
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;def trade_spider(max_pages):      ## build a helper function to enact the task
     page = 1
     while page &amp;lt;= max_pages:      ## set dummy variables to represent page numbers to be queried.
-        url = &amp;quot;http://www.ebay.ie/sch/Clothes-Shoes-Accessories-/11450/i.html?_catref=&amp;quot; + str(page)
+        url = &quot;http://www.ebay.ie/sch/Clothes-Shoes-Accessories-/11450/i.html?_catref=&quot; + str(page)
         source_code = requests.get(url)     ## machine for getting info from url
         plain_text = source_code.text       ## machine for storing info from url
         soup = BeautifulSoup(plain_text)    ## machine for converting text into soup format.
-        for link in soup.findAll(&amp;#39;a&amp;#39;,{&amp;#39;class&amp;#39;:&amp;#39;vip&amp;#39;}):    ##  look for an item that is unique for that link.
-            href = &amp;quot;https://www.thenewboston.com&amp;quot; + link.get(&amp;#39;href&amp;#39;)   ## paste the main url to the specific sublinks
+        for link in soup.findAll(&#39;a&#39;,{&#39;class&#39;:&#39;vip&#39;}):    ##  look for an item that is unique for that link.
+            href = &quot;https://www.thenewboston.com&quot; + link.get(&#39;href&#39;)   ## paste the main url to the specific sublinks
             title = link.string   ## include titles by using link.string
             print(href)           ## print href
             print(title)          ## print title
         page += 1
 
-trade_spider(1)    ## print only 1 page&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+trade_spider(1)    ## print only 1 page&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </content>
  </entry>
  
@@ -4399,15 +4985,15 @@ trade_spider(1)    ## print only 1 page&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;first add the following into both your &lt;em&gt;page.html&lt;/em&gt; and &lt;em&gt;post.html&lt;/em&gt; files, this is to load the MathJax javascript for your blog posts and pages. 
 see &lt;a href=&quot;https://docs.mathjax.org/en/latest/configuration.html&quot;&gt;MathJax&lt;/a&gt; Document for further details.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;
-    src=&amp;quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt;
-&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&amp;lt;script type=&quot;text/javascript&quot;
+    src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&amp;gt;
+&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;then add the following into your config.yml file. This is to make redcarpet behave like GitHub Flavored Markdown. &lt;strong&gt;note&lt;/strong&gt;, simply adding redcarpet is not enough, you must include the extensions as follow. See &lt;a href=&quot;http://sholsinger.com/2014/03/jekyll-github-flavored-markdown&quot;&gt;this link&lt;/a&gt; for further details.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;# Make redcarpet behave like GitHub Flavored Markdown 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;# Make redcarpet behave like GitHub Flavored Markdown 
 redcarpet: 
-extensions: [&amp;quot;no_intra_emphasis&amp;quot;, &amp;quot;fenced_code_blocks&amp;quot;, &amp;quot;autolink&amp;quot;, &amp;quot;strikethrough&amp;quot;, &amp;quot;superscript&amp;quot;, &amp;quot;with_toc_data&amp;quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+extensions: [&quot;no_intra_emphasis&quot;, &quot;fenced_code_blocks&quot;, &quot;autolink&quot;, &quot;strikethrough&quot;, &quot;superscript&quot;, &quot;with_toc_data&quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;When this is done, you can begin writing your blog with mathematical notations. I personally find this &lt;a href=&quot;http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference&quot;&gt;link from Mathematics meta&lt;/a&gt; very helpful, it list many useful notation scripts for reference.&lt;/p&gt;
 
@@ -4440,15 +5026,15 @@ extensions: [&amp;quot;no_intra_emphasis&amp;quot;, &amp;quot;fenced_code_blocks
 &lt;p&gt;first add the following into both your &lt;em&gt;page.html&lt;/em&gt; and &lt;em&gt;post.html&lt;/em&gt; files, this is to load the MathJax javascript for your blog posts and pages. 
 see &lt;a href=&quot;https://docs.mathjax.org/en/latest/configuration.html&quot;&gt;MathJax&lt;/a&gt; Document for further details.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;
-    src=&amp;quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt;
-&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&amp;lt;script type=&quot;text/javascript&quot;
+    src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&amp;gt;
+&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;then add the following into your config.yml file. This is to make redcarpet behave like GitHub Flavored Markdown. &lt;strong&gt;note&lt;/strong&gt;, simply adding redcarpet is not enough, you must include the extensions as follow. See &lt;a href=&quot;http://sholsinger.com/2014/03/jekyll-github-flavored-markdown&quot;&gt;this link&lt;/a&gt; for further details.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;# Make redcarpet behave like GitHub Flavored Markdown 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;# Make redcarpet behave like GitHub Flavored Markdown 
 redcarpet: 
-extensions: [&amp;quot;no_intra_emphasis&amp;quot;, &amp;quot;fenced_code_blocks&amp;quot;, &amp;quot;autolink&amp;quot;, &amp;quot;strikethrough&amp;quot;, &amp;quot;superscript&amp;quot;, &amp;quot;with_toc_data&amp;quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+extensions: [&quot;no_intra_emphasis&quot;, &quot;fenced_code_blocks&quot;, &quot;autolink&quot;, &quot;strikethrough&quot;, &quot;superscript&quot;, &quot;with_toc_data&quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;When this is done, you can begin writing your blog with mathematical notations. I personally find this &lt;a href=&quot;http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference&quot;&gt;link from Mathematics meta&lt;/a&gt; very helpful, it list many useful notation scripts for reference.&lt;/p&gt;
 
@@ -4545,38 +5131,38 @@ extensions: [&amp;quot;no_intra_emphasis&amp;quot;, &amp;quot;fenced_code_blocks
 &lt;!--break--&gt;
 &lt;p&gt;House keeping&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;fileUrl &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;https://raw.githubusercontent.com/JizongL/jizongL.github.io/master/assets/blog/Rblog/correlation/09192015correlation/gapminder.csv&amp;quot;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;fileUrl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://raw.githubusercontent.com/JizongL/jizongL.github.io/master/assets/blog/Rblog/correlation/09192015correlation/gapminder.csv&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
-download.file&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;fileUrl&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; destfile &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;./gapminder.csv&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; method &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;curl&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;download.file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileUrl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;destfile&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;./gapminder.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;curl&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;data &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; read.csv&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;./gapminder.csv&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-data1 &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; na.omit&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;kp&quot;&gt;names&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;data1&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read.csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;./gapminder.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;na.omit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;names&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##  [1] &amp;quot;country&amp;quot;              &amp;quot;incomeperperson&amp;quot;      &amp;quot;alcconsumption&amp;quot;      
-##  [4] &amp;quot;armedforcesrate&amp;quot;      &amp;quot;breastcancerper100th&amp;quot; &amp;quot;co2emissions&amp;quot;        
-##  [7] &amp;quot;femaleemployrate&amp;quot;     &amp;quot;hivrate&amp;quot;              &amp;quot;internetuserate&amp;quot;     
-## [10] &amp;quot;lifeexpectancy&amp;quot;       &amp;quot;oilperperson&amp;quot;         &amp;quot;polityscore&amp;quot;         
-## [13] &amp;quot;relectricperperson&amp;quot;   &amp;quot;suicideper100th&amp;quot;      &amp;quot;employrate&amp;quot;          
-## [16] &amp;quot;urbanrate&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##  [1] &quot;country&quot;              &quot;incomeperperson&quot;      &quot;alcconsumption&quot;      
+##  [4] &quot;armedforcesrate&quot;      &quot;breastcancerper100th&quot; &quot;co2emissions&quot;        
+##  [7] &quot;femaleemployrate&quot;     &quot;hivrate&quot;              &quot;internetuserate&quot;     
+## [10] &quot;lifeexpectancy&quot;       &quot;oilperperson&quot;         &quot;polityscore&quot;         
+## [13] &quot;relectricperperson&quot;   &quot;suicideper100th&quot;      &quot;employrate&quot;          
+## [16] &quot;urbanrate&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;setting-a-correlation-matrixremove-the-country-because-it-is-a-factor&quot;&gt;setting a correlation matrix,remove the country because it is a factor&lt;/h2&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;kn&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;reshape&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-data2 &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; data1&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;kp&quot;&gt;names&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;data2&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reshape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;names&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##  [1] &amp;quot;incomeperperson&amp;quot;      &amp;quot;alcconsumption&amp;quot;       &amp;quot;armedforcesrate&amp;quot;     
-##  [4] &amp;quot;breastcancerper100th&amp;quot; &amp;quot;co2emissions&amp;quot;         &amp;quot;femaleemployrate&amp;quot;    
-##  [7] &amp;quot;hivrate&amp;quot;              &amp;quot;internetuserate&amp;quot;      &amp;quot;lifeexpectancy&amp;quot;      
-## [10] &amp;quot;oilperperson&amp;quot;         &amp;quot;polityscore&amp;quot;          &amp;quot;relectricperperson&amp;quot;  
-## [13] &amp;quot;suicideper100th&amp;quot;      &amp;quot;employrate&amp;quot;           &amp;quot;urbanrate&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##  [1] &quot;incomeperperson&quot;      &quot;alcconsumption&quot;       &quot;armedforcesrate&quot;     
+##  [4] &quot;breastcancerper100th&quot; &quot;co2emissions&quot;         &quot;femaleemployrate&quot;    
+##  [7] &quot;hivrate&quot;              &quot;internetuserate&quot;      &quot;lifeexpectancy&quot;      
+## [10] &quot;oilperperson&quot;         &quot;polityscore&quot;          &quot;relectricperperson&quot;  
+## [13] &quot;suicideper100th&quot;      &quot;employrate&quot;           &quot;urbanrate&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;d_cor &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;as.matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;cor&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;data2&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-d_cor_melt &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; arrange&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;melt&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;d_cor&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;value&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-d_cor_melt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;d_cor&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;as.matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d_cor_melt&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arrange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;melt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d_cor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d_cor_melt&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##                       X1                   X2       value
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##                       X1                   X2       value
 ## 1        incomeperperson      incomeperperson  1.00000000
 ## 2         alcconsumption       alcconsumption  1.00000000
 ## 3        armedforcesrate      armedforcesrate  1.00000000
@@ -4801,39 +5387,39 @@ d_cor_melt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 ## 222         co2emissions       alcconsumption  0.01656709
 ## 223       alcconsumption         co2emissions  0.01656709
 ## 224              hivrate         co2emissions  0.01004384
-## 225         co2emissions              hivrate  0.01004384&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+## 225         co2emissions              hivrate  0.01004384&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;looking-for-a-specific-values-from-columns-and-build-index&quot;&gt;looking for a specific values from columns and build index&lt;/h2&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;index&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;which&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;grepl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;polityscore&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; d_cor_melt&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;X1&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-index2&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;which&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;grepl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;urbanrate&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;d_cor_melt&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;X2&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-index&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;which&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;grepl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;polityscore&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d_cor_melt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;which&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;grepl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;urbanrate&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d_cor_melt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##  [1]  11  48  66  74  76  78  88 117 127 133 170 186 190 204 217&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##  [1]  11  48  66  74  76  78  88 117 127 133 170 186 190 204 217&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;index2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;index2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##  [1]  15  35  41  43  51  55  59 103 117 135 153 155 167 183 197&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##  [1]  15  35  41  43  51  55  59 103 117 135 153 155 167 183 197&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;find-common-elements-by-intersect&quot;&gt;find common elements by intersect()&lt;/h2&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;targetrow &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;intersect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;index&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;index2&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-targetrow&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;targetrow&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;intersect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;targetrow&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;## [1] 117&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;## [1] 117&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;locate-the-target&quot;&gt;locate the target&lt;/h2&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;d_cor_melt&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;targetrow&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;d_cor_melt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;targetrow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##              X1        X2     value
-## 117 polityscore urbanrate 0.2301452&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##              X1        X2     value
+## 117 polityscore urbanrate 0.2301452&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;To get those corrleations which are above 0.5 and less than 1.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;d_cor_melt&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;d_cor_melt&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;value&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; d_cor_melt&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;value&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,])&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d_cor_melt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d_cor_melt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d_cor_melt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,])&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##                      X1                   X2     value
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##                      X1                   X2     value
 ## 16      internetuserate      incomeperperson 0.8230076
 ## 17      incomeperperson      internetuserate 0.8230076
 ## 18   relectricperperson      incomeperperson 0.8080370
@@ -4871,7 +5457,7 @@ targetrow&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 ## 52         oilperperson      armedforcesrate 0.5248724
 ## 53      armedforcesrate         oilperperson 0.5248724
 ## 54            urbanrate         oilperperson 0.5019742
-## 55         oilperperson            urbanrate 0.5019742&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+## 55         oilperperson            urbanrate 0.5019742&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </content>
  </entry>
@@ -5144,10 +5730,10 @@ targetrow&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 For instance, width = 780 and height=520&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;img {
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;img {
   width: 780px;
   height: 520px;
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Check out the [Figures review] that I made for my pathology exam review as an example.&lt;/p&gt;
 
@@ -6499,7 +7085,7 @@ Kidney glomerulus in Hypercute Rejection – &lt;strong&gt;Note Fibrin Plugs&lt;
   &lt;li&gt;Vascular Rejection of Renal Artery – Note: Marked Proliferation of Endothelial Cells with Partial Occlusion of Lumen&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;chronic-rejection&quot;&gt;Chronic rejection&lt;/h4&gt;
+&lt;p&gt;####Chronic rejection&lt;/p&gt;
 
 &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/assets/pathology/test1/Immunopathologyfigures/media/lectures/47.jpg&quot;&gt;
 &lt;img src=&quot;/assets/pathology/test1/Immunopathologyfigures/media/lectures/47.jpg&quot; alt=&quot;Klematis&quot; width=&quot;200&quot; height=&quot;180&quot; /&gt;
@@ -6531,7 +7117,7 @@ Kidney glomerulus in Hypercute Rejection – &lt;strong&gt;Note Fibrin Plugs&lt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qYQ6ynfY1_E&quot;&gt;Check video explanation&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;graft-vs-host-disease&quot;&gt;Graft-vs-Host Disease&lt;/h4&gt;
+&lt;p&gt;####Graft-vs-Host Disease&lt;/p&gt;
 
 &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/assets/pathology/test1/Immunopathologyfigures/media/lectures/40.jpg&quot;&gt;
 &lt;img src=&quot;/assets/pathology/test1/Immunopathologyfigures/media/lectures/40.jpg&quot; alt=&quot;Klematis&quot; width=&quot;200&quot; height=&quot;180&quot; /&gt;
@@ -7263,7 +7849,7 @@ div.desc {
 
 &lt;p&gt;Once you created a new post, add the following chunk of code to the start, this is to set up the CSS style of the gallery layout.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&amp;lt;style&amp;gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&amp;lt;style&amp;gt;
 div.img {
     margin: 5px;
     padding: 5px;
@@ -7291,7 +7877,7 @@ div.desc {
     width: 200px;
     margin: 5px;
 }
-&amp;lt;/style&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&amp;lt;/style&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </content>
  </entry>
  
@@ -7300,7 +7886,7 @@ div.desc {
    <link href="http://lanyon.getpoole.com/pathology/2015/09/06/pathology-quiz-2/"/>
    <updated>2015-09-06T00:00:00-05:00</updated>
    <id>http://lanyon.getpoole.com/pathology/2015/09/06/pathology-quiz-2</id>
-   <content type="html">&lt;h3 id=&quot;question-1&quot;&gt;Question 1&lt;/h3&gt;
+   <content type="html">&lt;p&gt;###Question 1&lt;/p&gt;
 
 &lt;p&gt;Within minutes after a bee sting, a 15 year-old girl suddenly has difficulty breathing. There is marked urticaria and marked edema of the hand that was stung. Which of the following is the best pharmacologic agent to treat these signs and symptoms?&lt;/p&gt;
 
@@ -7324,9 +7910,9 @@ div.desc {
 
 &lt;!--break--&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;This girl has experienced a systemic anaphylactic reaction from a type I hypersensitivity reaction. Epinephrine is the fastest acting agent to treat this life-threatening condition. Cyclosporine is used to minimize transplant rejection. Penicillin is an antibiotic that often induces a type I hypersensitivity reaction. Glucocorticoids can reduce immune reactions, although this occurs over days to weeks, not minutes. Methotrexate is useful in the treatment of graft-versus-host disease.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;This girl has experienced a systemic anaphylactic reaction from a type I hypersensitivity reaction. Epinephrine is the fastest acting agent to treat this life-threatening condition. Cyclosporine is used to minimize transplant rejection. Penicillin is an antibiotic that often induces a type I hypersensitivity reaction. Glucocorticoids can reduce immune reactions, although this occurs over days to weeks, not minutes. Methotrexate is useful in the treatment of graft-versus-host disease.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-2&quot;&gt;Question 2&lt;/h3&gt;
+&lt;p&gt;###Question 2&lt;/p&gt;
 
 &lt;p&gt;A 20 year-old man steps into an elevator full of people who are coughing and sneezing, all of whom appear to have colds or the flu. The influenza viral particles that he inhales attach to the respiratory epithelium, and viral transformation reduces the MHC class I molecules on these epithelial cells. Which of the following cells is most likely to respond to destroy these infected cells?&lt;/p&gt;
 
@@ -7348,9 +7934,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Natural killer (NK) cells have the ability to respond without prior sensitization. They carry receptors for MHC class I molecules, which inhibit their lytic function. When expression of class I MHC molecules is reduced on a cell surface by viral interference, the inhibitory receptors on NK cells do not receive a negative signal, and the targeted cell is killed. NK cells are often the first line of defense against viral infection. CD4+ cells are helper T cells that assist other cells, such as NK cells, macrophages, and B cells, in the immune response. Dendritic cells aid in antigen presentation. Mac- rophages can phagocytize necrotic cells, then process and display any foreign antigens within those cells. Neutrophils provide a nonspecific immune response, primarily to bacte- rial infections and not to intracellular viral infections.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Natural killer (NK) cells have the ability to respond without prior sensitization. They carry receptors for MHC class I molecules, which inhibit their lytic function. When expression of class I MHC molecules is reduced on a cell surface by viral interference, the inhibitory receptors on NK cells do not receive a negative signal, and the targeted cell is killed. NK cells are often the first line of defense against viral infection. CD4+ cells are helper T cells that assist other cells, such as NK cells, macrophages, and B cells, in the immune response. Dendritic cells aid in antigen presentation. Mac- rophages can phagocytize necrotic cells, then process and display any foreign antigens within those cells. Neutrophils provide a nonspecific immune response, primarily to bacte- rial infections and not to intracellular viral infections.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-3&quot;&gt;Question 3&lt;/h3&gt;
+&lt;p&gt;###Question 3&lt;/p&gt;
 
 &lt;p&gt;A 30 year-old woman has had fever and arthralgia for the past two weeks. On physical examination, she has a temperature of 37.6 degrees C and an erythematous malar rash. Initial laboratory studies are also positive for ANAs at 1:1600 and anti-double-stranded DNA antibodies at 1:3200. Serum creatinine is markedly elevated, and serum complement levels are decreased. A VDRL test for syphilis is positive, and in vitro tests of coagulation (prothrombin time and partial thromboplastin time) are prolonged. Which of the following clinical features of her illness is most likely caused by antibodies that interfere with the coagulation tests?&lt;/p&gt;
 
@@ -7372,9 +7958,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;This patient has clinical and serologic features of systemic lupus erythematosus (SLE). She also has a false-positive test result for syphilis, indicating the presence of anticardiolipin antibodies. These antibodies against phospholipid-protein complexes (antiphospholipid antibodies) also are called lupus anticoagulants because they interfere with in vitro clotting tests. In vivo, they are thrombogenic. Hence, these patients can have recurrent thrombosis. Lupus anticoagulants also can occur in the absence of SLE. The other listed options can occur in SLE, but they are not mediated by antiphospholipid antibodies.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;This patient has clinical and serologic features of systemic lupus erythematosus (SLE). She also has a false-positive test result for syphilis, indicating the presence of anticardiolipin antibodies. These antibodies against phospholipid-protein complexes (antiphospholipid antibodies) also are called lupus anticoagulants because they interfere with in vitro clotting tests. In vivo, they are thrombogenic. Hence, these patients can have recurrent thrombosis. Lupus anticoagulants also can occur in the absence of SLE. The other listed options can occur in SLE, but they are not mediated by antiphospholipid antibodies.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-4&quot;&gt;Question 4&lt;/h3&gt;
+&lt;p&gt;###Question 4&lt;/p&gt;
 
 &lt;p&gt;A 35 year-old man has a history of mild infections of the upper respiratory tract. He also has had diarrhea for most of his life, although it was not severe enough to cause malabsorption and weight loss. After an episode of trauma with blood loss, he receives a blood transfusion and has an anaphylactic reaction. Which of the following underlying conditions best explains these findings?&lt;/p&gt;
 
@@ -7396,11 +7982,11 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Patients with IgAD are at some increased risk of developing severe reactions after receiving blood products.[13, 14, 15] IgG anti-IgA antibodies may cause severe transfusion reactions if patients with IgAD are given whole blood; therefore, IgA-poor blood or washed red cells are preferred for those patients. IgA-deficient patients with immunoglobulin E (IgE)–class anti-IgA antibodies are at risk for anaphylaxis if they receive blood or intravenous immunoglobulin, but this situation is extremely rare. Individuals with such an unusual profile should receive only low IgA intravenous immunoglobulin preparations. However, caution must be used when administering IGIV to patients with IgAD if their anti-IgA status is unknown.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Patients with IgAD are at some increased risk of developing severe reactions after receiving blood products.[13, 14, 15] IgG anti-IgA antibodies may cause severe transfusion reactions if patients with IgAD are given whole blood; therefore, IgA-poor blood or washed red cells are preferred for those patients. IgA-deficient patients with immunoglobulin E (IgE)–class anti-IgA antibodies are at risk for anaphylaxis if they receive blood or intravenous immunoglobulin, but this situation is extremely rare. Individuals with such an unusual profile should receive only low IgA intravenous immunoglobulin preparations. However, caution must be used when administering IGIV to patients with IgAD if their anti-IgA status is unknown.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://emedicine.medscape.com/article/136580-overview&quot;&gt;source of explanation&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;question-5&quot;&gt;Question 5&lt;/h3&gt;
+&lt;p&gt;###Question 5&lt;/p&gt;
 
 &lt;p&gt;Laboratory tests are ordered for two hospitalized patients. During the phleobotomy procedure, the Vacutainer tubes drawn from these patients are mislabeled. One of the patients receives a blood transfusion later that day. Within one hour after the transfusion of RBCs begins, the patient becomes tachycardic and hypotensive and passes pink-colored urine. Which of the following statements best describes how the reaction is mediated?&lt;/p&gt;
 
@@ -7422,9 +8008,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;A major transfusion reaction results from a type II hypersensitivity reaction. The patient’s serum contains natu- rally occurring antibodies to the incompatible donor RBCs. They attach to the donor RBCs and induce complement activation that results in generation of the C5-9 membrane attack complex. Major transfusion reactions are rare, and&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;A major transfusion reaction results from a type II hypersensitivity reaction. The patient’s serum contains natu- rally occurring antibodies to the incompatible donor RBCs. They attach to the donor RBCs and induce complement activation that results in generation of the C5-9 membrane attack complex. Major transfusion reactions are rare, and&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-6&quot;&gt;Question 6&lt;/h3&gt;
+&lt;p&gt;###Question 6&lt;/p&gt;
 
 &lt;p&gt;A 40 year-old laboratory technician accidentally injects a chemical into his skin. The next day, he notes that an area of erythematous, indurated skin is forming around the site of injection. Two days later, the induration measures 10mm in diameter. A microscopic section from this area, with immunostaining using an antibody to CD4, shows many positive lymphocytes. Which of the following immunologic reactions is most consistent with this appearance?&lt;/p&gt;
 
@@ -7446,9 +8032,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Perivascular accumulation of T cells, particularly CD4+ cells, is typical of delayed hypersensitivity skin reactions, driven by a TH1 response mediated largely by release of the cytokine interleukin-2. Systemic anaphylaxis typically occurs within minutes after an encounter with the antigen. Systemic and localized immune complex diseases (serum sickness and Arthus reactions) are type III hypersensitivity reactions; they often exhibit vasculitis. Graft-versus-host disease is characterized by epidermal apoptosis and rash.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Perivascular accumulation of T cells, particularly CD4+ cells, is typical of delayed hypersensitivity skin reactions, driven by a TH1 response mediated largely by release of the cytokine interleukin-2. Systemic anaphylaxis typically occurs within minutes after an encounter with the antigen. Systemic and localized immune complex diseases (serum sickness and Arthus reactions) are type III hypersensitivity reactions; they often exhibit vasculitis. Graft-versus-host disease is characterized by epidermal apoptosis and rash.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-7&quot;&gt;Question 7&lt;/h3&gt;
+&lt;p&gt;###Question 7&lt;/p&gt;
 
 &lt;p&gt;A 45 year-old woman has had a burning sensation with increasing blurring of vision for the past five years. On physical examination, she has keratoconjunctivitis. Atrophy of the oral mucosa, with buccal mucosal ulcerations, is also present. A biopsy specimen of the lip shows marked lymphocytic and plasma cell infiltration of the minor salivary glands. Which of the following antibodies is most likely to be identified on laboratory testing?&lt;/p&gt;
 
@@ -7470,9 +8056,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Sjogren syndrome primarily involves salivary and lacrimal glands. Antibodies to SS-B are found in the majority of these patients. Anti–double-stranded DNA is a specific autoantibody for systemic lupus erythematosus. Anticen- tromere antibody is seen most often in limited systemic sclerosis, whereas anti–DNA topoisomerase most often ap- pears with diffuse systemic sclerosis. U1-RNP is a marker for mixed connective tissue disease (MCTD).&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Sjogren syndrome primarily involves salivary and lacrimal glands. Antibodies to SS-B are found in the majority of these patients. Anti–double-stranded DNA is a specific autoantibody for systemic lupus erythematosus. Anticen- tromere antibody is seen most often in limited systemic sclerosis, whereas anti–DNA topoisomerase most often ap- pears with diffuse systemic sclerosis. U1-RNP is a marker for mixed connective tissue disease (MCTD).&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-8&quot;&gt;Question 8&lt;/h3&gt;
+&lt;p&gt;###Question 8&lt;/p&gt;
 
 &lt;p&gt;A 22 year-old man has had a urethral discharge for the past week. A culture of the exudate from the urethra grows Neisseria gonorrhoeae. He is treated with penicillin G, but within minutes after injection, he develops itching and erythema of the skin. This is quickly followed by severe respiratory difficulty with wheezing and stridor. Which of the following immunoglobulins has most likely become attached to the penicillin G and mast cells to produce these symptoms?&lt;/p&gt;
 
@@ -7494,9 +8080,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;This patient is experiencing a systemic anaphylactic reaction, a form of type I hypersensitivity. IgE is bound to mast cells, after previous sensitization, so that a repeat encounter with the antigen results in mast cell degranulation and the release of mediators, such as histamine, which lead to anaphylaxis. IgE also is important in mediating more localized inflammatory reactions such as allergic rhinitis (hay fever). Other immunoglobulins do not bind so readily to mast cells.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;This patient is experiencing a systemic anaphylactic reaction, a form of type I hypersensitivity. IgE is bound to mast cells, after previous sensitization, so that a repeat encounter with the antigen results in mast cell degranulation and the release of mediators, such as histamine, which lead to anaphylaxis. IgE also is important in mediating more localized inflammatory reactions such as allergic rhinitis (hay fever). Other immunoglobulins do not bind so readily to mast cells.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-9&quot;&gt;Question 9&lt;/h3&gt;
+&lt;p&gt;###Question 9&lt;/p&gt;
 
 &lt;p&gt;A 37 year-old man who is HIV positive has noticed multiple 0.5 to 1.2 cm plaque-like, reddish-purple skin lesions on his face, trunk, and extremities. Some of the larger lesions appear to be nodular. These lesions have appeared over the past six months and have slowly enlarged. Molecular analysis of the spindle cells found in these skin lesions is likely to reveal a genome of which of the following viruses?&lt;/p&gt;
 
@@ -7518,9 +8104,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Human herpesvirus-8 has been associated with Kaposi sarcoma and can be acquired as a sexually transmitted disease. Kaposi sarcoma is a complication of AIDS. Individuals with HIV infection can be infected with various viruses, including Epstein-Barr virus (EBV) and cytomegalovirus (CMV), but these have no etiologic association with Kaposi sarcoma. EBV is a factor in the development of non-Hodgkin lymphoma, and CMV can cause colitis or retinitis or can be disseminated. Hepatitis B virus can be seen in HIV-infected patients as well, particularly patients with a risk factor of injection drug use. Adenovirus, which, although rare, can be seen in HIV-infected individuals, tends to be a respiratory or gastrointestinal infection.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Human herpesvirus-8 has been associated with Kaposi sarcoma and can be acquired as a sexually transmitted disease. Kaposi sarcoma is a complication of AIDS. Individuals with HIV infection can be infected with various viruses, including Epstein-Barr virus (EBV) and cytomegalovirus (CMV), but these have no etiologic association with Kaposi sarcoma. EBV is a factor in the development of non-Hodgkin lymphoma, and CMV can cause colitis or retinitis or can be disseminated. Hepatitis B virus can be seen in HIV-infected patients as well, particularly patients with a risk factor of injection drug use. Adenovirus, which, although rare, can be seen in HIV-infected individuals, tends to be a respiratory or gastrointestinal infection.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-10&quot;&gt;Question 10&lt;/h3&gt;
+&lt;p&gt;###Question 10&lt;/p&gt;
 
 &lt;p&gt;A 31 year-old woman has had increasing edema, chest pain, and an erythematous rash for the past six months. Laboratory studies show increasing serum creatinine, and urinalysis shows proteinuria with RBC casts. If present, which of the following antibodies is most helpful in diagosing this patient’s condition?&lt;/p&gt;
 
@@ -7542,7 +8128,7 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Anti-Sm and anti–double-stranded DNA are specific for systemic lupus erythematosus. Anti-Sm is present in only 25% of cases, however. Scl-70 is a marker for diffuse systemic sclerosis. Jo-1 is most specific for polymyositis. HLA-B27 is seen in ankylosing spondylitis. Anticentromere antibody is seen most often with limited scleroderma.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Anti-Sm and anti–double-stranded DNA are specific for systemic lupus erythematosus. Anti-Sm is present in only 25% of cases, however. Scl-70 is a marker for diffuse systemic sclerosis. Jo-1 is most specific for polymyositis. HLA-B27 is seen in ankylosing spondylitis. Anticentromere antibody is seen most often with limited scleroderma.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </content>
  </entry>
@@ -7552,7 +8138,7 @@ div.desc {
    <link href="http://lanyon.getpoole.com/pathology/2015/09/06/pathology-quiz-1/"/>
    <updated>2015-09-06T00:00:00-05:00</updated>
    <id>http://lanyon.getpoole.com/pathology/2015/09/06/pathology-quiz-1</id>
-   <content type="html">&lt;h3 id=&quot;question-1&quot;&gt;Question 1&lt;/h3&gt;
+   <content type="html">&lt;p&gt;###Question 1&lt;/p&gt;
 
 &lt;p&gt;At autopsy, the heart of a 63 year-old man weighs only 250 grams and has small right and left ventricles. The myocardium is firm, with a dark chocolate-brown color throughout. The coronary arteries show minimal atherosclerotic changes. An excessive amount of which of the following substances will be found in the myocardial fibers of this heart?&lt;/p&gt;
 
@@ -7573,9 +8159,9 @@ div.desc {
 
 &lt;!--break--&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Lipofuscin is a “wear-and-tear” pigment that in- creases with aging, particularly in liver and myocardium. This granular golden brown pigment seen adjacent to the myocyte nucleus in the figure has minimal effect on cellu- lar function in most cases. Rarely, there is marked lipofus- cin deposition in a small heart, a so-called brown atrophy. Bilirubin, another breakdown product of hemoglobin, im- parts a yellow appearance (icterus) to tissues. Hemosiderin is the breakdown product of hemoglobin that contains the iron. Hearts with excessive iron deposition tend to be large. Glycogen is increased in some inherited enzyme disorders, and when the heart is involved, heart size increases. Melanin pigment is responsible for skin tone: the more melanin, the darker the skin.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Lipofuscin is a “wear-and-tear” pigment that in- creases with aging, particularly in liver and myocardium. This granular golden brown pigment seen adjacent to the myocyte nucleus in the figure has minimal effect on cellu- lar function in most cases. Rarely, there is marked lipofus- cin deposition in a small heart, a so-called brown atrophy. Bilirubin, another breakdown product of hemoglobin, im- parts a yellow appearance (icterus) to tissues. Hemosiderin is the breakdown product of hemoglobin that contains the iron. Hearts with excessive iron deposition tend to be large. Glycogen is increased in some inherited enzyme disorders, and when the heart is involved, heart size increases. Melanin pigment is responsible for skin tone: the more melanin, the darker the skin.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-2&quot;&gt;Question 2&lt;/h3&gt;
+&lt;p&gt;###Question 2&lt;/p&gt;
 
 &lt;p&gt;A 40 year-old woman has had chronic congestive heart failure for the past three years. In the past two months, she developed a cough productive of rust-colored sputum. A sputum cytology specimen shows numerous hemosiderin-laden macrophages. Which of the following subcellular structures in macrophages is most important for the accumulation of this pigment?&lt;/p&gt;
 
@@ -7597,9 +8183,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Heterophagocytosis by macrophages requires that endocytosed vacuoles fuse with lysosomes to degrade the engulfed material. With congestive heart failure, extravasation&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Heterophagocytosis by macrophages requires that endocytosed vacuoles fuse with lysosomes to degrade the engulfed material. With congestive heart failure, extravasation&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-3&quot;&gt;Question 3&lt;/h3&gt;
+&lt;p&gt;###Question 3&lt;/p&gt;
 
 &lt;p&gt;A 38 year-old man has had headaches and nausea for the past 2 months. Laboratory findings show hypercalcemia and hypophosphatemia and normal serum albumin. Urine microscopic analysis shows deposition of calcium salts in the renal tubular epithelium. Which of the following processes has most likely produced this change in the kidney?&lt;/p&gt;
 
@@ -7621,9 +8207,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Metastatic calcification can occur widely throughout the body but principally affects the interstitial tissues of the vas- culature, kidneys, lungs, and gastric mucosa. The calcium deposits morphologically resemble those described in dys- trophic calcification&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Metastatic calcification can occur widely throughout the body but principally affects the interstitial tissues of the vas- culature, kidneys, lungs, and gastric mucosa. The calcium deposits morphologically resemble those described in dys- trophic calcification&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-4&quot;&gt;Question 4&lt;/h3&gt;
+&lt;p&gt;###Question 4&lt;/p&gt;
 
 &lt;p&gt;A 38 year-old man has had headaches and nausea for the past 2 months. Laboratory findings show hypercalcemia and hypophosphatemia and normal serum albumin. Urine microscopic analysis shows deposition of calcium salts in the renal tubular epithelium. Which of the following processes has most likely produced this change in the kidney?&lt;/p&gt;
 
@@ -7645,9 +8231,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Metastatic calcification can occur widely throughout the body but principally affects the interstitial tissues of the vas- culature, kidneys, lungs, and gastric mucosa. The calcium deposits morphologically resemble those described in dys- trophic calcification&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Metastatic calcification can occur widely throughout the body but principally affects the interstitial tissues of the vas- culature, kidneys, lungs, and gastric mucosa. The calcium deposits morphologically resemble those described in dys- trophic calcification&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-5&quot;&gt;Question 5&lt;/h3&gt;
+&lt;p&gt;###Question 5&lt;/p&gt;
 
 &lt;p&gt;An experiment introduces bacteria into a perfused tissue preparation. Leukocytes then leave the vasculature and migrate to the site of bacterial inoculation. The movement of these leukocytes is most likely to be mediated by which of the following substances?&lt;/p&gt;
 
@@ -7669,9 +8255,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Chemokines include many molecules that are chemotactic for neutrophils, eosinophils, lymphocytes, monocytes, and basophils. Bradykinin causes pain and increased vascu- lar permeability. Complement C3a causes increased vascular permeability by releasing histamine from mast cells. Hista- mine causes vascular leakage. Prostaglandins have multiple actions, but they do not cause chemotaxis.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Chemokines include many molecules that are chemotactic for neutrophils, eosinophils, lymphocytes, monocytes, and basophils. Bradykinin causes pain and increased vascu- lar permeability. Complement C3a causes increased vascular permeability by releasing histamine from mast cells. Hista- mine causes vascular leakage. Prostaglandins have multiple actions, but they do not cause chemotaxis.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-6&quot;&gt;Question 6&lt;/h3&gt;
+&lt;p&gt;###Question 6&lt;/p&gt;
 
 &lt;p&gt;An 18 year-old man lacerated his left hand and required sutures. The sutures were removed one week later. Wound healing continued, but the site became disfigured by a prominent raised, nodular scar that developed over the next two months. Which of the following terms best describes the process that occurred during this 2-month period?&lt;/p&gt;
 
@@ -7693,9 +8279,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;The healing process sometimes results in an exuber- ant production of collagen, giving rise to a keloid, which is a prominent raised, nodular scar, as shown in the figure. This tendency may run in families. Dehiscence occurs when a wound pulls apart. Organization occurs as granulation tissue is replaced by fibrous tissue. If normal tissue architecture is restored, resolution of inflammation has occurred. Second- ary union describes the process by which large wounds fill in and contract.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;The healing process sometimes results in an exuber- ant production of collagen, giving rise to a keloid, which is a prominent raised, nodular scar, as shown in the figure. This tendency may run in families. Dehiscence occurs when a wound pulls apart. Organization occurs as granulation tissue is replaced by fibrous tissue. If normal tissue architecture is restored, resolution of inflammation has occurred. Second- ary union describes the process by which large wounds fill in and contract.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-7&quot;&gt;Question 7&lt;/h3&gt;
+&lt;p&gt;###Question 7&lt;/p&gt;
 
 &lt;p&gt;A 59 year-old man has had a cough and fever for the past week. On physical exam, his temperature is 38.5 degrees Celsius. On auscultation, he has decreased breath sounds and dullness to percussion over the right lung. A chest radiograph shows fluid in the right pleural cavity. Thoracentesis yields 500 mL of cloudy yellow fluid. Which of the following cell types is most likely to be abundant in this fluid?&lt;/p&gt;
 
@@ -7717,9 +8303,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Bacterial infections often evoke an acute inflammatory response dominated by neutrophils. The extravasated neutro- phils attempt to phagocytose and kill the bacteria. In the pro- cess, some neutrophils die, and the release of their lysosomal enzymes can cause liquefactive necrosis of the tissue. This liquefied tissue debris and both live and dead neutrophils comprise pus, or purulent exudate. Such an exudate is typi- cal of bacterial infections that involve body cavities. Another term for purulent exudate in the pleural space is empyema.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Bacterial infections often evoke an acute inflammatory response dominated by neutrophils. The extravasated neutro- phils attempt to phagocytose and kill the bacteria. In the pro- cess, some neutrophils die, and the release of their lysosomal enzymes can cause liquefactive necrosis of the tissue. This liquefied tissue debris and both live and dead neutrophils comprise pus, or purulent exudate. Such an exudate is typi- cal of bacterial infections that involve body cavities. Another term for purulent exudate in the pleural space is empyema.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-8&quot;&gt;Question 8&lt;/h3&gt;
+&lt;p&gt;###Question 8&lt;/p&gt;
 
 &lt;p&gt;A 5 year-old child has a history of recurrent bacterial infections, inluding pneumonia and otitis media. Analysis of leukocytes collected from the peripheral blood shows a deficiency of myeloperoxidase. Which of the following is the most likely cause of this child’s increased susceptibility to infections?&lt;/p&gt;
 
@@ -7741,9 +8327,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Myeloperoxidase is present in the azurophilic gran- ules of neutrophils. It converts H2O2 into HOCl–, a power- ful oxidant and antimicrobial agent. Degranulation occurs as phagolysosomes are formed with engulfed bacteria in phagocytic vacuoles within the neutrophil cytoplasm. Oxy- gen consumption with an oxidative or respiratory burst after phagocytosis is aided by glucose oxidation and activation of neutrophil NADPH oxidase, resulting in generation of superoxide that is converted by spontaneous dismutation to H2O2. In contrast, prostaglandin production depends on a functioning cyclooxygenase pathway of arachidonic acid metabolism.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Myeloperoxidase is present in the azurophilic gran- ules of neutrophils. It converts H2O2 into HOCl–, a power- ful oxidant and antimicrobial agent. Degranulation occurs as phagolysosomes are formed with engulfed bacteria in phagocytic vacuoles within the neutrophil cytoplasm. Oxy- gen consumption with an oxidative or respiratory burst after phagocytosis is aided by glucose oxidation and activation of neutrophil NADPH oxidase, resulting in generation of superoxide that is converted by spontaneous dismutation to H2O2. In contrast, prostaglandin production depends on a functioning cyclooxygenase pathway of arachidonic acid metabolism.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-9&quot;&gt;Question 9&lt;/h3&gt;
+&lt;p&gt;###Question 9&lt;/p&gt;
 
 &lt;p&gt;A 35 year-old woman takes acetysalicylic acid (aspirin) for arthritis. Although her joint pain is reduced with this therapy, the inflammation process continues. The aspirin therapy alleviates her pain mainly through reduction in the synthesis of which of the following mediators?&lt;/p&gt;
 
@@ -7765,9 +8351,9 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Prostaglandins are produced through the cyclooxy- genase pathway of arachidonic acid metabolism. Aspirin and other nonsteroidal anti-inflammatory drugs block the synthesis of prostaglandins, which can produce pain. Com- plement C1q is generated in the initial stage of complement activation, which can eventually result in cell lysis. Hista- mine is mainly a vasodilator. Leukotrienes are generated by the lipoxygenase pathway, which is not blocked by aspirin. Nitric oxide released from endothelium is a vasodilator.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;Prostaglandins are produced through the cyclooxy- genase pathway of arachidonic acid metabolism. Aspirin and other nonsteroidal anti-inflammatory drugs block the synthesis of prostaglandins, which can produce pain. Com- plement C1q is generated in the initial stage of complement activation, which can eventually result in cell lysis. Hista- mine is mainly a vasodilator. Leukotrienes are generated by the lipoxygenase pathway, which is not blocked by aspirin. Nitric oxide released from endothelium is a vasodilator.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;question-10&quot;&gt;Question 10&lt;/h3&gt;
+&lt;p&gt;###Question 10&lt;/p&gt;
 
 &lt;p&gt;On a routine visit to the physician, an otherwise healthy 51 year-old man has a blood pressure of 150/95 mmHg. If the patient’s hypertension remains untreated for years, which of the following cellular alterations will most likely be seen in the myocardium?&lt;/p&gt;
 
@@ -7789,7 +8375,7 @@ div.desc {
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;The pressure load on the left ventricle results in an increase in myofilaments in the existing myofibers, so they enlarge. The result of continued stress from hypertension is eventual heart failure with decreased contractility. Apoptosis would lead to loss of cells and diminished size. Dysplasia is not a diagnosis made for the heart. Hemosiderin deposition in the heart is a pathologic process resulting from increased iron stores in the body. Though hyperplasia from prolifera- tion of myofibroblasts is possible, this does not contribute significantly to cardiac size. Metaplasia of muscle does not occur, although loss of muscle occurs with aging and ischemia as myofibers are replaced by fibrous tissue.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;The pressure load on the left ventricle results in an increase in myofilaments in the existing myofibers, so they enlarge. The result of continued stress from hypertension is eventual heart failure with decreased contractility. Apoptosis would lead to loss of cells and diminished size. Dysplasia is not a diagnosis made for the heart. Hemosiderin deposition in the heart is a pathologic process resulting from increased iron stores in the body. Though hyperplasia from prolifera- tion of myofibroblasts is possible, this does not contribute significantly to cardiac size. Metaplasia of muscle does not occur, although loss of muscle occurs with aging and ischemia as myofibers are replaced by fibrous tissue.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </content>
  </entry>
@@ -10476,11 +11062,11 @@ HEMATOLOGICAL(Leukopenia,Thrombocytopenia, anemia)&lt;/p&gt;
    <updated>2015-08-29T00:00:00-05:00</updated>
    <id>http://lanyon.getpoole.com/2015/08/29/ddd</id>
    <content type="html">
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;kn&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;biomaRt&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-mart &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; useMart&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;ensembl&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-datasets &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; listDatasets&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mart&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-par&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mar &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; omi &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;cars&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;biomaRt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mart&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;useMart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ensembl&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datasets&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listDatasets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;par&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mar&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;omi&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/figs/dddddd/unnamed-chunk-1-1.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
 
@@ -10824,7 +11410,7 @@ The small bowel and colon are involved in most cases. Intestinal graft-versus-ho
 
 &lt;p&gt;A 60-year-old white male presented to his family physician with complaints of weakness, anorexia, weight loss and severe back pain.&lt;/p&gt;
 
-&lt;h3 id=&quot;laboratory-and-x-ray-findings&quot;&gt;LABORATORY AND X-RAY FINDINGS:&lt;/h3&gt;
+&lt;p&gt;###LABORATORY AND X-RAY FINDINGS:&lt;/p&gt;
 
 &lt;p&gt;Radiologic examination revealed  “punched out” &lt;a href=&quot;&quot;&gt;skeletal lesions&lt;/a&gt; with sharply demarcated margins in vertebral bodies, skull, ribs, and pelvis.  Blood chemistry showed hypercalcemia and hyperglobulinemia.  The serum globulin concentration was &lt;a href=&quot;http://www.drstandley.com/labvalues_proteins.shtml&quot;&gt;6.0 g/dl&lt;/a&gt;.  Both the serum and urine revealed a homogeneous protein by electrophoresis, which was identified as &lt;a href=&quot;p437&quot;&gt;IgA&lt;/a&gt;.  The urine contained free light chains.  The urinary protein was insoluble at acid pH between &lt;a href=&quot;http://basicprotein.blogspot.com/2012/11/tests-for-detection-of-bence-jones.html&quot;&gt;40º and 60ºC but redissolved at 95ºC.&lt;/a&gt;&lt;/p&gt;
 
@@ -11238,7 +11824,7 @@ The small bowel and colon are involved in most cases. Intestinal graft-versus-ho
 
 &lt;p&gt;A 60-year-old white male presented to his family physician with complaints of weakness, anorexia, weight loss and severe back pain.&lt;/p&gt;
 
-&lt;h3 id=&quot;laboratory-and-x-ray-findings&quot;&gt;LABORATORY AND X-RAY FINDINGS:&lt;/h3&gt;
+&lt;p&gt;###LABORATORY AND X-RAY FINDINGS:&lt;/p&gt;
 
 &lt;p&gt;Radiologic examination revealed  “punched out” &lt;a href=&quot;&quot;&gt;skeletal lesions&lt;/a&gt; with sharply demarcated margins in vertebral bodies, skull, ribs, and pelvis.  Blood chemistry showed hypercalcemia and hyperglobulinemia.  The serum globulin concentration was &lt;a href=&quot;http://www.drstandley.com/labvalues_proteins.shtml&quot;&gt;6.0 g/dl&lt;/a&gt;.  Both the serum and urine revealed a homogeneous protein by electrophoresis, which was identified as &lt;a href=&quot;p437&quot;&gt;IgA&lt;/a&gt;.  The urine contained free light chains.  The urinary protein was insoluble at acid pH between &lt;a href=&quot;http://basicprotein.blogspot.com/2012/11/tests-for-detection-of-bence-jones.html&quot;&gt;40º and 60ºC but redissolved at 95ºC.&lt;/a&gt;&lt;/p&gt;
 
@@ -11547,7 +12133,7 @@ The small bowel and colon are involved in most cases. Intestinal graft-versus-ho
 
 &lt;p&gt;A 60-year-old white male presented to his family physician with complaints of weakness, anorexia, weight loss and severe back pain.&lt;/p&gt;
 
-&lt;h3 id=&quot;laboratory-and-x-ray-findings&quot;&gt;LABORATORY AND X-RAY FINDINGS:&lt;/h3&gt;
+&lt;p&gt;###LABORATORY AND X-RAY FINDINGS:&lt;/p&gt;
 
 &lt;p&gt;Radiologic examination revealed  “punched out” &lt;a href=&quot;&quot;&gt;skeletal lesions&lt;/a&gt; with sharply demarcated margins in vertebral bodies, skull, ribs, and pelvis.  Blood chemistry showed hypercalcemia and hyperglobulinemia.  The serum globulin concentration was &lt;a href=&quot;http://www.drstandley.com/labvalues_proteins.shtml&quot;&gt;6.0 g/dl&lt;/a&gt;.  Both the serum and urine revealed a homogeneous protein by electrophoresis, which was identified as &lt;a href=&quot;p437&quot;&gt;IgA&lt;/a&gt;.  The urine contained free light chains.  The urinary protein was insoluble at acid pH between &lt;a href=&quot;http://basicprotein.blogspot.com/2012/11/tests-for-detection-of-bence-jones.html&quot;&gt;40º and 60ºC but redissolved at 95ºC.&lt;/a&gt;&lt;/p&gt;
 
@@ -11636,17 +12222,17 @@ The small bowel and colon are involved in most cases. Intestinal graft-versus-ho
 &lt;h2 id=&quot;import-and-explore-the-data-set&quot;&gt;Import and explore the data set&lt;/h2&gt;
 &lt;p&gt;We use the data set &lt;a href=&quot;https://dl.dropboxusercontent.com/u/49272502/stata%20blog/Nations2.dta&quot;&gt;Nations2.dta&lt;/a&gt; in this tutorial, you could either download it and manually import it to Stata or you can simply use the following code to import the data set.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;use https://dl.dropboxusercontent.com/u/49272502/stata%20blog/Nations2.dta, clear&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;use https://dl.dropboxusercontent.com/u/49272502/stata%20blog/Nations2.dta, clear&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Next, use describe have an idea how the data looks like.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;describe&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;describe &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;histogram&quot;&gt;Histogram&lt;/h3&gt;
 
 &lt;p&gt;First, let’s plot a basic histogram for the variable adfert, which stands for adolescent fertility rate.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;histogram adfert, percent&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;histogram adfert, percent&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/hist1.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
@@ -11664,9 +12250,9 @@ The small bowel and colon are involved in most cases. Intestinal graft-versus-ho
 
 &lt;p&gt;You can put all of the above items together in the following fashion&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;histogram adfert, frequency start(0) width(10) xlabel(0(20)200) xtick(10(20)210)
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;histogram adfert, frequency start(0) width(10) xlabel(0(20)200) xtick(10(20)210)
 ylabel(0(5)35, grid gmax)
-title(&amp;quot;Adolescent fertility rate in 194 nations&amp;quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+title(&quot;Adolescent fertility rate in 194 nations&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/hist2.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
@@ -11674,7 +12260,7 @@ title(&amp;quot;Adolescent fertility rate in 194 nations&amp;quot;)&lt;/code&gt;
 
 &lt;p&gt;To explore the variable &lt;em&gt;adfert&lt;/em&gt; further, we can use a &lt;strong&gt;by&lt;/strong&gt;(varname) option. For example, if we want to illustrate with histograms of &lt;em&gt;adfert&lt;/em&gt; for each of the five regions, along with a sixth &lt;strong&gt;(total)&lt;/strong&gt; histogram showing the distribution for all nations. We can use the following code&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;histogram adfert, percent start(0) width(10) by(region, total)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;histogram adfert, percent start(0) width(10) by(region, total)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/hist3.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
@@ -11684,7 +12270,7 @@ title(&amp;quot;Adolescent fertility rate in 194 nations&amp;quot;)&lt;/code&gt;
 
 &lt;p&gt;Box plots convey information about center, spread, symmetry and outliers at a glance. For example&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph box adfert&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph box adfert&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/box1.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
@@ -11692,20 +12278,20 @@ title(&amp;quot;Adolescent fertility rate in 194 nations&amp;quot;)&lt;/code&gt;
 
 &lt;p&gt;If we want to identify the adfert outliers by with labels, we can add a &lt;strong&gt;marker&lt;/strong&gt; option as follow.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph box adfert, marker(1, mlabel(country)) ytitle(&amp;quot;Births per 1,000 females 15-19&amp;quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph box adfert, marker(1, mlabel(country)) ytitle(&quot;Births per 1,000 females 15-19&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/box2.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, if we want to compare the distributions of &lt;em&gt;adfert&lt;/em&gt; from all 5 regions with a baseline, for instance 40, as well as labelling the outliers with their country names. We can use the option &lt;strong&gt;over&lt;/strong&gt; and the &lt;strong&gt;yline()&lt;/strong&gt; as following.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph box adfert, marker(1, mlabel(country)) yline(39.3) over(region)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph box adfert, marker(1, mlabel(country)) yline(39.3) over(region)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/box3.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We can also plot the boxplots horizontally by using the command &lt;strong&gt;hbox&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph hbox co2, over(region)
-note(&amp;quot;note: {bf:Statistics with Stata}, version 12&amp;quot;) caption(&amp;quot;caption: United Nations Human Development Report 2011&amp;quot;) title(&amp;quot;title: {it:Example of horizontal box plots}&amp;quot;) ytitle(&amp;quot;ytitle: Tons of CO{subscript:2} emitted per capita&amp;quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph hbox co2, over(region)
+note(&quot;note: {bf:Statistics with Stata}, version 12&quot;) caption(&quot;caption: United Nations Human Development Report 2011&quot;) title(&quot;title: {it:Example of horizontal box plots}&quot;) ytitle(&quot;ytitle: Tons of CO{subscript:2} emitted per capita&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/box4.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
@@ -11715,17 +12301,17 @@ note(&amp;quot;note: {bf:Statistics with Stata}, version 12&amp;quot;) caption(&
 
 &lt;p&gt;Stata’s basic scatterplot command has the form&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph twoway scatter y x&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph twoway scatter y x&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Now, let’s make a twoway scatterplot with the variable &lt;strong&gt;life&lt;/strong&gt; and &lt;strong&gt;school&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph twoway scatter life school&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph twoway scatter life school&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/scatter1.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To make thing more interesting, we can manipulate the &lt;strong&gt;frequency weight feature&lt;/strong&gt; with &lt;strong&gt;[fweight = varname]&lt;/strong&gt; as follow&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph twoway scatter life school [fweight=pop], msymbol(Oh)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph twoway scatter life school [fweight=pop], msymbol(Oh)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/scatter2.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
@@ -11733,13 +12319,13 @@ note(&amp;quot;note: {bf:Statistics with Stata}, version 12&amp;quot;) caption(&
 
 &lt;p&gt;Now, let’s explore a key feature of Stata’s graph twoway family, that is we can overlay two or more graphs to build a more complex images. For example, we can plot a regression lines **lfit) on top of the scatter plot.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;twoway (scatter life school, msymbol(Oh))(lfit life school, lwidth(medthick))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;twoway (scatter life school, msymbol(Oh))(lfit life school, lwidth(medthick))&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/scatter3.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We can also add x and y labels and tick mark as well as legend, for example&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;twoway (scatter life school, msymbol(Oh))(lfit life school, lwidth(medthick)ylabel(45(5)85) xlabel(2(2)12) xtick(1(2)13) legend(col(1) ring(0) position(11)))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;twoway (scatter life school, msymbol(Oh))(lfit life school, lwidth(medthick)ylabel(45(5)85) xlabel(2(2)12) xtick(1(2)13) legend(col(1) ring(0) position(11)))&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/scatter4.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
@@ -11755,7 +12341,7 @@ be empty of data.&lt;/li&gt;
 
 &lt;p&gt;Finally, let’s try to graph a more advanced regression scatterplot shows also the confident bands for the &lt;em&gt;conditonal mean of y&lt;/em&gt;.  We can do so with the command &lt;strong&gt;lfitci&lt;/strong&gt; and &lt;strong&gt;stdp&lt;/strong&gt;. note that the &lt;em&gt;ci&lt;/em&gt; in &lt;strong&gt;lfitci&lt;/strong&gt; refers to &lt;em&gt;confident interval&lt;/em&gt; and &lt;strong&gt;stdp&lt;/strong&gt; refers to standard erors for the conditional mean as “standard deviation of prediction”&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;twoway (lfitci life school, stdp)(scatter life school, msymbol(Th))(scatter life school if school &amp;gt; 8 &amp;amp; life &amp;lt; 55, msymbol(S) mlabel(country)legend(col(1) ring(0) position(11) label(3 &amp;quot;Life expectancy&amp;quot;)order(3 2 1)))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;twoway (lfitci life school, stdp)(scatter life school, msymbol(Th))(scatter life school if school &amp;gt; 8 &amp;amp; life &amp;lt; 55, msymbol(S) mlabel(country)legend(col(1) ring(0) position(11) label(3 &quot;Life expectancy&quot;)order(3 2 1)))&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/scatter5.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
@@ -11763,7 +12349,7 @@ be empty of data.&lt;/li&gt;
 
 &lt;p&gt;Lastly, we wrap up this tutorial with introducing the &lt;strong&gt;scatterplot matrices&lt;/strong&gt;. Scatterplot matrices are different from other twoway plots types that it can not be overlaid. Nevertheless, it is possible to include multiple plots in a single plot and it follows the same marker symbol conventions. Let’s create an example.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph matrix gdp school adfert chldmort life, half msymbol(oh)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;graph matrix gdp school adfert chldmort life, half msymbol(oh)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/stata/graphing/scatter6.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
@@ -11799,7 +12385,7 @@ install_github(‘ramnathv/slidify’, ref = github_pull(425))&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;{&amp;quot;f9879d71855b5ff21e4963273a886bfc&amp;quot;}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;{&quot;f9879d71855b5ff21e4963273a886bfc&quot;}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </content>
  </entry>
@@ -11826,38 +12412,38 @@ layouts folder by including the following line after &lt;strong&gt;comment&lt;/s
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;comments.html&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;ul&gt;
   &lt;li&gt;3: Next create a file &lt;a href=&quot;https://github.com/JizongL/jizongL.github.io/blob/master/_includes/comments.html&quot;&gt;_includes/comments.html&lt;/a&gt;     and paste the code given to me by Disqus as follow:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
 &amp;lt;!-- Add Disqus comments. --&amp;gt;
-&amp;lt;div id=&amp;quot;disqus_thread&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+&amp;lt;div id=&quot;disqus_thread&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-  var disqus_shortname = &amp;#39;&amp;lt;USERNAME&amp;gt;&amp;#39;; // required: replace example with your forum shortname
-  var disqus_identifier = &amp;quot;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;disqusid&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;index.html&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;&amp;quot;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+  var disqus_shortname = &#39;&amp;lt;USERNAME&amp;gt;&#39;; // required: replace example with your forum shortname
+  var disqus_identifier = &quot;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;disqusid&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;index.html&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&quot;;
 
-&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;/*&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;*&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;*&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;DON&lt;span class=&quot;s1&quot;&gt;&amp;#39;T EDIT BELOW THIS LINE * * */&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;  (function() {&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;    var dsq = document.createElement(&amp;#39;&lt;/span&gt;script&lt;span class=&quot;s1&quot;&gt;&amp;#39;); dsq.type = &amp;#39;&lt;/span&gt;text/javascript&lt;span class=&quot;s1&quot;&gt;&amp;#39;; dsq.async = true;&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;    dsq.src = &amp;#39;&lt;/span&gt;//&lt;span class=&quot;s1&quot;&gt;&amp;#39; + disqus_shortname + &amp;#39;&lt;/span&gt;.disqus.com/embed.js&lt;span class=&quot;s1&quot;&gt;&amp;#39;;&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;    (document.getElementsByTagName(&amp;#39;&lt;/span&gt;head&lt;span class=&quot;s1&quot;&gt;&amp;#39;)[0] || document.getElementsByTagName(&amp;#39;&lt;/span&gt;body&amp;#39;)[&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;]).appendChild(dsq);
+  /* * * DON&#39;T EDIT BELOW THIS LINE * * */
+  (function() {
+    var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+    dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+    (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
   })();
 &amp;lt;/script&amp;gt;
-&amp;lt;noscript&amp;gt;Please enable JavaScript to view the &amp;lt;a href=&amp;quot;http://disqus.com/?ref_noscript&amp;quot;&amp;gt;comments powered by Disqus.&amp;lt;/a&amp;gt;&amp;lt;/noscript&amp;gt;
-&amp;lt;a href=&amp;quot;http://disqus.com&amp;quot; class=&amp;quot;dsq-brlink&amp;quot;&amp;gt;comments powered by &amp;lt;span class=&amp;quot;logo-disqus&amp;quot;&amp;gt;Disqus&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
-&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&amp;lt;noscript&amp;gt;Please enable JavaScript to view the &amp;lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&amp;gt;comments powered by Disqus.&amp;lt;/a&amp;gt;&amp;lt;/noscript&amp;gt;
+&amp;lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&amp;gt;comments powered by &amp;lt;span class=&quot;logo-disqus&quot;&amp;gt;Disqus&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;enabling-google-analytics&quot;&gt;Enabling Google Analytics&lt;/h2&gt;
 
-&lt;p&gt;This is very straightforward and follows the same pattern as setting up the Disqus comments. Go to the &lt;a href=&quot;http://www.google.com/analytics/&quot;&gt;Google Analytics&lt;/a&gt; sign up for an account if you don’t have one already, use universal tracking and copy the code that they provide. Create a file in the &lt;code&gt;_includes&lt;/code&gt; folder and name it something like &lt;code&gt;google_analytics.html&lt;/code&gt;. &lt;!--break--&gt;
-Paste in the code Google gave you and save the file. Now all that’s left is to open &lt;code&gt;layouts/default.html&lt;/code&gt; and add the following line:&lt;/p&gt;
+&lt;p&gt;This is very straightforward and follows the same pattern as setting up the Disqus comments. Go to the &lt;a href=&quot;http://www.google.com/analytics/&quot;&gt;Google Analytics&lt;/a&gt; sign up for an account if you don’t have one already, use universal tracking and copy the code that they provide. Create a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; folder and name it something like &lt;code class=&quot;highlighter-rouge&quot;&gt;google_analytics.html&lt;/code&gt;. &lt;!--break--&gt;
+Paste in the code Google gave you and save the file. Now all that’s left is to open &lt;code class=&quot;highlighter-rouge&quot;&gt;layouts/default.html&lt;/code&gt; and add the following line:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;google_analytics.html&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;google_analytics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://truongtx.me/2013/04/05/google-analytics-for-jekyll-bootstrap/&quot;&gt;Google Analytics&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -11879,7 +12465,7 @@ Paste in the code Google gave you and save the file. Now all that’s left is to
 &lt;ul&gt;
   &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/atom.xml&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
-  &lt;li&gt;Easily scalable text and component sizing with &lt;code&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
+  &lt;li&gt;Easily scalable text and component sizing with &lt;code class=&quot;highlighter-rouge&quot;&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
   &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
   &lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
   &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
@@ -11892,8 +12478,8 @@ Paste in the code Google gave you and save the file. Now all that’s left is to
 &lt;ul&gt;
   &lt;li&gt;Toggleable sliding sidebar (built with only CSS) via &lt;strong&gt;☰&lt;/strong&gt; link in top corner&lt;/li&gt;
   &lt;li&gt;Sidebar includes support for textual modules and a dynamically generated navigation with active link support&lt;/li&gt;
-  &lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/lanyon#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
+  &lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/lanyon#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/poole/lanyon#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
@@ -11934,12 +12520,12 @@ Paste in the code Google gave you and save the file. Now all that’s left is to
 &lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
-  &lt;li&gt;Citations, like &lt;cite&gt;— Mark otto&lt;/cite&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
+  &lt;li&gt;Citations, like &lt;cite&gt;— Mark otto&lt;/cite&gt;, should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
@@ -11950,16 +12536,19 @@ Paste in the code Google gave you and save the file. Now all that’s left is to
 
 &lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
 
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code class=&quot;highlighter-rouge&quot;&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console
+&lt;/span&gt;
 
-&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments
+&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;return a + b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 
-&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Call the function
+&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
 
@@ -12058,7 +12647,7 @@ Paste in the code Google gave you and save the file. Now all that’s left is to
 &lt;ul&gt;
   &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/atom.xml&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
-  &lt;li&gt;Easily scalable text and component sizing with &lt;code&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
+  &lt;li&gt;Easily scalable text and component sizing with &lt;code class=&quot;highlighter-rouge&quot;&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
   &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
   &lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
   &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
@@ -12071,8 +12660,8 @@ Paste in the code Google gave you and save the file. Now all that’s left is to
 &lt;ul&gt;
   &lt;li&gt;Toggleable sliding sidebar (built with only CSS) via &lt;strong&gt;☰&lt;/strong&gt; link in top corner&lt;/li&gt;
   &lt;li&gt;Sidebar includes support for textual modules and a dynamically generated navigation with active link support&lt;/li&gt;
-  &lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/lanyon#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
+  &lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/lanyon#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/poole/lanyon#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
