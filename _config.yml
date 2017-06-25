@@ -8,8 +8,8 @@ gems: [jekyll-paginate]
 
 google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
 # Setup
-title:               TmmGeek
-tagline:             'A blog for bioinformatics programming and statistics'
+title:               Crypto-cotta
+tagline:             'Discover more money making oppotunities'
 Archive:             '/archive'
 Resourse:			 '/resource'
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
@@ -27,10 +27,12 @@ analytics :
 redcarpet: 
 extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 
+contact_PK: 635207fe87a9b8e111b6790052148d41
+
 # About/contact
 author:    
-  name:              TmmGeek
-  twitter:           TmmGeek
+  name:              CryptoCotta
+  twitter:           CryptoCotta
   email:             2015rpro@gmail.com
   github:			 JizongL
   linkedin: 		 jizongliang
