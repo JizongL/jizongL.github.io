@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: True
-title: 小蚁更生
+title: 小蚁更新
 category: update
 tags: [NEO, update,小蚁]
 ---
