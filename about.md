@@ -10,5 +10,7 @@ title: About Us
 </p>
 
 
+![img](/assets/images/portrait/my\ picture.png)
+
 
 

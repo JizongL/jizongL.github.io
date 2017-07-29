@@ -3,189 +3,83 @@
   <channel>
     <title>Crypto-cotta</title>
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
-    <link>www.tmmlab.com/</link>
-    <atom:link href="www.tmmlab.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Jun 2017 14:05:49 -0500</pubDate>
-    <lastBuildDate>Sat, 24 Jun 2017 14:05:49 -0500</lastBuildDate>
+    <link>www.cryptocotta.club/</link>
+    <atom:link href="www.cryptocotta.club/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 29 Jul 2017 17:50:47 -0500</pubDate>
+    <lastBuildDate>Sat, 29 Jul 2017 17:50:47 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Chinese Market News</title>
-        <description>&lt;h3 id=&quot;chinese-market-news&quot;&gt;Chinese Market News&lt;/h3&gt;
-&lt;p&gt;The popular Chinese exchange &lt;a href=&quot;http://www.btc38.com&quot;&gt;btc38.com&lt;/a&gt;
-will cancel the BTC pricing, and the following coins will be moved to the Rmb pricing section.&lt;/p&gt;
+        <title>小蚁更生</title>
+        <description>&lt;h2 id=&quot;section&quot;&gt;小蚁更新&lt;/h2&gt;
 
+&lt;h3 id=&quot;section-1&quot;&gt;小蚁“面对面问什么何问题”的一些精彩部分截图。&lt;/h3&gt;
+
+&lt;p&gt;昨天小蚁举办了AMA(Ask me anything). 以下是小蚁CEO达鸿飞在Reddit上和网友对话的重要部分。
 &lt;!--break--&gt;
+&lt;img src=&quot;/assets/images/post/NEO/neo-update-1.png&quot; width=&quot;500&quot; /&gt;
+&lt;a href=&quot;/assets/images/post/NEO/neo-update-1.png&quot;&gt;点击看大图&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;June 21, Ardor &amp;amp; Cryptonite coins
-June 23, Worldcoin &amp;amp; QRK 
-June 25, AnonCoin &amp;amp; Syscoin 
-June 27, Mediterraneancoin &amp;amp; TimesCoin&lt;/p&gt;
+&lt;p&gt;网友问到小蚁是否打算在全世界更多的交易所上线，达鸿飞没给出详细的回答，但表示有这个想法，同是，也给网友留下了一个有趣的提示“小蚁团队准备在8月出访日本”，意味着有可能会在日本上线？&lt;/p&gt;
 
-&lt;p&gt;The market stopped at 18: 00-20: 00 effectively on the days of the switches, the next day prices will be according to the market prices that day.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/post/NEO/neo-update-2.png&quot; width=&quot;500&quot; /&gt;
+&lt;a href=&quot;/assets/images/post/NEO/neo-update-2.png&quot;&gt;点击看大图&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This explains why the prices of those coins mentioned above have been soaring up the last few days.&lt;/p&gt;
+&lt;p&gt;达鸿飞表示，需然现在小蚁还没有发布新的合作计划和项目，但他明确表示2017下半年度会有好多智能合约方面的项目会在小蚁上发布。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/update.png&quot; alt=&quot;pic&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cryptocoinmastery.com/neo-reddit-ama/&quot;&gt;查看Reddit原文出处&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;miner-news&quot;&gt;Miner News&lt;/h3&gt;
-&lt;p&gt;China Miners’ Union announces accelerated implementation of Segwit 2x. A new agreement has been reached between China’s Bitcoin Exchange and Mining Companies. This agreement represents most of the hash rate power of the Bitcoin network, it is likely activated before July 31.&lt;/p&gt;
+&lt;h3 id=&quot;section-2&quot;&gt;重要日子&lt;/h3&gt;
 
-&lt;p&gt;The supporting parties are as follow&lt;/p&gt;
+&lt;p&gt;大家记住&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.antpool.com/&quot;&gt;Antpool&lt;/a&gt;
-&lt;a href=&quot;http://btc.top/&quot;&gt;Btc.top&lt;/a&gt;
-&lt;a href=&quot;https://bixin.com/common/pool_landing&quot;&gt;Bixin&lt;/a&gt;
-&lt;a href=&quot;https://www.btcc.com/&quot;&gt;Btcc Pool&lt;/a&gt;
-&lt;a href=&quot;https://www.f2pool.com/&quot;&gt;F2pool&lt;/a&gt;
-&lt;a href=&quot;https://www.huobi.com/topic/index.php?a=google_landing_page&amp;amp;utm_source=11111430&amp;amp;gclid=CjwKEAjwj6PKBRCAy9-07PeTtGgSJAC1P9xG4f_JbhbCEqw2J4jProUeY6_9XsUsGAIYzz7qkqwaxxoCoLLw_wcB&quot;&gt;huobi&lt;/a&gt;
-&lt;a href=&quot;https://www.okcoin.com/&quot;&gt;okcoin&lt;/a&gt;
-&lt;a href=&quot;https://www.viabtc.com/&quot;&gt;Viabtc&lt;/a&gt;
-Currency 
-&lt;a href=&quot;http://www.bitwalking.com/&quot;&gt;BW&lt;/a&gt;
-&lt;a href=&quot;https://btc.com/stats/pool/1Hash&quot;&gt;1Hash&lt;/a&gt;
-&lt;a href=&quot;https://www.blocktrail.com/BTC/pool/canoe&quot;&gt;Canoe&lt;/a&gt; 
-&lt;a href=&quot;https://www.blocktrail.com/BTC/pool/BATPOOL&quot;&gt;Batpool&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;7月31日小蚁发布Electron钱包 alpha 版。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;8月8日小蚁一周年ICO纪念，系统从ANS正式转移到NEO落幕,正式发布智能合约平台。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;还有其它详细看图2&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&quot;up-coming-events&quot;&gt;Up coming events&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/post/NEO/neo-update-3.png&quot; width=&quot;500&quot; /&gt;
+&lt;a href=&quot;/assets/images/post/NEO/neo-update-3.png&quot;&gt;点击看图1&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.huodongjia.com/event-1179408220.html&quot;&gt;2017 Fourth anual BlockChain International Summit&lt;/a&gt; will be held August 14th to 16th in Shanghai.(we will cover the details of the event that day)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/post/NEO/neo-update-4.png&quot; width=&quot;500&quot; /&gt;
+&lt;a href=&quot;/assets/images/post/NEO/neo-update-4.png&quot;&gt;点击看图2&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;(NEW Antshare brand strategy conference)[https://www.antshares.org/Home/new] June 22 14:00-17:30&lt;/p&gt;
+&lt;h3 id=&quot;section-3&quot;&gt;走势分析&lt;/h3&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;中文&lt;/h2&gt;
-&lt;p&gt;### 市场信息
-阿朵＆氪石币＆世界币＆夸克币＆阿侬币＆系统币＆地中海币＆时代币
-比特时代，平台取消BTC定价，部分币种转入人民币交易区。
-6月21日，阿朵＆氪石币
-6月23日，世界币＆夸克币
-6月25日，阿侬币＆系统币
-6月27日，地中海币＆时代币
-转板当日18:00—20:00停盘，开盘价以市场为准&lt;/p&gt;
+&lt;p&gt;以下是我对小蚁的个人看法和分析&lt;/p&gt;
 
-&lt;p&gt;这也是前几天暴涨的原因&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/post/NEO/yunbi-trend.png&quot; width=&quot;800&quot; /&gt;
+&lt;a href=&quot;/assets/images/post/NEO/yunbi-trend.png&quot;&gt;点击看大图&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;segwit2x&quot;&gt;中国矿工联盟宣布加速落实Segwit2x&lt;/h3&gt;
-&lt;p&gt;中国比特币交易所和矿业公司之间已达成了一项新的协议，同意加速落实Segwit2x，此协议中代表着比特币网络的大部分算力，或在7月31号前激活。比特大陆蚁池（Antpool）、Btc.top、Bixin、Btcc Pool、鱼池（F2pool）、火币（huobi）、币行（okcoin）、Viabtc、币网（BW）、1Hash、Canoe、Batpool以及币看支持上述协议。&lt;/p&gt;
+&lt;p&gt;想加入我的微信炒币群，由于群已满100以上，请先扫描以下二维码加我微信，同时注明“有意加入群”。&lt;/p&gt;
 
-&lt;h3 id=&quot;section-1&quot;&gt;会议&lt;/h3&gt;
-&lt;p&gt;2017第四届区块链国际峰会
-由丰钛沙龙主办的“2017第四届区块链国际峰会”将于8月14日至16日在上海召开。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/QR/WeChat.JPG&quot; width=&quot;400&quot; /&gt;
+&lt;a href=&quot;/assets/images/post/NEO/yunbi-trend.png&quot;&gt;点击看大图&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;NEW小蚁品牌战略发布会
-地址：北京海淀区丹棱街5号微软研发集团总部1号楼故宫厅
-时间 6月22日14:00—17:30&lt;/p&gt;
-</description>
-        <pubDate>Tue, 20 Jun 2017 00:00:00 -0500</pubDate>
-        <link>www.tmmlab.com/news/2017/06/20/Chinese-Market-News/</link>
-        <guid isPermaLink="true">www.tmmlab.com/news/2017/06/20/Chinese-Market-News/</guid>
-        
-        <category>China</category>
-        
-        <category>News</category>
-        
-        
-        <category>News</category>
-        
-      </item>
-    
-      <item>
-        <title>Market Daily Update</title>
-        <description>&lt;h2 id=&quot;in-a-nutshell&quot;&gt;In a nutshell&lt;/h2&gt;
-
-&lt;p&gt;The following summary in Chinese provides some information on a few altcoins,including Ardor, Kryptonite (XCN), Worldcoin(WDC) ,Quark(QRK),AnonCoin(ANC),
-&lt;!--break--&gt;
-Syscoin(Sys),Mediterraneancoin(MED) and TimesCoin(TMC), whose BTC pricing will soon be replaced by CNY,  which indicates short term price surge would be possible.&lt;strong&gt;So if you buy those coins now and make some money later, please come back to vote my post, thanks!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://steemitimages.com/DQmXDmeMYAiLH9EiP5rcoXSjj8KQcivDgStgVNuoBw6CGrH/Screenshot%202017-06-22%2007.27.16.png&quot; alt=&quot;Screenshot 2017-06-22 07.27.16.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, we have seen the craziness of Antshare, which is a Chinese blockchain company and whose price went from 1 dollar range to 10 dollars range the last few days, because of its press conference keynote and its partnership with Microsoft. We suggest that another Chinese blockchain company, Qtum whose press conference and keynote will be released on June 28th, would probably produce similar price surge like Antshare, so it is definitely worth keeping an eye on it.&lt;/p&gt;
-
-&lt;p&gt;Please feel free to leave your comments if you have any questions or suggestions and I will try to write more comprehensive English version of my update in the near future.&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;中国交易所消息&lt;/h2&gt;
-&lt;p&gt;阿朵＆氪石币＆世界币＆夸克币＆阿侬币＆系统币＆地中海币＆时代币
-比特时代，平台取消BTC定价，部分币种转入人民币交易区。
-今日，阿朵＆氪石币
-6月23日，世界币＆夸克币
-6月25日，阿侬币＆系统币
-6月27日，地中海币＆时代币
-转板当日18:00—20:00停盘，开盘价以市场为准&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;中国币市资讯简要&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;binance.com/&quot;&gt;币安&lt;/a&gt;
-7月1日15:00众筹，众筹比重BTC＆ETH＆ICOcoin，众筹结束后5日内发放代币。平台上线后，按季度回购代币。
-原OKCoin联合创始人任负责人，投资人包括Bloq联合创始人Matthew Roszak，Bitcoin.com CEO Roger Ver等。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;bytom.io&quot;&gt;比原链&lt;/a&gt;
-众筹成功，即将发放代币。币读持续跟进后续信息。&lt;/p&gt;
-
-&lt;p&gt;以太坊暂停提现
-云币网＆众股网＆7宝网，因以太坊网络大规模拥堵，暂停充提ETH。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;投资推荐&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;qtum.org/zh/testnet&quot;&gt;量子链（A级)&lt;/a&gt;
-6月28日19:30测试网络发布会。
-(小蚁16日发布会后涨幅约800%，非投资建议）&lt;/p&gt;
-
-&lt;h2 id=&quot;section-3&quot;&gt;专家建议&lt;/h2&gt;
-&lt;p&gt;著名区块链专家比特时代CEO黄天威在小密圈发文，指出当前ICO项目泛滥严重，投入与融资比例完全违背大自然法则，不具有可持续性，警惕投资者注意系统风险。其次黄天威认为很多区块链项目只是在玩概念，而且大部分投资者注重的是二级市场投机，并没有关注项目的实际应用。同时，黄天威表示央行官员已与公司接触，委托公司整理并出具ICO行业现状报告，后续一定会有一系列的监管打压措施。&lt;/p&gt;
-
-&lt;p&gt;￼消息立即在行业传播开，BTC，ETH随后都经历了不同程度的下跌，BTC跌幅近1000 CNY。每日币读粉丝群也是一阵恐慌，币友们表示监管要逐步下来了，也有币友表示消息不实。小密圈密友也表示ICO监管前的窗口期也就在两个月左右的样子。
-随后13：57分，黄天威删除了上一篇密圈发言，并发出新的密圈文表示上一篇文章引起过多的关注，被多方误读传播，出乎自己的意料。自己对这个行业还是很认可的，发文的本意是希望投资者能够冷静投资，一定要注意风险。&lt;/p&gt;
-</description>
-        <pubDate>Sat, 11 Feb 2017 00:00:00 -0600</pubDate>
-        <link>www.tmmlab.com/news/2017/02/11/market-daily-update/</link>
-        <guid isPermaLink="true">www.tmmlab.com/news/2017/02/11/market-daily-update/</guid>
-        
-        <category>Market</category>
-        
-        <category>China</category>
-        
-        <category>Altcoins</category>
-        
-        
-        <category>News</category>
-        
-      </item>
-    
-      <item>
-        <title>Your peronality determines your trade?</title>
-        <description>&lt;h2 id=&quot;fragmented-trader-trait&quot;&gt;Fragmented trader trait&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://static.pexels.com/photos/371816/pexels-photo-371816.jpeg&quot; alt=&quot;pic&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Modern people are good at living a fragmented life, with the convenience of techology, which allows us to shift from one thing to another without needing to finish it right away.&lt;/p&gt;
-
-&lt;p&gt;9 out of 10 people in my life would tell me “Hey, I will get back to you later”, and nearly always they fail to do so.&lt;/p&gt;
-
-&lt;h2 id=&quot;autoimmune-disease-analogy&quot;&gt;Autoimmune disease analogy&lt;/h2&gt;
-
-&lt;p&gt;There is a disease called “Anciety” or “Stress”, which produces very serious harmful effects to the body. One of the most horriable disease type that is associated with stress is autoimmune disease, like Crohn or Colitis. Doctors will tell you that they are incurable, are they? The secret I discovered during the last 10 years, being a victim of these diseases, is that the less you are stressed the better you feel. In fact, I am nearly symptom free now because I have worked on lowering my stress level to near zero.&lt;/p&gt;
-
-&lt;h2 id=&quot;silver-lining&quot;&gt;Silver Lining&lt;/h2&gt;
-
-&lt;p&gt;I often felt discouraged about my physical condtions, however, it does make me an extremely patient person, which happens to be extremely valuable trait for a trader.&lt;/p&gt;
-
-&lt;p&gt;Siacoin&lt;/p&gt;
-
-&lt;p&gt;Litecoin&lt;/p&gt;
-
-&lt;p&gt;ETC&lt;/p&gt;
-
-&lt;p&gt;Bitshare&lt;/p&gt;
+&lt;p&gt;要是你喜欢此文，请给我打赏，以下是我微信钱包二维码。谢谢支持。
+&lt;img src=&quot;/assets/images/QR/weChatPay.JPG&quot; width=&quot;400&quot; /&gt;
+&lt;a href=&quot;/assets/images/QR/weChatPay.JPG&quot;&gt;点击看大图&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 11 Sep 2015 00:00:00 -0500</pubDate>
-        <link>www.tmmlab.com/trading/2015/09/11/personality-determine-trade/</link>
-        <guid isPermaLink="true">www.tmmlab.com/trading/2015/09/11/personality-determine-trade/</guid>
+        <pubDate>Sat, 29 Jul 2017 00:00:00 -0500</pubDate>
+        <link>www.cryptocotta.club/update/2017/07/29/antshare-upate/</link>
+        <guid isPermaLink="true">www.cryptocotta.club/update/2017/07/29/antshare-upate/</guid>
         
-        <category>psychology</category>
+        <category>NEO</category>
         
-        <category>good_trader</category>
+        <category>update</category>
+        
+        <category>小蚁</category>
         
         
-        <category>Trading</category>
+        <category>update</category>
         
       </item>
     
