@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: True
-title: 小蚁更新
+title: 小蚁股NEO消息更新和走势分析
 category: update
 tags: [NEO, update,小蚁]
 ---
