@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archive
+title: 旧文回顾
 ---
 
 ## Blog Posts

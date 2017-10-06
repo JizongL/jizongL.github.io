@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Us
+title: 关于我们
 ---
 
 <p class="message">
